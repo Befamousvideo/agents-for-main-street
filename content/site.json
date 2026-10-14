@@ -1,0 +1,654 @@
+{
+ "name": "Agents for Main Street",
+ "domain": "agentsformainstreet.com",
+ "tagline": "AI automation recipes for local businesses",
+ "color": "#1f6f50",
+ "updated": "October 14, 2026",
+ "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
+ "nav": [
+  {
+   "label": "Industries",
+   "href": "/industries"
+  },
+  {
+   "label": "Build it for me",
+   "href": "/build-it-for-me"
+  },
+  {
+   "label": "Newsletter",
+   "href": "/newsletter"
+  },
+  {
+   "label": "Sponsor",
+   "href": "/sponsor"
+  }
+ ],
+ "footer": "Agents for Main Street: AI recipes for salons, HVAC, clinics, realtors, law firms and more.",
+ "newsletter": {
+  "title": "New automations every week",
+  "blurb": "One short email a week with the newest recipes for your industry."
+ },
+ "sponsorSlot": "Reach small-business owners who are looking for AI tools.",
+ "mainCta": {
+  "title": "Don't have time to set it up?",
+  "text": "StorenTech AI builds these automations for small businesses.",
+  "button": "Get it built for me",
+  "href": "/build-it-for-me"
+ },
+ "home": {
+  "h1": "AI automations that actually help Main Street businesses",
+  "lead": "Step-by-step recipes for salons, HVAC, clinics, realtors, restaurants and more. Do it yourself, or have it built for you.",
+  "buttons": [
+   {
+    "label": "Browse recipes",
+    "href": "/industries"
+   },
+   {
+    "label": "Get it built for me",
+    "href": "/build-it-for-me",
+    "secondary": true
+   }
+  ],
+  "sections": [
+   {
+    "group": "recipes",
+    "title": "Latest recipes"
+   },
+   {
+    "group": "hubs",
+    "title": "Industry hubs"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is an AI automation recipe?",
+    "a": "A short, step-by-step plan that connects tools you already use, such as your phone system, booking app or Google Sheets, with an AI step to save time on a repetitive task."
+   },
+   {
+    "q": "Do these cost money?",
+    "a": "Most use tools with free or low-cost tiers. Check each vendor's current pricing page; we don't list prices we haven't verified."
+   },
+   {
+    "q": "Can someone build it for me?",
+    "a": "Yes. Every recipe has a 'Get this built for me' button that sends your request to StorenTech AI."
+   }
+  ]
+ },
+ "pages": [
+  {
+   "path": "/industries/hvac/missed-call-text-back",
+   "group": "recipes",
+   "label": "HVAC",
+   "title": "Text back every missed call automatically for an HVAC business",
+   "summary": "When a call is missed during a job, send an automatic text asking for the address and issue, log the reply, and alert the on-call tech.",
+   "steps": [
+    "Connect your business phone system (a VoIP service such as OpenPhone, Dialpad or a Twilio number) so it fires a webhook or Zapier trigger on missed calls.",
+    "In Zapier, Make or n8n, send an SMS: “Sorry we missed you — this is {Company}. Reply with your address and the issue (no heat / no cool / maintenance) and we'll call back within the hour.”",
+    "Log every reply to your CRM or a Google Sheet.",
+    "Forward the reply to the on-call technician's phone."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Phone system webhook → Zapier/Make/n8n → SMS → Sheet/CRM. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "SMS consent rules (TCPA and 10DLC registration in the US): only text numbers that called you, include your business name, and honor STOP."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=missed-call-text-back"
+   }
+  },
+  {
+   "path": "/industries/salons/rebooking-nudge",
+   "group": "recipes",
+   "label": "Salons",
+   "title": "Send a personalized rebooking nudge to salon clients",
+   "summary": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link.",
+   "steps": [
+    "Pick a rebooking interval per service (for example, 6 weeks for cuts).",
+    "Use your booking app's export or Zapier trigger (Square, Vagaro, Boulevard) to find clients who hit that interval.",
+    "Add an AI step that writes a short note using the stylist's name and last service.",
+    "Send by email or SMS with a direct booking link."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Booking app → n8n/Zapier → AI writer → email/SMS. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Get opt-in for marketing messages and send at most one nudge per visit."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=rebooking-nudge"
+   }
+  },
+  {
+   "path": "/industries/clinics/appointment-prep-faq",
+   "group": "recipes",
+   "label": "Clinics",
+   "title": "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
+   "summary": "A website assistant answers only from an approved document (hours, parking, insurance, what to bring) and hands anything clinical to staff.",
+   "steps": [
+    "Write one approved document with hours, parking, accepted insurance and what to bring.",
+    "Set up a website chat widget that retrieves answers only from that document.",
+    "Add a hand-off rule: anything clinical or personal goes to a human.",
+    "Review unanswered questions weekly and update the document."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Chat widget with retrieval from a fixed document. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "No patient health information goes into a tool without a HIPAA Business Associate Agreement, and the assistant must never give medical advice."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=appointment-prep-faq"
+   }
+  },
+  {
+   "path": "/industries/realtors/listing-description-draft",
+   "group": "recipes",
+   "label": "Realtors",
+   "title": "Draft listing descriptions from MLS fields with AI",
+   "summary": "Paste the MLS fields and photos into a prompt template to get a 150-word description, three headlines and a social caption.",
+   "steps": [
+    "Copy the MLS fields for the property.",
+    "Paste them into the prompt below along with up to five photos.",
+    "Review every feature against the listing data.",
+    "Publish the description and use the caption on social."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: ChatGPT, Grok or Claude. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "Copy-paste prompt",
+     "pre": "You are a real estate copywriter. Using only these facts: {fields}, write a 150-word listing description, 3 headline options, and one social caption. Do not invent features. Avoid language describing who the home is ideal for (Fair Housing)."
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Verify every feature, and avoid Fair Housing-sensitive language about who the home is ideal for."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=listing-description-draft"
+   }
+  },
+  {
+   "path": "/industries/local-business/google-review-replies",
+   "group": "recipes",
+   "label": "Any local business",
+   "title": "Draft replies to new Google reviews for approval",
+   "summary": "Each new review triggers an AI draft reply in your voice that you approve before it's posted.",
+   "steps": [
+    "Trigger on new reviews (Google Business Profile email or API via Zapier).",
+    "Have AI draft a reply: thank them, mention specifics, and offer offline contact for complaints.",
+    "Send the draft to you in Slack or email for approval.",
+    "Post the approved reply."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Google Business Profile → Zapier → AI → Slack/email approval. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Never auto-post replies to negative reviews, and in regulated industries never confirm someone is a client or patient."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=google-review-replies"
+   }
+  },
+  {
+   "path": "/industries/law-firms/intake-form-summarizer",
+   "group": "recipes",
+   "label": "Law firms",
+   "title": "Summarize long legal intake forms for faster triage",
+   "summary": "Each intake submission becomes a five-line summary: matter type, urgency, deadlines, conflict-check names and missing info.",
+   "steps": [
+    "Trigger on new web intake form submissions.",
+    "Have AI produce a five-line summary: matter type, urgency, deadlines mentioned, names for conflict checks, missing information.",
+    "Post it to your intake channel and CRM.",
+    "An attorney reviews it before any client contact."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Form → AI summary → Slack/CRM. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Use a vendor with appropriate confidentiality terms. The summary is for triage only, not advice, and bar rules on client communication apply."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=intake-form-summarizer"
+   }
+  },
+  {
+   "path": "/industries/restaurants/inventory-variance-alert",
+   "group": "recipes",
+   "label": "Restaurants",
+   "title": "Get a weekly inventory variance alert for your restaurant",
+   "summary": "Compare weekly counts with last week and POS sales, then email the manager any item that moved more than your threshold.",
+   "steps": [
+    "Enter weekly counts in a Google Sheet.",
+    "Run an automation that compares them with last week and with your POS sales export.",
+    "Flag items whose usage moved more than the threshold you set.",
+    "Email the manager the list plus a short AI explanation of causes to check."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Google Sheets + Apps Script or n8n + POS export. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Thresholds need tuning for the first few weeks, and AI explanations are suggestions to check, not conclusions."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=inventory-variance-alert"
+   }
+  },
+  {
+   "path": "/industries/contractors/quote-follow-up",
+   "group": "recipes",
+   "label": "Contractors",
+   "title": "Follow up on sent quotes automatically",
+   "summary": "When a quote is marked sent, schedule tailored follow-ups on day 2 and day 7 that stop as soon as the job is won or lost.",
+   "steps": [
+    "Trigger when a quote is marked “sent” in Jobber, Housecall Pro or your Sheet.",
+    "Schedule follow-ups on day 2 and day 7.",
+    "Have AI tailor each follow-up to the job type.",
+    "Stop automatically when the status changes to won or lost."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Jobber/Housecall Pro or Sheet → Zapier/Make → email. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Make sure the stop condition works before going live, so customers who said yes don't get chased."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=quote-follow-up"
+   }
+  },
+  {
+   "path": "/industries/retail/product-descriptions-alt-text",
+   "group": "recipes",
+   "label": "Retail",
+   "title": "Batch-write product descriptions and image alt text",
+   "summary": "Export new SKUs, have AI write a 60–100-word description and alt text for each, review, and re-import.",
+   "steps": [
+    "Export new products to CSV from Shopify or Square.",
+    "Have AI write a 60–100-word description and image alt text per item from the attributes you provide.",
+    "Review the CSV.",
+    "Re-import it into your store."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Shopify/Square CSV → AI → CSV. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Don't let AI invent specifications or claims; check every line."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=product-descriptions-alt-text"
+   }
+  },
+  {
+   "path": "/industries/accounting/missing-documents-chaser",
+   "group": "recipes",
+   "label": "Accounting",
+   "title": "Chase clients for missing documents automatically",
+   "summary": "A weekly automation emails each client only the documents they're still missing, with an upload link, until everything is in.",
+   "steps": [
+    "Keep a checklist Sheet per client (received / missing).",
+    "Run a weekly automation that emails each client only their missing items.",
+    "Include a secure upload link.",
+    "Stop when every item is checked off."
+   ],
+   "blocks": [
+    {
+     "h": "What you need",
+     "p": [
+      "Tools: Sheets + Gmail/Outlook via Zapier/Make/n8n + secure upload portal. Costs: see each vendor's current pricing page."
+     ]
+    },
+    {
+     "h": "What to watch",
+     "p": [
+      "Never ask clients to send sensitive documents as plain email attachments. Use a secure portal."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do I need to code?",
+     "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+    }
+   ],
+   "cta": {
+    "title": "Want this built for you?",
+    "text": "StorenTech AI can set up this automation for your business.",
+    "button": "Get this built for me",
+    "href": "/build-it-for-me?recipe=missing-documents-chaser"
+   }
+  },
+  {
+   "path": "/industries/hvac",
+   "group": "hubs",
+   "label": "Industry hub",
+   "title": "AI automations for HVAC businesses",
+   "summary": "Practical, no-code AI and automation recipes for hvac businesses, each with steps, tools and risks.",
+   "blocks": [
+    {
+     "h": "Recipes",
+     "ul": [
+      "Text back every missed call automatically for an HVAC business — When a call is missed during a job, send an automatic text asking for the address and issue, log the reply, and alert the on-call tech."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "What's the easiest automation for hvac businesses to start with?",
+     "a": "When a call is missed during a job, send an automatic text asking for the address and issue, log the reply, and alert the on-call tech."
+    }
+   ]
+  },
+  {
+   "path": "/industries/salons",
+   "group": "hubs",
+   "label": "Industry hub",
+   "title": "AI automations for Salons businesses",
+   "summary": "Practical, no-code AI and automation recipes for salons businesses, each with steps, tools and risks.",
+   "blocks": [
+    {
+     "h": "Recipes",
+     "ul": [
+      "Send a personalized rebooking nudge to salon clients — A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "What's the easiest automation for salons businesses to start with?",
+     "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
+    }
+   ]
+  }
+ ],
+ "static": [
+  {
+   "path": "/about",
+   "title": "About Agents for Main Street",
+   "summary": "Agents for Main Street is an Agentic Business site from StorenTech, researched and maintained by AI agents with human review.",
+   "blocks": [
+    {
+     "p": [
+      "Content is drafted by research agents from public sources, then checked before publishing. Every page shows a last-updated date and links to its sources where facts are stated.",
+      "StorenTech AI builds custom automations and software for businesses. Where a page offers to build something for you, that request goes to StorenTech."
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/methodology",
+   "title": "How we research and update content",
+   "summary": "We collect public questions and examples daily, write answer-first pages, cite vendor documentation, and re-verify pages on a schedule.",
+   "blocks": [
+    {
+     "ul": [
+      "Sources: public forums, vendor help centers and pricing pages, official documentation.",
+      "No prices or statistics are stated without a linked source and date.",
+      "Pages are re-checked regularly; each shows its last-updated date.",
+      "Sponsors never influence editorial content and are always labeled."
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/sponsor",
+   "title": "Sponsor Agents for Main Street",
+   "summary": "Reach a focused audience through labeled sponsor slots. Every sponsor is reviewed and approved before any payment is taken.",
+   "blocks": [
+    {
+     "h": "Sponsor options (founding pricing)",
+     "ul": [
+      "Monthly sponsor slot — $79/month",
+      "Featured listing — $199"
+     ]
+    },
+    {
+     "p": [
+      "Online checkout is not open yet. To ask about sponsoring, use the contact option once it launches; all sponsors are approved manually."
+     ]
+    }
+   ],
+   "cta": {
+    "title": "Interested in sponsoring?",
+    "text": "Sponsor checkout opens soon. Join the newsletter to be notified.",
+    "button": "Get notified",
+    "href": "/newsletter"
+   }
+  },
+  {
+   "path": "/newsletter",
+   "title": "The Agents for Main Street newsletter",
+   "summary": "A short weekly email with the newest pages and practical ideas. Free; unsubscribe anytime.",
+   "blocks": [
+    {
+     "p": [
+      "Signups open shortly."
+     ]
+    }
+   ],
+   "cta": false
+  },
+  {
+   "path": "/privacy",
+   "title": "Privacy policy",
+   "summary": "Draft privacy policy pending review. We collect only what you submit and never sell personal information.",
+   "flag": "Draft — pending legal review before launch.",
+   "blocks": [
+    {
+     "ul": [
+      "We collect email addresses only when you subscribe (not yet active).",
+      "We use privacy-friendly analytics.",
+      "We never sell personal information.",
+      "Contact details will be published at launch."
+     ]
+    }
+   ],
+   "cta": false
+  },
+  {
+   "path": "/terms",
+   "title": "Terms of use",
+   "summary": "Draft terms pending review. Content is general information, not professional advice.",
+   "flag": "Draft — pending legal review before launch.",
+   "blocks": [
+    {
+     "p": [
+      "Content is provided for general information and may contain errors. Verify with official vendor documentation before acting."
+     ]
+    }
+   ],
+   "cta": false
+  },
+  {
+   "path": "/industries",
+   "title": "All industries",
+   "summary": "Browse AI automation recipes by industry: HVAC, salons, clinics, realtors, law firms, restaurants, contractors, retail and accounting.",
+   "blocks": [
+    {
+     "ul": [
+      "HVAC: Text back every missed call automatically for an HVAC business",
+      "Salons: Send a personalized rebooking nudge to salon clients",
+      "Clinics: Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
+      "Realtors: Draft listing descriptions from MLS fields with AI",
+      "Any local business: Draft replies to new Google reviews for approval",
+      "Law firms: Summarize long legal intake forms for faster triage",
+      "Restaurants: Get a weekly inventory variance alert for your restaurant",
+      "Contractors: Follow up on sent quotes automatically",
+      "Retail: Batch-write product descriptions and image alt text",
+      "Accounting: Chase clients for missing documents automatically"
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/build-it-for-me",
+   "title": "Get an automation built for you",
+   "summary": "Tell us about your business and the recipe you want, and StorenTech AI will follow up with a quote.",
+   "cta": false,
+   "form": {
+    "title": "Request a build",
+    "fields": [
+     "Name",
+     "Business name",
+     "Industry",
+     "Recipe (optional)",
+     "Budget range",
+     "Email"
+    ],
+    "button": "Request opens soon",
+    "note": "The form isn't live yet. When it is, you'll check a box agreeing to be contacted by StorenTech AI."
+   }
+  }
+ ]
+}

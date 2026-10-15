@@ -573,11 +573,12 @@
    "blocks": [
     {
      "p": [
-      "Signups open shortly."
+      "Enter your email below to join. Free, and you can unsubscribe anytime."
      ]
     }
    ],
-   "cta": false
+   "cta": false,
+   "showNewsletter": true
   },
   {
    "path": "/privacy",

@@ -1,14 +1,11 @@
 import site from "../content/site.json";
+import NewsletterForm from "./NewsletterForm";
 export function Newsletter() {
   return (
     <section className="card nl" id="newsletter">
       <h2>{site.newsletter.title}</h2>
       <p>{site.newsletter.blurb}</p>
-      <form action="#">
-        <input type="email" placeholder="you@example.com" aria-label="Email" disabled />
-        <button type="button" disabled>Coming soon</button>
-      </form>
-      <p className="muted small">Signups open shortly. We'll never sell your email.</p>
+      <NewsletterForm />
     </section>
   );
 }

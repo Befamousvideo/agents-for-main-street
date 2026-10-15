@@ -31,6 +31,6 @@ export default async function Page({ params }) {
     {p.faq && <section><h2>FAQ</h2>{p.faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>}
     {p.group && <Sponsor />}
     {p.cta !== false && <Cta cta={p.cta || site.mainCta} />}
-    {p.group && <Newsletter />}
+    {(p.group || p.showNewsletter) && <Newsletter />}
   </article>);
 }

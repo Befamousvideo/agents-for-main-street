@@ -56,7 +56,7 @@
       },
       {
         "group": "hubs",
-        "title": "Industry hubs"
+        "title": "Browse by industry group"
       }
     ],
     "faq": [
@@ -1026,7 +1026,7 @@
     {
       "path": "/industries",
       "title": "All industries",
-      "summary": "Browse AI automation recipes by industry: HVAC, salons, clinics, realtors, law firms, restaurants, contractors, retail, accounting and service businesses.",
+      "summary": "Browse AI automation recipes by industry group: Food & Hospitality, Health & Wellness, Home & Construction, Personal Services, Professional Services, Retail, and recipes for any business.",
       "blocks": [
         {
           "ul": [

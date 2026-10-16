@@ -10,7 +10,7 @@ export function synthetic() {
       if (!have.has(path) && !out.has(path)) out.set(path, { path, auto: true, title: human(parts[i - 1]), summary: `All ${site.name} pages under ${human(parts[i - 1])}.` }); } }
   return [...out.values()];
 }
-export const allPages = () => [...real(), ...synthetic()];
+export const allPages = () => [...real(), ...groupPages(), ...synthetic()];
 export const pageAt = (path) => allPages().find(p => p.path === path);
 export const childrenOf = (path) => site.pages.filter(c => c.path.startsWith(path + "/") && c.group !== "hubs");
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9 ]/g, "").trim();
@@ -42,4 +42,30 @@ export function Listing({ path }) {
   return <section className="listing">{gs.map(g => <div key={g.seg || "_"}>
     {multi && g.seg && <h2>{g.href ? <a href={g.href}>{g.name}</a> : g.name} <span className="muted small">({g.items.length})</span></h2>}
     <Cards items={g.items} /></div>)}</section>;
+}
+// ---- Taxonomy (content/taxonomy.json) ----
+import tax from "../content/taxonomy.json";
+const byName = (a, b) => a.name.localeCompare(b.name);
+export const taxGroups = () => tax.groups.slice().sort((a, b) => (!!a.last - !!b.last) || byName(a, b))
+  .map(g => ({ ...g, path: `/industries/${g.slug}`, industries: g.industries.slice().sort(byName).map(i => ({ ...i, path: `/industries/${i.slug}`, recipes: site.pages.filter(p => p.group === "recipes" && p.path.startsWith(`/industries/${i.slug}/`)) })).filter(i => i.recipes.length) }))
+  .filter(g => g.industries.length);
+export const groupOf = (indSlug) => taxGroups().find(g => g.industries.some(i => i.slug === indSlug));
+export const groupPages = () => taxGroups().map(g => ({ path: g.path, taxGroup: g.slug, title: `AI automations for ${g.name}`, summary: `${g.summary} Recipes grouped by industry.` }));
+export function TaxListing({ only }) {
+  const gs = taxGroups().filter(g => !only || g.slug === only);
+  return <section className="listing">{gs.map(g => <div key={g.slug} className="taxgroup">
+    {!only && <h2><a href={g.path}>{g.name}</a></h2>}
+    {g.industries.map(i => <div key={i.slug}>{only ? <h2><a href={i.path}>{i.name}</a> <span className="muted small">({i.recipes.length})</span></h2> : <h3><a href={i.path}>{i.name}</a> <span className="muted small">({i.recipes.length})</span></h3>}<Cards items={i.recipes} /></div>)}
+  </div>)}</section>;
+}
+export function searchIndex() {
+  const out = [];
+  for (const g of taxGroups()) {
+    out.push({ t: "group", title: g.name, href: g.path, text: [g.name, g.summary, ...g.synonyms].join(" ") });
+    for (const i of g.industries) {
+      out.push({ t: "industry", title: i.name, group: g.name, href: i.path, text: [i.name, g.name, ...i.synonyms, ...g.synonyms].join(" ") });
+      for (const r of i.recipes) out.push({ t: "recipe", title: r.title, group: `${g.name} · ${i.name}`, href: r.path, text: [r.title, r.summary, i.name, g.name, ...i.synonyms].join(" ") });
+    }
+  }
+  return out;
 }

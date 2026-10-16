@@ -1,0 +1,26 @@
+{
+  "_doc": "Single source of truth for /industries grouping. Groups render A-Z by name except those with \"last\": true; industries render A-Z by name inside a group. To add an industry: add its slug (= /industries/<slug>) under the right group with synonyms. Only list industries that have at least one recipe page. Group hub URL = /industries/<group slug>; group slugs must not collide with industry slugs.",
+  "groups": [
+    { "slug": "food-hospitality", "name": "Food & Hospitality", "summary": "Restaurants, cafes, bars, catering and hospitality.", "synonyms": ["restaurant", "cafe", "coffee", "bar", "catering", "food truck", "bakery", "hotel", "hospitality"],
+      "industries": [ { "slug": "restaurants", "name": "Restaurants", "synonyms": ["restaurant", "cafe", "bar", "diner", "bistro", "pizzeria", "food"] } ] },
+    { "slug": "health-wellness", "name": "Health & Wellness", "summary": "Clinics, dental, chiropractic, therapy and other health practices.", "synonyms": ["health", "medical", "dentist", "dental", "doctor", "chiropractor", "physical therapy", "med spa", "optometrist", "veterinarian"],
+      "industries": [ { "slug": "clinics", "name": "Clinics", "synonyms": ["clinic", "medical", "dentist", "doctor", "chiropractor", "physician", "practice", "patient"] } ] },
+    { "slug": "home-construction", "name": "Home & Construction", "summary": "Contractors and trades: HVAC, plumbing, roofing, home builders, room additions, concrete, pools and more.", "synonyms": ["construction", "contractor", "trades", "home services", "plumber", "plumbing", "roofer", "roofing", "builder", "home builder", "room addition", "remodel", "pool", "pool builder", "concrete", "electrician", "landscaping", "handyman"],
+      "industries": [
+        { "slug": "contractors", "name": "Contractors", "synonyms": ["contractor", "general contractor", "builder", "remodeler", "construction", "plumber", "roofer", "concrete", "pool builder", "handyman"] },
+        { "slug": "hvac", "name": "HVAC", "synonyms": ["hvac", "heating", "cooling", "air conditioning", "ac repair", "furnace"] } ] },
+    { "slug": "personal-services", "name": "Personal Services", "summary": "Salons, barbers, nail studios, spas and other appointment-based personal care.", "synonyms": ["salon", "hair", "barber", "nail", "spa", "beauty", "stylist", "lashes"],
+      "industries": [ { "slug": "salons", "name": "Salons", "synonyms": ["salon", "hair", "barber", "barbershop", "nail", "spa", "beauty", "stylist"] } ] },
+    { "slug": "professional-services", "name": "Professional Services", "summary": "Accounting, law firms, real estate and other office-based services.", "synonyms": ["professional", "office", "consultant"],
+      "industries": [
+        { "slug": "accounting", "name": "Accounting", "synonyms": ["accountant", "cpa", "bookkeeper", "bookkeeping", "tax", "tax preparer"] },
+        { "slug": "law-firms", "name": "Law firms", "synonyms": ["law", "lawyer", "attorney", "legal", "paralegal"] },
+        { "slug": "realtors", "name": "Realtors", "synonyms": ["realtor", "real estate", "agent", "broker", "property"] } ] },
+    { "slug": "retail-shops", "name": "Retail", "summary": "Shops, boutiques and online stores.", "synonyms": ["retail", "shop", "store", "boutique", "ecommerce", "shopify", "square"],
+      "industries": [ { "slug": "retail", "name": "Retail shops", "synonyms": ["retail", "shop", "store", "boutique", "ecommerce", "inventory"] } ] },
+    { "slug": "all-businesses", "name": "Any business", "last": true, "summary": "Cross-industry recipes that work for almost any local or service business.", "synonyms": ["any", "general", "small business", "local business", "service business"],
+      "industries": [
+        { "slug": "local-business", "name": "Any local business", "synonyms": ["local business", "small business", "reviews", "google reviews", "meetings"] },
+        { "slug": "service-businesses", "name": "Service businesses", "synonyms": ["service business", "receptionist", "booking", "appointments"] } ] }
+  ]
+}

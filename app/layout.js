@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
         <header className="hdr"><div className="wrap row">
           <a href="/" className="logo">{site.name}</a>
-          <nav>{site.nav.map(n => <a key={n.href} href={n.href}>{n.label}</a>)}</nav>
+          <nav>{site.nav.map(n => <a key={n.href} href={n.href}>{n.label}</a>)}<a href="/industries#search" aria-label="Search recipes">🔍 Search</a></nav>
         </div></header>
         <main className="wrap">{children}</main>
         <footer className="ftr"><div className="wrap">

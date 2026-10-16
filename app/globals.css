@@ -14,3 +14,8 @@ table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid
 
 .brf label textarea,.brf label select{display:block;width:100%;margin-top:4px;padding:10px;border:1px solid #ccc;border-radius:8px;font:inherit;font-weight:400;font-size:1rem;background:#fff;box-sizing:border-box}.brf label input{box-sizing:border-box;font-size:1rem;font-weight:400}.brf label textarea{resize:vertical}.brf .brf-check{display:flex;align-items:flex-start;gap:8px;font-weight:400}.brf .brf-check input{display:inline-block;width:auto;margin:3px 0 0;padding:0;flex:none}
 .netpick{background:#fff;border:1px dashed #cfcfc6;border-radius:14px;padding:16px 20px;margin:28px 0}.netpick-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:4px}.netpick-tag{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#777}.netpick-adv{font-size:.78rem;color:#777}.netpick-h{font-size:1.1rem}.netpick p{margin:4px 0 12px;color:#444}.netpick-row{display:flex;gap:14px;align-items:flex-start}.netpick-img{border-radius:8px;object-fit:cover;flex:none}
+.search input{width:100%;font-size:1.05rem;padding:.6rem .8rem;margin-top:.4rem;box-sizing:border-box}
+.search .results{list-style:none;padding:0;margin:.5rem 0 0}
+.search .results li{padding:.35rem .4rem;border-radius:6px}
+.search .results li.on{background:rgba(0,0,0,.06);outline:2px solid var(--accent)}
+.taxgroup{margin-top:1.5rem}.taxgroup h3{margin-top:1rem}

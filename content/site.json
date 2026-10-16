@@ -19,8 +19,8 @@
       "href": "/newsletter"
     },
     {
-      "label": "Sponsor",
-      "href": "/sponsor"
+      "label": "Advertise",
+      "href": "/advertise"
     }
   ],
   "footer": "Agents for Main Street: AI recipes for salons, HVAC, clinics, realtors, law firms and more.",
@@ -977,31 +977,6 @@
           ]
         }
       ]
-    },
-    {
-      "path": "/sponsor",
-      "title": "Sponsor Agents for Main Street",
-      "summary": "Reach a focused audience through labeled sponsor slots. Every sponsor is reviewed and approved before any payment is taken.",
-      "blocks": [
-        {
-          "h": "Sponsor options (founding pricing)",
-          "ul": [
-            "Monthly sponsor slot — $79/month",
-            "Featured listing — $199"
-          ]
-        },
-        {
-          "p": [
-            "Online checkout is not open yet. To ask about sponsoring, use the contact option once it launches; all sponsors are approved manually."
-          ]
-        }
-      ],
-      "cta": {
-        "title": "Interested in sponsoring?",
-        "text": "Sponsor checkout opens soon. Join the newsletter to be notified.",
-        "button": "Get notified",
-        "href": "/newsletter"
-      }
     },
     {
       "path": "/newsletter",

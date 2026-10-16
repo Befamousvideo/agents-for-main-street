@@ -11,3 +11,4 @@ a{color:var(--accent)}.wrap{max-width:1040px;margin:0 auto;padding:0 20px}.row{d
 .muted{color:#777}.small{font-size:.85rem}.crumbs{font-size:.85rem;color:#777;margin-top:28px}pre{background:#111;color:#eee;padding:14px;border-radius:8px;white-space:pre-wrap}
 table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid #ddd;padding:8px;text-align:left;font-size:.95rem}details{background:#fff;border:1px solid #e6e6e0;border-radius:8px;padding:10px 14px;margin:8px 0}summary{font-weight:600;cursor:pointer}
 .ftr{border-top:1px solid #e6e6e0;margin-top:60px;padding:24px 0;font-size:.9rem;background:#fff}article h1{font-size:2.1rem;line-height:1.2}
+.housead{background:#fff;border:1px dashed #cfcfc6;border-radius:14px;padding:16px 20px;margin:28px 0}.housead-tag{display:block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#777;margin-bottom:4px}.housead-h{font-size:1.1rem}.housead p{margin:4px 0 12px;color:#444}

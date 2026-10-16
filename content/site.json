@@ -967,8 +967,9 @@
           "Budget range",
           "Email"
         ],
-        "button": "Request opens soon",
-        "note": "The form isn't live yet. When it is, you'll check a box agreeing to be contacted by StorenTech AI."
+        "button": "Request a build",
+        "note": "We'll only use your details to follow up on this request. We never sell your information.",
+        "live": "build-request"
       }
     }
   ]

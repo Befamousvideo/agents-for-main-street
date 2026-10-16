@@ -1,5 +1,6 @@
 import site from "../../content/site.json";
 import { notFound } from "next/navigation";
+import BuildRequestForm from "../BuildRequestForm";
 import { Newsletter, Cta, Sponsor, Block } from "../components";
 const all = () => [...site.pages, ...site.static];
 const find = (slug) => all().find(p => p.path === "/" + slug.join("/"));
@@ -26,7 +27,8 @@ export default async function Page({ params }) {
     {p.group && <p className="muted small">Last updated {site.updated}</p>}
     {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}>{s}</li>)}</ol></section>}
     {(p.blocks || []).map((b, i) => <Block key={i} b={b} />)}
-    {p.form && <section className="card"><h2>{p.form.title}</h2>{p.form.fields.map(f => <label key={f}>{f}<input disabled placeholder={f} /></label>)}
+    {p.form && p.form.live === "build-request" && <section className="card"><h2>{p.form.title}</h2><BuildRequestForm /><p className="muted small">{p.form.note}</p></section>}
+    {p.form && !p.form.live && <section className="card"><h2>{p.form.title}</h2>{p.form.fields.map(f => <label key={f}>{f}<input disabled placeholder={f} /></label>)}
       <button className="btn" type="button" disabled>{p.form.button}</button><p className="muted small">{p.form.note}</p></section>}
     {p.faq && <section><h2>FAQ</h2>{p.faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>}
     {p.group && <Sponsor />}

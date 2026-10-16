@@ -788,7 +788,7 @@
           "h": "Related recipes",
           "ul": [
             "Follow up on sent quotes automatically",
-            "Turn meeting notes into action items"
+            "Turn call and meeting transcripts into summaries and action items"
           ]
         }
       ],
@@ -825,6 +825,126 @@
         {
           "q": "What's the easiest automation for a restaurant to start with?",
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
+        }
+      ]
+    },
+    {
+      "path": "/industries/clinics",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for clinics",
+      "summary": "Practical, no-code AI and automation recipes for clinics. Each recipe has step-by-step setup, what to watch out for, and a build-it-for-me option.",
+      "blocks": [
+        {
+          "p": [
+            "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which automation should I start with?",
+          "a": "Start with “Answer pre-visit questions with an approved-document FAQ assistant for a clinic”. It's a small, low-risk workflow you can review before it touches customers."
+        }
+      ]
+    },
+    {
+      "path": "/industries/realtors",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for realtors",
+      "summary": "Practical, no-code AI and automation recipes for realtors. Each recipe has step-by-step setup, what to watch out for, and a build-it-for-me option.",
+      "blocks": [
+        {
+          "p": [
+            "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which automation should I start with?",
+          "a": "Start with “Draft listing descriptions from MLS fields with AI”. It's a small, low-risk workflow you can review before it touches customers."
+        }
+      ]
+    },
+    {
+      "path": "/industries/law-firms",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for law firms",
+      "summary": "Practical, no-code AI and automation recipes for law firms. Each recipe has step-by-step setup, what to watch out for, and a build-it-for-me option.",
+      "blocks": [
+        {
+          "p": [
+            "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which automation should I start with?",
+          "a": "Start with “Summarize long legal intake forms for faster triage”. It's a small, low-risk workflow you can review before it touches customers."
+        }
+      ]
+    },
+    {
+      "path": "/industries/contractors",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for contractors",
+      "summary": "Practical, no-code AI and automation recipes for contractors. Each recipe has step-by-step setup, what to watch out for, and a build-it-for-me option.",
+      "blocks": [
+        {
+          "p": [
+            "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which automation should I start with?",
+          "a": "Start with “Follow up on sent quotes automatically”. It's a small, low-risk workflow you can review before it touches customers."
+        }
+      ]
+    },
+    {
+      "path": "/industries/accounting",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for accounting firms",
+      "summary": "Practical, no-code AI and automation recipes for accounting firms. Each recipe has step-by-step setup, what to watch out for, and a build-it-for-me option.",
+      "blocks": [
+        {
+          "p": [
+            "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which automation should I start with?",
+          "a": "Start with “Chase clients for missing documents automatically”. It's a small, low-risk workflow you can review before it touches customers."
+        }
+      ]
+    },
+    {
+      "path": "/industries/local-business",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for any local business",
+      "summary": "Practical, no-code AI and automation recipes for any local business. Each recipe has step-by-step setup, what to watch out for, and a build-it-for-me option.",
+      "blocks": [
+        {
+          "p": [
+            "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which automation should I start with?",
+          "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ]
     }

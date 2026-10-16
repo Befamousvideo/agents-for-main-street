@@ -1,5 +1,6 @@
 import site from "../content/site.json";
 import NewsletterForm from "./NewsletterForm";
+import { Li } from "./nav";
 export function Newsletter() {
   return (
     <section className="card nl" id="newsletter">
@@ -20,8 +21,8 @@ export function Block({ b }) {
   return (<section>
     {b.h && <h2>{b.h}</h2>}
     {b.p && b.p.map((t, i) => <p key={i}>{t}</p>)}
-    {b.ol && <ol>{b.ol.map((t, i) => <li key={i}>{t}</li>)}</ol>}
-    {b.ul && <ul>{b.ul.map((t, i) => <li key={i}>{t}</li>)}</ul>}
+    {b.ol && <ol>{b.ol.map((t, i) => <Li key={i} t={t} />)}</ol>}
+    {b.ul && <ul>{b.ul.map((t, i) => <Li key={i} t={t} />)}</ul>}
     {b.pre && <pre>{b.pre}</pre>}
     {b.table && <table><thead><tr>{b.table[0].map((c, i) => <th key={i}>{c}</th>)}</tr></thead><tbody>{b.table.slice(1).map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j}>{c}</td>)}</tr>)}</tbody></table>}
   </section>);

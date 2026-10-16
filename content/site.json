@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 15, 2026",
+  "updated": "October 16, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -706,6 +706,125 @@
         {
           "q": "What's the easiest automation for retail businesses to start with?",
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
+        }
+      ]
+    },
+    {
+      "path": "/industries/restaurants/reservation-reminders",
+      "group": "recipes",
+      "label": "Restaurants",
+      "title": "Send reservation reminders that cut restaurant no-shows",
+      "summary": "Text or email each guest a reminder the day before and a few hours before their booking, with one-tap confirm or cancel, and free cancelled tables for the waitlist.",
+      "steps": [
+        "Check whether your reservation system (OpenTable, Resy, Tock, SevenRooms) already has built-in reminders; turn those on first.",
+        "If not, export or trigger on new bookings into a Google Sheet via Zapier, Make or n8n.",
+        "Schedule a reminder 24 hours before and a second about 3 hours before, with confirm/cancel links.",
+        "When a guest cancels, mark the table open and notify the host stand so the waitlist can be offered the slot.",
+        "Track no-show rate weekly to see if the reminders help."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: reservation system + Zapier/Make/n8n + SMS or email. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "p": [
+            "Text only guests who gave their number for the booking, include the restaurant name, and honor STOP (TCPA and 10DLC rules in the US).",
+            "Don't send duplicate reminders if your booking platform already sends its own."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Get a weekly inventory variance alert for your restaurant",
+            "Draft replies to new Google reviews for approval"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=reservation-reminders"
+      }
+    },
+    {
+      "path": "/industries/contractors/job-photo-report",
+      "group": "recipes",
+      "label": "Contractors",
+      "title": "Turn job-site photos into a customer-ready completion report",
+      "summary": "Techs upload before-and-after photos to a shared folder; an AI step writes a short plain-English summary and the office sends a branded PDF report after review.",
+      "steps": [
+        "Create one shared folder per job (Google Drive or your field app) where techs upload before/after photos and a few notes.",
+        "Trigger on the job being marked complete.",
+        "Have AI write a 5–8 sentence summary of the work from the tech's notes (not from guesses about the photos).",
+        "Fill a report template (Google Docs or your field app) with the summary and photos, then export to PDF.",
+        "Office reviews and sends it with the invoice."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: Google Drive or a field-service app (Jobber, Housecall Pro) + Zapier/Make + Google Docs. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "p": [
+            "AI must summarize the tech's notes only; never let it claim work, parts or warranties that aren't in the notes.",
+            "Don't include photos showing customers, house numbers or anything personal."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Follow up on sent quotes automatically",
+            "Turn meeting notes into action items"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=job-photo-report"
+      }
+    },
+    {
+      "path": "/industries/restaurants",
+      "group": "hubs",
+      "label": "Industry hub",
+      "title": "AI automations for restaurants",
+      "summary": "Practical, no-code AI and automation recipes for restaurants: inventory variance alerts, reservation reminders and review replies.",
+      "blocks": [
+        {
+          "h": "Recipes",
+          "ul": [
+            "Get a weekly inventory variance alert for your restaurant — compare weekly counts with POS sales and flag big moves.",
+            "Send reservation reminders that cut restaurant no-shows — day-before and same-day reminders with confirm or cancel.",
+            "Draft replies to new Google reviews for approval — AI drafts, you approve before anything posts."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What's the easiest automation for a restaurant to start with?",
+          "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
       ]
     }

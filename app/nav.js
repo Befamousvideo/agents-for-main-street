@@ -53,7 +53,10 @@ export const groupOf = (indSlug) => taxGroups().find(g => g.industries.some(i =>
 export const groupPages = () => taxGroups().map(g => ({ path: g.path, taxGroup: g.slug, title: `AI automations for ${g.name}`, summary: `${g.summary} Recipes grouped by industry.` }));
 export function TaxListing({ only }) {
   const gs = taxGroups().filter(g => !only || g.slug === only);
-  return <section className="listing">{gs.map(g => <div key={g.slug} className="taxgroup">
+  const tiles = !only && <nav className="taxtiles" aria-label="Industry groups">{gs.map(g => { const n = g.industries.reduce((a, i) => a + i.recipes.length, 0);
+    return <div key={g.slug} className="card taxtile"><a className="tt" href={g.path}>{g.name} <span className="muted small">({n})</span></a>
+      <div className="small">{g.industries.map((i, k) => <span key={i.slug}>{k ? " · " : ""}<a href={i.path}>{i.name}</a> ({i.recipes.length})</span>)}</div></div>; })}</nav>;
+  return <section className="listing">{tiles}{!only && <h2 className="muted small" style={{marginTop:"1.5rem"}}>All recipes by group</h2>}{gs.map(g => <div key={g.slug} className="taxgroup">
     {!only && <h2><a href={g.path}>{g.name}</a></h2>}
     {g.industries.map(i => <div key={i.slug}>{only ? <h2><a href={i.path}>{i.name}</a> <span className="muted small">({i.recipes.length})</span></h2> : <h3><a href={i.path}>{i.name}</a> <span className="muted small">({i.recipes.length})</span></h3>}<Cards items={i.recipes} /></div>)}
   </div>)}</section>;

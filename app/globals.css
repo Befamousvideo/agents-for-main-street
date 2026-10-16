@@ -19,3 +19,7 @@ table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid
 .search .results li{padding:.35rem .4rem;border-radius:6px}
 .search .results li.on{background:rgba(0,0,0,.06);outline:2px solid var(--accent)}
 .taxgroup{margin-top:1.5rem}.taxgroup h3{margin-top:1rem}
+.taxtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:.6rem 0}
+.taxtile{padding:.6rem .8rem;margin:0}.taxtile .tt{font-weight:700;display:block;margin-bottom:.2rem}
+@media(max-width:700px){.taxtiles{grid-template-columns:repeat(2,1fr)}}
+.search{padding:.7rem .9rem;margin:.6rem 0}

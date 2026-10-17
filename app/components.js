@@ -1,7 +1,7 @@
 import site from "../content/site.json";
 import NewsletterForm from "./NewsletterForm";
 import HouseAd from "./HouseAd";
-import { Li } from "./nav";
+import { Li, Linked } from "./nav";
 export function Newsletter() {
   return (
     <section className="card nl" id="newsletter">
@@ -21,7 +21,7 @@ export function Sponsor() {
 export function Block({ b }) {
   return (<section>
     {b.h && <h2>{b.h}</h2>}
-    {b.p && b.p.map((t, i) => <p key={i}>{t}</p>)}
+    {b.p && b.p.map((t, i) => <p key={i}><Linked t={t} /></p>)}
     {b.ol && <ol>{b.ol.map((t, i) => <Li key={i} t={t} />)}</ol>}
     {b.ul && <ul>{b.ul.map((t, i) => <Li key={i} t={t} />)}</ul>}
     {b.pre && <pre>{b.pre}</pre>}

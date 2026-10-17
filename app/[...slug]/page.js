@@ -2,7 +2,7 @@ import site from "../../content/site.json";
 import { notFound } from "next/navigation";
 import BuildRequestForm from "../BuildRequestForm";
 import { Newsletter, Cta, Sponsor, Block } from "../components";
-import { allPages, pageAt, childrenOf, matchTitle, Listing, TaxListing, groupOf } from "../nav";
+import { allPages, pageAt, childrenOf, matchTitle, Listing, TaxListing, groupOf, Linked, pageDateIso, pageDateLabel } from "../nav";
 import Search from "../Search";
 const all = allPages;
 const find = (slug) => all().find(p => p.path === "/" + slug.join("/"));
@@ -24,7 +24,7 @@ export default async function Page({ params }) {
   if (crumbs[0] && crumbs[0].h === "/industries") crumbs[0].name = "Industries";
   const ld = [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: site.name, item: `https://${site.domain}/` }, ...crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 2, name: c.name, ...(c.h ? { item: `https://${site.domain}${c.h}` } : {}) })), { "@type": "ListItem", position: crumbs.length + 2, name: p.title, item: url }] }];
   if (p.steps) ld.push({ "@context": "https://schema.org", "@type": "HowTo", name: p.title, description: p.summary, step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: s })) });
-  else if (p.group) ld.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title, description: p.summary, dateModified: site.updated, mainEntityOfPage: url, publisher: { "@type": "Organization", name: site.name } });
+  else if (p.group) ld.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title, description: p.summary, dateModified: pageDateIso(p), mainEntityOfPage: url, publisher: { "@type": "Organization", name: site.name } });
   if (p.faq) ld.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: p.faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) });
   return (<article>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
@@ -32,8 +32,8 @@ export default async function Page({ params }) {
     <h1>{p.title}</h1>
     {p.flag && <div className="flag">⚠️ {p.flag}</div>}
     <div className="tldr"><strong>Quick answer:</strong> {p.summary}</div>
-    {p.group && <p className="muted small">Last updated {site.updated}</p>}
-    {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}>{s}</li>)}</ol></section>}
+    {p.group && <p className="muted small">Last updated {pageDateLabel(p)}</p>}
+    {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}><Linked t={s} /></li>)}</ol></section>}
     {(p.blocks || []).filter(b => !(hasKids && (b.ul || b.ol) && !b.p && (b.ul || b.ol).every(t => matchTitle(t)))).map((b, i) => <Block key={i} b={b} />)}
     {p.path === "/industries" && <Search />}
     {hasKids && (isTax ? <TaxListing only={p.taxGroup} /> : <Listing path={p.path} />)}

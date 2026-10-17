@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 16, 2026",
+  "updated": "October 17, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -112,7 +112,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=missed-call-text-back"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/salons/rebooking-nudge",
@@ -151,7 +152,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=rebooking-nudge"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/clinics/appointment-prep-faq",
@@ -190,7 +192,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=appointment-prep-faq"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/realtors/listing-description-draft",
@@ -233,7 +236,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=listing-description-draft"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/local-business/google-review-replies",
@@ -259,6 +263,12 @@
           "p": [
             "Never auto-post replies to negative reviews, and in regulated industries never confirm someone is a client or patient."
           ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Ask every customer for a Google review automatically (without review gating)"
+          ]
         }
       ],
       "faq": [
@@ -272,7 +282,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-review-replies"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/law-firms/intake-form-summarizer",
@@ -311,7 +322,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=intake-form-summarizer"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/restaurants/inventory-variance-alert",
@@ -350,7 +362,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=inventory-variance-alert"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/contractors/quote-follow-up",
@@ -389,7 +402,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=quote-follow-up"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/retail/product-descriptions-alt-text",
@@ -428,7 +442,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=product-descriptions-alt-text"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/accounting/missing-documents-chaser",
@@ -467,7 +482,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=missing-documents-chaser"
-      }
+      },
+      "updated": "2026-10-14"
     },
     {
       "path": "/industries/hvac",
@@ -564,7 +580,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=ai-receptionist-booking"
-      }
+      },
+      "updated": "2026-10-15"
     },
     {
       "path": "/industries/retail/low-stock-reorder-alert",
@@ -614,7 +631,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=low-stock-reorder-alert"
-      }
+      },
+      "updated": "2026-10-15"
     },
     {
       "path": "/industries/local-business/meeting-notes-to-action",
@@ -664,19 +682,21 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=meeting-notes-to-action"
-      }
+      },
+      "updated": "2026-10-15"
     },
     {
       "path": "/industries/service-businesses",
       "group": "hubs",
       "label": "Industry hub",
       "title": "AI automations for service businesses",
-      "summary": "Practical, no-code AI and automation recipes for service businesses — booking, FAQs and follow-up — each with steps, tools and risks.",
+      "summary": "Practical, no-code AI and automation recipes for service businesses — booking, FAQs, follow-up and getting paid — each with steps, tools and risks.",
       "blocks": [
         {
           "h": "Recipes",
           "ul": [
-            "AI virtual receptionist that answers FAQs and books on Google Calendar — Use an AI receptionist to answer common questions from a business-info sheet, check Google Calendar availability, book appointments, and log every conversation to Sheets."
+            "AI virtual receptionist that answers FAQs and books on Google Calendar — Use an AI receptionist to answer common questions from a business-info sheet, check Google Calendar availability, book appointments, and log every conversation to Sheets.",
+            "Send polite overdue-invoice reminders automatically — built-in reminders first, then a before/on/after due-date schedule, with an owner-approved note at 30 days."
           ]
         }
       ],
@@ -755,7 +775,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=reservation-reminders"
-      }
+      },
+      "updated": "2026-10-16"
     },
     {
       "path": "/industries/contractors/job-photo-report",
@@ -803,7 +824,8 @@
         "text": "StorenTech AI can set up this automation for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=job-photo-report"
-      }
+      },
+      "updated": "2026-10-16"
     },
     {
       "path": "/industries/restaurants",
@@ -947,6 +969,132 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ]
+    },
+    {
+      "path": "/industries/local-business/review-request-follow-up",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Ask every customer for a Google review automatically (without review gating)",
+      "summary": "When a job or visit is marked complete, send every customer the same short review request with your Google review link, plus one reminder. Ask everyone, not just happy customers, and never offer a reward for the review.",
+      "steps": [
+        "Get your review link from your Google Business Profile (the \"Ask for reviews\" or share-review-form option).",
+        "Trigger on a completed job, paid invoice or finished appointment in your booking, POS or field-service app via Zapier, Make or n8n.",
+        "Wait a few hours (or until the next morning), then text or email one short message with the link. Use the same message for every customer.",
+        "If there's no review after 3–5 days, send one reminder, then stop.",
+        "Log who was asked and when in a Google Sheet so nobody gets asked twice for the same visit.",
+        "Pair this with the review-reply recipe so every new review gets a timely, approved response."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your booking/POS/field app + Zapier/Make/n8n + SMS or email + a Google Sheet. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Don't filter who gets asked. Google's policy says merchants may not \"discourage or prohibit negative reviews, or selectively solicit positive reviews from customers\". A \"Did you love us? Yes → Google, No → private form\" flow is exactly that.",
+            "No incentives. Google prohibits offering payment, discounts or free goods or services in exchange for a review, and the FTC's rule bans incentives conditioned on a positive review.",
+            "Never let AI write reviews for customers or staff. The FTC rule prohibits fake reviews, including AI-generated ones, and reviews by insiders who hide their connection.",
+            "Text only customers who gave you their number, identify your business and honor STOP replies."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Maps user-generated content policy (fake engagement) — https://support.google.com/contributionpolicy/answer/7400114",
+            "FTC: Consumer Reviews and Testimonials Rule Q&A — https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+            "FTC press release on the final rule (Aug 14, 2024) — https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Draft replies to new Google reviews for approval",
+            "Text back every missed call automatically for an HVAC business"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I send unhappy customers to a private feedback form instead?",
+          "a": "You can offer a feedback form, but don't use it to screen people out of the review request. Send everyone the same review link; Google prohibits selectively soliciting positive reviews."
+        },
+        {
+          "q": "Can I give a discount for leaving a review?",
+          "a": "No. Google prohibits incentives for reviews, and the FTC rule bans incentives tied to a review's sentiment."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=review-request-follow-up"
+      },
+      "updated": "2026-10-17"
+    },
+    {
+      "path": "/industries/service-businesses/overdue-invoice-reminders",
+      "group": "recipes",
+      "label": "Service businesses",
+      "title": "Send polite overdue-invoice reminders automatically",
+      "summary": "Turn on your invoicing tool's built-in reminders first. Then add a simple schedule (before due, on the due date, a week late) and have AI draft a personal note for anything older than 30 days that you approve before it goes out.",
+      "steps": [
+        "Check your invoicing tool first. Stripe, for example, can email reminders when a one-off invoice hasn't been fully paid; QuickBooks, Xero and most field-service apps have similar settings. Turn those on before building anything.",
+        "If your tool can't do it, trigger on new invoices into a Google Sheet (invoice number, customer, amount, due date, payment link) with Zapier, Make or n8n.",
+        "Schedule friendly reminders: 3 days before the due date, on the due date, and 7 days after. Each one includes the amount, the invoice number and the payment link.",
+        "Stop the sequence the moment the invoice is marked paid (check status before every send).",
+        "At 30 days overdue, have AI draft a short personal note from the owner for review, not an automatic send.",
+        "Review the overdue list weekly and call your biggest balances yourself."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your invoicing tool (Stripe, QuickBooks, Xero, Jobber, Housecall Pro) + Zapier/Make/n8n + email. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep reminders factual and polite: no threats, no late fees that aren't in your written terms.",
+            "Don't double up with your tool's own reminders; pick one system.",
+            "If you hand an account to a collection agency, different rules apply; talk to your accountant or attorney first.",
+            "AI drafts the 30-day note; a person reads and sends it."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Stripe Docs: Send customer emails (invoice reminders) — https://stripe.com/docs/invoicing/send-email"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Follow up on sent quotes automatically",
+            "Chase clients for missing documents automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=overdue-invoice-reminders"
+      },
+      "updated": "2026-10-17"
     }
   ],
   "static": [

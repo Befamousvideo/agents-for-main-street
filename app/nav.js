@@ -20,7 +20,15 @@ export function matchTitle(text) {
   const cands = [norm(head), norm(head.replace(/^[^:]{1,40}:\s*/, ""))];
   return site.pages.find(p => cands.includes(norm(p.title))) || null;
 }
-export function Li({ t }) { const m = matchTitle(t); if (!m) return <li>{t}</li>;
+// Render bare http(s) URLs inside text as real links (source citations).
+const URL_RE = /(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]])/g;
+export function Linked({ t }) { const parts = String(t).split(URL_RE);
+  return <>{parts.map((x, i) => i % 2 ? <a key={i} href={x} rel="noopener" target="_blank">{x}</a> : x)}</>; }
+// Per-page dates: page.updated (ISO yyyy-mm-dd) wins, else the site-wide date.
+export const isoDate = (s) => { if (!s) return undefined; const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(s) ? s + "T00:00:00Z" : s + " 00:00 UTC"); return isNaN(d) ? undefined : d.toISOString().slice(0, 10); };
+export const pageDateIso = (p) => isoDate(p.updated) || isoDate(site.updated);
+export const pageDateLabel = (p) => { const i = pageDateIso(p); return i ? new Date(i + "T00:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }) : site.updated; };
+export function Li({ t }) { const m = matchTitle(t); if (!m) return <li><Linked t={t} /></li>;
   const head = String(t).split(" — ")[0]; const rest = String(t).slice(head.length);
   return <li><a href={m.path}>{head}</a>{rest}</li>; }
 // Group children by the next path segment under `path`.

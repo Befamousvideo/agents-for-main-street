@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 17, 2026",
+  "updated": "October 18, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -178,6 +178,12 @@
           "h": "What to watch",
           "p": [
             "No patient health information goes into a tool without a HIPAA Business Associate Agreement, and the assistant must never give medical advice."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Cut clinic no-shows with a layered appointment reminder sequence"
           ]
         }
       ],
@@ -429,6 +435,12 @@
           "p": [
             "Don't let AI invent specifications or claims; check every line."
           ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send one abandoned-cart SMS (with proper SMS consent)"
+          ]
         }
       ],
       "faq": [
@@ -616,7 +628,8 @@
           "h": "Related recipes",
           "ul": [
             "Batch-write product descriptions and image alt text",
-            "Get a weekly inventory variance alert for your restaurant"
+            "Get a weekly inventory variance alert for your restaurant",
+            "Send one abandoned-cart SMS (with proper SMS consent)"
           ]
         }
       ],
@@ -712,13 +725,14 @@
       "group": "hubs",
       "label": "Industry hub",
       "title": "AI automations for retail businesses",
-      "summary": "Practical, no-code AI and automation recipes for retail: product copy, low-stock alerts and more.",
+      "summary": "Practical, no-code AI and automation recipes for retail: product copy, low-stock alerts, abandoned-cart SMS and more.",
       "blocks": [
         {
           "h": "Recipes",
           "ul": [
             "Batch-write product descriptions and image alt text — Export new SKUs, have AI write a 60–100-word description and alt text for each, review, and re-import.",
-            "Alert staff when a SKU drops below your reorder threshold — Watch an inventory sheet or POS export; when a SKU falls below the threshold you set, alert staff and optionally draft a supplier reorder email for approval."
+            "Alert staff when a SKU drops below your reorder threshold — Watch an inventory sheet or POS export; when a SKU falls below the threshold you set, alert staff and optionally draft a supplier reorder email for approval.",
+            "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text."
           ]
         }
       ],
@@ -861,12 +875,19 @@
           "p": [
             "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
           ]
+        },
+        {
+          "h": "Recipes",
+          "ul": [
+            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic — Website chat answers only from an approved FAQ doc; clinical questions go to staff.",
+            "Cut clinic no-shows with a layered appointment reminder sequence — Confirmation plus 48–72h, 24h confirm/reschedule, and same-day logistics texts; keep SMS free of clinical detail."
+          ]
         }
       ],
       "faq": [
         {
           "q": "Which automation should I start with?",
-          "a": "Start with “Answer pre-visit questions with an approved-document FAQ assistant for a clinic”. It's a small, low-risk workflow you can review before it touches customers."
+          "a": "Start with the approved-document FAQ assistant for pre-visit questions, then add the layered appointment no-show reminder sequence once your messaging vendor and BAA are in place."
         }
       ]
     },
@@ -1095,6 +1116,142 @@
         "href": "/build-it-for-me?recipe=overdue-invoice-reminders"
       },
       "updated": "2026-10-17"
+    },
+    {
+      "path": "/industries/clinics/appointment-no-show-reminders",
+      "group": "recipes",
+      "label": "Clinics",
+      "title": "Cut clinic no-shows with a layered appointment reminder sequence",
+      "summary": "Send a booking confirmation, then reminders about 48–72 hours out, 24 hours out (with confirm/reschedule), and a short same-day logistics text. Keep SMS to date, time and clinic name—no diagnoses—and use a vendor that will sign a BAA.",
+      "steps": [
+        "Confirm how your practice management or EHR already sends reminders. Turn on built-in reminders first if they cover confirmation and day-before texts; only add Zapier/Make/n8n for gaps.",
+        "Collect mobile numbers and written consent for appointment texts at registration. Document channel preferences and honor STOP and reasonable confidential-communication requests.",
+        "Build a layered cadence keyed to the live schedule: immediate booking confirmation (date, time, location or telehealth link, how to reschedule); a 48–72 hour reminder; a 24-hour two-way confirm/reschedule text; a short same-day logistics text 2–4 hours before.",
+        "Keep every unencrypted SMS minimal: patient first name optional, clinic name, date/time, confirm or reschedule instructions. No diagnoses, results, procedure details or clinical notes.",
+        "Stop the sequence when the visit is cancelled, rescheduled or completed. Sync status from the schedule before every send so you never remind for a dead slot.",
+        "After a no-show, send one polite rebook link and create a staff task—no blame language. Review no-show and confirmation rates monthly."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your practice management/EHR or booking calendar + a HIPAA-ready messaging vendor (with a signed BAA) and/or Zapier/Make/n8n + SMS/email. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "HHS OCR treats appointment reminders as part of treatment, so a separate authorization is not required—but you still must use reasonable safeguards and limit what you disclose.",
+            "On answering machines or shared phones, leave only what is needed to confirm the appointment (for example clinic name and callback number), not clinical detail.",
+            "If a patient asks for an alternate contact method or location, honor reasonable requests.",
+            "Text only numbers you have consent for, identify the clinic, and honor STOP. Prefer a vendor with a Business Associate Agreement rather than a consumer SMS app.",
+            "This is operational guidance, not legal advice—have your privacy officer review templates before launch."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "HHS OCR FAQ: Are appointment reminders allowed under HIPAA without authorizations? — https://www.hhs.gov/hipaa/for-professionals/faq/286/are-appointment-reminders-allowed-under-hipaa-without-authorization/index.html",
+            "HHS OCR FAQ: May providers leave appointment or prescription messages? — https://www.hhs.gov/hipaa/for-professionals/faq/198/may-health-care-providers-leave-messages/index.html"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
+            "Send reservation reminders that cut restaurant no-shows"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is this the same as restaurant reservation reminders?",
+          "a": "Same idea—layered confirms—but clinic messages must stay minimum-necessary under HIPAA, skip clinical detail, and usually run through a BAA-backed vendor. Restaurant reminders are TCPA/SMS-consent focused, not PHI."
+        },
+        {
+          "q": "Do I need a patient authorization to send appointment reminders?",
+          "a": "HHS OCR says appointment reminders are part of treatment and can be made without a separate authorization. You still need reasonable safeguards and should keep the content minimal."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=appointment-no-show-reminders"
+      },
+      "updated": "2026-10-18"
+    },
+    {
+      "path": "/industries/retail/abandoned-cart-sms",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Send one abandoned-cart SMS (with proper SMS consent)",
+      "summary": "When a shopper who already opted into SMS leaves items in cart, send one reminder within 48 hours with a link back to checkout. Use double opt-in, disclose cart reminders in your signup terms, and never collect payment by text.",
+      "steps": [
+        "Turn on SMS signup at checkout and on-site with clear disclosure that the program includes cart or checkout reminders. Use double opt-in (subscriber confirms by text) before any abandoned-cart send.",
+        "Update your mobile terms and privacy policy to say you track abandoned carts (for example via cookies or your cart plugin) and may send SMS cart reminders to opted-in subscribers.",
+        "In Shopify, WooCommerce or your cart tool, trigger when a cart or checkout is abandoned and the shopper is an active SMS subscriber (opted in before abandonment).",
+        "Send exactly one SMS per abandonment event, within 48 hours. Include your business name, a short cart nudge, a direct link to the cart/checkout page, and STOP instructions.",
+        "Do not complete the purchase by text, collect card data by SMS, or accept a keyword as payment approval—the customer must pay on your site.",
+        "Log consent, send time and STOP replies. Keep sends inside quiet hours for the shopper's time zone, and stop if they opt out."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your ecommerce cart (Shopify, WooCommerce, etc.) + an SMS platform that supports double opt-in and abandoned-cart flows, or Zapier/Make/n8n as a bridge. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Abandoned-cart texts are marketing under the TCPA when sent with autodialers—get prior express written consent, keep records, and honor STOP in any reasonable wording.",
+            "US carriers commonly require double opt-in, one SMS per abandoned-cart event, and send within 48 hours for this use case.",
+            "Disclose cart reminders in the signup CTA/terms and explain cart tracking in the privacy policy.",
+            "Don't text people who only browsed or who never opted into SMS. Don't stack email + three SMS nudges for the same cart if your SMS flow already used its one allowed message.",
+            "This is compliance hygiene, not legal advice—confirm current carrier and state rules with your counsel or SMS vendor."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Consumer Action: Small Business Guide to the TCPA — https://www.consumer-action.org/english/articles/TCPA_business/",
+            "Klaviyo Help: Understanding US guidelines for SMS cart abandonment flows — https://help.klaviyo.com/hc/en-us/articles/4404189657755"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Batch-write product descriptions and image alt text",
+            "Alert staff when a SKU drops below your reorder threshold"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I send three abandoned-cart texts like my email flow?",
+          "a": "For US SMS cart abandonment, carriers typically allow only one SMS per event, sent within 48 hours. Keep richer sequences in email; keep SMS to a single reminder for opted-in subscribers."
+        },
+        {
+          "q": "What if someone abandons a cart but never opted into SMS?",
+          "a": "Don't text them for the cart. Grow the SMS list with compliant opt-in first; abandoned-cart SMS is only for people who already consented—including consent that covers cart reminders."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=abandoned-cart-sms"
+      },
+      "updated": "2026-10-18"
     }
   ],
   "static": [

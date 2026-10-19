@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 18, 2026",
+  "updated": "October 19, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -98,6 +98,12 @@
           "h": "What to watch",
           "p": [
             "SMS consent rules (TCPA and 10DLC registration in the US): only text numbers that called you, include your business name, and honor STOP."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Reply to new website leads within minutes, automatically"
           ]
         }
       ],
@@ -199,7 +205,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=appointment-prep-faq"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-10-14",
+      "seoTitle": "Clinic FAQ assistant that answers pre-visit questions"
     },
     {
       "path": "/industries/realtors/listing-description-draft",
@@ -395,6 +402,12 @@
           "p": [
             "Make sure the stop condition works before going live, so customers who said yes don't get chased."
           ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Reply to new website leads within minutes, automatically"
+          ]
         }
       ],
       "faq": [
@@ -480,6 +493,12 @@
           "h": "What to watch",
           "p": [
             "Never ask clients to send sensitive documents as plain email attachments. Use a secure portal."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Capture receipts by photo or email and file them for your bookkeeper"
           ]
         }
       ],
@@ -1057,7 +1076,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=review-request-follow-up"
       },
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "seoTitle": "Ask every customer for a Google review (no review gating)"
     },
     {
       "path": "/industries/service-businesses/overdue-invoice-reminders",
@@ -1099,7 +1119,8 @@
           "h": "Related recipes",
           "ul": [
             "Follow up on sent quotes automatically",
-            "Chase clients for missing documents automatically"
+            "Chase clients for missing documents automatically",
+            "Capture receipts by photo or email and file them for your bookkeeper"
           ]
         }
       ],
@@ -1252,6 +1273,145 @@
         "href": "/build-it-for-me?recipe=abandoned-cart-sms"
       },
       "updated": "2026-10-18"
+    },
+    {
+      "path": "/industries/contractors/web-lead-instant-reply",
+      "group": "recipes",
+      "label": "Contractors",
+      "title": "Reply to new website leads within minutes, automatically",
+      "summary": "When a quote or contact form comes in, send the lead a short personal-sounding reply right away, ping the owner or estimator by text, and log the lead in a sheet or CRM. An AI step can draft the reply from the form details, but keep it to facts you can stand behind.",
+      "steps": [
+        "List every place leads arrive: website form, Google Business Profile messages, Facebook, Angi/Thumbtack-style platforms. Start with your own website form; it is the easiest to connect.",
+        "Trigger on each new form submission in Zapier, Make or n8n (or your form tool's built-in notifications).",
+        "Add an AI step that drafts a 3–5 sentence reply using only the form fields: thank them by name, restate the job they described, say when a person will call (for example \"today before 5 PM\"), and offer a booking link if you have one. Tell the AI not to quote prices, promise dates or guess at scope.",
+        "Send the reply from a real business address that people can answer, with your business name in the From line.",
+        "At the same moment, text or Slack the owner or on-call estimator with the lead's name, phone, job type and a link to the record, so a human calls back fast.",
+        "Log every lead (time received, time replied, source, status) in Google Sheets or your CRM, and review weekly which leads went cold and how fast you actually called back."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your website form (or form builder), Zapier/Make/n8n, an AI step (for example the OpenAI or Claude action in your automation tool), email, and an SMS or Slack alert for the team. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Speed matters: Harvard Business Review research on online sales leads found most companies are not responding nearly fast enough to inquiries. An instant acknowledgment buys time, but a human callback is what wins the job.",
+            "A one-to-one reply to someone who just asked you for a quote is a response to their request. If you later add them to promotional emails, the FTC's CAN-SPAM rules apply: accurate From line, honest subject, your postal address, and a working opt-out honored within 10 business days.",
+            "Don't let the AI invent prices, availability, licensing or warranty terms. Keep those in a human-approved template.",
+            "Only text the lead if they gave their number for that purpose; otherwise reply by email and let your team call.",
+            "Watch for spam form fills before they trigger alerts: add a captcha or honeypot field to the form."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Harvard Business Review: The Short Life of Online Sales Leads (Oldroyd, McElheran, Elkington, March 2011) — https://hbr.org/2011/03/the-short-life-of-online-sales-leads",
+            "FTC: CAN-SPAM Act: A Compliance Guide for Business — https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Follow up on sent quotes automatically",
+            "Text back every missed call automatically for an HVAC business",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should the instant reply come from AI or a template?",
+          "a": "Either works. A fixed template is safest; an AI draft that only reuses the customer's own form details feels more personal. In both cases, keep prices and dates out of the automatic message."
+        },
+        {
+          "q": "Is this the same as missed-call text back?",
+          "a": "It is the same idea for web forms instead of phone calls: acknowledge immediately, alert a human, and log the lead so nothing slips."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=web-lead-instant-reply"
+      },
+      "updated": "2026-10-19"
+    },
+    {
+      "path": "/industries/local-business/receipt-capture-bookkeeping",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Capture receipts by photo or email and file them for your bookkeeper",
+      "summary": "Give everyone one way to submit receipts (a forwarding email address or a phone upload), let an AI step read the vendor, date, amount and category, file the image in a dated folder, and add a row to a sheet your bookkeeper reviews. A person approves categories before anything is posted to the books.",
+      "steps": [
+        "Check what your accounting software already does. Many bookkeeping apps include receipt capture by mobile photo or email forwarding; turn that on first and only automate the gaps.",
+        "Create one intake path: a dedicated email address (for example receipts@yourbusiness) or a shared phone-upload folder. Tell staff to submit every receipt the same day.",
+        "Trigger on each new email attachment or uploaded image in Zapier, Make or n8n.",
+        "Add an AI or OCR step that extracts vendor, date, total, tax and payment method, and suggests a category from your chart of accounts. Flag anything it can't read clearly.",
+        "Rename and save the original image or PDF into a folder by year and month (for example Receipts/2026/10) so it is easy to find later.",
+        "Append a row to a review sheet with the extracted fields, a link to the file and a status column. Your bookkeeper confirms or fixes the category, then records it in the books."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: email or a phone upload app, Google Drive/Dropbox/OneDrive, Zapier/Make/n8n with an OCR or AI document step, Google Sheets, and your accounting software. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "The IRS says supporting documents such as sales slips, paid bills, invoices, receipts, deposit slips and canceled checks support the entries in your books and on your tax return, and suggests organizing them by year and type of income or expense.",
+            "Keep the original file, not just the extracted numbers. AI extraction can misread totals or dates, so a person should review before posting.",
+            "Retention depends on your situation. The IRS's general rule for income-tax records is 3 years, with longer periods in specific cases (for example 6 years for substantially underreported income and 7 years for bad-debt or worthless-securities claims). Ask your tax preparer what applies to you.",
+            "Receipts can include card digits and personal details. Store them in a business account with limited sharing, not a personal phone album.",
+            "This is a workflow guide, not tax advice."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "IRS: What kind of records should I keep — https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
+            "IRS: How long should I keep records — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Chase clients for missing documents automatically",
+            "Send polite overdue-invoice reminders automatically",
+            "Turn call and meeting transcripts into summaries and action items"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can the AI post expenses straight into my books?",
+          "a": "It can, but start with a review sheet. Let a person confirm categories for a month or two, then decide whether low-risk, repeat vendors can post automatically."
+        },
+        {
+          "q": "Do I still need the paper receipt?",
+          "a": "The IRS notes that its recordkeeping requirements also apply to electronic records. Keep a clear, complete scan and ask your tax preparer before discarding originals."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=receipt-capture-bookkeeping"
+      },
+      "updated": "2026-10-19",
+      "seoTitle": "Capture receipts by photo or email for your bookkeeper"
     }
   ],
   "static": [

@@ -8,9 +8,12 @@ const all = allPages;
 const find = (slug) => all().find(p => p.path === "/" + slug.join("/"));
 export const dynamicParams = false;
 export function generateStaticParams() { return all().map(p => ({ slug: p.path.slice(1).split("/") })); }
+function metaDesc(s) { if (!s || s.length <= 160) return s; const c = s.slice(0, 157); return c.slice(0, c.lastIndexOf(" ")).replace(/[,;:\u2014\u2013-]+$/, "") + "\u2026"; }
 export async function generateMetadata({ params }) {
   const p = find((await params).slug); if (!p) return {};
-  return { title: p.title, description: p.summary, alternates: { canonical: p.path }, openGraph: { title: p.title, description: p.summary, type: "article" } };
+  const t = p.seoTitle || p.title;
+  const d = metaDesc(p.summary);
+  return { title: t, description: d, alternates: { canonical: p.path }, openGraph: { title: t, description: d, type: "article" } };
 }
 export default async function Page({ params }) {
   const p = find((await params).slug); if (!p) notFound();

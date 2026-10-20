@@ -6,7 +6,7 @@ export default function Search() {
   useEffect(() => { fetch("/search-index.json").then(r => r.json()).then(d => setIdx(d.map(x => ({ ...x, n: norm(x.text + " " + x.title) })))).catch(() => setIdx([])); }, []);
   const res = useMemo(() => {
     const words = norm(q).split(" ").filter(Boolean); if (!words.length || !idx) return [];
-    const order = { group: 0, industry: 1, recipe: 2 };
+    const order = { group: 0, industry: 1, recipe: 2, tip: 3 };
     return idx.filter(x => words.every(w => x.n.split(" ").some(t => t.startsWith(w)) || x.n.includes(w))).sort((a, b) => order[a.t] - order[b.t]).slice(0, 12);
   }, [q, idx]);
   const onKey = (e) => {
@@ -15,7 +15,7 @@ export default function Search() {
     else if (e.key === "Enter" && res.length) { e.preventDefault(); location.href = res[Math.max(sel, 0)].href; }
     else if (e.key === "Escape") { setQ(""); setSel(-1); }
   };
-  const label = { group: "Group", industry: "Industry", recipe: "Recipe" };
+  const label = { group: "Group", industry: "Industry", recipe: "Recipe", tip: "Tip" };
   return (<section className="search card" id="search" role="search">
     <label htmlFor="ind-search"><strong>Find recipes for your business</strong></label>
     <input id="ind-search" type="search" autoComplete="off" placeholder="Try plumber, dentist, CPA, barber, cafe…" value={q}

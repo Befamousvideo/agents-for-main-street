@@ -25,6 +25,7 @@ export default async function Page({ params }) {
   const crumbs = parts.slice(0, -1).map((x, i) => { const h = "/" + parts.slice(0, i + 1).join("/"); const t = pageAt(h); return { h: t ? h : null, name: t ? (t.auto || t.taxGroup ? t.title : (i === 1 && t.label === "Industry hub" ? (grp?.industries.find(n => n.slug === x)?.name || x) : x)) : x }; });
   if (grp) crumbs.splice(1, 0, { h: grp.path, name: grp.name });
   if (crumbs[0] && crumbs[0].h === "/industries") crumbs[0].name = "Industries";
+  if (crumbs[0] && crumbs[0].h === "/tips") crumbs[0].name = "Tips";
   const ld = [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: site.name, item: `https://${site.domain}/` }, ...crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 2, name: c.name, ...(c.h ? { item: `https://${site.domain}${c.h}` } : {}) })), { "@type": "ListItem", position: crumbs.length + 2, name: p.title, item: url }] }];
   if (p.steps) ld.push({ "@context": "https://schema.org", "@type": "HowTo", name: p.title, description: p.summary, step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: s })) });
   else if (p.group) ld.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title, description: p.summary, dateModified: pageDateIso(p), mainEntityOfPage: url, publisher: { "@type": "Organization", name: site.name } });

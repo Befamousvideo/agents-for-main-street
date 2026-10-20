@@ -3,12 +3,16 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 19, 2026",
+  "updated": "October 20, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
       "label": "Industries",
       "href": "/industries"
+    },
+    {
+      "label": "Tips",
+      "href": "/tips"
     },
     {
       "label": "Build it for me",
@@ -53,6 +57,10 @@
       {
         "group": "recipes",
         "title": "Latest recipes"
+      },
+      {
+        "group": "tips",
+        "title": "Latest tips"
       },
       {
         "group": "hubs",
@@ -406,7 +414,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Reply to new website leads within minutes, automatically"
+            "Reply to new website leads within minutes, automatically",
+            "Ask every new customer how they found you, and log it automatically"
           ]
         }
       ],
@@ -592,7 +601,8 @@
           "h": "Related recipes",
           "ul": [
             "Text back every missed call automatically for an HVAC business",
-            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic"
+            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically"
           ]
         }
       ],
@@ -793,7 +803,8 @@
           "h": "Related recipes",
           "ul": [
             "Get a weekly inventory variance alert for your restaurant",
-            "Draft replies to new Google reviews for approval"
+            "Draft replies to new Google reviews for approval",
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically"
           ]
         }
       ],
@@ -1001,6 +1012,15 @@
           "p": [
             "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
           ]
+        },
+        {
+          "h": "Tips for any local business",
+          "p": [
+            "Short, source-checked tips that apply to almost every business. Find more in the Tips section in the top menu."
+          ],
+          "ul": [
+            "Check your email setup before holiday promos go out"
+          ]
         }
       ],
       "faq": [
@@ -1053,6 +1073,12 @@
           "ul": [
             "Draft replies to new Google reviews for approval",
             "Text back every missed call automatically for an HVAC business"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out"
           ]
         }
       ],
@@ -1121,6 +1147,12 @@
             "Follow up on sent quotes automatically",
             "Chase clients for missing documents automatically",
             "Capture receipts by photo or email and file them for your bookkeeper"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out"
           ]
         }
       ],
@@ -1317,7 +1349,14 @@
           "ul": [
             "Follow up on sent quotes automatically",
             "Text back every missed call automatically for an HVAC business",
-            "AI virtual receptionist that answers FAQs and books on Google Calendar"
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Ask every new customer how they found you, and log it automatically"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out"
           ]
         }
       ],
@@ -1412,6 +1451,248 @@
       },
       "updated": "2026-10-19",
       "seoTitle": "Capture receipts by photo or email for your bookkeeper"
+    },
+    {
+      "path": "/industries/local-business/holiday-hours-everywhere",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+      "seoTitle": "Holiday hours on Google, your site and auto-replies",
+      "summary": "Keep one holiday-hours sheet. Use it to set Google Business Profile special hours ahead of time, update your website, booking app and phone greeting, and let an auto-reply answer \"Are you open on…?\" questions from the same sheet, so customers never show up to a locked door.",
+      "steps": [
+        "Make one sheet with a row per date: date, holiday, open or closed, hours, and a short note. For 2026 that usually means Thanksgiving (Thu Nov 26), the day after, Christmas Eve and Day, and New Year's Eve and Day.",
+        "In Google Business Profile, go to Edit profile, then Hours, then Special hours, and add each date: mark it Closed or enter that day's hours. Google suggests confirming your hours for official holidays even when they're the same as usual.",
+        "Use special hours for changes of up to 6 days in a row. If you'll be closed 7 days or longer, Google says to mark the business Temporarily closed instead. Your main hours must be set to \"Open with main hours\" for special hours to show.",
+        "Copy the same dates to your website, booking app, Facebook page and any other listing you keep, using each platform's own holiday-hours setting.",
+        "Add a weekly automation (Zapier, Make or n8n) that reads the sheet every Monday and reminds you of any holiday in the next 14 days. An optional AI step can draft a short \"our holiday hours\" post or email from the sheet for you to approve.",
+        "Point your message auto-reply, website chat or FAQ bot at the same sheet so it answers holiday-hours questions with only those facts, and update your phone greeting the week before.",
+        "After each holiday, check that your profile shows your normal hours again."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: Google Business Profile, Google Sheets, Zapier/Make/n8n (optional AI step), and whatever booking, chat or phone system you already use. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Google says that on listed holidays a warning may appear on your Business Profile telling people your hours might differ. Setting special hours in advance tells customers your real hours.",
+            "Multiple locations? Google's bulk spreadsheet has a \"Special hours\" column. Google warns that empty columns in an upload can erase existing information, so upload only the store code and special hours columns.",
+            "A special-hours entry can't run past 24 hours. For overnight hours, split them into two entries at midnight.",
+            "Don't let an AI reply guess. It should only quote hours that are in your sheet, and say \"please call to confirm\" for anything else."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Business Profile Help: How to set Special hours — https://support.google.com/business/answer/6303076",
+            "Google Business Profile Help: About holidays on Google — https://support.google.com/business/answer/6333474"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Draft replies to new Google reviews for approval",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Send reservation reminders that cut restaurant no-shows"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to set special hours if I'm open as usual on a holiday?",
+          "a": "Google recommends confirming your hours for official holidays even if they're the same as your regular hours, so customers know they're accurate."
+        },
+        {
+          "q": "What if we close for a whole week over the holidays?",
+          "a": "Special hours cover up to 6 days in a row. For 7 or more days, Google says to mark the business Temporarily closed, and remember to reopen it."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=holiday-hours-everywhere"
+      },
+      "updated": "2026-10-20"
+    },
+    {
+      "path": "/industries/service-businesses/how-did-you-hear-tracking",
+      "group": "recipes",
+      "label": "Service businesses",
+      "title": "Ask every new customer how they found you, and log it automatically",
+      "seoTitle": "Track how customers find you, including ChatGPT",
+      "summary": "Add a short \"How did you hear about us?\" question to every intake point, with a pick-list plus a box for their own words. An automation files each answer in a sheet next to the job's value, so each month you can see which sources (Google, referrals, AI assistants such as ChatGPT) bring paying customers.",
+      "steps": [
+        "Add the question everywhere a new customer starts: your website quote form, booking app and phone script. Use a short pick-list (Google search, Google Maps, referral, social media, AI assistant such as ChatGPT or Gemini, saw our truck or sign, other) plus an optional \"Tell us more\" text box.",
+        "Trigger on each new form submission or booking in Zapier, Make or n8n. For phone leads, give staff a 3-field form to fill in during the call.",
+        "Append a row to a Google Sheet or CRM: date, lead ID or name, the source they picked, their own words, and a status column.",
+        "Optional AI step: read the free text and add a cleaned-up tag (for example \"AI assistant: ChatGPT\" or \"Referral: past customer\"). Keep the customer's original words next to it.",
+        "When a job is won or paid, update the row with the amount, either from your invoicing tool's \"paid\" trigger or by hand.",
+        "Once a month, total leads, won jobs and revenue by source, and compare that with what you spend on each channel."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your web form or booking app, Zapier/Make/n8n, Google Sheets or your CRM, and optionally an AI step and your invoicing tool. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "Why ask instead of trusting your analytics",
+          "p": [
+            "In an October 19, 2026 analysis of 12 websites' Google Analytics 4 data (a small sample that leans B2B), SEO consultant Kevin Indig couldn't find visits from AI assistants hiding in \"Direct\" traffic. Much of the growth in Direct turned out to be bot traffic. His recommendation is to ask new leads and customers where they first heard about you, capture their own words, and connect those answers to leads and revenue."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep it to one question. A long survey on a quote form costs you leads.",
+            "People misremember, so treat the answers as a trend, not an exact count.",
+            "Ask only new customers, and don't collect anything sensitive in the free-text box.",
+            "If you send the answers to an AI tool to tag them, send only the answer text, not names, phone numbers or addresses."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Kevin Indig, Growth Memo: Does AI drive more direct traffic? (Oct 19, 2026) — https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Reply to new website leads within minutes, automatically",
+            "Follow up on sent quotes automatically",
+            "Ask every customer for a Google review automatically (without review gating)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can't Google Analytics tell me this?",
+          "a": "Partly. Analytics shows website visits, but not phone calls, referrals or someone who heard about you from an AI assistant and then typed your name. Asking fills that gap."
+        },
+        {
+          "q": "Should the question be required?",
+          "a": "Making the pick-list required and the text box optional is a good balance. You get an answer from everyone without slowing people down."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=how-did-you-hear-tracking"
+      },
+      "updated": "2026-10-20"
+    },
+    {
+      "path": "/tips",
+      "title": "Tips for Main Street owners",
+      "seoTitle": "Small-business AI and marketing tips, checked at the source",
+      "summary": "Short, dated tips for local business owners. Each one is written in plain English, checked at its original source on the day we publish it, and tells you what to do and what to watch out for.",
+      "blocks": [
+        {
+          "p": [
+            "We read AI and marketing newsletters and vendor documentation every day and keep only what a shop, restaurant, clinic or contractor can act on without a developer. Every tip links to its primary source and shows the date we last checked it."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where do these tips come from?",
+          "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
+        }
+      ],
+      "updated": "2026-10-20"
+    },
+    {
+      "path": "/tips/holiday-email-setup-check",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Check your email setup before holiday promos go out",
+      "seoTitle": "Holiday email check: SPF, DKIM, DMARC and unsubscribe",
+      "summary": "Before you send holiday promotions, make sure your domain is authenticated (SPF or DKIM at minimum, ideally SPF, DKIM and DMARC) and that marketing emails have an easy unsubscribe. Gmail requires this for senders, and unauthenticated mail may go to spam or be rejected, so it's a 30-minute check that protects your best sales weeks.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Your holiday offers reach the inbox instead of spam, and it gets harder for scammers to send email that pretends to be you."
+          ]
+        },
+        {
+          "h": "The rule, in plain English",
+          "ul": [
+            "Google's sender guidelines say everyone sending to personal Gmail accounts must set up SPF or DKIM, and Google recommends always setting up SPF, DKIM and DMARC.",
+            "If you send more than 5,000 messages a day to Gmail accounts, SPF, DKIM and DMARC are all required, and marketing messages must support one-click unsubscribe and show a clear unsubscribe link in the body.",
+            "Google says messages that aren't authenticated this way might be marked as spam or rejected.",
+            "Google asks senders to keep the spam rate shown in Postmaster Tools below 0.10% and never let it reach 0.30%."
+          ]
+        },
+        {
+          "h": "Do this (about 30 minutes)",
+          "ol": [
+            "List every tool that sends email as your domain: your mailbox (Google Workspace or Microsoft 365), your newsletter tool, and any booking, invoicing or website-form app.",
+            "In each tool, find its domain authentication setting and add the DNS records it gives you at your domain host. Your SPF record should include every service that sends for you.",
+            "Add a DMARC record. Google says the policy can start at \"none\". Turn on DMARC reports so you can see who sends mail using your domain.",
+            "Send a test email to a Gmail address, open it, and choose More, then Show original. Check that SPF, DKIM and DMARC say PASS.",
+            "Open one of your marketing emails and confirm there's a visible unsubscribe link. Ask your email tool whether it adds one-click unsubscribe headers (most marketing tools handle this for you).",
+            "Sign up for Google Postmaster Tools to watch your spam rate through the season."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "Back up your current DNS records before you change anything. A wrong SPF or DKIM edit can stop your everyday email from arriving.",
+            "Only email people who signed up. Google's guidelines say not to buy email lists or send to people who didn't sign up.",
+            "This covers deliverability, not the law. US commercial email also has to follow the FTC's CAN-SPAM rules."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google: Email sender guidelines (Gmail Help) — https://support.google.com/a/answer/81126",
+            "Google: Trace an email with its full header (\"Show original\") — https://support.google.com/mail/answer/29436",
+            "FTC: CAN-SPAM Act: A Compliance Guide for Business — https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+            "Last checked at the source: October 20, 2026. Backlog item TB-021."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send polite overdue-invoice reminders automatically",
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Reply to new website leads within minutes, automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "I only send a few hundred emails a week. Does this apply to me?",
+          "a": "Yes. Google's baseline rule applies to every sender to personal Gmail accounts: set up SPF or DKIM. The stricter DMARC and one-click unsubscribe requirements apply above 5,000 messages a day, but Google recommends SPF, DKIM and DMARC for everyone."
+        },
+        {
+          "q": "Do I have to change anything in Gmail itself?",
+          "a": "No. The setup is DNS records at your domain host plus settings in the tools that send your email."
+        }
+      ],
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets this up on the email tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-holiday-email-setup-check"
+      },
+      "updated": "2026-10-20"
     }
   ],
   "static": [

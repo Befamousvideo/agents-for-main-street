@@ -78,5 +78,6 @@ export function searchIndex() {
       for (const r of i.recipes) out.push({ t: "recipe", title: r.title, group: `${g.name} · ${i.name}`, href: r.path, text: [r.title, r.summary, i.name, g.name, ...i.synonyms].join(" ") });
     }
   }
+  for (const t of site.pages.filter(p => p.group === "tips")) out.push({ t: "tip", title: t.title, href: t.path, text: [t.title, t.summary, "tip tips"].join(" ") });
   return out;
 }

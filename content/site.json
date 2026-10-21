@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 20, 2026",
+  "updated": "October 21, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -111,7 +111,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Reply to new website leads within minutes, automatically"
+            "Reply to new website leads within minutes, automatically",
+            "Remind past customers to book a fall heating tune-up"
           ]
         }
       ],
@@ -463,6 +464,12 @@
           "ul": [
             "Send one abandoned-cart SMS (with proper SMS consent)"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Put your holiday offer in real text, not inside one big image"
+          ]
         }
       ],
       "faq": [
@@ -602,7 +609,8 @@
           "ul": [
             "Text back every missed call automatically for an HVAC business",
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
-            "Set holiday hours everywhere and answer \"Are you open?\" automatically"
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Get ready for Google's automated calls asking your prices and booking times"
           ]
         }
       ],
@@ -762,6 +770,15 @@
             "Batch-write product descriptions and image alt text — Export new SKUs, have AI write a 60–100-word description and alt text for each, review, and re-import.",
             "Alert staff when a SKU drops below your reorder threshold — Watch an inventory sheet or POS export; when a SKU falls below the threshold you set, alert staff and optionally draft a supplier reorder email for approval.",
             "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text."
+          ]
+        },
+        {
+          "h": "Tips for retail shops",
+          "p": [
+            "Short, source-checked tips for shops. Find more in the Tips section in the top menu."
+          ],
+          "ul": [
+            "Put your holiday offer in real text, not inside one big image"
           ]
         }
       ],
@@ -1019,7 +1036,8 @@
             "Short, source-checked tips that apply to almost every business. Find more in the Tips section in the top menu."
           ],
           "ul": [
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Put your holiday offer in real text, not inside one big image"
           ]
         }
       ],
@@ -1282,6 +1300,12 @@
             "Batch-write product descriptions and image alt text",
             "Alert staff when a SKU drops below your reorder threshold"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Put your holiday offer in real text, not inside one big image"
+          ]
         }
       ],
       "faq": [
@@ -1496,7 +1520,8 @@
           "ul": [
             "Draft replies to new Google reviews for approval",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
-            "Send reservation reminders that cut restaurant no-shows"
+            "Send reservation reminders that cut restaurant no-shows",
+            "Get ready for Google's automated calls asking your prices and booking times"
           ]
         }
       ],
@@ -1570,7 +1595,8 @@
           "ul": [
             "Reply to new website leads within minutes, automatically",
             "Follow up on sent quotes automatically",
-            "Ask every customer for a Google review automatically (without review gating)"
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Get ready for Google's automated calls asking your prices and booking times"
           ]
         }
       ],
@@ -1674,6 +1700,12 @@
             "Ask every customer for a Google review automatically (without review gating)",
             "Reply to new website leads within minutes, automatically"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Put your holiday offer in real text, not inside one big image"
+          ]
         }
       ],
       "faq": [
@@ -1693,6 +1725,259 @@
         "href": "/build-it-for-me?recipe=tip-holiday-email-setup-check"
       },
       "updated": "2026-10-20"
+    },
+    {
+      "path": "/industries/hvac/fall-heating-tune-up-reminders",
+      "group": "recipes",
+      "label": "HVAC",
+      "title": "Remind past customers to book a fall heating tune-up",
+      "seoTitle": "Fall furnace tune-up reminders for past HVAC customers",
+      "summary": "Pull last year's heating customers into a sheet, send each one a short \"time for your fall heating check\" email with your booking link (texts only to people who opted in), stop as soon as they book, and follow up once. ENERGY STAR suggests checking heating systems in the fall, before contractors get busy.",
+      "steps": [
+        "Export past customers from your field-service or invoicing tool: name, email, phone, service address, equipment type, date of last heating visit, and whether they agreed to get texts. Leave out anyone who already has a maintenance visit booked.",
+        "Put the list in a Google Sheet and filter to customers whose last heating check was roughly a year ago or longer. Add columns for status (sent, booked, follow-up sent) and date.",
+        "In Zapier, Make or n8n, send each row a short email with your online booking link or phone number. Send a text only to customers who opted in to texts from you.",
+        "Optional AI step: have it write a one-line personal opener from the sheet only (for example their equipment type and the month of their last visit). Don't let it invent prices, discounts or promises.",
+        "When a customer books (your booking app's \"new appointment\" trigger, or staff marking the row), set the status to booked so they get no more reminders.",
+        "Send one follow-up about 7 days later to anyone who hasn't booked, then stop.",
+        "Time it to the clock change if you like: ENERGY STAR suggests planning check-ups around the spring and fall time changes, and clocks fall back on Sunday, November 1, 2026."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your customer list (from your field-service or invoicing software), Google Sheets, Zapier/Make/n8n, your email tool, and optionally a texting tool and an AI step. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "Why fall",
+          "p": [
+            "ENERGY STAR recommends annual pre-season check-ups by a contractor. It notes contractors get busy once summer and winter arrive, so it suggests checking cooling systems in the spring and heating systems in the fall."
+          ]
+        },
+        {
+          "h": "What to put in the email (from ENERGY STAR's checklist)",
+          "ul": [
+            "A heating check-up should look at gas (or oil) connections, gas pressure, burner combustion and the heat exchanger.",
+            "A typical check-up also covers thermostat settings, electrical connections, lubricating moving parts, the condensate drain, and making sure the system starts, runs and shuts off properly.",
+            "Remind homeowners that ENERGY STAR says to inspect, clean or change air filters once a month, and offer to show them how."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Commercial email has to follow the FTC's CAN-SPAM rules, including a working way to opt out and your physical address.",
+            "Texts need the customer's consent. If you're not sure you have it, use email only and ask your texting provider about the rules (see the abandoned-cart SMS recipe for how consent works in practice).",
+            "Send only what the email needs to the AI step: first name, equipment type and visit month. Never addresses, payment details or notes about the home.",
+            "Don't promise safety or savings outcomes in the message. Describe what the visit checks."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "ENERGY STAR: Maintenance Checklist — https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist",
+            "NIST: Daylight Saving Time Rules (2026 dates) — https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+            "FTC: CAN-SPAM Act: A Compliance Guide for Business — https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Text back every missed call automatically for an HVAC business",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Follow up on sent quotes automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "When should the first reminder go out?",
+          "a": "ENERGY STAR recommends checking heating systems in the fall, before the winter rush, so late September through early November works for most areas. The fall time change on November 1, 2026 is an easy hook."
+        },
+        {
+          "q": "Should I text or email?",
+          "a": "Email everyone you have a customer relationship with, and text only customers who agreed to receive texts from you."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=fall-heating-tune-up-reminders"
+      },
+      "updated": "2026-10-21"
+    },
+    {
+      "path": "/industries/local-business/google-automated-calls",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Get ready for Google's automated calls asking your prices and booking times",
+      "seoTitle": "Google's automated calls to your business: prepare or opt out",
+      "summary": "Google can phone your business on a customer's behalf to book an appointment, check a restaurant wait time, or confirm prices and availability. Decide in your Business Profile settings whether to allow these calls, keep a one-page answer sheet by the phone, log each call, and train staff to spot fake \"Google\" callers.",
+      "steps": [
+        "Decide whether you want these calls. In your Business Profile, go to More Business Profile settings, then Advanced settings. Under \"Google automated calls and text messages\" you can turn Bookings and inquiries from customers, Keep your profile up to date, and Post to your profile on your behalf on or off. Your profile must be verified to change them.",
+        "If you keep them on, write a one-page answer sheet in a shared Google Doc: standard prices or price ranges you're happy to quote, how far out you're booking, your booking rules, current hours and, for restaurants, how to estimate the wait. Print it for the front desk.",
+        "Retailers: if you share your in-store product details through Google Merchant Center, Google says it will use that information and won't call you about inventory.",
+        "If you take bookings through an online booking provider, Google says it may book through that partner instead of calling, so keep its availability current.",
+        "Log every Google call: give staff a 3-field form (date, what was asked, what you answered) that an automation (Zapier, Make or n8n) adds to a sheet. Add \"Google call\" as a source if you already track how customers find you.",
+        "Review the log monthly. If the same question keeps coming up, add the answer to your website and Business Profile."
+      ],
+      "blocks": [
+        {
+          "h": "What Google says these calls are for",
+          "ul": [
+            "Booking appointments with the customer's details, such as time, service type and party size.",
+            "Checking current restaurant wait times.",
+            "Confirming the price and availability of in-store products and services. If you share the details, Google sends the customer an email or text with your product details or service quote.",
+            "Checking your hours or the status of in-demand inventory."
+          ]
+        },
+        {
+          "h": "Availability and limits",
+          "p": [
+            "Google says these customer-request calls are available in select regions and languages. In the US, it lists every state except Indiana, Louisiana, Minnesota, Montana and Nebraska. Google says the calls are monitored and recorded, that it limits repeat calls for the same information, and that it avoids calling late at night or early in the morning."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Google says it will never ask for payment, credit card details or account passwords. If a caller asks for money to keep you on Google, it isn't Google. Make sure every staff member knows this.",
+            "Google says its automated calls tell you at the start that they're from Google and why they're calling.",
+            "Only quote prices you'll honor. Your answer can be sent to the customer as a quote.",
+            "To stop the calls on the spot, Google says you can say \"Please stop calling my business.\" Even after opting out, you may still get occasional manual calls from Google to confirm your details.",
+            "Profile updates Google makes from these calls are marked Pending and can take up to 5 business days to review."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Business Profile Help: About automated calls and texts from Google to your business — https://support.google.com/business/answer/7690269",
+            "Google Business Profile Help: Help protect against fraudulent calls — https://support.google.com/business/answer/6212928"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Ask every new customer how they found you, and log it automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is it a real person?",
+          "a": "Google describes these as automated calls, and says they identify themselves as coming from Google at the start. In some cases Google says a call can come from a manual operator."
+        },
+        {
+          "q": "Will turning them off hurt my listing?",
+          "a": "Google doesn't say it affects ranking. It does say that keeping information accurate and answering these requests can encourage customers to visit and buy."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=google-automated-calls"
+      },
+      "updated": "2026-10-21"
+    },
+    {
+      "path": "/tips/offer-in-real-text",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Put your holiday offer in real text, not inside one big image",
+      "seoTitle": "Holiday promo emails: put the offer in live text, not images",
+      "summary": "Type your offer, end date and code as real text near the top of promo emails instead of baking them into one graphic. Outlook blocks downloaded pictures by default, Apple Mail and Gmail can show AI summaries, and screen readers can't read words inside an image.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "More people see your deal: shoppers whose email app hides images, people skimming an AI-written preview on their phone, and customers who use a screen reader."
+          ]
+        },
+        {
+          "h": "Why it matters now",
+          "ul": [
+            "Classic Outlook is set by default to block automatic picture downloads from the internet, and Outlook for Mac doesn't download internet pictures by default either. If your offer lives inside an image, those readers see a blank box until they click.",
+            "On iPhones with Apple Intelligence turned on, Apple Mail shows a short summary under each email in the inbox instead of the first lines of the message.",
+            "Gmail can show an AI Overview at the top of an email that sums up its key points.",
+            "Email agency Backstroke says these AI summaries work from an email's live text, so an offer that appears only inside an image can be left out of the summary.",
+            "The W3C's accessibility guidelines say to use real text instead of pictures of text, and that when an image does contain text, its alt text should repeat the same words."
+          ]
+        },
+        {
+          "h": "Do this (about 20 minutes)",
+          "ol": [
+            "Open your last promo email in your email tool's preview with images turned off. Can you still tell what the offer is, when it ends and how to redeem it?",
+            "Rewrite the top of the email in real text: the offer, the end date, the code, and whether it works in store, online or both.",
+            "Keep your graphic as decoration. If it has words in it, give it alt text with the same words.",
+            "Make your main button a real text button in your email editor, not a picture of a button.",
+            "Put the offer in the subject line and preview text too.",
+            "Send a test to yourself on an iPhone and in Gmail, and check that the preview or summary mentions the offer."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "AI summaries can get things wrong, and you can't control what they say. Clear, short text at the top is your best bet.",
+            "Put exclusions and fine print in real text as well, so nobody misses them.",
+            "Whether people see these summaries depends on their device, settings, language and account, so don't promise customers what their inbox will show."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Backstroke: Designing for the AI Inbox (Feb 3, 2026) — https://www.backstroke.com/blog/ai-email-summaries-html-ecommerceemails",
+            "Microsoft Support: Block or unblock automatic picture downloads in classic Outlook email messages — https://support.microsoft.com/en-us/outlook/block-or-unblock-automatic-picture-downloads-in-classic-outlook-email-messages",
+            "Microsoft Support: Automatically download pictures from the Internet in Outlook for Mac — https://support.microsoft.com/en-us/outlook/automatically-download-pictures-from-the-internet-in-outlook-for-mac",
+            "Apple Support: Use Apple Intelligence in Mail on iPhone — https://support.apple.com/guide/iphone/use-apple-intelligence-in-mail-iph9ae667055/ios",
+            "Gmail Help: AI Overview conversation summaries — https://support.google.com/mail/answer/16561387",
+            "W3C WAI: Understanding Success Criterion 1.4.5: Images of Text — https://www.w3.org/WAI/WCAG22/Understanding/images-of-text",
+            "W3C WAI: Images of Text tutorial — https://www.w3.org/WAI/tutorials/images/textual/",
+            "Last checked at the source: October 21, 2026. Backlog item TB-016."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Batch-write product descriptions and image alt text",
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Draft replies to new Google reviews for approval"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I still use a big holiday graphic?",
+          "a": "Yes. Just don't make it the only place the offer appears. Put the key facts in real text above or below it, and give the image alt text."
+        },
+        {
+          "q": "Do I need to know HTML?",
+          "a": "No. Most email tools let you add a text block and a button block above your image. That's all this takes."
+        }
+      ],
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets this up on the email tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-offer-in-real-text"
+      },
+      "updated": "2026-10-21"
     }
   ],
   "static": [

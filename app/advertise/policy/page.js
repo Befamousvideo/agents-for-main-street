@@ -1,6 +1,7 @@
 import site from "../../../content/site.json";
 import { competitorText } from "../../ads-lib";
-export const metadata = { title: "Ad Policy", description: `What ${site.name} will and won't advertise.`, alternates: { canonical: "/advertise/policy" } };
+import { adPolicyDescription, pageMeta } from "../../seo";
+export const metadata = pageMeta({ title: "Ad Policy", description: adPolicyDescription(site.name), path: "/advertise/policy", siteName: site.name });
 export default function Policy() {
   return (<article>
     <p className="crumbs"><a href="/">Home</a> / <a href="/advertise">Advertise</a></p>

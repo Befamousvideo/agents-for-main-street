@@ -1,3 +1,4 @@
 import site from "../content/site.json";
+import { buildRobots } from "./seo";
 export const dynamic = "force-static";
-export default function robots() { return { rules: [{ userAgent: "*", allow: "/" }], sitemap: `https://${site.domain}/sitemap.xml` }; }
+export default function robots() { return buildRobots(site.domain); }

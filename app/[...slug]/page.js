@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   const p = find((await params).slug); if (!p) return {};
   const t = p.seoTitle || p.title;
   const type = p.group === "recipes" || p.group === "tips" ? "article" : "website";
-  return pageMeta({ title: t, description: metaDesc(p.summary), path: p.path, siteName: site.name, type });
+  return pageMeta({ title: t, description: metaDesc(p.summary), path: p.path, siteName: site.name, tagline: site.tagline, type });
 }
 export default async function Page({ params }) {
   const p = find((await params).slug); if (!p) notFound();

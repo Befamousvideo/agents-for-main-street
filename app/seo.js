@@ -13,19 +13,29 @@ export function metaDesc(s) {
   return (i > 0 ? c.slice(0, i) : c).replace(/[,;:\u2014\u2013-]+$/, "") + "\u2026";
 }
 
+export const SHARE_IMAGE = { url: "/opengraph-image", width: 1200, height: 630 };
+
 /**
- * @param {{ title: string, description: string, path: string, siteName: string, type?: string, index?: boolean, absoluteTitle?: boolean }} opts
+ * @param {string} alt
+ */
+export function shareImage(alt) {
+  return { url: SHARE_IMAGE.url, width: SHARE_IMAGE.width, height: SHARE_IMAGE.height, alt };
+}
+
+/**
+ * @param {{ title: string, description: string, path: string, siteName: string, tagline?: string, type?: string, index?: boolean, absoluteTitle?: boolean }} opts
  */
 export function pageMeta(opts) {
-  const { title, description, path, siteName, type = "website", index = true, absoluteTitle = false } = opts;
+  const { title, description, path, siteName, tagline, type = "website", index = true, absoluteTitle = false } = opts;
   const socialTitle = absoluteTitle || title.includes(siteName) ? title : `${title} | ${siteName}`;
+  const image = shareImage(tagline ? `${siteName} — ${tagline}` : siteName);
   /** @type {Record<string, unknown>} */
   const meta = {
     title: absoluteTitle ? { absolute: title } : title,
     description,
     alternates: { canonical: path },
-    openGraph: { title: socialTitle, description, type, url: path, siteName },
-    twitter: { card: "summary", title: socialTitle, description },
+    openGraph: { title: socialTitle, description, type, url: path, siteName, images: [image] },
+    twitter: { card: "summary_large_image", title: socialTitle, description, images: [image] },
   };
   if (!index) meta.robots = { index: false, follow: false };
   return meta;

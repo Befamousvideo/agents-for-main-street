@@ -6,7 +6,7 @@ import { jsonLd, organizationGraph, pageMeta } from "./seo";
 const homeTitle = `${site.name} — ${site.tagline}`;
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
-  ...pageMeta({ title: homeTitle, description: site.description, path: "/", siteName: site.name, absoluteTitle: true }),
+  ...pageMeta({ title: homeTitle, description: site.description, path: "/", siteName: site.name, tagline: site.tagline, absoluteTitle: true }),
   title: { default: homeTitle, template: `%s | ${site.name}` },
   alternates: { canonical: "/", types: { "application/rss+xml": "/rss.xml", "text/plain": "/llms.txt" } },
 };

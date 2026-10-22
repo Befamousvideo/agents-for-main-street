@@ -1,7 +1,7 @@
 import site from "../../../content/site.json";
 import { competitorText } from "../../ads-lib";
 import { adPolicyDescription, pageMeta } from "../../seo";
-export const metadata = pageMeta({ title: "Ad Policy", description: adPolicyDescription(site.name), path: "/advertise/policy", siteName: site.name });
+export const metadata = pageMeta({ title: "Ad Policy", description: adPolicyDescription(site.name), path: "/advertise/policy", siteName: site.name, tagline: site.tagline });
 export default function Policy() {
   return (<article>
     <p className="crumbs"><a href="/">Home</a> / <a href="/advertise">Advertise</a></p>

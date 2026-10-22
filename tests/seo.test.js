@@ -53,16 +53,21 @@ test("json-ld is organization plus website, and faq only for real questions", ()
 });
 
 test("every page meta has canonical, description, open graph, and twitter", () => {
-  const meta = pageMeta({ title: "Advertise", description: advertiseDescription(site.name), path: "/advertise", siteName: site.name });
+  const meta = pageMeta({ title: "Advertise", description: advertiseDescription(site.name), path: "/advertise", siteName: site.name, tagline: site.tagline });
   assert.equal(meta.title, "Advertise");
   assert.equal(meta.description, advertiseDescription(site.name));
   assert.equal(meta.alternates.canonical, "/advertise");
   assert.equal(meta.openGraph.url, "/advertise");
   assert.equal(meta.openGraph.title, `Advertise | ${site.name}`);
   assert.equal(meta.openGraph.description, meta.description);
-  assert.equal(meta.twitter.card, "summary");
+  assert.equal(meta.twitter.card, "summary_large_image");
   assert.equal(meta.twitter.title, meta.openGraph.title);
   assert.equal(meta.twitter.description, meta.description);
+  assert.equal(meta.openGraph.images[0].url, "/opengraph-image");
+  assert.equal(meta.openGraph.images[0].width, 1200);
+  assert.equal(meta.openGraph.images[0].height, 630);
+  assert.equal(meta.openGraph.images[0].alt, `${site.name} — ${site.tagline}`);
+  assert.deepEqual(meta.twitter.images, meta.openGraph.images);
   const hidden = pageMeta({ title: "Thanks for your order", description: "Thank you. We're confirming your payment.", path: "/advertise/thanks", siteName: site.name, index: false });
   assert.deepEqual(hidden.robots, { index: false, follow: false });
   assert.equal(hidden.alternates.canonical, "/advertise/thanks");

@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 21, 2026",
+  "updated": "October 22, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -371,6 +371,12 @@
           "p": [
             "Thresholds need tuning for the first few weeks, and AI explanations are suggestions to check, not conclusions."
           ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Answer guests' allergen questions from your own recipe sheet"
+          ]
         }
       ],
       "faq": [
@@ -514,7 +520,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Capture receipts by photo or email and file them for your bookkeeper"
+            "Capture receipts by photo or email and file them for your bookkeeper",
+            "Collect W-9s from contractors before year-end, automatically"
           ]
         }
       ],
@@ -630,7 +637,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=ai-receptionist-booking"
       },
-      "updated": "2026-10-15"
+      "updated": "2026-10-15",
+      "seoTitle": "AI receptionist that answers FAQs and books appointments"
     },
     {
       "path": "/industries/retail/low-stock-reorder-alert",
@@ -733,7 +741,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=meeting-notes-to-action"
       },
-      "updated": "2026-10-15"
+      "updated": "2026-10-15",
+      "seoTitle": "Turn meeting transcripts into summaries and action items"
     },
     {
       "path": "/industries/service-businesses",
@@ -778,7 +787,8 @@
             "Short, source-checked tips for shops. Find more in the Tips section in the top menu."
           ],
           "ul": [
-            "Put your holiday offer in real text, not inside one big image"
+            "Put your holiday offer in real text, not inside one big image",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
           ]
         }
       ],
@@ -821,7 +831,8 @@
           "ul": [
             "Get a weekly inventory variance alert for your restaurant",
             "Draft replies to new Google reviews for approval",
-            "Set holiday hours everywhere and answer \"Are you open?\" automatically"
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Answer guests' allergen questions from your own recipe sheet"
           ]
         }
       ],
@@ -900,7 +911,14 @@
           "ul": [
             "Get a weekly inventory variance alert for your restaurant — compare weekly counts with POS sales and flag big moves.",
             "Send reservation reminders that cut restaurant no-shows — day-before and same-day reminders with confirm or cancel.",
-            "Draft replies to new Google reviews for approval — AI drafts, you approve before anything posts."
+            "Draft replies to new Google reviews for approval — AI drafts, you approve before anything posts.",
+            "Answer guests' allergen questions from your own recipe sheet — one allergen sheet for the chart, the website and staff answers."
+          ]
+        },
+        {
+          "h": "Tips for restaurants",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
           ]
         }
       ],
@@ -1009,6 +1027,15 @@
           "p": [
             "Pick one recipe, set it up with a no-code tool like Zapier, Make or n8n, and review the AI's output before anything goes to a customer. New recipes are added as they're researched."
           ]
+        },
+        {
+          "h": "Seasonal",
+          "p": [
+            "Year-end: help clients gather contractor W-9s before 1099 season."
+          ],
+          "ul": [
+            "Collect W-9s from contractors before year-end, automatically"
+          ]
         }
       ],
       "faq": [
@@ -1037,7 +1064,8 @@
           ],
           "ul": [
             "Check your email setup before holiday promos go out",
-            "Put your holiday offer in real text, not inside one big image"
+            "Put your holiday offer in real text, not inside one big image",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
           ]
         }
       ],
@@ -1164,7 +1192,8 @@
           "ul": [
             "Follow up on sent quotes automatically",
             "Chase clients for missing documents automatically",
-            "Capture receipts by photo or email and file them for your bookkeeper"
+            "Capture receipts by photo or email and file them for your bookkeeper",
+            "Collect W-9s from contractors before year-end, automatically"
           ]
         },
         {
@@ -1254,7 +1283,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=appointment-no-show-reminders"
       },
-      "updated": "2026-10-18"
+      "updated": "2026-10-18",
+      "seoTitle": "Clinic no-show reminders: a layered reminder sequence"
     },
     {
       "path": "/industries/retail/abandoned-cart-sms",
@@ -1449,7 +1479,8 @@
           "ul": [
             "Chase clients for missing documents automatically",
             "Send polite overdue-invoice reminders automatically",
-            "Turn call and meeting transcripts into summaries and action items"
+            "Turn call and meeting transcripts into summaries and action items",
+            "Collect W-9s from contractors before year-end, automatically"
           ]
         }
       ],
@@ -1522,6 +1553,12 @@
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Send reservation reminders that cut restaurant no-shows",
             "Get ready for Google's automated calls asking your prices and booking times"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
           ]
         }
       ],
@@ -1704,7 +1741,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Put your holiday offer in real text, not inside one big image"
+            "Put your holiday offer in real text, not inside one big image",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
           ]
         }
       ],
@@ -1949,7 +1987,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
           ]
         },
         {
@@ -1978,6 +2017,252 @@
         "href": "/build-it-for-me?recipe=tip-offer-in-real-text"
       },
       "updated": "2026-10-21"
+    },
+    {
+      "path": "/industries/local-business/w9-collection-before-1099s",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Collect W-9s from contractors before year-end, automatically",
+      "seoTitle": "Collect contractor W-9s before 1099 season (2026 rules)",
+      "summary": "Pull this year's payments to non-employees from your bookkeeping tool, flag anyone you'll likely need to send a 1099-NEC to, and send each one a secure W-9 request with automatic reminders until it's on file. For payments made in 2026, the IRS 1099-NEC threshold is $2,000, and the form is due February 1, 2027.",
+      "steps": [
+        "Export this year's payments to contractors and other non-employees from QuickBooks, Xero or your bank: payee name, email, total paid so far, and whether you already have a W-9 on file.",
+        "Put it in a Google Sheet and flag payees whose 2026 total is at or near $2,000, the IRS reporting threshold for 1099-NEC payments made in 2026. Ask your accountant which payees to include (for example, payments you made by card or through a payment app are generally reported on Form 1099-K by the payment company instead).",
+        "For each flagged payee with no W-9 on file, have Zapier, Make or n8n send a short email asking them to upload the current IRS Form W-9 through a secure upload link (your accounting software's vendor portal, a secure form tool, or your accountant's client portal). Never ask for the form or a Social Security number by plain email reply.",
+        "When a W-9 arrives, the upload tool's \"new file\" trigger marks the row \"received\" and stops the reminders. Someone on your team checks that the name and taxpayer ID box are filled in and the form is signed.",
+        "Send up to two reminders a week apart, then put anyone still missing on a call list for the owner or bookkeeper.",
+        "In early January, hand the finished sheet to your bookkeeper or accountant, or use it to file through the IRS's free IRIS portal."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your bookkeeping software, Google Sheets, Zapier/Make/n8n, your email tool, and a secure file-upload or client-portal tool. Costs: see each vendor's current pricing page. No AI step is needed. If you use one to write the reminder email, give it the payee's first name only."
+          ]
+        },
+        {
+          "h": "Dates and numbers to know (checked at IRS.gov)",
+          "ul": [
+            "For payments made in 2026, you report non-employee pay on Form 1099-NEC when it totals $2,000 or more for the year. For payments made before 2026 the threshold was $600, and the IRS says it will be adjusted for inflation after 2026.",
+            "Form 1099-NEC is due to both the IRS and the payee by January 31. When that falls on a weekend the deadline moves to the next business day, and January 31, 2027 is a Sunday, so the 2026 forms are due Monday, February 1, 2027.",
+            "If a payee doesn't give you a correct taxpayer ID, the IRS says you may have to hold back 24% of future payments (backup withholding).",
+            "If you file 10 or more information returns in total, you have to e-file. The IRS IRIS Taxpayer Portal is free and lets you upload a .csv file."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "A W-9 contains a Social Security or taxpayer ID number. Keep it out of email threads, chat tools and AI tools. Store it in one access-controlled place.",
+            "Collect W-9s before you pay new contractors next year, so this becomes a one-time step per vendor.",
+            "Who counts as a contractor and which payments are reportable can be tricky. This recipe only gathers the paperwork; your accountant decides what gets filed."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "IRS: About Form W-9 — https://www.irs.gov/forms-pubs/about-form-w-9",
+            "IRS: Am I required to file a Form 1099 or other information return? — https://www.irs.gov/businesses/small-businesses-self-employed/am-i-required-to-file-a-form-1099-or-other-information-return",
+            "IRS: Instructions for Forms 1099-MISC and 1099-NEC (Rev. December 2026) — https://www.irs.gov/pub/irs-pdf/i1099mec.pdf",
+            "IRS: Publication 1099 (2026), General Instructions for Certain Information Returns — https://www.irs.gov/publications/p1099",
+            "IRS: Backup withholding — https://www.irs.gov/businesses/small-businesses-self-employed/backup-withholding",
+            "IRS: E-file information returns with IRIS — https://www.irs.gov/filing/e-file-information-returns-with-iris",
+            "This page is general information, not tax advice. Checked at IRS.gov on October 22, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Chase clients for missing documents automatically",
+            "Capture receipts by photo or email and file them for your bookkeeper",
+            "Send polite overdue-invoice reminders automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the threshold still $600?",
+          "a": "Not for 2026. The IRS says the 1099-NEC threshold is $2,000 for payments made in 2026, up from $600 for payments made before 2026."
+        },
+        {
+          "q": "Can I just email contractors a W-9 form?",
+          "a": "You can send the blank form, but ask them to return it through a secure upload link, not as an email attachment, because it contains their taxpayer ID number."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=w9-collection-before-1099s"
+      },
+      "updated": "2026-10-22"
+    },
+    {
+      "path": "/industries/restaurants/allergen-question-answers",
+      "group": "recipes",
+      "label": "Restaurants",
+      "title": "Answer guests' allergen questions from your own recipe sheet",
+      "seoTitle": "Restaurant allergen matrix and allergen FAQ from your recipes",
+      "summary": "Keep one sheet that lists which of the 9 major food allergens are in every menu item, generate a printable allergen chart and an online allergen page from it, and let staff (or a chat assistant) answer \"does this have sesame?\" only from that sheet, always with a cross-contact caution and a hand-off to a manager.",
+      "steps": [
+        "Build an allergen matrix in Google Sheets: one row per menu item, one column for each of the 9 major food allergens (milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts, soybeans, sesame), plus a notes column for shared fryers or prep areas.",
+        "Fill it in from your recipes and the labels of the ingredients you buy, not from memory. An AI step can draft a first pass from your recipe list, but the chef or manager has to check every cell against the actual labels before it's used.",
+        "Add a \"last checked\" date per row. When an ingredient or supplier changes, update the row first.",
+        "Have an automation (Zapier, Make or n8n) turn the sheet into a printable allergen chart for the host stand and an allergen page or PDF linked from your online menu.",
+        "Optional: point a website or ordering chat assistant at the sheet only, with instructions to answer from it, add your cross-contact caution, and offer to connect the guest with a manager. It should never call a dish \"safe\" or \"allergen-free\".",
+        "Each time a menu change is saved, send a message to the manager to re-check the affected rows and reprint the chart."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: Google Sheets, your recipes and ingredient labels, Zapier/Make/n8n, and optionally an AI step or a chat assistant on your website. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "Why this matters (FDA)",
+          "ul": [
+            "Since January 1, 2023, sesame is the 9th major food allergen, alongside milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts and soybeans.",
+            "In places that have adopted the 2022 FDA Food Code, food establishments must tell customers in writing when unpackaged food contains a major food allergen. The FDA says this can be a menu note, table tent, placard, brochure or an electronic notice.",
+            "The 2022 Food Code also says employee food safety training must include awareness of the 9 major food allergens.",
+            "Food Code adoption is up to each state and local health department, so check your local rules."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Cross-contact (shared fryers, grills, cutting boards) can matter as much as ingredients. Say so in every answer.",
+            "Suppliers change recipes. FDA notes some bakeries have started adding sesame to products that didn't have it before and labeling it. Re-check labels when a delivery looks different.",
+            "Don't let AI guess. If an item isn't in the sheet, the answer is \"let me get a manager\".",
+            "Serious allergy questions should always reach a person before the order goes in."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "FDA: Addition to the 2022 Food Code - Sesame added as a Major Food Allergen — https://www.fda.gov/food/retail-food-industryregulatory-assistance-training/addition-2022-food-code-sesame-added-major-food-allergen",
+            "FDA: FDA Releases 2022 Food Code — https://www.fda.gov/food/hfp-constituent-updates/fda-releases-2022-food-code",
+            "Example of a state FAQ (Illinois Department of Public Health): Allergen Requirements for Packaged, Unpackaged, and Bulk Labeling — https://dph.illinois.gov/topics-services/food-safety/retail-food/allergen-requirements-faq.html"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send reservation reminders that cut restaurant no-shows",
+            "Draft replies to new Google reviews for approval",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can an AI chatbot answer allergen questions for us?",
+          "a": "Only from a sheet your chef has checked, and only with a cross-contact caution and a hand-off to a person. Never let it make up an answer or call a dish safe."
+        },
+        {
+          "q": "Do we have to post allergen information?",
+          "a": "It depends on your state and local health department. Where the 2022 FDA Food Code has been adopted, written notice of major food allergens in unpackaged food is required. Ask your health inspector."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=allergen-question-answers"
+      },
+      "updated": "2026-10-22"
+    },
+    {
+      "path": "/tips/small-business-saturday-plan",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+      "seoTitle": "Small Business Saturday 2026 (Nov 28): plan and free materials",
+      "summary": "Small Business Saturday is November 28, 2026. Pick one simple offer or in-store event now, then use American Express's free Shop Small social posts, banners and printable posters to promote it. You don't need to accept Amex cards to download them.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A ready-made reason for locals to visit on one of the busiest shopping weekends of the year, promoted with free, professionally designed graphics, so you're not designing posters the week of Thanksgiving."
+          ]
+        },
+        {
+          "h": "What's confirmed",
+          "ul": [
+            "The SBA lists Small Business Saturday as Saturday, November 28, 2026. American Express founded it in 2010 and the SBA has co-sponsored it since 2011.",
+            "American Express's Shop Small site offers free downloadable social media posts and stories, digital banners and printable posters, plus a Small Business Saturday and holiday marketing toolkit.",
+            "American Express says you don't need to be a Card Member or accept American Express to download the free marketing materials. You pay only for any printing.",
+            "Businesses that accept American Express and qualify may also appear on Amex's Shop Small Map. Amex says it can't guarantee your business will appear."
+          ]
+        },
+        {
+          "h": "Do this (about 30 minutes)",
+          "ol": [
+            "Pick one offer you can afford and staff: a small gift with purchase, a bundle, an in-store demo or tasting, or early hours. Keep it simple enough to explain in one line.",
+            "Download the Shop Small posts and posters that fit your business (there are dining versions for restaurants and cafes).",
+            "Write the offer as real text in your post captions, email and Google Business Profile, not only inside the graphic.",
+            "Schedule posts for about a week before, the day before, and the morning of November 28.",
+            "Put a printed poster in your window by the week of Thanksgiving, and tell staff what the offer is.",
+            "Afterwards, write down what sold and how many people mentioned it, so next year's plan starts from real numbers."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "Follow the brand rules in the Amex toolkit when you use the Shop Small logo and designs.",
+            "Don't promise customers Amex rewards or credits unless you've confirmed a current Amex offer yourself.",
+            "If you text customers about it, text only people who've agreed to get texts from you."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "SBA: Small Business Saturday — https://www.sba.gov/about-sba/organization/observances/small-business-saturday/",
+            "American Express: Free Shop Small Marketing Materials — https://www.americanexpress.com/us/merchant/shop-small/materials.html",
+            "American Express: Shop Small Resource Hub — https://www.americanexpress.com/us/merchant/shop-small.html",
+            "American Express: Shop Small FAQ — https://www.americanexpress.com/en-us/benefits/shop-small/",
+            "Last checked at the source: October 22, 2026. Backlog item TB-071."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Put your holiday offer in real text, not inside one big image",
+            "Check your email setup before holiday promos go out"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Draft replies to new Google reviews for approval"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I have to accept American Express to take part?",
+          "a": "No. American Express says you don't need to accept its cards or be a Card Member to download the free Shop Small marketing materials. Appearing on its Shop Small Map is for qualifying businesses that accept Amex."
+        },
+        {
+          "q": "What if I'm a restaurant or online-only?",
+          "a": "The materials include dining designs, and American Express says online businesses can get the free marketing materials too."
+        }
+      ],
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up your Small Business Saturday posts, email and Business Profile update on the tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-small-business-saturday-plan"
+      },
+      "updated": "2026-10-22"
     }
   ],
   "static": [

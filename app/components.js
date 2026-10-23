@@ -13,7 +13,7 @@ export function Newsletter() {
 }
 export function Cta({ cta }) {
   if (!cta) return null;
-  return (<section className="card cta"><h2>{cta.title}</h2><p>{cta.text}</p><a className="btn" href={cta.href}>{cta.button}</a></section>);
+  return (<section className="card cta"><h2>{cta.title}</h2><p>{cta.text}</p><a className="btn" href={cta.href} data-cta-label={cta.button} data-cta-location="page_cta">{cta.button}</a></section>);
 }
 export function Sponsor() {
   return <HouseAd />;

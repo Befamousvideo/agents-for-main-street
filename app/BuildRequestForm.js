@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import { trackGenerateLead } from "./analytics";
 const SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 const BUDGETS = ["Under $500", "$500–$1,500", "$1,500–$5,000", "$5,000+", "Not sure yet"];
 export default function BuildRequestForm() {
@@ -27,7 +28,7 @@ export default function BuildRequestForm() {
           budget: f.get("budget"), email: f.get("email"), phone: f.get("phone"), elapsed: Date.now() - started.current,
           turnstile: SITE_KEY && window.turnstile && tsId.current != null ? window.turnstile.getResponse(tsId.current) : undefined, consent: f.get("consent") === "on", website: f.get("website"), source: window.location.pathname }) });
       const j = await r.json().catch(() => ({}));
-      if (r.ok && j.ok) setState("done"); else { setState("error"); setMsg(j.error || "Something went wrong. Please try again."); if (SITE_KEY && window.turnstile && tsId.current != null) window.turnstile.reset(tsId.current); }
+      if (r.ok && j.ok) { if (!String(f.get("website") || "").trim()) trackGenerateLead(); setState("done"); } else { setState("error"); setMsg(j.error || "Something went wrong. Please try again."); if (SITE_KEY && window.turnstile && tsId.current != null) window.turnstile.reset(tsId.current); }
     } catch { setState("error"); setMsg("Network error. Please try again."); }
   }
   if (state === "done") return (<p className="nl-success" role="status"><strong>Thanks, your request is in!</strong> We've emailed you a confirmation, and StorenTech AI will follow up with a quote, usually within 2 business days.</p>);
@@ -43,7 +44,7 @@ export default function BuildRequestForm() {
     <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px" }} />
     {SITE_KEY && <div ref={tsRef} style={{ margin: "12px 0" }} />}
     <label className="small brf-check"><input type="checkbox" name="consent" required disabled={busy} /><span>I agree to be contacted by StorenTech AI about this request.</span></label>
-    <button className="btn" type="submit" disabled={busy}>{busy ? "Sending…" : "Request a build"}</button>
+    <button className="btn" type="submit" disabled={busy} data-cta-label="Request a build" data-cta-location="build_form">{busy ? "Sending…" : "Request a build"}</button>
     {state === "error" && <p className="small" role="alert" style={{ color: "#b42318" }}>{msg}</p>}
   </form>);
 }

@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 22, 2026",
+  "updated": "October 23, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -112,7 +112,8 @@
           "h": "Related recipes",
           "ul": [
             "Reply to new website leads within minutes, automatically",
-            "Remind past customers to book a fall heating tune-up"
+            "Remind past customers to book a fall heating tune-up",
+            "Text customers pipe-freeze tips before a hard freeze, automatically"
           ]
         }
       ],
@@ -198,7 +199,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Cut clinic no-shows with a layered appointment reminder sequence"
+            "Cut clinic no-shows with a layered appointment reminder sequence",
+            "Remind patients to use their FSA money before the plan year ends"
           ]
         }
       ],
@@ -788,7 +790,8 @@
           ],
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         }
       ],
@@ -1065,7 +1068,8 @@
           "ul": [
             "Check your email setup before holiday promos go out",
             "Put your holiday offer in real text, not inside one big image",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         }
       ],
@@ -1259,7 +1263,8 @@
           "h": "Related recipes",
           "ul": [
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
-            "Send reservation reminders that cut restaurant no-shows"
+            "Send reservation reminders that cut restaurant no-shows",
+            "Remind patients to use their FSA money before the plan year ends"
           ]
         }
       ],
@@ -1334,7 +1339,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Put your holiday offer in real text, not inside one big image"
+            "Put your holiday offer in real text, not inside one big image",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         }
       ],
@@ -1558,7 +1564,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         }
       ],
@@ -1677,7 +1684,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-20"
+      "updated": "2026-10-23"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -1742,7 +1749,8 @@
           "h": "Related tips",
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         }
       ],
@@ -1823,7 +1831,8 @@
           "ul": [
             "Text back every missed call automatically for an HVAC business",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
-            "Follow up on sent quotes automatically"
+            "Follow up on sent quotes automatically",
+            "Text customers pipe-freeze tips before a hard freeze, automatically"
           ]
         }
       ],
@@ -1988,7 +1997,8 @@
           "h": "Related tips",
           "ul": [
             "Check your email setup before holiday promos go out",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         },
         {
@@ -2235,7 +2245,8 @@
           "h": "Related tips",
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
           ]
         },
         {
@@ -2263,6 +2274,255 @@
         "href": "/build-it-for-me?recipe=tip-small-business-saturday-plan"
       },
       "updated": "2026-10-22"
+    },
+    {
+      "path": "/industries/hvac/freeze-warning-customer-alerts",
+      "group": "recipes",
+      "label": "HVAC",
+      "title": "Text customers pipe-freeze tips before a hard freeze, automatically",
+      "seoTitle": "Freeze alert texts for HVAC and plumbing customers (NWS API)",
+      "summary": "Check the free National Weather Service API each afternoon for your service area. When a Freeze Warning, Hard Freeze Warning or Extreme Cold Warning is active, or the forecast low drops below a temperature you pick, send opted-in customers a short message with Red Cross frozen-pipe tips and your emergency number.",
+      "steps": [
+        "List the ZIP codes or towns you serve and turn each into a latitude/longitude point (one per area is enough).",
+        "Every afternoon, have Zapier, Make or n8n call the National Weather Service API for active alerts at each point (api.weather.gov/alerts/active?point=LAT,LON). NWS asks every request to include a User-Agent header with your app name and a contact email.",
+        "Trigger when the alert is a Freeze Warning, Hard Freeze Warning, Wind Chill or Extreme Cold Warning. NWS issues Freeze Warnings mainly during the growing season, so also add a second trigger from the NWS forecast: a forecast low at or below a number you choose (for example 20°F).",
+        "Pull the matching customers from your CRM or field-service tool by service-area ZIP, and only those who agreed to get texts or emails from you.",
+        "Send one short message: what's coming, three pipe-protection steps from the Red Cross list below, and the number to call if a pipe freezes or the heat goes out. An AI step can shorten the wording, but the safety tips come from the Red Cross list, not the AI.",
+        "Log who was messaged and when, and don't send to the same customer again for 72 hours, so a multi-day cold snap doesn't flood them.",
+        "Give your dispatcher a heads-up in the same run so the on-call schedule is ready for no-heat and frozen-pipe calls."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: the National Weather Service API (free, no key; it asks for a User-Agent header with contact info and has rate limits it doesn't publish, so poll a few points once or twice a day, not every minute), your CRM or field-service software, a texting or email tool, and Zapier/Make/n8n. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What to put in the message (American Red Cross)",
+          "ul": [
+            "Let cold water drip from faucets served by exposed pipes.",
+            "Open kitchen and bathroom cabinet doors so warmer air reaches the plumbing.",
+            "Keep garage doors closed if there are water lines in the garage.",
+            "Keep the thermostat at the same temperature day and night, and if you're leaving, no lower than 55°F."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Text only customers who agreed to get texts from you, and include a way to opt out.",
+            "Use the official alert wording and link to weather.gov. Don't predict the weather yourself or promise that pipes won't freeze.",
+            "Don't send space-heater or thawing advice beyond what the Red Cross page says. For a frozen pipe, tell people to call you or a plumber.",
+            "Test the alert filter against a few past cold days before turning on real sends."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "National Weather Service: API Web Service documentation — https://www.weather.gov/documentation/services-web-api",
+            "National Weather Service: Winter Weather Warnings, Watches and Advisories — https://www.weather.gov/safety/cold-ww",
+            "National Weather Service: Before extreme cold — https://www.weather.gov/safety/cold-before",
+            "American Red Cross: Frozen Pipes — https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+            "Ready.gov: Winter Weather — https://www.ready.gov/winter-weather",
+            "Checked at the sources on October 23, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Remind past customers to book a fall heating tune-up",
+            "Text back every missed call automatically for an HVAC business",
+            "Ask every new customer how they found you, and log it automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why not just wait for Freeze Warnings?",
+          "a": "The National Weather Service says Freeze Warnings are issued during the growing season. In the middle of winter, a cold night may not trigger one, so add your own forecast-low threshold or use Extreme Cold Warnings too."
+        },
+        {
+          "q": "Does the weather API cost anything?",
+          "a": "The National Weather Service API is free and doesn't need a key. It asks for a User-Agent header with contact information and applies rate limits."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=freeze-warning-customer-alerts"
+      },
+      "updated": "2026-10-23"
+    },
+    {
+      "path": "/industries/clinics/fsa-year-end-reminders",
+      "group": "recipes",
+      "label": "Clinics",
+      "title": "Remind patients to use their FSA money before the plan year ends",
+      "seoTitle": "FSA year-end reminder emails for clinics (2026 rules)",
+      "summary": "Many health FSA plans end on December 31 and unused money can be lost. Each November, email patients who asked to hear from you a plain reminder to check their own FSA balance and deadline, with an easy link to book. The message never mentions their health details.",
+      "steps": [
+        "In early November, export patients who have agreed to get email from your practice. Don't filter by diagnosis or treatment.",
+        "Use one general message for everyone: \"If you have a flexible spending account, check your balance and your plan's deadline. Some plans let you lose unused money at year-end.\" Add your booking link and your December hours.",
+        "Have Zapier, Make or n8n send it through your practice's email tool, with one follow-up in early December only to people who haven't booked.",
+        "When someone books from the link, tag the booking source so you can see whether the reminder worked (see the how-did-you-hear recipe).",
+        "Have your front desk ready to give itemized receipts, since FSA administrators usually ask for them."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your practice management or scheduling system, a HIPAA-appropriate email tool your compliance person approves, and Zapier/Make/n8n. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "Rules to know (IRS and HealthCare.gov)",
+          "ul": [
+            "HealthCare.gov says you generally must use FSA money within the plan year. Employers may offer either a grace period of up to 2½ extra months or a carryover, but not both.",
+            "Money left after the plan year (or grace period) is lost, according to HealthCare.gov.",
+            "For 2026, the IRS limit on employee salary reductions to a health FSA is $3,400, up $100, and plans that allow a carryover can let up to $680 roll over.",
+            "Plan years and rules vary by employer, so the message should tell patients to check their own plan instead of naming a deadline."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep health information out of the email. Don't reference past visits, conditions or treatments.",
+            "Send only to patients who agreed to get email, and include an unsubscribe link.",
+            "Don't tell patients what FSA money can be spent on. Point them to their plan administrator.",
+            "Ask your compliance person or practice manager to approve the wording before the first send."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "HealthCare.gov: Using a Flexible Spending Account (FSA) — https://www.healthcare.gov/have-job-based-coverage/flexible-spending-accounts/",
+            "IRS: Tax inflation adjustments for tax year 2026 — https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
+            "IRS: Publication 969, Health Savings Accounts and Other Tax-Favored Health Plans — https://www.irs.gov/publications/p969",
+            "This page is general information, not tax or legal advice. Checked at the sources on October 23, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Cut clinic no-shows with a layered appointment reminder sequence",
+            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
+            "Ask every new customer how they found you, and log it automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can we target patients who have FSA plans?",
+          "a": "Usually you don't know who has one, and filtering by health or treatment data adds privacy risk. Send one general reminder to patients who opted in to email."
+        },
+        {
+          "q": "Is every FSA deadline December 31?",
+          "a": "No. Plan years vary, and some employers add a grace period or carryover. Tell patients to check their own plan."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=fsa-year-end-reminders"
+      },
+      "updated": "2026-10-23"
+    },
+    {
+      "path": "/tips/cyber-week-2026-timing",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+      "seoTitle": "Cyber Week 2026 plan for small shops: dates, mobile, timing",
+      "summary": "Adobe forecasts that Cyber Week 2026 (Thanksgiving, Nov 26, through Cyber Monday, Nov 30) will bring $47.5 billion in US online spending, and that a record 63% of Thanksgiving Day online spending will happen on phones. For a local shop, that means getting your offer, product pages and checkout working well on a phone before Thanksgiving, and announcing early.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Your offer is in front of people during the five busiest online shopping days of the year, and it works on the phone they're shopping on, without you having to match the deepest big-box discounts."
+          ]
+        },
+        {
+          "h": "What's confirmed (Adobe forecasts of US online spending, released Sept 28, 2026)",
+          "ul": [
+            "Adobe forecasts $275.1 billion in US online spending for Nov 1 to Dec 31, 2026, up 6.7% from last year. Cyber Week is forecast at $47.5 billion, 17.3% of the season.",
+            "Cyber Monday (Nov 30) is forecast as the biggest day at $15.1 billion, then Black Friday at $12.9 billion and Thanksgiving at $6.9 billion.",
+            "Adobe expects a record 63% of Thanksgiving Day online spending to come through mobile devices, versus 57.4% for the whole season.",
+            "Adobe expects big retailers' discounts to build: up to 14% off in early November, up to 21% just before Thanksgiving and up to 30% during Cyber Week.",
+            "Adobe expects visits to US retail sites from AI tools (people clicking a link in an AI chat or browser) to rise 130% over last year.",
+            "These are Adobe's forecasts for online sales across large US retailers, not results for small shops."
+          ]
+        },
+        {
+          "h": "Do this (about 45 minutes)",
+          "ol": [
+            "Pick your dates now: announce your offer the week before Thanksgiving, run it Thanksgiving through Cyber Monday, and decide if Small Business Saturday (Nov 28) gets something extra in store.",
+            "On your own phone, open your site, find the offer, add an item to the cart and go to checkout. Fix anything that's slow, hidden or hard to tap.",
+            "Put the offer, price, dates, pickup and return policy in real text on the product or offer page, so shoppers and AI shopping tools can read them.",
+            "Set Thanksgiving and Black Friday hours on your Google Business Profile and website.",
+            "Schedule posts and one email for the week before Thanksgiving, the day itself and Cyber Monday morning.",
+            "Afterwards, note what sold, which day and what device, so next year starts from your own numbers."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "You don't need to match a 30% big-box discount. A bundle, gift with purchase or free local pickup can protect your margin.",
+            "Email or text only people who've agreed to hear from you.",
+            "Make sure stock counts are right before the rush, so you don't sell what you don't have."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Adobe: 2026 holiday shopping forecast (press release PDF, Sept 28, 2026) — https://news.adobe.com/news/downloads/pdfs/2026/09/adi-holiday-forecast-release-9-26.pdf",
+            "Adobe: Holiday shopping trends and forecast — https://business.adobe.com/resources/holiday-shopping-report.html",
+            "Last checked at the source: October 23, 2026. Backlog item TB-024."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Put your holiday offer in real text, not inside one big image",
+            "Check your email setup before holiday promos go out"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Ask every customer for a Google review automatically (without review gating)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are these numbers about small businesses?",
+          "a": "No. They're Adobe's forecasts of total US online spending, based on Adobe Analytics data from large retail sites. Use them for timing, not as a prediction of your own sales."
+        },
+        {
+          "q": "I mostly sell in store. Does this matter?",
+          "a": "Yes. People check hours, offers and stock on their phones before they visit, so a clear, phone-friendly offer page and up-to-date hours help in-store sales too."
+        }
+      ],
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up your Cyber Week offer page, phone checkout check, hours and scheduled posts on the tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-cyber-week-2026-timing"
+      },
+      "updated": "2026-10-23"
     }
   ],
   "static": [

@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 23, 2026",
+  "updated": "October 24, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -835,7 +835,8 @@
             "Get a weekly inventory variance alert for your restaurant",
             "Draft replies to new Google reviews for approval",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
-            "Answer guests' allergen questions from your own recipe sheet"
+            "Answer guests' allergen questions from your own recipe sheet",
+            "Turn holiday pre-orders into a daily kitchen prep list and pickup reminders"
           ]
         }
       ],
@@ -1069,7 +1070,8 @@
             "Check your email setup before holiday promos go out",
             "Put your holiday offer in real text, not inside one big image",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Ask your web host to confirm your site got this week's critical PHP security update"
           ]
         }
       ],
@@ -1486,7 +1488,8 @@
             "Chase clients for missing documents automatically",
             "Send polite overdue-invoice reminders automatically",
             "Turn call and meeting transcripts into summaries and action items",
-            "Collect W-9s from contractors before year-end, automatically"
+            "Collect W-9s from contractors before year-end, automatically",
+            "Sell and deliver e-gift cards automatically this holiday season"
           ]
         }
       ],
@@ -1558,7 +1561,8 @@
             "Draft replies to new Google reviews for approval",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Send reservation reminders that cut restaurant no-shows",
-            "Get ready for Google's automated calls asking your prices and booking times"
+            "Get ready for Google's automated calls asking your prices and booking times",
+            "Sell and deliver e-gift cards automatically this holiday season"
           ]
         },
         {
@@ -1684,7 +1688,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-23"
+      "updated": "2026-10-24"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -1750,7 +1754,8 @@
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Ask your web host to confirm your site got this week's critical PHP security update"
           ]
         }
       ],
@@ -2163,7 +2168,8 @@
           "ul": [
             "Send reservation reminders that cut restaurant no-shows",
             "Draft replies to new Google reviews for approval",
-            "AI virtual receptionist that answers FAQs and books on Google Calendar"
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Turn holiday pre-orders into a daily kitchen prep list and pickup reminders"
           ]
         }
       ],
@@ -2494,7 +2500,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Put your holiday offer in real text, not inside one big image",
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Ask your web host to confirm your site got this week's critical PHP security update"
           ]
         },
         {
@@ -2523,6 +2530,255 @@
         "href": "/build-it-for-me?recipe=tip-cyber-week-2026-timing"
       },
       "updated": "2026-10-23"
+    },
+    {
+      "path": "/industries/restaurants/holiday-preorder-prep-list",
+      "group": "recipes",
+      "label": "Restaurants",
+      "title": "Turn holiday pre-orders into a daily kitchen prep list and pickup reminders",
+      "seoTitle": "Restaurant holiday pre-orders: auto prep list and pickup texts",
+      "summary": "Take Thanksgiving and holiday pre-orders through one form, then have the orders roll up each morning into a prep list by item and pickup day. The day before pickup, each guest gets a reminder with their pickup window and USDA food-safety basics for storing and reheating.",
+      "steps": [
+        "Build one pre-order form (Google Forms, Jotform, or your POS's online ordering) with item, quantity, pickup date and time window, name, phone/email, and a checkbox for reminder texts or emails.",
+        "Send every order to one Google Sheet or Airtable base. Set an order cutoff date and a cap per pickup window so the kitchen isn't overbooked.",
+        "Every morning, have Zapier, Make or n8n total the orders by item and pickup day and send the kitchen a one-page prep list (print or email). Include the pickup-window counts for the front of house.",
+        "The day before pickup, send each guest who opted in one reminder: what they ordered, pickup time and place, and how to reach you if plans change.",
+        "Add a short food-safety note written from the USDA page below: refrigerate within 2 hours, reheat leftovers to 165°F, and use refrigerated leftovers within 3 to 4 days.",
+        "On pickup day, mark orders as picked up from a simple checklist view, and send yourself a list of no-shows at closing so you can follow up the next morning.",
+        "After the holiday, compare what you prepped with what was picked up so next year's caps and par levels start from your own numbers."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a form or online ordering tool, Google Sheets or Airtable, an email or texting tool, and Zapier/Make/n8n. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "Food-safety basics to put in the reminder (USDA FSIS)",
+          "ul": [
+            "Refrigerate leftovers within 2 hours of cooking or of taking food out of a warming appliance (1 hour if it's above 90°F).",
+            "Bacteria grow fastest between 40°F and 140°F. Keep hot food at 140°F or warmer and cold food at 40°F or below.",
+            "Reheat leftovers to 165°F, checked with a food thermometer. Bring sauces, soups and gravies to a rolling boil.",
+            "Refrigerated leftovers keep 3 to 4 days. Frozen leftovers keep 3 to 4 months for best quality."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Text only guests who checked the box to get texts, and include a way to opt out.",
+            "Use your own kitchen's reheating instructions for each dish. The USDA notes are general, so don't let an AI step invent cooking times.",
+            "Put allergen information next to each item on the form (see the allergen recipe) and don't promise a dish is allergen-free unless your kitchen can guarantee it.",
+            "Take payment through your normal POS or online checkout, never by text."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "USDA Food Safety and Inspection Service: Leftovers and Food Safety — https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "Checked at the source on October 24, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send reservation reminders that cut restaurant no-shows",
+            "Answer guests' allergen questions from your own recipe sheet",
+            "Get a weekly inventory variance alert for your restaurant"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can my POS do this already?",
+          "a": "Many POS systems take scheduled online orders. This recipe adds the daily prep roll-up and reminder messages on top, using the order export or a form if your POS doesn't."
+        },
+        {
+          "q": "Should we include food-safety advice?",
+          "a": "A short, factual note from the USDA page helps guests handle large holiday orders safely. Keep it to the official basics plus your own reheating instructions."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=holiday-preorder-prep-list"
+      },
+      "updated": "2026-10-24"
+    },
+    {
+      "path": "/industries/local-business/egift-card-delivery",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Sell and deliver e-gift cards automatically this holiday season",
+      "seoTitle": "E-gift card automation for small businesses (holiday 2026)",
+      "summary": "Let customers buy a digital gift card on your site, schedule it to arrive on the date they choose, and get a confirmation when it's delivered. A weekly summary keeps your outstanding gift card balance in front of your bookkeeper, and the card terms follow the federal gift card rules.",
+      "steps": [
+        "Check whether your POS or online store already sells digital gift cards. If it does, use its built-in gift cards so balances stay in one system.",
+        "Add a \"Gift cards\" link to your website menu, Google Business Profile and holiday emails, with amounts and a short note on how the card can be used (in store, online or both).",
+        "Have Zapier, Make or n8n watch for each gift card sale and send the recipient a branded email on the date the buyer picked, with the buyer's message and how to redeem.",
+        "Send the buyer a short confirmation when the card has been delivered, so they don't have to call you to check.",
+        "Each week, send yourself and your bookkeeper a summary from the POS: cards sold, amount sold and outstanding balance.",
+        "In January, send one friendly reminder to recipients who opted in to marketing email, inviting them to come in and use their card."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your POS or e-commerce gift card feature, an email tool, and Zapier/Make/n8n. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "Gift card rules to know (CFPB and Federal Reserve, Regulation E)",
+          "ul": [
+            "The CFPB says gift card funds must be good for at least five years under federal law, and some state laws give more time.",
+            "Under federal law, inactivity fees can only be charged after 12 months with no activity, and only if the fee is clearly disclosed on the card. No more than one such fee can be charged per month.",
+            "Fees and expiration terms must be disclosed before purchase. If a card itself expires before the funds do, the card must say how to get a free replacement.",
+            "Simplest path: no fees and no expiration date. Ask your POS provider how its gift cards handle this, and check your state's rules."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Don't email a recipient's gift card code to anyone except the address the buyer entered.",
+            "Never ask customers to pay or redeem by text message or by reading a code over the phone to a stranger.",
+            "Email reminders go only to people who agreed to marketing email, with an unsubscribe link.",
+            "This page is general information, not legal or accounting advice. Ask your accountant how to record unused gift card balances."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Consumer Financial Protection Bureau: If my prepaid card expires, do I lose my money? (gift card rules) — https://www.consumerfinance.gov/ask-cfpb/if-my-prepaid-card-expires-do-i-lose-my-money-en-423/",
+            "Federal Reserve: Regulation E, Section 1005.20, Requirements for gift cards and gift certificates — https://www.federalreserve.gov/frrs/regulations/section-100520-requirements-for-gift-cards-and-gift-certificates.htm",
+            "Checked at the sources on October 24, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Capture receipts by photo or email and file them for your bookkeeper",
+            "Ask every new customer how they found you, and log it automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can gift cards expire?",
+          "a": "Under federal law, gift card funds must last at least five years, and some states give more time. Many small businesses simply sell cards with no expiration and no fees."
+        },
+        {
+          "q": "Do I need a separate gift card app?",
+          "a": "Usually not. Most POS and online store platforms include digital gift cards. The automation just handles scheduled delivery, confirmations and the weekly summary."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=egift-card-delivery"
+      },
+      "updated": "2026-10-24"
+    },
+    {
+      "path": "/tips/php-security-update-oct-2026",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Ask your web host to confirm your site got this week's critical PHP security update",
+      "seoTitle": "Critical PHP update, Oct 2026: what small business sites should do",
+      "summary": "On October 21, 2026, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two critical flaws that can let an attacker run code on a web server without logging in. If your website runs on PHP (most WordPress and many hosted sites do), ask your host or developer to confirm it's updated. It's a five-minute email.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Peace of mind that your website, contact forms and customer data aren't sitting on a server with a known critical hole, going into your busiest season, without touching any server settings yourself."
+          ]
+        },
+        {
+          "h": "What's confirmed (php.net, Oct 21 to 23, 2026)",
+          "ul": [
+            "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that can allow unauthenticated remote code execution. The PHP team strongly encourages all users to update immediately.",
+            "The PHP team says all PHP installations serving web requests are at risk, and calls the risk highest for Apache with mod_php.",
+            "For each release the team says: \"There are no complete mitigations, updating is the only safe choice.\"",
+            "Linux distributions and long-term support vendors got the patches in advance, so many hosts can update quickly.",
+            "PHP 8.1 and older no longer get updates from the PHP project. PHP 8.2 gets security fixes only until December 31, 2026.",
+            "On October 23 the PHP team added an informational advisory suggesting session.upload_progress.enabled=0 until the next bugfix release, to close an unlikely extra attack path."
+          ]
+        },
+        {
+          "h": "Do this (about 5 minutes)",
+          "ol": [
+            "Find out if your site uses PHP. If it's WordPress, it does. In WordPress, go to Tools > Site Health > Info > Server to see the PHP version; the Status tab flags an outdated PHP version as a security issue.",
+            "Email your web host or developer: \"Please confirm our site is running PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35 or later (or a vendor-patched build for CVE-2026-109618 and CVE-2026-109619), and tell me which version we're on.\"",
+            "If you're on PHP 8.1 or older, ask for a plan to move to a supported version. WordPress recommends PHP 8.3 or greater.",
+            "If you're on PHP 8.2, ask about moving up before it reaches end of life on December 31, 2026.",
+            "While you're at it, make sure your hosting and website admin logins use multifactor authentication, and that WordPress plugins and themes are set to update."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "Don't change server or php.ini settings yourself. Ask your host or developer, and test the site after any update.",
+            "Some hosts patch PHP in the background with their own builds, so the version number may look different. Ask them to confirm in writing that these two CVEs are fixed.",
+            "Ignore scary emails that offer to \"fix\" your site for a fee. Talk only to your own host or developer.",
+            "Sites built entirely on platforms like Shopify, Squarespace or Wix are managed by the platform, so there's usually nothing to do. Still, any separate WordPress blog or landing pages you host yourself should be checked."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "PHP.net: News archive 2026 (Oct 21 security advisory, release notes and Oct 23 advisory) — https://www.php.net/archive/2026.php",
+            "PHP.net: Supported versions — https://www.php.net/supported-versions.php",
+            "WordPress.org: Site Health screen — https://wordpress.org/documentation/article/site-health-screen/",
+            "WordPress.org: Requirements — https://wordpress.org/about/requirements/",
+            "CISA: Update software — https://www.cisa.gov/secure-our-world/update-software",
+            "CISA: Turn on MFA — https://www.cisa.gov/secure-our-world/turn-mfa",
+            "Last checked at the source: October 24, 2026. Backlog item TB-085."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Capture receipts by photo or email and file them for your bookkeeper"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I know if my site runs PHP?",
+          "a": "WordPress, Joomla, Drupal and many hosting control panels run on PHP. If you're not sure, ask your host or whoever built the site. If it's WordPress, Tools > Site Health > Info > Server shows the version."
+        },
+        {
+          "q": "Is there a workaround if my host can't update right away?",
+          "a": "The PHP team lists some temporary measures for administrators, but says updating is the only complete fix. Leave this to your host or developer."
+        }
+      ],
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI checks your website's PHP version with your host, gets the update confirmed, and sets up update and login-security basics on the tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-php-security-update-oct-2026"
+      },
+      "updated": "2026-10-24"
     }
   ],
   "static": [

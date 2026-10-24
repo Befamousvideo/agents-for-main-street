@@ -2,7 +2,7 @@
   "name": "Agents for Main Street",
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
-  "color": "#1f6f50",
+  "color": "#1F6F50",
   "updated": "October 24, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
@@ -2833,7 +2833,7 @@
         {
           "ul": [
             "We collect email addresses only when you subscribe (not yet active).",
-            "We use privacy-friendly analytics.",
+            "Analytics (Google Analytics 4) load only after you accept the cookie banner. That choice is stored in a first-party cookie and in local storage on your device. Rejecting, or making no choice, leaves analytics off.",
             "We never sell personal information.",
             "Contact details will be published at launch."
           ]

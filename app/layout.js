@@ -1,5 +1,7 @@
 import "./globals.css";
 import site from "../content/site.json";
+import CookieConsent from "./CookieConsent";
+import { consentBootSource } from "../lib/consent.mjs";
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: { default: `${site.name} — ${site.tagline}`, template: `%s | ${site.name}` },
@@ -10,9 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const org = { "@context": "https://schema.org", "@type": "Organization", name: site.name, url: `https://${site.domain}`, parentOrganization: { "@type": "Organization", name: "StorenTech" } };
   return (
-    <html lang="en" style={{ "--accent": site.color }}>
+    <html lang="en" suppressHydrationWarning style={{ "--color-primary": site.color, "--accent": site.color }}>
       <body>
+        <script id="consent-boot" dangerouslySetInnerHTML={{ __html: consentBootSource(process.env.NEXT_PUBLIC_GA_ID) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
+        <CookieConsent />
         <header className="hdr"><div className="wrap row">
           <a href="/" className="logo">{site.name}</a>
           <nav>{site.nav.map(n => <a key={n.href} href={n.href}>{n.label}</a>)}<a href="/industries#search" aria-label="Search recipes">🔍 Search</a></nav>

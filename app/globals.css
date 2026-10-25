@@ -23,3 +23,5 @@ table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid
 .taxtile{padding:.6rem .8rem;margin:0}.taxtile .tt{font-weight:700;display:block;margin-bottom:.2rem}
 @media(max-width:700px){.taxtiles{grid-template-columns:repeat(2,1fr)}}
 .search{padding:.7rem .9rem;margin:.6rem 0}
+
+.hero{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px;margin:0 0 1rem}

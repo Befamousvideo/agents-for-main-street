@@ -1270,8 +1270,7 @@
           "ul": [
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
             "Send reservation reminders that cut restaurant no-shows",
-            "Remind patients to use their FSA money before the plan year ends",
-            "Send flu-shot reminders to patients who haven't had one yet this season"
+            "Remind patients to use their FSA money before the plan year ends"
           ]
         }
       ],
@@ -2425,8 +2424,7 @@
           "ul": [
             "Cut clinic no-shows with a layered appointment reminder sequence",
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
-            "Ask every new customer how they found you, and log it automatically",
-            "Send flu-shot reminders to patients who haven't had one yet this season"
+            "Ask every new customer how they found you, and log it automatically"
           ]
         }
       ],
@@ -2887,86 +2885,13 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=verify-bank-change-requests"
       },
-      "updated": "2026-10-25"
-    },
-    {
-      "path": "/industries/clinics/flu-shot-reminders",
-      "group": "recipes",
-      "label": "Clinics",
-      "title": "Send flu-shot reminders to patients who haven't had one yet this season",
-      "seoTitle": "Flu shot reminder automation for clinics (2026-27 season)",
-      "summary": "CDC recommends a flu vaccine every season for everyone 6 months and older, ideally by the end of October, and says it's still worth getting later. This recipe pulls a list of patients with no flu shot recorded this season, sends one friendly reminder with a booking link, and stops as soon as the shot is recorded.",
-      "steps": [
-        "From your EHR or practice management system, export patients 6 months and older who have no flu vaccine recorded since this season began. Keep it to name, contact preference and phone or email.",
-        "Load the list into your HIPAA-ready messaging tool (with a signed BAA) or a sheet that feeds it through Zapier, Make or n8n.",
-        "Send one reminder: your clinic name, \"It's flu shot season,\" how to book or your walk-in hours, and a callback number. Keep clinical details out of the text.",
-        "One week later, send one follow-up only to patients who still haven't booked or been vaccinated, then stop.",
-        "Each morning, remove anyone whose vaccine was recorded (in your clinic or reported from a pharmacy) so they don't get more messages.",
-        "Send the front desk a weekly count of reminders sent, appointments booked and shots recorded."
-      ],
-      "blocks": [
-        {
-          "h": "What you need",
-          "p": [
-            "Tools: your EHR or practice management system, a HIPAA-ready messaging vendor with a signed BAA, and optionally Zapier/Make/n8n. Costs: see each vendor's current pricing page."
-          ]
-        },
-        {
-          "h": "CDC basics for the message (2026-27 season)",
-          "ul": [
-            "CDC recommends that everyone 6 months and older get a flu vaccine every season, with rare exceptions.",
-            "September and October are generally good times to get vaccinated, ideally by the end of October, but CDC says vaccination after that can still help.",
-            "CDC says it takes about two weeks after vaccination for antibodies to develop.",
-            "Some children 6 months through 8 years need two doses; let your clinicians decide who needs what. The reminder should only invite patients to book."
-          ]
-        },
-        {
-          "h": "What to watch",
-          "ul": [
-            "Use a messaging vendor that will sign a Business Associate Agreement, not a consumer texting app.",
-            "Text only patients who agreed to receive texts, identify the clinic, and honor STOP.",
-            "Keep vaccine eligibility and dosing decisions with your clinicians. An AI step should not answer medical questions; route them to staff.",
-            "Have your privacy officer review the templates before launch. This is operational guidance, not legal or medical advice."
-          ]
-        },
-        {
-          "h": "Sources",
-          "p": [
-            "CDC: Key Facts About Seasonal Flu Vaccine — https://www.cdc.gov/flu/vaccines/keyfacts.html",
-            "CDC: Flu and Children — https://www.cdc.gov/flu/highrisk/children.htm",
-            "Checked at the sources on October 25, 2026."
-          ]
-        },
-        {
-          "h": "Related recipes",
-          "ul": [
-            "Cut clinic no-shows with a layered appointment reminder sequence",
-            "Remind patients to use their FSA money before the plan year ends",
-            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Isn't it too late to remind patients in November?",
-          "a": "CDC says getting vaccinated by the end of October is ideal, but vaccination later in the season can still be beneficial, so reminders are still useful."
-        },
-        {
-          "q": "How many reminders should we send?",
-          "a": "One reminder and one follow-up is a reasonable limit. Stop as soon as the shot is recorded."
-        },
-        {
-          "q": "Do I need to code?",
-          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
-        }
-      ],
-      "cta": {
-        "title": "Want this built for you?",
-        "text": "StorenTech AI can set up this automation for your business.",
-        "button": "Get this built for me",
-        "href": "/build-it-for-me?recipe=flu-shot-reminders"
-      },
-      "updated": "2026-10-25"
+      "updated": "2026-10-25",
+      "image": {
+        "src": "/images/bank-branch-front.webp",
+        "alt": "Front entrance of a red-brick neighborhood bank branch on a main street",
+        "w": 1280,
+        "h": 720
+      }
     },
     {
       "path": "/tips/experience-gifts-restaurant-gift-cards-2026",
@@ -3052,7 +2977,13 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-experience-gifts-restaurant-gift-cards-2026"
       },
-      "updated": "2026-10-25"
+      "updated": "2026-10-25",
+      "image": {
+        "src": "/images/gift-card-rack.webp",
+        "alt": "A store display rack holding about a hundred colorful gift cards in neat rows",
+        "w": 1280,
+        "h": 720
+      }
     }
   ],
   "static": [

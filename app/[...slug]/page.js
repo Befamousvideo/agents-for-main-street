@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   const p = find((await params).slug); if (!p) return {};
   const t = p.seoTitle || p.title;
   const d = metaDesc(p.summary);
-  return { title: t, description: d, alternates: { canonical: p.path }, openGraph: { title: t, description: d, type: "article" } };
+  return { title: t, description: d, alternates: { canonical: p.path }, openGraph: { title: t, description: d, type: "article", ...(p.image ? { images: [{ url: p.image.src, width: p.image.w, height: p.image.h, alt: p.image.alt }] } : {}) }, ...(p.image ? { twitter: { card: "summary_large_image", images: [p.image.src] } } : {}) };
 }
 export default async function Page({ params }) {
   const p = find((await params).slug); if (!p) notFound();
@@ -28,12 +28,13 @@ export default async function Page({ params }) {
   if (crumbs[0] && crumbs[0].h === "/tips") crumbs[0].name = "Tips";
   const ld = [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: site.name, item: `https://${site.domain}/` }, ...crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 2, name: c.name, ...(c.h ? { item: `https://${site.domain}${c.h}` } : {}) })), { "@type": "ListItem", position: crumbs.length + 2, name: p.title, item: url }] }];
   if (p.steps) ld.push({ "@context": "https://schema.org", "@type": "HowTo", name: p.title, description: p.summary, ...(p.updated ? { dateModified: p.updated } : {}), step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: s })) });
-  else if (p.group) ld.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title, description: p.summary, dateModified: pageDateIso(p), mainEntityOfPage: url, publisher: { "@type": "Organization", name: site.name } });
+  else if (p.group) ld.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title, description: p.summary, ...(p.image ? { image: `https://${site.domain}${p.image.src}` } : {}), dateModified: pageDateIso(p), mainEntityOfPage: url, publisher: { "@type": "Organization", name: site.name } });
   if (p.faq) ld.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: p.faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) });
   return (<article>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
     <p className="crumbs"><a href="/">Home</a>{crumbs.map((c, i) => <span key={i}> / {c.h ? <a href={c.h}>{c.name}</a> : c.name}</span>)}</p>
     <h1>{p.title}</h1>
+    {p.image && <img className="hero" src={p.image.src} alt={p.image.alt} width={p.image.w} height={p.image.h} fetchPriority="high" />}
     {p.flag && <div className="flag">⚠️ {p.flag}</div>}
     <div className="tldr"><strong>Quick answer:</strong> {p.summary}</div>
     {p.group && <p className="muted small">Last updated {pageDateLabel(p)}</p>}

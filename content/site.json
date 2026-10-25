@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 24, 2026",
+  "updated": "October 25, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -791,7 +791,8 @@
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Sell experience gifts and restaurant gift cards early this holiday season"
           ]
         }
       ],
@@ -922,7 +923,8 @@
         {
           "h": "Tips for restaurants",
           "ul": [
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Sell experience gifts and restaurant gift cards early this holiday season"
           ]
         }
       ],
@@ -1038,7 +1040,8 @@
             "Year-end: help clients gather contractor W-9s before 1099 season."
           ],
           "ul": [
-            "Collect W-9s from contractors before year-end, automatically"
+            "Collect W-9s from contractors before year-end, automatically",
+            "Hold every \"new bank details\" email until someone calls to verify"
           ]
         }
       ],
@@ -1071,7 +1074,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Ask your web host to confirm your site got this week's critical PHP security update"
+            "Ask your web host to confirm your site got this week's critical PHP security update",
+            "Sell experience gifts and restaurant gift cards early this holiday season"
           ]
         }
       ],
@@ -1266,7 +1270,8 @@
           "ul": [
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
             "Send reservation reminders that cut restaurant no-shows",
-            "Remind patients to use their FSA money before the plan year ends"
+            "Remind patients to use their FSA money before the plan year ends",
+            "Send flu-shot reminders to patients who haven't had one yet this season"
           ]
         }
       ],
@@ -1688,7 +1693,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -1746,7 +1751,8 @@
           "ul": [
             "Send polite overdue-invoice reminders automatically",
             "Ask every customer for a Google review automatically (without review gating)",
-            "Reply to new website leads within minutes, automatically"
+            "Reply to new website leads within minutes, automatically",
+            "Hold every \"new bank details\" email until someone calls to verify"
           ]
         },
         {
@@ -2089,7 +2095,8 @@
           "ul": [
             "Chase clients for missing documents automatically",
             "Capture receipts by photo or email and file them for your bookkeeper",
-            "Send polite overdue-invoice reminders automatically"
+            "Send polite overdue-invoice reminders automatically",
+            "Hold every \"new bank details\" email until someone calls to verify"
           ]
         }
       ],
@@ -2252,7 +2259,8 @@
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
             "Check your email setup before holiday promos go out",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Sell experience gifts and restaurant gift cards early this holiday season"
           ]
         },
         {
@@ -2417,7 +2425,8 @@
           "ul": [
             "Cut clinic no-shows with a layered appointment reminder sequence",
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
-            "Ask every new customer how they found you, and log it automatically"
+            "Ask every new customer how they found you, and log it automatically",
+            "Send flu-shot reminders to patients who haven't had one yet this season"
           ]
         }
       ],
@@ -2501,7 +2510,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Put your holiday offer in real text, not inside one big image",
             "Check your email setup before holiday promos go out",
-            "Ask your web host to confirm your site got this week's critical PHP security update"
+            "Ask your web host to confirm your site got this week's critical PHP security update",
+            "Sell experience gifts and restaurant gift cards early this holiday season"
           ]
         },
         {
@@ -2586,6 +2596,12 @@
             "Answer guests' allergen questions from your own recipe sheet",
             "Get a weekly inventory variance alert for your restaurant"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Sell experience gifts and restaurant gift cards early this holiday season"
+          ]
         }
       ],
       "faq": [
@@ -2664,6 +2680,12 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Capture receipts by photo or email and file them for your bookkeeper",
             "Ask every new customer how they found you, and log it automatically"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Sell experience gifts and restaurant gift cards early this holiday season"
           ]
         }
       ],
@@ -2779,6 +2801,258 @@
         "href": "/build-it-for-me?recipe=tip-php-security-update-oct-2026"
       },
       "updated": "2026-10-24"
+    },
+    {
+      "path": "/industries/local-business/verify-bank-change-requests",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Hold every \"new bank details\" email until someone calls to verify",
+      "seoTitle": "Stop payment-change email scams: an automatic verify-before-pay hold",
+      "summary": "Scammers send emails that look like they're from a vendor, landlord or even the owner, asking you to pay to a \"new\" bank account. This recipe flags any email that mentions changed payment details, puts the payment on hold, and reminds staff to call the sender at a number you already have on file before a single dollar moves. The FBI and FTC both recommend this kind of second-channel check.",
+      "steps": [
+        "Make a simple vendor contact sheet (Google Sheets or Airtable) with each vendor's known phone number, taken from a contract or past invoice, not from a new email.",
+        "In Gmail or Outlook, or with Zapier, Make or n8n, set a rule that flags incoming email containing phrases like \"new bank account\", \"updated wire instructions\", \"change of payment details\", \"ACH change\" or \"pay to this account instead\".",
+        "When a message is flagged, add a row to a \"Payment change holds\" sheet (sender, vendor, date, amount if stated) and send the owner or bookkeeper an alert that says: HOLD. Call the vendor at the number on file before changing anything.",
+        "Optionally, have an AI step summarize what the email is asking for in one line. It should never reply to the sender or click links in the message.",
+        "Staff call the number from the vendor sheet, confirm the change with a person they recognize, and record who they spoke with and when. Only then does the bookkeeper update the payee details.",
+        "Send yourself a weekly list of open holds so nothing gets paid, or stuck, by accident.",
+        "Write down what to do if money already went out: call your bank right away to ask for a recall of the funds, then file a complaint at ic3.gov."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your email (Gmail or Outlook rules), Google Sheets or Airtable, and optionally Zapier/Make/n8n for alerts. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What the FBI and FTC recommend",
+          "ul": [
+            "The FBI's Internet Crime Complaint Center (IC3) recommends using secondary channels or two-factor authentication to verify requests for changes in account information.",
+            "IC3 also suggests checking that the sender's address and any links really match the business they claim to be from, watching for misspelled domain names, and never sending logins or personal information by email.",
+            "If you discover a fraudulent transfer, IC3 says time is of the essence: contact your financial institution immediately to request a recall, and file a complaint at ic3.gov regardless of the amount.",
+            "The FTC tells small businesses to put verification policies in place, for example requiring employees to call and confirm wire transfer requests they receive by email, and to use a phone number you know is correct rather than the one in the message.",
+            "The FTC also recommends email authentication (SPF, DKIM and DMARC) on your own domain so scammers have a harder time sending email that looks like it came from you."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Never call the phone number or click the link inside the suspicious email. Use the number from your own records.",
+            "Keyword rules miss some scams. Train staff that any request to change where money goes gets a call, flagged or not.",
+            "Don't let an AI tool reply to, forward or act on these emails automatically. It only flags and summarizes.",
+            "Ask your bank what fraud and recall help it offers before you need it."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "FBI IC3 Public Service Announcement I-091124-PSA (September 11, 2024): Business Email Compromise — https://www.ic3.gov/PSA/2024/PSA240911",
+            "Federal Trade Commission: Cybersecurity for Small Business (Phishing, Business Email Imposters, Email Authentication) — https://www.ftc.gov/business-guidance/small-businesses/cybersecurity",
+            "Checked at the sources on October 25, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Collect W-9s from contractors before year-end, automatically",
+            "Capture receipts by photo or email and file them for your bookkeeper"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out",
+            "Ask your web host to confirm your site got this week's critical PHP security update"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Isn't this overkill for a small shop?",
+          "a": "It's one phone call, only when someone asks you to send money somewhere new. The FBI and FTC both recommend verifying payment changes through a second channel."
+        },
+        {
+          "q": "What if we already paid?",
+          "a": "Call your bank immediately and ask them to recall the funds, then file a complaint at ic3.gov. IC3 says acting fast matters."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=verify-bank-change-requests"
+      },
+      "updated": "2026-10-25"
+    },
+    {
+      "path": "/industries/clinics/flu-shot-reminders",
+      "group": "recipes",
+      "label": "Clinics",
+      "title": "Send flu-shot reminders to patients who haven't had one yet this season",
+      "seoTitle": "Flu shot reminder automation for clinics (2026-27 season)",
+      "summary": "CDC recommends a flu vaccine every season for everyone 6 months and older, ideally by the end of October, and says it's still worth getting later. This recipe pulls a list of patients with no flu shot recorded this season, sends one friendly reminder with a booking link, and stops as soon as the shot is recorded.",
+      "steps": [
+        "From your EHR or practice management system, export patients 6 months and older who have no flu vaccine recorded since this season began. Keep it to name, contact preference and phone or email.",
+        "Load the list into your HIPAA-ready messaging tool (with a signed BAA) or a sheet that feeds it through Zapier, Make or n8n.",
+        "Send one reminder: your clinic name, \"It's flu shot season,\" how to book or your walk-in hours, and a callback number. Keep clinical details out of the text.",
+        "One week later, send one follow-up only to patients who still haven't booked or been vaccinated, then stop.",
+        "Each morning, remove anyone whose vaccine was recorded (in your clinic or reported from a pharmacy) so they don't get more messages.",
+        "Send the front desk a weekly count of reminders sent, appointments booked and shots recorded."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your EHR or practice management system, a HIPAA-ready messaging vendor with a signed BAA, and optionally Zapier/Make/n8n. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "CDC basics for the message (2026-27 season)",
+          "ul": [
+            "CDC recommends that everyone 6 months and older get a flu vaccine every season, with rare exceptions.",
+            "September and October are generally good times to get vaccinated, ideally by the end of October, but CDC says vaccination after that can still help.",
+            "CDC says it takes about two weeks after vaccination for antibodies to develop.",
+            "Some children 6 months through 8 years need two doses; let your clinicians decide who needs what. The reminder should only invite patients to book."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Use a messaging vendor that will sign a Business Associate Agreement, not a consumer texting app.",
+            "Text only patients who agreed to receive texts, identify the clinic, and honor STOP.",
+            "Keep vaccine eligibility and dosing decisions with your clinicians. An AI step should not answer medical questions; route them to staff.",
+            "Have your privacy officer review the templates before launch. This is operational guidance, not legal or medical advice."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "CDC: Key Facts About Seasonal Flu Vaccine — https://www.cdc.gov/flu/vaccines/keyfacts.html",
+            "CDC: Flu and Children — https://www.cdc.gov/flu/highrisk/children.htm",
+            "Checked at the sources on October 25, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Cut clinic no-shows with a layered appointment reminder sequence",
+            "Remind patients to use their FSA money before the plan year ends",
+            "Answer pre-visit questions with an approved-document FAQ assistant for a clinic"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Isn't it too late to remind patients in November?",
+          "a": "CDC says getting vaccinated by the end of October is ideal, but vaccination later in the season can still be beneficial, so reminders are still useful."
+        },
+        {
+          "q": "How many reminders should we send?",
+          "a": "One reminder and one follow-up is a reasonable limit. Stop as soon as the shot is recorded."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=flu-shot-reminders"
+      },
+      "updated": "2026-10-25"
+    },
+    {
+      "path": "/tips/experience-gifts-restaurant-gift-cards-2026",
+      "group": "tips",
+      "label": "Tip · Restaurants and experiences",
+      "title": "Sell experience gifts and restaurant gift cards early this holiday season",
+      "seoTitle": "Holiday 2026: half of shoppers plan to gift experiences (Deloitte survey)",
+      "summary": "Deloitte's 2026 Holiday Retail Survey found that 50% of shoppers plan to give an experience this year, and restaurant gift cards or in-person meals top the list at 37%. If you run a restaurant, salon, studio or any business people visit, put your gift cards and experience packages in front of customers now, before Thanksgiving week.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "More holiday sales without more inventory: gift cards and experience packages are bought now and redeemed later, often in slower months, and they bring new customers through your door."
+          ]
+        },
+        {
+          "h": "What's confirmed (Deloitte 2026 Holiday Retail Survey)",
+          "ul": [
+            "50% of shoppers plan to gift experiences this season, up 11 percentage points from 2024.",
+            "Restaurant gift cards or in-person meals top the list of experience gifts at 37%.",
+            "79% of those planning to gift experiences expect to pair them with physical items.",
+            "Average household holiday spend is expected to rise to $1,654, up 4% year over year. Deloitte says Thanksgiving week remains the main event, with October sales gaining momentum.",
+            "About the survey: 4,000 US consumers, conducted online Aug. 26 to Sept. 10, 2026, margin of error plus or minus 2 percentage points. These are shoppers' plans, not actual sales."
+          ]
+        },
+        {
+          "h": "Do this (about 30 minutes)",
+          "ol": [
+            "Make sure customers can buy a gift card online today. Add a \"Gift cards\" button to your website menu, Google Business Profile and your next email (see the e-gift card recipe for automatic delivery).",
+            "Create one or two experience packages with a clear price, for example \"dinner for two,\" \"class pass\" or \"spa morning,\" sold as a gift card in a set amount.",
+            "Pair it with something physical, since Deloitte says most experience gifters plan to: a printed card in an envelope, a branded mug, or a small take-home item.",
+            "Put the offer in your Small Business Saturday and Cyber Week plans so it shows up before and during Thanksgiving week.",
+            "Track gift card sales each week so you know what's working, and plan for redemptions in January and February."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "Follow the federal gift card rules: funds generally must be good for at least five years, and fees must be clearly disclosed. Simplest is no fees and no expiration.",
+            "Don't promise package details you can't deliver on busy dates. State any blackout dates up front.",
+            "Gift cards are a liability until they're redeemed. Ask your accountant how to record them.",
+            "Survey figures describe national shopper plans. Your own sales may differ, so start small and watch the numbers."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Deloitte Insights: 2026 Deloitte Holiday Retail Survey — https://www.deloitte.com/us/en/insights/industry/retail-distribution/holiday-retail-sales-consumer-survey.html",
+            "Consumer Financial Protection Bureau: gift card rules — https://www.consumerfinance.gov/ask-cfpb/if-my-prepaid-card-expires-do-i-lose-my-money-en-423/",
+            "Last checked at the source: October 25, 2026. Backlog item TB-023."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Check your email setup before holiday promos go out"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Turn holiday pre-orders into a daily kitchen prep list and pickup reminders",
+            "Send reservation reminders that cut restaurant no-shows"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this only apply to restaurants?",
+          "a": "No. Restaurants top Deloitte's list, but any business people visit, like salons, studios, gyms, tours or classes, can sell experience gifts as gift cards."
+        },
+        {
+          "q": "Is it too late to start?",
+          "a": "No. Deloitte says Thanksgiving week is still the main event, so setting up online gift cards now still catches most holiday shoppers."
+        }
+      ],
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up online gift cards, experience packages and automatic delivery on the tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-experience-gifts-restaurant-gift-cards-2026"
+      },
+      "updated": "2026-10-25"
     }
   ],
   "static": [

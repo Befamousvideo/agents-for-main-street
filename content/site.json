@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 25, 2026",
+  "updated": "October 26, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -292,6 +292,12 @@
           "h": "Related recipes",
           "ul": [
             "Ask every customer for a Google review automatically (without review gating)"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         }
       ],
@@ -780,7 +786,8 @@
           "ul": [
             "Batch-write product descriptions and image alt text — Export new SKUs, have AI write a 60–100-word description and alt text for each, review, and re-import.",
             "Alert staff when a SKU drops below your reorder threshold — Watch an inventory sheet or POS export; when a SKU falls below the threshold you set, alert staff and optionally draft a supplier reorder email for approval.",
-            "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text."
+            "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text.",
+            "Show holiday ship-by dates on your site and order emails automatically — post USPS send-by dates, minus your packing time, on your banner and order emails."
           ]
         },
         {
@@ -792,7 +799,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         }
       ],
@@ -924,7 +932,8 @@
           "h": "Tips for restaurants",
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         }
       ],
@@ -1075,7 +1084,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Ask your web host to confirm your site got this week's critical PHP security update",
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         }
       ],
@@ -1134,7 +1144,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         }
       ],
@@ -1339,7 +1350,8 @@
           "h": "Related recipes",
           "ul": [
             "Batch-write product descriptions and image alt text",
-            "Alert staff when a SKU drops below your reorder threshold"
+            "Alert staff when a SKU drops below your reorder threshold",
+            "Show holiday ship-by dates on your site and order emails automatically"
           ]
         },
         {
@@ -1566,7 +1578,8 @@
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Send reservation reminders that cut restaurant no-shows",
             "Get ready for Google's automated calls asking your prices and booking times",
-            "Sell and deliver e-gift cards automatically this holiday season"
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Get a warning before your domain name or website security certificate expires"
           ]
         },
         {
@@ -1692,7 +1705,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2259,7 +2272,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Check your email setup before holiday promos go out",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         },
         {
@@ -2517,7 +2531,8 @@
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Ask every customer for a Google review automatically (without review gating)"
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Show holiday ship-by dates on your site and order emails automatically"
           ]
         }
       ],
@@ -2677,7 +2692,8 @@
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Capture receipts by photo or email and file them for your bookkeeper",
-            "Ask every new customer how they found you, and log it automatically"
+            "Ask every new customer how they found you, and log it automatically",
+            "Show holiday ship-by dates on your site and order emails automatically"
           ]
         },
         {
@@ -2778,7 +2794,8 @@
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Ask every customer for a Google review automatically (without review gating)",
-            "Capture receipts by photo or email and file them for your bookkeeper"
+            "Capture receipts by photo or email and file them for your bookkeeper",
+            "Get a warning before your domain name or website security certificate expires"
           ]
         }
       ],
@@ -2949,7 +2966,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Keep reviews out of your holiday giveaways and discounts"
           ]
         },
         {
@@ -2984,6 +3002,283 @@
         "w": 1280,
         "h": 720
       }
+    },
+    {
+      "path": "/industries/retail/holiday-ship-by-dates",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Show holiday ship-by dates on your site and order emails automatically",
+      "seoTitle": "USPS 2026 holiday shipping deadlines: auto-show ship-by dates to shoppers",
+      "summary": "USPS recommends sending by Dec. 17 (Ground Advantage and First-Class Mail), Dec. 18 (Priority Mail) or Dec. 19 (Priority Mail Express) for expected delivery before Dec. 25 in the lower 48 states. This recipe turns those dates, minus your own packing time, into a countdown banner, a line in every order confirmation, and an automatic switch to \"local pickup or e-gift card\" messaging once the last safe day has passed.",
+      "steps": [
+        "Write down your own order cutoff for each shipping option: the USPS send-by date minus the days you need to pack and hand off orders. Keep it in one Google Sheet so every tool reads the same dates.",
+        "Add a site banner (Shopify, Square Online, Wix or WooCommerce all support announcement bars) that shows the next cutoff, for example \"Order by Dec. 15 for Ground delivery by Dec. 25.\" Schedule it to change automatically as each date passes.",
+        "Add one line to your order confirmation email that states the cutoff the customer's shipping choice falls under. Most store platforms let you edit this template without code.",
+        "With Zapier, Make or n8n, check the sheet each morning. When a cutoff passes, swap the banner text and send staff a reminder to update any other channels (Google Business Profile posts, social bios).",
+        "After the last safe shipping day, switch the message to what still works: local pickup, local delivery, or an e-gift card delivered by email (see the e-gift card recipe).",
+        "Send customers with orders placed after a cutoff a short, honest note that delivery before Dec. 25 isn't expected, with an option to change the shipping method or cancel."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your online store platform's announcement bar and order email templates, a Google Sheet of dates, and optionally Zapier/Make/n8n for the daily switch. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "USPS 2026 recommended send-by dates (for expected delivery before Dec. 25)",
+          "ul": [
+            "Lower 48 states: USPS Ground Advantage and First-Class Mail by Thursday, Dec. 17; Priority Mail by Friday, Dec. 18; Priority Mail Express by Saturday, Dec. 19.",
+            "Alaska, Hawaii, Puerto Rico and U.S. territories: First-Class Mail Dec. 17, Priority Mail Dec. 18, Priority Mail Express Dec. 19. USPS says Ground Advantage to and from these places has a 10-day or longer service expectation, so check the USPS service-commitments tool for your ZIP codes.",
+            "International (First-Class Package International and Priority Mail International): Wednesday, Dec. 9 for every region USPS lists; Priority Mail Express International: Wednesday, Dec. 16.",
+            "USPS notes Hanukkah runs Dec. 4 to 12 this year, so gifts for it need to go out earlier.",
+            "USPS says actual delivery dates can vary based on origin, destination, acceptance time and other conditions. These are recommendations, not guarantees."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Use your own cutoff, not the carrier's. If you need two days to pack, your Ground cutoff is two days before USPS's date.",
+            "Say \"expected\" delivery, not \"guaranteed,\" unless your carrier actually guarantees it.",
+            "If you also ship with UPS or FedEx, add their published holiday dates to the same sheet from their own websites.",
+            "Recheck the USPS page in early December in case dates are updated."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "USPS: 2026 Holiday Shipping Deadlines — https://www.usps.com/holiday/holiday-shipping-dates.htm",
+            "USPS Newsroom (Sept. 22, 2026): Postal Service Recommends 2026 Holiday Mailing and Shipping Dates — https://about.usps.com/newsroom/national-releases/2026/0922-usps-recommends-2026-holiday-mailing-shipping-dates.htm",
+            "USPS: Service commitments lookup — https://postcalc.usps.com/ServiceCommitments",
+            "Checked at the sources on October 26, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Send one abandoned-cart SMS (with proper SMS consent)"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I promise Christmas delivery if a customer orders by the USPS date?",
+          "a": "No. USPS calls these recommended send-by dates for expected delivery and says actual delivery can vary. Set your own earlier cutoff and say \"expected.\""
+        },
+        {
+          "q": "What should I offer after the cutoff?",
+          "a": "Local pickup, local delivery if you offer it, or an e-gift card sent by email, which arrives instantly."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/holiday-ship-by-boxes.webp",
+        "alt": "Brown kraft shipping boxes tied with twine on a shop counter next to a roll of blank labels and a December wall calendar",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=holiday-ship-by-dates"
+      },
+      "updated": "2026-10-26"
+    },
+    {
+      "path": "/industries/local-business/domain-ssl-expiry-alerts",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Get a warning before your domain name or website security certificate expires",
+      "seoTitle": "Domain and SSL certificate expiry alerts for small business websites (200-day certs)",
+      "summary": "If your domain name lapses or your site's security certificate expires, customers see an error page or nothing at all, often in your busiest week. Certificates now expire faster: since March 15, 2026 the industry maximum is 200 days, dropping to 100 days in March 2027. This recipe keeps one list of your renewal dates and sends you alerts 30, 14 and 3 days before anything runs out.",
+      "steps": [
+        "List every domain you own and every website on it in a Google Sheet: domain, registrar, renewal date, whether auto-renew is on, the card on file, and who has the login.",
+        "Log in to your registrar, turn on auto-renew for every domain you want to keep, and make sure the card and contact email are current. ICANN requires registrars to send renewal reminders about a month and a week before expiry, so those emails must reach an inbox someone reads.",
+        "Ask your web host or website builder whether your certificate renews automatically. Most hosts and builders do this for you; if yours doesn't, ask them to set it up.",
+        "Set up a free or low-cost certificate monitoring service (Let's Encrypt lists options) or a daily Zapier, Make or n8n check that reads each site's certificate expiry date into the sheet.",
+        "Send an alert to the owner and your web person at 30, 14 and 3 days before any domain or certificate expires, and an urgent alert if a certificate's days left suddenly drop without a renewal.",
+        "Once a quarter, open your site in a private browser window on your phone to confirm the padlock shows and there's no warning page."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your domain registrar account, your web host or website builder, a Google Sheet, and optionally a certificate monitoring service or Zapier/Make/n8n. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What's confirmed",
+          "ul": [
+            "The CA/Browser Forum's Ballot SC-081v3 cut the maximum lifetime of public website certificates to 200 days for certificates issued on or after March 15, 2026, then 100 days from March 15, 2027 and 47 days from March 15, 2029.",
+            "Let's Encrypt stopped sending certificate expiration reminder emails on June 4, 2025, and recommends a third-party monitoring service if you want them.",
+            "Let's Encrypt plans to move its default certificates from 90 days to 64 days on February 10, 2027 and 45 days on February 16, 2028, and says manual renewal is not recommended.",
+            "ICANN's Expired Registration Recovery Policy requires registrars of generic domains (like .com) to send at least two reminders before expiry, about one month and one week ahead, and another within five days after it expires."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Don't rely on renewal emails alone. An old address, a full inbox or a spam filter means nobody sees them.",
+            "Keep registrar logins in a password manager the business controls, not in a former employee's or web designer's personal account.",
+            "An expired card is the most common reason auto-renew fails. Put the card's expiry date in the sheet too.",
+            "Country-code domains (like .us or .co) may follow different renewal rules; check your registrar's terms."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "CA/Browser Forum: Ballot SC081v3, Introduce Schedule of Reducing Validity and Data Reuse Periods — https://cabforum.org/2025/04/11/ballot-sc081v3-introduce-schedule-of-reducing-validity-and-data-reuse-periods/",
+            "Let's Encrypt (Jan. 22, 2025): Ending Support for Expiration Notification Emails — https://letsencrypt.org/2025/01/22/ending-expiration-emails/",
+            "Let's Encrypt (Dec. 2, 2025): Decreasing Certificate Lifetimes to 45 Days — https://letsencrypt.org/2025/12/02/from-90-to-45/",
+            "ICANN: Expired Registration Recovery Policy — https://www.icann.org/resources/pages/errp-2013-02-28-en",
+            "Checked at the sources on October 26, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Hold every \"new bank details\" email until someone calls to verify"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Ask your web host to confirm your site got this week's critical PHP security update",
+            "Check your email setup before holiday promos go out"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "My web host handles the certificate. Do I still need this?",
+          "a": "An alert costs little and catches the rare failed renewal. The domain name itself is usually renewed separately at your registrar, so track that too."
+        },
+        {
+          "q": "Why are certificates expiring more often now?",
+          "a": "The industry body that sets certificate rules shortened the maximum lifetime to 200 days in March 2026 and plans further cuts in 2027 and 2029, so automatic renewal matters more."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/bakery-laptop-padlock.webp",
+        "alt": "A bakery owner at the counter looking at a laptop showing a web page with a padlock icon, with a desk calendar beside it",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=domain-ssl-expiry-alerts"
+      },
+      "updated": "2026-10-26"
+    },
+    {
+      "path": "/tips/no-review-incentives-holiday-promos",
+      "group": "tips",
+      "label": "Tip · Any local business",
+      "title": "Keep reviews out of your holiday giveaways and discounts",
+      "seoTitle": "Holiday promo check: Google bans discounts or giveaways for reviews",
+      "summary": "Holiday giveaways and \"leave us a review, get 10% off\" offers are tempting, but Google's rules don't allow offering any discount, freebie or payment in exchange for a review, or asking only your happy customers. Google can remove those reviews and restrict your Business Profile. Ask everyone, offer nothing for it, and keep your holiday deals separate.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Reviews that stay up, and a Business Profile that keeps collecting new ones through the holidays, instead of reviews that get removed or a warning on your listing during your busiest season."
+          ]
+        },
+        {
+          "h": "What's confirmed (Google's own policies)",
+          "ul": [
+            "Google's Maps contribution policy says merchants may not offer incentives, such as payment, discounts, free goods or services, in exchange for posting a review, or for changing or removing a negative one.",
+            "The same policy says merchants may not discourage negative reviews or selectively ask only happy customers for positive ones, and shouldn't pressure customers to review while they're on the premises or ask for specific wording.",
+            "Google says reviews posted because of an incentive are not allowed and will be removed.",
+            "If Google finds a business broke its Fake Engagement policy, it may, beyond removing reviews, block new reviews for a set time, unpublish existing reviews for a set time, or show customers a warning that fake reviews were removed. Google says it emails the owner first, and owners can appeal."
+          ]
+        },
+        {
+          "h": "Do this (about 20 minutes)",
+          "ol": [
+            "Read through your holiday plans: social giveaways, Small Business Saturday offers, receipts, table cards, email footers and staff scripts. Remove anything that links a review to a prize, entry, discount or freebie.",
+            "Keep your deals and your review ask separate. A giveaway can ask people to follow you or sign up; it can't ask for a review.",
+            "Ask every customer the same way, not just the ones who seem happy. A short line on the receipt or in a follow-up email with your Google review link works (see the review-request recipe).",
+            "Tell staff not to ask for a set number of reviews, not to stand over customers while they write one, and not to suggest what to say.",
+            "Reply to the reviews you get, good and bad, in a short, personal way."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "\"Review us for a chance to win\" counts as an incentive too. Contest entries are a form of reward.",
+            "Tools that send only 4- and 5-star customers to Google and route everyone else to a private form are selective soliciting. Send everyone to the same place.",
+            "Other review sites have their own rules, and some ban asking for reviews at all. Check each site's policy before you ask there.",
+            "This tip covers Google's platform rules. It isn't legal advice."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Maps User Contributed Content Policy: Prohibited and restricted content (Fake engagement, Rating manipulation) — https://support.google.com/contributionpolicy/answer/7400114",
+            "Google Business Profile Help: Business Profile restrictions for policy violations — https://support.google.com/business/answer/14114287",
+            "Last checked at the source: October 26, 2026. Backlog item TB-070."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Draft replies to new Google reviews for approval"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I thank customers who leave a review?",
+          "a": "You can reply and thank them, but don't give a gift, discount or entry for the review. Google counts anything of value given in exchange as an incentive."
+        },
+        {
+          "q": "Can I still run a holiday giveaway?",
+          "a": "Yes, as long as entering doesn't require or reward a review. Ask for a follow, a sign-up or a visit instead."
+        }
+      ],
+      "image": {
+        "src": "/images/boutique-owner-star-rating.webp",
+        "alt": "A boutique owner behind a counter with holiday greenery and string lights, looking at five stars on a phone screen",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a review-request flow that asks every customer the same way, with no incentives, on the tools you already use, within 7 days, and you approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-no-review-incentives-holiday-promos"
+      },
+      "updated": "2026-10-26"
     }
   ],
   "static": [

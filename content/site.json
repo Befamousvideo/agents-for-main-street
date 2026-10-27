@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 26, 2026",
+  "updated": "October 27, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -297,7 +297,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         }
       ],
@@ -800,7 +801,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         }
       ],
@@ -933,7 +935,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         }
       ],
@@ -1085,7 +1088,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Ask your web host to confirm your site got this week's critical PHP security update",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         }
       ],
@@ -1145,7 +1149,8 @@
           "h": "Related tips",
           "ul": [
             "Check your email setup before holiday promos go out",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         }
       ],
@@ -1505,7 +1510,8 @@
             "Send polite overdue-invoice reminders automatically",
             "Turn call and meeting transcripts into summaries and action items",
             "Collect W-9s from contractors before year-end, automatically",
-            "Sell and deliver e-gift cards automatically this holiday season"
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Send new seasonal hires their paperwork checklist and finish Form I-9 on time"
           ]
         }
       ],
@@ -1705,7 +1711,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-10-27"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2108,7 +2114,8 @@
             "Chase clients for missing documents automatically",
             "Capture receipts by photo or email and file them for your bookkeeper",
             "Send polite overdue-invoice reminders automatically",
-            "Hold every \"new bank details\" email until someone calls to verify"
+            "Hold every \"new bank details\" email until someone calls to verify",
+            "Send new seasonal hires their paperwork checklist and finish Form I-9 on time"
           ]
         }
       ],
@@ -2878,7 +2885,8 @@
           "h": "Related tips",
           "ul": [
             "Check your email setup before holiday promos go out",
-            "Ask your web host to confirm your site got this week's critical PHP security update"
+            "Ask your web host to confirm your site got this week's critical PHP security update",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         }
       ],
@@ -3245,7 +3253,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
           ]
         },
         {
@@ -3279,6 +3288,184 @@
         "href": "/build-it-for-me?recipe=tip-no-review-incentives-holiday-promos"
       },
       "updated": "2026-10-26"
+    },
+    {
+      "path": "/industries/local-business/seasonal-hire-paperwork",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Send new seasonal hires their paperwork checklist and finish Form I-9 on time",
+      "seoTitle": "Seasonal hiring checklist: automate I-9 and W-4 reminders (3-business-day rule)",
+      "summary": "Holiday hiring moves fast, and paperwork is easy to miss. USCIS says the employer must complete and sign Section 2 of Form I-9 within 3 business days of a new employee's first day of work for pay (or on day one if the job lasts less than 3 days). This recipe sends each new hire a welcome checklist, reminds them to bring their documents, and alerts you before the I-9 deadline passes.",
+      "steps": [
+        "Keep one Google Sheet of new hires: name, start date (first day of work for pay), manager, and checkboxes for I-9 Section 1, I-9 Section 2, W-4 and any state forms.",
+        "When you add a row, have Zapier, Make or n8n email or text the new hire a welcome note with their start time, who to ask for, and a link to the USCIS Lists of Acceptable Documents, so they can choose what to bring.",
+        "Ask the new hire to complete Section 1 of Form I-9 and the IRS Form W-4 no later than their first day of work for pay.",
+        "Have the automation work out the Section 2 due date (3 business days after the start date) and write it into the sheet.",
+        "Send the manager a reminder the day before that due date if Section 2 isn't checked off, and an alert to the owner on the due date itself.",
+        "Store finished I-9s together, separate from general personnel files, and record that they're done in the sheet. Don't store copies of identity documents in shared drives or chat."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a Google Sheet, your email or texting tool, and Zapier, Make or n8n for the reminders. The forms themselves come free from USCIS and the IRS. Costs: see each vendor's current pricing page."
+          ]
+        },
+        {
+          "h": "What's confirmed (USCIS)",
+          "ul": [
+            "The employer or an authorized representative must complete and sign Section 2 within 3 business days of the hire date, meaning the first day of work for pay. USCIS's example: someone who starts Monday needs Section 2 done by Thursday.",
+            "If the job lasts less than 3 days, Section 2 must be completed no later than the first day of work for pay.",
+            "The employee chooses which acceptable documents to present: one from List A, or one from List B plus one from List C. If they present acceptable List A documentation, don't ask for List B or C, and vice versa.",
+            "Employers must physically examine original documents, unless they participate in E-Verify and use the remote alternative procedure that DHS authorizes.",
+            "Employees can't act as the authorized representative for their own Form I-9, and the employer is liable for violations by any authorized representative."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Never tell a new hire which specific document to bring, such as a passport. Send them the full USCIS list and let them choose.",
+            "Count business days, not calendar days, and use the first day of paid work, including paid training or orientation.",
+            "Treat the reminders as a checklist, not a compliance program. For special cases like minors, rehires or reverification, see the USCIS Handbook for Employers (M-274), and ask an employment professional if you're unsure.",
+            "State new-hire reporting and state tax withholding forms vary by state; check your state's labor or revenue department."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "USCIS: Completing Section 2, Employer Review and Attestation — https://www.uscis.gov/i-9-central/complete-correct-form-i-9/completing-section-2-employer-review-and-attestation",
+            "USCIS: Form I-9, Employment Eligibility Verification — https://www.uscis.gov/i-9",
+            "IRS: About Form W-4, Employee's Withholding Certificate — https://www.irs.gov/forms-pubs/about-form-w-4",
+            "Checked at the sources on October 27, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Collect W-9s from contractors before year-end, automatically",
+            "Capture receipts by photo or email and file them for your bookkeeper",
+            "Hold every \"new bank details\" email until someone calls to verify"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What counts as the start date for the 3-day clock?",
+          "a": "USCIS says the hire date is the first day of work for pay. Section 2 is due within 3 business days of it."
+        },
+        {
+          "q": "Can I ask a new hire to bring their passport?",
+          "a": "No. The employee chooses which acceptable documents to show from the USCIS lists. Send them the full list instead."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/seasonal-hire-paperwork-reminders.webp",
+        "alt": "A store manager and a new seasonal employee at a back-office desk reviewing paperwork on a clipboard and a tablet, with holiday stock boxes on the shelves behind them",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=seasonal-hire-paperwork"
+      },
+      "updated": "2026-10-27"
+    },
+    {
+      "path": "/tips/report-review-extortion",
+      "group": "tips",
+      "label": "Tip · Any local business",
+      "title": "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+      "seoTitle": "Negative review extortion: how to report it to Google (don't pay)",
+      "summary": "Some scammers flood a Google Business Profile with 1- and 2-star reviews, then message the owner offering to remove them for money, gift cards or free services. Google says don't engage and don't pay: paying encourages more attempts and doesn't guarantee removal. Save the evidence and report it through Google's merchant extortion form.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A clear plan for the day it happens, so you protect your rating and your money instead of negotiating with a scammer during a busy season."
+          ]
+        },
+        {
+          "h": "What's confirmed (Google Business Profile Help)",
+          "ul": [
+            "Google calls review extortion a serious policy violation. It may look like a sudden increase in 1-star and 2-star reviews followed by a demand for money, goods or services to remove them.",
+            "Google says not to engage with or pay the people involved, because it can encourage further attempts and doesn't guarantee the reviews are removed, and not to try to resolve it yourself by offering money or services.",
+            "Google asks owners to gather evidence right away and report through its merchant extortion form, including screenshots of the demands with dates, times and the sender's contact details, plus direct links to the suspicious reviews.",
+            "After a report, Google investigates and tells the owner the result, but says it can't share specific details of the investigation.",
+            "The extortion form is only for cases with a direct demand for money or favors. Spam or off-topic reviews go through Google's normal review reporting."
+          ]
+        },
+        {
+          "h": "Do this (about 15 minutes, when it happens)",
+          "ol": [
+            "Don't reply to the demand, and don't pay or offer anything.",
+            "Screenshot every message (email, WhatsApp, Telegram, social media or text) so the date, time and sender details show.",
+            "Copy the link to each suspicious review into one note or document, and write down when the reviews started and when the demand arrived.",
+            "Open Google's merchant extortion report form, fill in your business details, describe the reviews and the demand, attach the screenshots and submit.",
+            "Tell your staff, so nobody answers the scammer or offers a refund to make it stop.",
+            "Keep collecting real reviews the usual way (ask every customer, no incentives), and keep a copy of everything you submitted."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "A message offering to \"fix\" or remove your bad reviews for a fee can be part of the same scam, even if it sounds like a helpful service.",
+            "Don't reply to the fake reviews with accusations or customer details. Keep any public reply short and calm, or wait for Google's decision.",
+            "Whether to also file a police report is your call. This tip covers Google's reporting process and isn't legal advice."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Business Profile Help: Report negative review extortion scams on your Business Profile — https://support.google.com/business/answer/16404809",
+            "Google: Merchant extortion report form — https://support.google.com/business/contact/merchant_extortion",
+            "Last checked at the source: October 27, 2026. Backlog item TB-001."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Draft replies to new Google reviews for approval",
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Hold every \"new bank details\" email until someone calls to verify"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will paying make the reviews go away?",
+          "a": "Google says paying doesn't guarantee removal and can encourage more attempts. Report it instead."
+        },
+        {
+          "q": "Can I use this form for any unfair review?",
+          "a": "No. Google says it's only for cases where someone demanded money or favors to remove reviews. Report other policy-breaking reviews the normal way."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-report-review-extortion.webp",
+        "alt": "A worried cafe owner at a wooden counter after closing, looking at a phone showing a list of low star ratings, with a laptop open to a web form",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a new-review alert that flags sudden waves of low ratings and gives you a ready evidence log and reporting checklist, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-report-review-extortion"
+      },
+      "updated": "2026-10-27"
     }
   ],
   "static": [

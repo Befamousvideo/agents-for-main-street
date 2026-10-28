@@ -2972,11 +2972,29 @@
           ]
         },
         {
+          "h": "Protect your gift cards from card draining",
+          "p": [
+            "Card draining is a gift card scam aimed at generic gift cards hanging on open racks at grocery stores, pharmacies and big-box stores. A thief takes a card off the rack, scratches or peels the cover to copy the card number and PIN (or puts a fake barcode sticker over the real one), reseals it and puts it back. When a shopper buys the card and loads money on it, the thief spends the balance online, often before the gift is ever opened."
+          ],
+          "ul": [
+            "If you sell your own gift cards: this is a strong reason to sell direct. Offer e-gift cards from your own website, and keep physical cards behind the counter so they're only activated at your register when someone pays.",
+            "Keep any physical cards you sell out of open, self-serve racks. If a reseller stocks your cards, ask how they store and protect them.",
+            "Tell your customers the safest way to buy is straight from you, in person or on your website. It protects them and keeps the sale with your business.",
+            "Buyer tips: buy direct from the business or online from the brand's own site. In a store, check the back of the card for torn, wrinkled or resealed packaging, a scratched or exposed PIN, or a barcode sticker, and pick a different card if anything looks off.",
+            "Keep the receipt and a photo of the card. Register the card if the issuer allows it, check the balance right away, and give the gift soon so it's used before anyone else can drain it.",
+            "If a card has no money on it, contact the card issuer and the store where you bought it right away. Paying by credit card can give you more ways to get your money back."
+          ]
+        },
+        {
           "h": "Sources",
           "p": [
             "Deloitte Insights: 2026 Deloitte Holiday Retail Survey — https://www.deloitte.com/us/en/insights/industry/retail-distribution/holiday-retail-sales-consumer-survey.html",
             "Consumer Financial Protection Bureau: gift card rules — https://www.consumerfinance.gov/ask-cfpb/if-my-prepaid-card-expires-do-i-lose-my-money-en-423/",
-            "Last checked at the source: October 25, 2026. Backlog item TB-023."
+            "Better Business Bureau: What to know before purchasing a gift card — https://www.bbb.org/all/consumer/tip/what-to-know-before-purchasing-a-gift-card",
+            "FBI El Paso: Protecting yourself from fake barcodes on gift cards — https://www.fbi.gov/contact-us/field-offices/elpaso/news/fbi-tech-tuesday-protecting-yourself-from-fake-barcodes-on-gift-cards",
+            "Office of the Attorney General for the District of Columbia: alert on gift card draining scams — https://oag.dc.gov/release/attorney-general-brian-schwalb-issues-alert",
+            "U.S. Immigration and Customs Enforcement (HSI): Tackling the rise in gift card fraud — https://www.ice.gov/hsi/news/operations-initiatives/tackling-gift-card-fraud",
+            "Last checked at the source: October 25, 2026. Backlog item TB-023. Card draining section added and checked at the sources October 28, 2026."
           ]
         },
         {
@@ -3005,6 +3023,10 @@
         {
           "q": "Is it too late to start?",
           "a": "No. Deloitte says Thanksgiving week is still the main event, so setting up online gift cards now still catches most holiday shoppers."
+        },
+        {
+          "q": "Are gift cards on store racks safe to buy?",
+          "a": "Usually, but open-rack cards can be tampered with. Buying direct from the business, in person or on its own website, avoids the card-draining scam."
         }
       ],
       "cta": {
@@ -3013,7 +3035,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-experience-gifts-restaurant-gift-cards-2026"
       },
-      "updated": "2026-10-25",
+      "updated": "2026-10-28",
       "image": {
         "src": "/images/gift-card-wall.webp",
         "alt": "Store gift card display with cards for a favorite restaurant, fast food, online store, coffee shop and more",

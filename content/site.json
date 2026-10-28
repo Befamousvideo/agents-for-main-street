@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 27, 2026",
+  "updated": "October 28, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -788,7 +788,8 @@
             "Batch-write product descriptions and image alt text — Export new SKUs, have AI write a 60–100-word description and alt text for each, review, and re-import.",
             "Alert staff when a SKU drops below your reorder threshold — Watch an inventory sheet or POS export; when a SKU falls below the threshold you set, alert staff and optionally draft a supplier reorder email for approval.",
             "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text.",
-            "Show holiday ship-by dates on your site and order emails automatically — post USPS send-by dates, minus your packing time, on your banner and order emails."
+            "Show holiday ship-by dates on your site and order emails automatically — post USPS send-by dates, minus your packing time, on your banner and order emails.",
+            "Get an alert when card testers hit your online checkout — count failed payments per hour and alert the owner when they spike, with a refund-and-tighten-checkout checklist."
           ]
         },
         {
@@ -802,7 +803,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         }
       ],
@@ -811,7 +813,8 @@
           "q": "What's the easiest automation for retail businesses to start with?",
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
-      ]
+      ],
+      "updated": "2026-10-28"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1089,7 +1092,8 @@
             "Ask your web host to confirm your site got this week's critical PHP security update",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         }
       ],
@@ -1150,7 +1154,8 @@
           "ul": [
             "Check your email setup before holiday promos go out",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         }
       ],
@@ -1356,14 +1361,16 @@
           "ul": [
             "Batch-write product descriptions and image alt text",
             "Alert staff when a SKU drops below your reorder threshold",
-            "Show holiday ship-by dates on your site and order emails automatically"
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Get an alert when card testers hit your online checkout"
           ]
         },
         {
           "h": "Related tips",
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         }
       ],
@@ -1711,7 +1718,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-27"
+      "updated": "2026-10-28"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2280,7 +2287,8 @@
             "Check your email setup before holiday promos go out",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         },
         {
@@ -2530,7 +2538,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Check your email setup before holiday promos go out",
             "Ask your web host to confirm your site got this week's critical PHP security update",
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         },
         {
@@ -2700,7 +2709,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Capture receipts by photo or email and file them for your bookkeeper",
             "Ask every new customer how they found you, and log it automatically",
-            "Show holiday ship-by dates on your site and order emails automatically"
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Get an alert when card testers hit your online checkout"
           ]
         },
         {
@@ -3066,7 +3076,8 @@
           "ul": [
             "Sell and deliver e-gift cards automatically this holiday season",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
-            "Send one abandoned-cart SMS (with proper SMS consent)"
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Get an alert when card testers hit your online checkout"
           ]
         },
         {
@@ -3254,7 +3265,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Use Thanksgiving week to thank your best customers with early access"
           ]
         },
         {
@@ -3466,6 +3478,181 @@
         "href": "/build-it-for-me?recipe=tip-report-review-extortion"
       },
       "updated": "2026-10-27"
+    },
+    {
+      "path": "/industries/retail/card-testing-alerts",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Get an alert when card testers hit your online checkout",
+      "seoTitle": "Card testing fraud alert for small online stores (failed payment spike automation)",
+      "summary": "Card testing is when fraudsters use a store's checkout to find out which stolen card numbers still work, usually with lots of small payments or card setups. Stripe's docs say it can lead to disputes, higher decline rates and fees for the store. This recipe watches your failed payments and alerts you within minutes when they spike, so you can refund fraudulent charges and ask your developer or platform to tighten checkout before the damage grows.",
+      "steps": [
+        "Pick your signal: failed or declined payments from your payment processor. Most processors and store platforms can send an event or email for each failed payment, and automation tools like Zapier, Make or n8n can receive them.",
+        "Have the automation add each failed payment to a Google Sheet with the time, amount, customer name and email.",
+        "Count failures in a rolling window, such as the last hour. Set a threshold well above your normal day (for example, three times your usual hourly failures), based on a few weeks of your own data.",
+        "When the count passes the threshold, text and email the owner and whoever manages the website: \"Possible card testing: X failed payments in the last hour.\"",
+        "Include a quick look at the pattern Stripe describes: many low-amount payments, nonsense or random-looking names and emails, and lots of generic declines.",
+        "Open a short checklist in the alert: review recent successful small payments and refund the ones that look fraudulent, then ask your developer or platform about CAPTCHA, rate limits and guest checkout limits on the checkout."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your payment processor or store platform, a Google Sheet, and Zapier, Make or n8n for the counting and alerts. Costs: see each vendor's current pricing page. If your processor offers built-in fraud rules (Stripe calls its tool Radar, and custom rules depend on your plan), check those first."
+          ]
+        },
+        {
+          "h": "What's confirmed (Stripe Docs)",
+          "ul": [
+            "Card testing is when fraudsters try to validate stolen card details by making many small payments or card setups on a business's site.",
+            "Signs include a sudden increase in failed or blocked payments, many declines with a generic decline reason, and low-amount payments using random or meaningless names and email addresses.",
+            "Card testing can result in disputes, higher decline rates and fees for the business.",
+            "Stripe recommends refunding payments that you believe are fraudulent, to help avoid disputes later.",
+            "Stripe's recommended checkout integrations include protections such as CAPTCHA and rate limiting, and its docs also suggest adding your own rate limits, limiting guest checkout where it makes sense, keeping secret API keys private and avoiding excessive payment retries."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Don't email or call the names on the fake orders. They're usually random, or belong to the real cardholders, who aren't the attackers.",
+            "Refunds and checkout changes are a person's decision. The automation only alerts and gathers the evidence.",
+            "If you're not technical, forward the Stripe page below to your web developer or store platform's support and ask what protections are already on.",
+            "Your processor may limit or pause your account if card testing continues, so treat an alert as urgent, even late at night."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Stripe Docs: Protect yourself from card testing — https://docs.stripe.com/disputes/prevention/card-testing",
+            "Checked at the source on October 28, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Hold every \"new bank details\" email until someone calls to verify"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "I don't use Stripe. Does this still apply?",
+          "a": "Yes. Card testing can hit any online checkout. Use the failed-payment event or email your processor or store platform provides, and ask their support what card testing protections they offer."
+        },
+        {
+          "q": "Why refund payments that went through?",
+          "a": "Stripe says refunding payments you believe are fraudulent helps avoid disputes, which bring fees of their own."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/card-testing-alerts.webp",
+        "alt": "An online gift shop owner at a back-office desk in the evening, looking worried at a laptop chart with a sudden spike of red failed-payment bars, with a phone alert lit up beside it and shelves of plain shipping boxes behind",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=card-testing-alerts"
+      },
+      "updated": "2026-10-28"
+    },
+    {
+      "path": "/tips/thanksgiving-early-access-best-customers",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Use Thanksgiving week to thank your best customers with early access",
+      "seoTitle": "Thanksgiving email idea for small shops: early access for your best customers",
+      "summary": "Thanksgiving is Thursday, Nov 26, 2026. Instead of one more \"sale starts now\" blast, send a short thank-you to your best customers that week and give them first access to your holiday deals. Klaviyo's Thanksgiving campaign guide suggests rewarding loyal customers with early access, choosing them by how much or how often they buy, and asking for reviews automatically once customers have had time to use what they bought.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Your most loyal customers feel thanked instead of sold to, get the first pick of limited stock, and your holiday deals start earning before the Black Friday noise. It also gives you a natural moment, a little later, to ask for honest reviews."
+          ]
+        },
+        {
+          "h": "What's confirmed (Klaviyo, Thanksgiving email campaign ideas)",
+          "ul": [
+            "Klaviyo suggests using the Thanksgiving period to show appreciation to customers, with early access to holiday offers as a reward for loyal customers.",
+            "It suggests picking those customers from your own data, for example by how much they've spent, how often they buy, referrals or loyalty program status.",
+            "It recommends sending review requests automatically after the purchase, once the customer has had a chance to use the product."
+          ]
+        },
+        {
+          "h": "Do this (about 30 minutes)",
+          "ol": [
+            "Export last year's customers from your shop or POS and pick your best 50 to 200, by total spent or number of orders.",
+            "Write a short, real thank-you: one line about why you appreciate them and one line with the early-access offer, the dates and how to use it.",
+            "Send it Monday or Tuesday of Thanksgiving week (Nov 23 or 24) by email. Only text people who have opted in to texts from you.",
+            "Open the early access a day or two before your public Black Friday or Small Business Saturday (Nov 28) offer.",
+            "One to two weeks after each purchase, send a separate, simple review request to every buyer. Don't tie it to the discount."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "Never make the early access or discount depend on leaving a review, or only ask happy customers. See our tip on keeping reviews out of holiday promos.",
+            "Don't promise \"only for you\" deals that you'll also post publicly the same day. Make the early access real.",
+            "Klaviyo is an email platform and its guide promotes its own product. You can do this with any email tool or by hand."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Klaviyo: Thanksgiving email campaign ideas — https://www.klaviyo.com/blog/thanksgiving-email-campaign-ideas",
+            "Last checked at the source: October 28, 2026. Backlog item TB-020."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Check your email setup before holiday promos go out"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Show holiday ship-by dates on your site and order emails automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many customers should get early access?",
+          "a": "Start with your top customers by spend or order count, a list small enough that the thank-you feels personal. There's no magic number."
+        },
+        {
+          "q": "Can I ask for a review in the same email?",
+          "a": "Better to wait until after they've bought and used the item, and send the review request to every buyer, with no reward attached."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-thanksgiving-early-access-best-customers.webp",
+        "alt": "A boutique owner writing thank-you notes at the shop counter in late autumn, with envelopes, a laptop open to an email draft and pumpkins and wrapped gifts nearby",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a best-customer list, an early-access thank-you email and an automatic review request after each purchase, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-thanksgiving-early-access-best-customers"
+      },
+      "updated": "2026-10-28"
     }
   ],
   "static": [

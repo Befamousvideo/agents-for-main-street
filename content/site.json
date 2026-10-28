@@ -2983,7 +2983,13 @@
             "Buyer tips: buy direct from the business or online from the brand's own site. In a store, check the back of the card for torn, wrinkled or resealed packaging, a scratched or exposed PIN, or a barcode sticker, and pick a different card if anything looks off.",
             "Keep the receipt and a photo of the card. Register the card if the issuer allows it, check the balance right away, and give the gift soon so it's used before anyone else can drain it.",
             "If a card has no money on it, contact the card issuer and the store where you bought it right away. Paying by credit card can give you more ways to get your money back."
-          ]
+          ],
+          "img": {
+            "src": "/images/gift-card-draining-check.webp",
+            "alt": "A shopper holds an unbranded gift card package from a store rack and checks its peeled, wrinkled scratch-off PIN strip with a magnifying glass",
+            "w": 1280,
+            "h": 720
+          }
         },
         {
           "h": "Sources",

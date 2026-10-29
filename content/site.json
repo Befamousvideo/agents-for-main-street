@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 28, 2026",
+  "updated": "October 29, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -298,7 +298,8 @@
           "h": "Related tips",
           "ul": [
             "Keep reviews out of your holiday giveaways and discounts",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
           ]
         }
       ],
@@ -626,7 +627,8 @@
             "Text back every missed call automatically for an HVAC business",
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
-            "Get ready for Google's automated calls asking your prices and booking times"
+            "Get ready for Google's automated calls asking your prices and booking times",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
           ]
         }
       ],
@@ -852,6 +854,12 @@
             "Answer guests' allergen questions from your own recipe sheet",
             "Turn holiday pre-orders into a daily kitchen prep list and pickup reminders"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
+          ]
         }
       ],
       "faq": [
@@ -930,7 +938,8 @@
             "Get a weekly inventory variance alert for your restaurant — compare weekly counts with POS sales and flag big moves.",
             "Send reservation reminders that cut restaurant no-shows — day-before and same-day reminders with confirm or cancel.",
             "Draft replies to new Google reviews for approval — AI drafts, you approve before anything posts.",
-            "Answer guests' allergen questions from your own recipe sheet — one allergen sheet for the chart, the website and staff answers."
+            "Answer guests' allergen questions from your own recipe sheet — one allergen sheet for the chart, the website and staff answers.",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies — built-in Meta Business Suite away messages and FAQ replies for holiday-hours and gift card questions."
           ]
         },
         {
@@ -939,7 +948,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
           ]
         }
       ],
@@ -948,7 +958,8 @@
           "q": "What's the easiest automation for a restaurant to start with?",
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
-      ]
+      ],
+      "updated": "2026-10-29"
     },
     {
       "path": "/industries/clinics",
@@ -1102,7 +1113,8 @@
           "q": "Which automation should I start with?",
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
-      ]
+      ],
+      "updated": "2026-10-29"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1440,7 +1452,8 @@
             "Follow up on sent quotes automatically",
             "Text back every missed call automatically for an HVAC business",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
-            "Ask every new customer how they found you, and log it automatically"
+            "Ask every new customer how they found you, and log it automatically",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
           ]
         },
         {
@@ -1592,7 +1605,8 @@
             "Send reservation reminders that cut restaurant no-shows",
             "Get ready for Google's automated calls asking your prices and booking times",
             "Sell and deliver e-gift cards automatically this holiday season",
-            "Get a warning before your domain name or website security certificate expires"
+            "Get a warning before your domain name or website security certificate expires",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
           ]
         },
         {
@@ -1718,7 +1732,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-28"
+      "updated": "2026-10-29"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2710,7 +2724,8 @@
             "Capture receipts by photo or email and file them for your bookkeeper",
             "Ask every new customer how they found you, and log it automatically",
             "Show holiday ship-by dates on your site and order emails automatically",
-            "Get an alert when card testers hit your online checkout"
+            "Get an alert when card testers hit your online checkout",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
           ]
         },
         {
@@ -3009,7 +3024,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Check your email setup before holiday promos go out",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
           ]
         },
         {
@@ -3294,7 +3310,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
           ]
         },
         {
@@ -3471,7 +3488,8 @@
           "h": "Related tips",
           "ul": [
             "Keep reviews out of your holiday giveaways and discounts",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
           ]
         },
         {
@@ -3681,6 +3699,194 @@
         "href": "/build-it-for-me?recipe=tip-thanksgiving-early-access-best-customers"
       },
       "updated": "2026-10-28"
+    },
+    {
+      "path": "/industries/local-business/after-hours-dm-replies",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+      "seoTitle": "After-hours auto replies for Facebook and Instagram DMs (Meta Business Suite Inbox automations)",
+      "summary": "Holiday shoppers message your Facebook Page and Instagram account at night asking \"Are you open?\", \"Where are you?\" and \"Do you sell gift cards?\". Meta Business Suite's built-in Inbox automations can answer those for you: an away message when you're closed, plus instant answers for hours, location, contact details and your most common questions. This recipe sets them up in about an hour, with your holiday hours and gift card link ready before the rush.",
+      "steps": [
+        "Connect your Facebook Page and Instagram business account (and WhatsApp Business, if you use it) to Meta Business Suite, and pick the right business portfolio in the top-left menu.",
+        "On a computer, go to Inbox, then Automations, then Create automation.",
+        "Set up an Away message for when you're closed: say when you'll reply, your next opening time and a link to your hours page.",
+        "Add the Hours, Location and Contact information templates so the most common questions get an instant, accurate answer.",
+        "Add Frequently asked questions for your top three to five holiday questions, such as gift cards, holiday hours, pickup or booking, each with a short answer and a link.",
+        "Optional: add a Custom keywords automation for a word customers often use (for example \"gift card\") that sends your e-gift card link.",
+        "Send a test message from a personal account, after hours, on both Facebook and Instagram, and check what arrives.",
+        "Put a weekly reminder on your calendar from now until New Year's to update the holiday hours and FAQ answers. When your hours change, change the automation the same day."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a Facebook Page and an Instagram business account connected in Meta Business Suite, on a desktop browser for the keyword automations. Optional: a Google Sheet listing your holiday hours and FAQ answers, so the same wording goes on your website, Google profile and DMs."
+          ]
+        },
+        {
+          "h": "What's confirmed (Meta Business Help Center)",
+          "ul": [
+            "Inbox automations answer people who message your business on Messenger, Instagram and WhatsApp, for Facebook Pages, Instagram business accounts and WhatsApp Business accounts connected to Meta Business Suite.",
+            "Templates include an instant reply for first-time messages, an away message for when you're not available, frequently asked questions, location, contact information, hours, custom keywords and comment-to-message replies.",
+            "Custom keyword automations are only available in Meta Business Suite on desktop. They can match up to 5 keywords or phrases, keywords are case-sensitive and must match exactly, and Inbox sends the reply after 15 minutes unless you respond first.",
+            "When a template automation (like your away message) and a custom keyword automation are both triggered, Meta sends the template response, not the keyword one.",
+            "If you turn on Meta Business Agent, existing automations such as away messages and instant replies are paused.",
+            "On a Facebook Page, instant replies aren't sent when the Page's messaging status is set to Away, and they don't count toward the Page's response rate or response time.",
+            "Meta notes that some messaging features for businesses are unavailable to and from Europe and Japan."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep the answers short and true. A wrong holiday hour in an auto reply is worse than no reply.",
+            "Don't promise a reply time you can't keep. \"We'll reply by 10 AM tomorrow\" beats \"right away.\"",
+            "Your away message can hide your keyword replies, since Meta sends the template response first. Test the combination you actually turn on.",
+            "Never ask for card numbers or passwords in DMs, and say so in your FAQ if customers ask to pay by message.",
+            "If you later turn on Meta's AI business agent, your existing automations pause, so recheck what customers receive."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Meta Business Help Center: About Inbox automations in Meta Business Suite — https://www.facebook.com/business/help/395965998733706",
+            "Meta Business Help Center: Set up Inbox automations in Meta Business Suite on desktop — https://www.facebook.com/business/help/318238182723007",
+            "Facebook Help Center: Turn instant replies to Page messages on or off — https://www.facebook.com/help/1615627532020480",
+            "Checked at the source on October 29, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Reply to new website leads within minutes, automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this cost anything?",
+          "a": "Inbox automations are a built-in Meta Business Suite feature for connected Facebook Pages, Instagram business accounts and WhatsApp Business accounts. Check Meta's current terms for your account."
+        },
+        {
+          "q": "Can I set this up on my phone?",
+          "a": "Templates can be set up in the Meta Business Suite mobile app, but Meta says custom keyword automations are desktop only."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/after-hours-dm-replies.webp",
+        "alt": "A small bakery closed for the night, with croissants and muffins in a lit pastry case and a phone on the wooden counter showing a chat conversation",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=after-hours-dm-replies"
+      },
+      "updated": "2026-10-29"
+    },
+    {
+      "path": "/tips/tiktok-must-eat-restaurant-guide",
+      "group": "tips",
+      "label": "Tip · Restaurants and experiences",
+      "title": "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+      "seoTitle": "TikTok Must Eat restaurant guide (Oct 2026): what restaurant owners should do now",
+      "summary": "On October 28, 2026, TikTok launched Must Eat, a restaurant guide built from what people post, review and comment on TikTok. It starts in the areas around New York City, Los Angeles and the Bay Area, and TikTok says no restaurant can pay to be featured. If you run a restaurant there, spend 30 minutes making sure your TikTok place page, location tags and reservation link are accurate so diners who find you can actually visit or book.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A free shot at showing up where local diners are already looking for places to eat, with correct details when they do. You can't buy your way in, so the best move is making it easy for real guests to post about you and for new guests to find, check and book you."
+          ]
+        },
+        {
+          "h": "What's confirmed (TikTok, October 28, 2026)",
+          "ul": [
+            "Must Eat is part of TikTok GO and is launching in the areas around New York City, Los Angeles and the Bay Area.",
+            "It's organized into two lists, Everyday Eats and Elevated Dining, built from more than 40 million posts, reviews and comments.",
+            "Users can filter by cuisine, price, score and location. Restaurant pages show neighborhood details, price range and TikTok content about the place.",
+            "Select restaurants can be booked through OpenTable, and users can bookmark restaurants to collections.",
+            "People reach it from the search bar, the Local feed, place (point-of-interest) pages and location tags on videos.",
+            "TikTok says it prioritizes independent restaurants and local specialties, that no restaurant can pay to be featured, and that restaurants are reviewed to confirm they're open, operating and in good standing.",
+            "TikTok also claims 27 million Americans visited an independent restaurant, cafe or shop for the first time after discovering it on TikTok. That's TikTok's own figure."
+          ]
+        },
+        {
+          "h": "Do this (about 30 minutes)",
+          "ol": [
+            "Search your restaurant's name in TikTok and open its place page. Check the name, address, neighborhood and price range.",
+            "Tag your restaurant's location on every video you post, and ask staff who post about work to do the same.",
+            "If you take reservations through OpenTable, make sure your holiday availability is current, since select restaurants can be booked from Must Eat.",
+            "Reply to comments and questions on videos about you, especially about hours, parking and reservations.",
+            "Put a small \"Tag us on TikTok\" card at the host stand or on the check. Ask for posts, never for a rating or a positive review.",
+            "Outside NYC, LA and the Bay Area? Do steps 1, 2 and 4 anyway, so your details are right wherever people find you on TikTok."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "TikTok says no restaurant can pay to be featured. Treat anyone selling Must Eat placement as a likely scam.",
+            "Don't offer free food or discounts in exchange for posts or reviews. See our tip on keeping reviews out of holiday promos.",
+            "It's only in three metro areas at launch, and TikTok hasn't said when it will expand.",
+            "This is TikTok's own announcement; how the lists are ranked isn't published in detail."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "TikTok: Must Eat, TikTok's community-powered guide to the restaurants everyone's talking about (October 28, 2026) — https://usdsjv.tiktok.com/TikTok-Must-Eat",
+            "Last checked at the source: October 29, 2026. Backlog item TB-086."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send reservation reminders that cut restaurant no-shows",
+            "Draft replies to new Google reviews for approval",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do I get my restaurant into Must Eat?",
+          "a": "TikTok says the guide is built from community posts, reviews and comments, prioritizes independent restaurants and can't be bought. Keep your place page accurate and make it easy for real guests to post and tag you."
+        },
+        {
+          "q": "My restaurant isn't in NYC, LA or the Bay Area. Should I care?",
+          "a": "Not about Must Eat yet. But accurate place pages and location tags keep your details right for anyone who finds you on TikTok today."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-tiktok-must-eat-restaurant-guide.webp",
+        "alt": "A restaurant owner in an apron at the host stand of a warm, busy neighborhood bistro, looking at a short food video on his phone, with a plate of pasta in the foreground",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI checks your restaurant's listings and place pages, sets up a simple posting and comment-reply routine for your team and keeps your reservation links current, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-tiktok-must-eat-restaurant-guide"
+      },
+      "updated": "2026-10-29"
     }
   ],
   "static": [

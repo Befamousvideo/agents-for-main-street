@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 29, 2026",
+  "updated": "October 30, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -291,7 +291,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Ask every customer for a Google review automatically (without review gating)"
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Schedule your holiday offers and events as Google Business Profile posts"
           ]
         },
         {
@@ -484,7 +485,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Put your holiday offer in real text, not inside one big image"
+            "Put your holiday offer in real text, not inside one big image",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         }
       ],
@@ -806,7 +808,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         }
       ],
@@ -816,7 +819,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-10-28"
+      "updated": "2026-10-30"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1114,7 +1117,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-10-29"
+      "updated": "2026-10-30"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1606,7 +1609,8 @@
             "Get ready for Google's automated calls asking your prices and booking times",
             "Sell and deliver e-gift cards automatically this holiday season",
             "Get a warning before your domain name or website security certificate expires",
-            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Schedule your holiday offers and events as Google Business Profile posts"
           ]
         },
         {
@@ -1732,7 +1736,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-29"
+      "updated": "2026-10-30"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2048,7 +2052,8 @@
           "ul": [
             "Check your email setup before holiday promos go out",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         },
         {
@@ -2302,14 +2307,16 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         },
         {
           "h": "Related recipes",
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
-            "Draft replies to new Google reviews for approval"
+            "Draft replies to new Google reviews for approval",
+            "Schedule your holiday offers and events as Google Business Profile posts"
           ]
         }
       ],
@@ -2553,7 +2560,8 @@
             "Check your email setup before holiday promos go out",
             "Ask your web host to confirm your site got this week's critical PHP security update",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         },
         {
@@ -2725,7 +2733,8 @@
             "Ask every new customer how they found you, and log it automatically",
             "Show holiday ship-by dates on your site and order emails automatically",
             "Get an alert when card testers hit your online checkout",
-            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Schedule your holiday offers and events as Google Business Profile posts"
           ]
         },
         {
@@ -3128,7 +3137,8 @@
           "h": "Related tips",
           "ul": [
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         }
       ],
@@ -3318,7 +3328,8 @@
           "h": "Related recipes",
           "ul": [
             "Ask every customer for a Google review automatically (without review gating)",
-            "Draft replies to new Google reviews for approval"
+            "Draft replies to new Google reviews for approval",
+            "Schedule your holiday offers and events as Google Business Profile posts"
           ]
         }
       ],
@@ -3664,7 +3675,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Check your email setup before holiday promos go out"
+            "Check your email setup before holiday promos go out",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
           ]
         },
         {
@@ -3761,7 +3773,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Sell and deliver e-gift cards automatically this holiday season",
-            "Reply to new website leads within minutes, automatically"
+            "Reply to new website leads within minutes, automatically",
+            "Schedule your holiday offers and events as Google Business Profile posts"
           ]
         }
       ],
@@ -3887,6 +3900,198 @@
         "href": "/build-it-for-me?recipe=tip-tiktok-must-eat-restaurant-guide"
       },
       "updated": "2026-10-29"
+    },
+    {
+      "path": "/industries/local-business/google-business-profile-holiday-posts",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Schedule your holiday offers and events as Google Business Profile posts",
+      "seoTitle": "Schedule Google Business Profile posts for holiday offers and events (2026 how-to)",
+      "summary": "People who find you on Google Search and Maps this season want to know what's on: your Small Business Saturday offer, a holiday open house, gift card deals, extended hours. Google Business Profile lets you publish Offer, Event and Update posts that show on your profile, and you can schedule them ahead and set some to repeat. This recipe plans your holiday posts in one sitting, with an optional AI step that drafts them from a simple sheet so you only review and approve.",
+      "steps": [
+        "Make a simple Google Sheet of your holiday moments from now to early January: offer or event name, start and end dates and times, one-line description, coupon code or link if any.",
+        "Optional AI step: paste the sheet into your AI assistant and ask for a short, plain post for each row (no phone numbers in the text, no prices you haven't confirmed). Review and edit every draft yourself.",
+        "In your Business Profile, create a post and pick the type. Use Offer for deals (it needs a title and start and end dates and times, and can include a coupon code, a link and terms), Event for open houses and workshops, and Update for general news with a photo and an action button.",
+        "Add a real photo from your business for each post, and set the dates so the post stays up for the whole offer or event.",
+        "Use Schedule this post to pick the date and time it goes live, so the whole season is loaded in advance. For weekly specials, set it to repeat.",
+        "Have several locations? Google lets you post the same update across multiple profiles at once.",
+        "After publishing, check each post's status (Live, Pending or Not approved) and fix anything Google didn't approve.",
+        "Put a weekly calendar reminder to check what's live, and match the posts to your holiday hours and website banner."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a verified Google Business Profile, your holiday dates in a Google Sheet and real photos. Optional: an AI assistant (ChatGPT, Gemini or Claude) for first drafts, or a no-code tool like Zapier or Make if you want reminders when a post ends."
+          ]
+        },
+        {
+          "h": "What's confirmed (Google Business Profile Help)",
+          "ul": [
+            "Posts appear on your Business Profile on Google Search and Maps: in the Updates and Overview tabs on mobile, and in the From the owner section on desktop.",
+            "Update posts can include a description, photo or video and an action button with a link.",
+            "Offer posts need a title and start and end dates and times. Google adds a View offer button automatically, and you can add a coupon code, a link and terms and conditions.",
+            "Event posts need a title and start and end dates and times. If you don't add times, the event is listed as running for 24 hours.",
+            "You can schedule a post for a future date and time, and set posts to repeat weekly, monthly or on a custom schedule.",
+            "You can publish a post across multiple profiles.",
+            "Posts older than 6 months are archived unless they have a date range.",
+            "Google reviews posts against its content policy. A post's status shows as Live, Pending or Not approved, and it can stay Pending while uploading or processing, or if your profile isn't verified.",
+            "Posts with a phone number in the description may be rejected if Google can't verify the number belongs to the business."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Leave your phone number out of the post text. Customers already see it on your profile, and it can get a post rejected.",
+            "Businesses in regulated industries, such as alcohol, can post, but Google says the posts shouldn't include content about those products.",
+            "Only promise what you can deliver: dates, prices and coupon codes in a post must match what happens at the register.",
+            "Don't offer discounts in exchange for reviews. See our tip on keeping reviews out of holiday promos.",
+            "Review every AI-drafted post before it's scheduled. You're responsible for what's published on your profile."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Business Profile Help: Create and manage posts on your Business Profile — https://support.google.com/business/answer/7342169",
+            "Checked at the source on October 30, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Draft replies to new Google reviews for approval",
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Keep reviews out of your holiday giveaways and discounts"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I load all my holiday posts in one sitting?",
+          "a": "Yes. Google Business Profile lets you schedule posts for a future date and time, so you can plan the season in advance and set weekly specials to repeat."
+        },
+        {
+          "q": "Why is my post stuck on Pending?",
+          "a": "Google says posts can show as Pending while they upload or process, or when the profile isn't verified yet. Posts that break Google's content policy show as Not approved."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/google-business-profile-holiday-posts.webp",
+        "alt": "A smiling gift shop owner in an apron at her wooden counter, checking her phone in a cozy shop decorated with holiday string lights, candles, mugs and wrapped gifts",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=google-business-profile-holiday-posts"
+      },
+      "updated": "2026-10-30"
+    },
+    {
+      "path": "/tips/pinterest-holiday-planning-q5",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+      "seoTitle": "Pinterest holiday 2026 tip for small shops: post early and keep going through Q5",
+      "summary": "Pinterest says holiday activity on its platform picks up as early as September and that people come to Pinterest first of all to shop. It also points to \"Q5\", the week between Christmas and New Year's, when many of its users are still buying. If you sell gifts, decor, food or anything giftable, a small batch of good product photos posted now, refreshed for New Year's, can keep you in front of planners for the whole season.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A place in shoppers' holiday plans before they decide where to buy, and a second wave of sales after Christmas when most shops go quiet. It only takes photos you probably already have."
+          ]
+        },
+        {
+          "h": "What's confirmed (Pinterest, July 30, 2026)",
+          "ul": [
+            "Pinterest says the number one reason people come to Pinterest is to shop.",
+            "Pinterest says its data shows holiday activity on the platform spikes as early as September, and recommends launching campaigns between September and November.",
+            "Pinterest calls the week between Christmas and New Year's \"Q5\". It says 55% of weekly Pinterest users keep buying online and 45% keep shopping in-store during that week. Those are Pinterest's own figures about its own users.",
+            "Pinterest recommends refreshing your creative for New Year's inspiration and deals through early January, and getting your product catalog and creative ready and tested ahead of time."
+          ]
+        },
+        {
+          "h": "Do this (about 45 minutes)",
+          "ol": [
+            "Set up or check a free Pinterest business account and link your website.",
+            "Pick 5 to 10 giftable products. Use real photos showing them in a holiday setting, like a table, mantel or wrapped gift.",
+            "Write a plain description for each: what it is, who it's for, price range and how to get it (ship-by date or local pickup).",
+            "Group them into boards shoppers search for, such as gifts under $50, hostess gifts or stocking stuffers.",
+            "On December 26, swap in New Year's ideas, gift card reminders and after-Christmas deals, and keep them up through early January.",
+            "Optional: if you sell online, ask your store platform whether it can connect your product catalog to Pinterest so products stay current."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "These stats come from Pinterest's own guide. Treat them as a reason to test, not a guarantee of sales.",
+            "Paid ads are optional. Start with free posts, and set a small budget limit before trying ads.",
+            "Keep prices, stock and ship-by dates in your pins current. An out-of-date pin sends shoppers to a dead end.",
+            "Use only photos you own or have permission to use."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Pinterest Business: Holiday 2026 starts now: a Pinterest guide to success (July 30, 2026) — https://business.pinterest.com/blog/holiday-2026-starts-now-a-pinterest-guide-to-success/",
+            "Last checked at the source: October 30, 2026. Backlog item TB-025."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Put your holiday offer in real text, not inside one big image",
+            "Use Thanksgiving week to thank your best customers with early access"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Batch-write product descriptions and image alt text",
+            "Schedule your holiday offers and events as Google Business Profile posts"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I have to pay for Pinterest ads?",
+          "a": "No. You can post pins from a free business account. Pinterest's guide is written for advertisers, so try free posts first and add a small, capped ad budget only if they work."
+        },
+        {
+          "q": "What is Q5?",
+          "a": "Pinterest's name for the week between Christmas and New Year's, when it says many of its users are still shopping."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-pinterest-holiday-planning-q5.webp",
+        "alt": "A shop owner styling a holiday tabletop of pine garland, white candles, ceramic ornaments and linen napkins while a smartphone on a small tripod frames the scene",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up your Pinterest business account, builds your first holiday boards from your own product photos and drafts a December 26 refresh plan, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-pinterest-holiday-planning-q5"
+      },
+      "updated": "2026-10-30"
     }
   ],
   "static": [

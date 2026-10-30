@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import site from "../content/site.json";
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <p><a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/advertise">Advertise</a> · <a href="/newsletter">Newsletter</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/rss.xml">RSS</a></p>
           <p className="muted">© 2026 {site.name}, a StorenTech company. Preview build — content under review.</p>
         </div></footer>
+        <Analytics />
       </body>
     </html>
   );

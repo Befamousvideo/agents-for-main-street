@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 30, 2026",
+  "updated": "October 31, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -486,7 +486,8 @@
           "h": "Related tips",
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         }
       ],
@@ -687,7 +688,8 @@
           "ul": [
             "Batch-write product descriptions and image alt text",
             "Get a weekly inventory variance alert for your restaurant",
-            "Send one abandoned-cart SMS (with proper SMS consent)"
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Text or email customers the moment a pickup order is ready"
           ]
         }
       ],
@@ -793,7 +795,8 @@
             "Alert staff when a SKU drops below your reorder threshold — Watch an inventory sheet or POS export; when a SKU falls below the threshold you set, alert staff and optionally draft a supplier reorder email for approval.",
             "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text.",
             "Show holiday ship-by dates on your site and order emails automatically — post USPS send-by dates, minus your packing time, on your banner and order emails.",
-            "Get an alert when card testers hit your online checkout — count failed payments per hour and alert the owner when they spike, with a refund-and-tighten-checkout checklist."
+            "Get an alert when card testers hit your online checkout — count failed payments per hour and alert the owner when they spike, with a refund-and-tighten-checkout checklist.",
+            "Text or email customers the moment a pickup order is ready — mark the order ready, Shopify emails pickup instructions, and an optional opted-in text and 3-day reminder clear the pickup shelf."
           ]
         },
         {
@@ -809,7 +812,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         }
       ],
@@ -819,7 +823,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-10-30"
+      "updated": "2026-10-31"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1117,7 +1121,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-10-30"
+      "updated": "2026-10-31"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1377,7 +1381,8 @@
             "Batch-write product descriptions and image alt text",
             "Alert staff when a SKU drops below your reorder threshold",
             "Show holiday ship-by dates on your site and order emails automatically",
-            "Get an alert when card testers hit your online checkout"
+            "Get an alert when card testers hit your online checkout",
+            "Text or email customers the moment a pickup order is ready"
           ]
         },
         {
@@ -1736,7 +1741,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-30"
+      "updated": "2026-10-31"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2053,7 +2058,8 @@
             "Check your email setup before holiday promos go out",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         },
         {
@@ -2308,7 +2314,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         },
         {
@@ -2561,7 +2568,8 @@
             "Ask your web host to confirm your site got this week's critical PHP security update",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         },
         {
@@ -3130,7 +3138,8 @@
             "Sell and deliver e-gift cards automatically this holiday season",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Get an alert when card testers hit your online checkout"
+            "Get an alert when card testers hit your online checkout",
+            "Text or email customers the moment a pickup order is ready"
           ]
         },
         {
@@ -3969,7 +3978,8 @@
           "h": "Related tips",
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Keep reviews out of your holiday giveaways and discounts"
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         }
       ],
@@ -4057,7 +4067,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Put your holiday offer in real text, not inside one big image",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Get your products into Google's free listings before holiday shoppers start searching"
           ]
         },
         {
@@ -4092,6 +4103,205 @@
         "href": "/build-it-for-me?recipe=tip-pinterest-holiday-planning-q5"
       },
       "updated": "2026-10-30"
+    },
+    {
+      "path": "/industries/retail/ready-for-pickup-notifications",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Text or email customers the moment a pickup order is ready",
+      "seoTitle": "Buy online, pick up in store: automatic ready-for-pickup notifications for small shops (2026 how-to)",
+      "summary": "Pickup orders are a big part of holiday shopping for local shops: no shipping cutoffs, no porch thieves. The weak spot is the handoff. Customers don't know when to come, staff field \"is it ready?\" calls, and bags pile up on the shelf. Shopify's built-in pickup in store sends a Ready for pickup email the moment you mark an order ready. This recipe sets that up properly, adds clear pickup instructions, and adds an optional text and a gentle reminder for bags nobody has collected.",
+      "steps": [
+        "In Shopify admin, go to Settings > Shipping and delivery > Pickup in store, pick your location and turn on Let customers pick up orders directly at this location.",
+        "Choose the expected pickup time customers see at checkout (pick one you can really hit in December, not your best day).",
+        "In the Ready for pickup notification section for that location, write plain pickup instructions: where to park, which door, what to bring (order number and ID) and your pickup hours.",
+        "Each time an order is bagged, open it and click Ready for pickup, then Mark as ready for pickup. Shopify emails the customer, and you can resend it from the order timeline.",
+        "When the customer collects it, click Mark as picked up and, if you like, send the Picked up confirmation email.",
+        "Optional text: with a no-code tool like Zapier or Make, watch for orders marked ready and send one SMS, only to customers who opted in to texts, saying the order is ready and where to go.",
+        "Optional reminder: once a day, list pickup orders still waiting after 3 days and send one friendly reminder, or flag them for a staff call.",
+        "Put a labeled pickup shelf near the door, sorted by order number or last name, so the handoff takes seconds."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a Shopify store using the current checkout, with at least one location that fulfills online orders. Optional: Zapier or Make for the text and daily reminder, and a texting tool you already use for opted-in customers. On another platform? Most store platforms have a similar pickup setting; check your platform's help pages."
+          ]
+        },
+        {
+          "h": "What's confirmed (Shopify Help Center)",
+          "ul": [
+            "Pickup in store is turned on per location in Settings > Shipping and delivery, and you choose the processing time customers see at checkout.",
+            "Marking an order as ready for pickup sends the customer a Ready for pickup email, which you can view or resend from the order timeline.",
+            "Location pickup instructions replace the general Ready for pickup template, so edit them in the location settings.",
+            "Orders from the Facebook & Instagram sales channel don't get the Ready for pickup email, so contact those customers directly.",
+            "Customers can mix shipped and pickup items in one order, and store transfers can move stock to the pickup location with an adjusted pickup estimate.",
+            "If checkout says \"Your order isn't available for pickup\", the pickup location needs a shipping zone (it can have no rates)."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Only text customers who agreed to receive texts, and keep it to order updates. See our abandoned-cart SMS recipe for consent basics.",
+            "Check ID or the order number at handoff. Don't hand over orders based on a name alone.",
+            "Set the pickup estimate for your busiest days. A Ready email that arrives late is worse than an honest later time.",
+            "Instagram and Facebook orders need a manual message, since Shopify doesn't send the Ready email for them."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Shopify Help Center: Setting up pickup in store for online orders — https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store",
+            "Checked at the source on October 31, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Alert staff when a SKU drops below your reorder threshold",
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Send one abandoned-cart SMS (with proper SMS consent)"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Get your products into Google's free listings before holiday shoppers start searching"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Shopify send the pickup email automatically?",
+          "a": "Yes, when you mark the order as ready for pickup. It isn't sent for orders from the Facebook & Instagram sales channel, so message those customers yourself."
+        },
+        {
+          "q": "Can I change what the email says?",
+          "a": "Yes. Add pickup instructions in each location's Ready for pickup notification section. They override the general notification template."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/ready-for-pickup-notifications.webp",
+        "alt": "A smiling shop employee in an apron holding up a phone showing a ready-for-pickup check mark, next to a shelf of kraft paper pickup bags with name tags and holiday greenery",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=ready-for-pickup-notifications"
+      },
+      "updated": "2026-10-31"
+    },
+    {
+      "path": "/tips/google-free-product-listings",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Get your products into Google's free listings before holiday shoppers start searching",
+      "seoTitle": "Google Merchant Center free listings for small shops: 2026 holiday setup tip",
+      "summary": "Google shows products at no cost across Search, the Shopping tab, Images, Lens, Maps, YouTube and Gemini, and on your Business Profile, through free listings in Google Merchant Center. A new study suggests Google's AI Mode links to its own Shopping pages for most product answers, so being in Google's product data matters more. If you sell online or in store, a free Merchant Center account with clean product data is a solid step to take before the holiday rush.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Your products, prices and photos showing where people already search for gifts, at no cost per click. If you have a shop, free local listings can show what's in stock nearby, and your products can appear on your Business Profile."
+          ]
+        },
+        {
+          "h": "What's confirmed (Google Merchant Center Help)",
+          "ul": [
+            "Free listings can show your products on Google Search, Maps, Gemini, YouTube, the Shopping tab, Google Images and Lens, and in the products section of your Business Profile.",
+            "New Merchant Center accounts are opted in to free listings by default. Check under Marketing > Marketing methods, on the Free listings card.",
+            "Each product needs basic details: an ID, title, description, product page link, image, price, condition, and a GTIN (barcode number) or MPN where one exists.",
+            "US accounts must set up shipping (in settings or per product). Adding a return policy is recommended.",
+            "Images can't have promotional overlays like \"SALE\" text, and the price must match your website.",
+            "Shops can use free local listings for products sold in store, and you can link Merchant Center to your Business Profile and to store platforms like Shopify.",
+            "Google doesn't guarantee your products will show. You can track clicks on the Performance page, filtered to free listings."
+          ]
+        },
+        {
+          "h": "What a new study found (one study, not Google)",
+          "p": [
+            "Search Engine Land reported on October 29, 2026 on a study by Findrix of 55,198 AI Mode answers collected October 14 to 17. It found 57% of product links in AI Mode product answers went to Google Shopping, and 46.5% of US product answers linked only to Google pages. This is a single study that measured links, not clicks or sales, so treat it as a sign of direction, not a promise."
+          ]
+        },
+        {
+          "h": "Do this (about 1 to 2 hours)",
+          "ol": [
+            "Create or sign in to a free Google Merchant Center account with your business Google account, and verify your website.",
+            "If you use Shopify or another store platform, connect it through the platform's Google app so products sync. Otherwise upload a simple product sheet.",
+            "Fill in the basics for your top 20 holiday products: clear title, plain description, real photo with no text overlay, price that matches your site, and the barcode number if the item has one.",
+            "Set up shipping and add your return policy, including any holiday return window.",
+            "If you have a shop, link your Business Profile and look at free local listings for in-store items.",
+            "Check the Free listings card is on, fix any products Google flags, and check the Performance page in a week."
+          ]
+        },
+        {
+          "h": "Watch out for",
+          "ul": [
+            "Keep prices and stock in sync. A price mismatch can get a product disapproved, right when you need it most.",
+            "Free listings are free. Merchant Center will also suggest paid Shopping ads. Those are optional, so set a small budget cap if you try them.",
+            "The Findrix numbers come from one study of links in AI Mode answers, reported by Search Engine Land. They aren't Google's figures and don't show sales.",
+            "Use only photos you own or have permission to use."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Merchant Center Help: Free listings for products — https://support.google.com/merchants/answer/9199328",
+            "Search Engine Land: Google AI Mode sends most product links to Google Shopping: Study (October 29, 2026) — https://searchengineland.com/google-ai-mode-product-links-google-shopping-study-499887",
+            "Last checked at the source: October 31, 2026. Backlog item TB-087."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Put your holiday offer in real text, not inside one big image"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Batch-write product descriptions and image alt text",
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Text or email customers the moment a pickup order is ready"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I have to pay for Google ads to show up?",
+          "a": "No. Free listings cost nothing per click. Paid Shopping ads are a separate, optional choice."
+        },
+        {
+          "q": "I only sell in my shop. Is this for me?",
+          "a": "It can be. Google offers free local listings for products sold in store, and you can link Merchant Center to your Business Profile."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-google-free-product-listings.webp",
+        "alt": "A shop owner photographing a handmade candle with her phone at a white counter, with a laptop showing a grid of product listings and a shelf of gifts and holiday lights behind her",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up your free Google Merchant Center account, connects your store or product sheet, cleans up your top holiday products and links your Business Profile, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-google-free-product-listings"
+      },
+      "updated": "2026-10-31"
     }
   ],
   "static": [

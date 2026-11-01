@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "October 31, 2026",
+  "updated": "November 1, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -292,7 +292,8 @@
           "h": "Related recipes",
           "ul": [
             "Ask every customer for a Google review automatically (without review gating)",
-            "Schedule your holiday offers and events as Google Business Profile posts"
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Auto-answer the same holiday questions by email with Gmail templates and filters"
           ]
         },
         {
@@ -813,7 +814,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Send your holiday emails from an address people can reply to, and answer them"
           ]
         }
       ],
@@ -823,7 +825,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-10-31"
+      "updated": "2026-11-01"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1111,7 +1113,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Send your holiday emails from an address people can reply to, and answer them"
           ]
         }
       ],
@@ -1121,7 +1124,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-10-31"
+      "updated": "2026-11-01"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1615,7 +1618,8 @@
             "Sell and deliver e-gift cards automatically this holiday season",
             "Get a warning before your domain name or website security certificate expires",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
-            "Schedule your holiday offers and events as Google Business Profile posts"
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Auto-answer the same holiday questions by email with Gmail templates and filters"
           ]
         },
         {
@@ -1741,7 +1745,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-10-31"
+      "updated": "2026-11-01"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -1809,7 +1813,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Ask your web host to confirm your site got this week's critical PHP security update"
+            "Ask your web host to confirm your site got this week's critical PHP security update",
+            "Send your holiday emails from an address people can reply to, and answer them"
           ]
         }
       ],
@@ -2059,7 +2064,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Send your holiday emails from an address people can reply to, and answer them"
           ]
         },
         {
@@ -2315,7 +2321,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Use Thanksgiving week to thank your best customers with early access",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Send your holiday emails from an address people can reply to, and answer them"
           ]
         },
         {
@@ -3783,7 +3790,14 @@
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Sell and deliver e-gift cards automatically this holiday season",
             "Reply to new website leads within minutes, automatically",
-            "Schedule your holiday offers and events as Google Business Profile posts"
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Auto-answer the same holiday questions by email with Gmail templates and filters"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Send your holiday emails from an address people can reply to, and answer them"
           ]
         }
       ],
@@ -4302,6 +4316,180 @@
         "href": "/build-it-for-me?recipe=tip-google-free-product-listings"
       },
       "updated": "2026-10-31"
+    },
+    {
+      "path": "/industries/local-business/gmail-template-auto-replies",
+      "group": "recipes",
+      "label": "Local business",
+      "title": "Auto-answer the same holiday questions by email with Gmail templates and filters",
+      "seoTitle": "Gmail templates and filters for small businesses: auto-reply to repeat holiday questions (2026 how-to)",
+      "summary": "In December the same emails arrive again and again: \"Are you open on the 24th?\", \"Do you do gift cards?\", \"What's your return policy?\". Gmail has a built-in way to answer them. Save the answer as a template, then create a filter that sends that template automatically when a matching email arrives. It's free, it lives in the Gmail you already use, and you can switch it off in January.",
+      "steps": [
+        "List your top 3 to 5 repeat questions for the season, such as holiday hours, gift cards, returns, ordering cutoffs or booking.",
+        "On a computer, open Gmail and go to Settings > See all settings > Advanced. Next to Templates, click Enable, then Save Changes. (Templates only work in Gmail on a computer.)",
+        "Click Compose and write one short answer per question: the facts, a link to the page with details, and a line saying a real person will follow up if needed. Then click More options > Templates > Save draft as template > Save as new template.",
+        "Decide what should trigger each answer. Narrow is better: a phrase like \"gift card\" in the subject, or a dedicated address such as hours@ or orders@ that you list on your site.",
+        "Click Show search options in the Gmail search bar, enter that trigger, and click Search to see which past emails would have matched. Tighten it until only the right emails show up.",
+        "Click Create filter, tick Send template, choose the template and click Create filter.",
+        "Send yourself a test from another address. Then check matching emails once a day, because the auto-reply answers the question but doesn't close the conversation.",
+        "After the season, edit or delete the filter under Settings > See all settings > Filters and Blocked Addresses."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: Gmail or Google Workspace on a computer. Optional: a second address or alias for each topic, which makes the filter far more precise than keyword matching. Using Outlook? It has similar rules and templates; check Microsoft's help pages."
+          ]
+        },
+        {
+          "h": "What's confirmed (Gmail Help)",
+          "ul": [
+            "Templates are off by default. You turn them on under Settings > See all settings > Advanced, and they can only be turned on and used from Gmail on a computer.",
+            "You save a template from the compose window with More options > Templates > Save draft as template, and you can overwrite or delete templates the same way. A deleted template can't be recovered.",
+            "To send a template as an automatic reply, you create a filter and tick Send template.",
+            "Filters only act on new messages, not ones already in your inbox.",
+            "Filters can be edited, deleted, exported and imported under Settings > See all settings > Filters and Blocked Addresses."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep the trigger narrow. A broad keyword like \"order\" will auto-reply to suppliers, receipts and newsletters.",
+            "Write answers that stay true all season. If your hours change, update the template the same day.",
+            "Don't put prices, promises or policy details in the auto-reply that you can't stand behind; link to the page that has the current version.",
+            "An auto-reply is not a reply. Still answer anything the template didn't cover."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Gmail Help: Create a template in Gmail — https://support.google.com/mail/answer/14864208",
+            "Gmail Help: Create rules to filter your emails — https://support.google.com/mail/answer/6579",
+            "Checked at the source on November 1, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Draft replies to new Google reviews for approval"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out",
+            "Put your holiday offer in real text, not inside one big image",
+            "Send your holiday emails from an address people can reply to, and answer them"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will this reply to every email I get?",
+          "a": "No. It only sends to new emails that match the filter you set, so keep the filter specific."
+        },
+        {
+          "q": "Can I use this on my phone?",
+          "a": "Templates and filters are set up and used in Gmail on a computer. Once a filter is created, it runs on new mail automatically."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/gmail-template-auto-replies.webp",
+        "alt": "A gift shop owner typing on a laptop at a wooden counter, the screen showing an email inbox of customer questions, with wrapped gifts, string lights and a handwritten holiday hours sign on the shelves behind her",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=gmail-template-auto-replies"
+      },
+      "updated": "2026-11-01"
+    },
+    {
+      "path": "/tips/reply-to-address-not-no-reply",
+      "group": "tips",
+      "label": "Tip · Any local business",
+      "title": "Send your holiday emails from an address people can reply to, and answer them",
+      "seoTitle": "Don't use a no-reply address: small business email tip for the 2026 holidays",
+      "summary": "Holiday promos and order emails often go out from \"no-reply\" addresses. That tells customers you don't want to hear from them, right when they have questions about gifts, hours and orders. Email Love's Andy King argues for treating email like hospitality: send from a real address, keep the door open for replies, and answer the ones that need answering. For a small business, a reply is often a sale or a saved customer.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Customers who can simply hit Reply to ask about a gift, change an order or book a time, instead of giving up or calling. You also hear what people actually want, in their own words, before your next promo."
+          ]
+        },
+        {
+          "h": "How to do it",
+          "ul": [
+            "In your email tool, set the From or Reply-To address to a real inbox, such as hello@ or orders@ on your domain, not no-reply@.",
+            "Point that address at a shared inbox or group the whole team can see, so replies don't sit in one person's mail.",
+            "You don't have to answer every \"thanks!\". Answer the real questions, ideally the same day in December.",
+            "Add one line near the end of your emails inviting replies, such as \"Questions about a gift? Just reply to this email.\"",
+            "Once in a while, ask subscribers what they'd like to hear about, and use the answers to plan next month's emails.",
+            "If replies pile up on the same questions, pair this with our Gmail templates recipe to answer the repeats quickly."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Use an address on your own domain that's set up correctly for sending; see our holiday email setup check. The article's own sign-up test was a small informal experiment by the author, so we don't quote its numbers."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Email Love (Andy King): What if email marketers practiced unreasonable hospitality? — https://emaillove.com/what-if-email-marketers-practiced-unreasonable-hospitality",
+            "Last checked at the source: November 1, 2026. Backlog item TB-017."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out",
+            "Put your holiday offer in real text, not inside one big image",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Won't a real reply address flood my inbox?",
+          "a": "Most people never reply, and the ones who do usually have a real question. A shared inbox and a couple of saved answers keep it manageable."
+        },
+        {
+          "q": "Is no-reply against the rules?",
+          "a": "This tip is about customer experience, not a legal requirement. Keep following your email tool's rules for unsubscribe links and sender details."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-reply-to-address.webp",
+        "alt": "A smiling coffee shop owner standing behind the counter reading a customer's email reply on his phone, next to a pastry case and a tablet register, with holiday greenery on the counter",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI switches your emails to a real reply-to address, sets up a shared inbox and a few saved answers for common questions, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-reply-to-address-not-no-reply"
+      },
+      "updated": "2026-11-01"
     }
   ],
   "static": [

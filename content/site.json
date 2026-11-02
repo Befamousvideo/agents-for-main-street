@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 1, 2026",
+  "updated": "November 2, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -155,6 +155,12 @@
           "p": [
             "Get opt-in for marketing messages and send at most one nudge per visit."
           ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page"
+          ]
         }
       ],
       "faq": [
@@ -301,7 +307,8 @@
           "ul": [
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+            "Put your Google review QR code on the counter and receipts during the holiday rush"
           ]
         }
       ],
@@ -632,7 +639,8 @@
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Get ready for Google's automated calls asking your prices and booking times",
-            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page"
           ]
         }
       ],
@@ -780,7 +788,8 @@
           "q": "What's the easiest automation for service businesses to start with?",
           "a": "An AI receptionist that answers approved FAQs and books on Google Calendar, with a human handoff for anything outside the sheet."
         }
-      ]
+      ],
+      "updated": "2026-11-02"
     },
     {
       "path": "/industries/retail",
@@ -815,7 +824,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "Send your holiday emails from an address people can reply to, and answer them"
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Put your Google review QR code on the counter and receipts during the holiday rush"
           ]
         }
       ],
@@ -825,7 +835,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-01"
+      "updated": "2026-11-02"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1114,7 +1124,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Send your holiday emails from an address people can reply to, and answer them"
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Put your Google review QR code on the counter and receipts during the holiday rush"
           ]
         }
       ],
@@ -1124,7 +1135,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-01"
+      "updated": "2026-11-02"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1177,7 +1188,8 @@
             "Check your email setup before holiday promos go out",
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Put your Google review QR code on the counter and receipts during the holiday rush"
           ]
         }
       ],
@@ -1313,7 +1325,8 @@
           "ul": [
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
             "Send reservation reminders that cut restaurant no-shows",
-            "Remind patients to use their FSA money before the plan year ends"
+            "Remind patients to use their FSA money before the plan year ends",
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page"
           ]
         }
       ],
@@ -1745,7 +1758,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-01"
+      "updated": "2026-11-02"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -3337,7 +3350,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
-            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+            "Put your Google review QR code on the counter and receipts during the holiday rush"
           ]
         },
         {
@@ -3516,7 +3530,8 @@
           "ul": [
             "Keep reviews out of your holiday giveaways and discounts",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+            "Put your Google review QR code on the counter and receipts during the holiday rush"
           ]
         },
         {
@@ -4490,6 +4505,175 @@
         "href": "/build-it-for-me?recipe=tip-reply-to-address-not-no-reply"
       },
       "updated": "2026-11-01"
+    },
+    {
+      "path": "/industries/service-businesses/google-calendar-booking-page",
+      "group": "recipes",
+      "label": "Service businesses",
+      "title": "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+      "seoTitle": "Google Calendar appointment schedule for small businesses: a self-serve booking page for the holidays (2026 how-to)",
+      "summary": "December is when phones ring with \"Do you have anything Saturday?\". Google Calendar has a built-in appointment schedule that gives you a booking page link. Customers pick an open time, your calendar fills in, and Google sends the confirmation. You set the hours, the buffers, the daily limit and the days you're closed, so a busy season doesn't turn into double bookings.",
+      "steps": [
+        "On a computer, open Google Calendar, click Create and choose Appointment schedule. (You can't create one in the Calendar phone app.)",
+        "Give it a clear title, such as \"Holiday haircut\" or \"Gift consultation\", and pick the appointment length.",
+        "Set your general availability, then use Adjusted availability to block holidays and add any extra December hours.",
+        "Set the scheduling window: how far ahead people can book and the minimum notice you need. Google's default minimum is 4 hours.",
+        "Under booked appointment settings, add buffer time between appointments and a maximum number of bookings per day.",
+        "Turn on Check calendars for availability so personal or other work events block those times.",
+        "Choose in person, phone or video, write a short description of the service, and add booking form questions you really need. Tick Require email verification to cut spam bookings.",
+        "Set confirmation emails and reminders (up to 5), save, and share the booking page link on your website, Google Business Profile, emails and Instagram bio. Book a test slot yourself first."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a personal Google Account or Google Workspace account, on a computer with a supported browser. Some features, such as payments through Stripe, need an eligible Google Workspace or Google One plan; check Google's comparison page before you rely on them."
+          ]
+        },
+        {
+          "h": "What's confirmed (Google Calendar Help)",
+          "ul": [
+            "Appointment schedules are created from Create > Appointment schedule in Google Calendar on a computer, not in the Android or iPhone and iPad apps.",
+            "You set the appointment duration, weekly availability, scheduling window and adjusted availability for specific dates such as holidays.",
+            "By default there is a 4-hour minimum lead time, so a brand-new booking page may show no openings for the same day.",
+            "Booked appointment settings include buffer time, a maximum number of bookings per day and guest permissions.",
+            "The booking form always asks for first name, last name and email, you can add more fields, and you can require email verification to avoid spam bookings.",
+            "You can send up to 5 reminders, but you can't edit the reminder email text.",
+            "After connecting a Stripe account, you can request payment for appointments (premium feature)."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep the booking page in sync with reality: if you close early on a holiday, add it under Adjusted availability the same day you decide.",
+            "Co-hosts' calendars aren't checked by default. Include them in availability checks if more than one person takes appointments.",
+            "Don't promise prices or policies in the description that you can't stand behind; link to your current page instead.",
+            "Ask only for the information you need on the booking form."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Calendar Help: Create an appointment schedule — https://support.google.com/calendar/answer/10729749",
+            "Checked at the source on November 2, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send a personalized rebooking nudge to salon clients",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Cut clinic no-shows with a layered appointment reminder sequence",
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is it free?",
+          "a": "Basic appointment schedules work with a personal Google Account. Some extras, like payments, need an eligible paid Google plan."
+        },
+        {
+          "q": "Can customers book from their phone?",
+          "a": "Yes. You create the schedule on a computer, but customers can open the booking page link on any device."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/google-calendar-booking-page.webp",
+        "alt": "A salon owner at the front desk of a small neighborhood salon looking at a laptop showing a weekly booking calendar, with an appointment book, a phone, styling chairs and a holiday wreath behind her",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=google-calendar-booking-page"
+      },
+      "updated": "2026-11-02"
+    },
+    {
+      "path": "/tips/google-review-qr-code-counter-card",
+      "group": "tips",
+      "label": "Tip · Any local business",
+      "title": "Put your Google review QR code on the counter and receipts during the holiday rush",
+      "seoTitle": "Google review QR code for small businesses: get more reviews from holiday shoppers (2026 how-to)",
+      "summary": "The holidays bring more people through your door than any other time of year, and many are first-time visitors. Google gives every Business Profile a free review link and QR code. Put it where people already look, at the register, on receipts and in thank-you emails, and asking for a review takes no extra effort from you or your staff.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "More recent, genuine reviews from the busiest weeks of your year, which show next to your Business Profile in Google Search and Maps, where the next customer is deciding."
+          ]
+        },
+        {
+          "h": "How to do it (about 15 minutes)",
+          "ul": [
+            "On a computer, go to your Business Profile and select Read reviews, then Get more reviews. Google says review QR codes can only be generated in a computer browser, not on a phone.",
+            "Copy the review link, and right-click the QR code and choose Save image as to download it.",
+            "Print the QR code on a small counter card next to the card reader, with one line like \"Enjoyed your visit? We'd love a Google review.\"",
+            "Add the link or QR code to your receipts, thank-you emails and the end of chat conversations, which are all places Google suggests.",
+            "Ask everyone the same way. Don't pick only happy customers.",
+            "Reply to the reviews that come in, especially the ones you can answer with a helpful detail."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Google strictly prohibits offering anything, such as a discount, freebie or gift, in exchange for posting, changing or removing a review, and it can restrict your profile, including blocking new reviews, if it finds violations. Keep the review card separate from any holiday promo. Customers need to be signed in to a Google Account to leave a review."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Business Profile Help: Create a Google link or QR code to request reviews — https://support.google.com/business/answer/16816815",
+            "Google Business Profile Help: Tips to get more reviews — https://support.google.com/business/answer/3474122",
+            "Google Business Profile Help: Business Profile restrictions for policy violations — https://support.google.com/business/answer/14114287",
+            "Last checked at the source: November 2, 2026. Backlog item TB-003."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Draft replies to new Google reviews for approval"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I give a discount to people who leave a review?",
+          "a": "No. Google doesn't allow any incentive for reviews, and violations can lead to removed reviews and restrictions on your profile."
+        },
+        {
+          "q": "Can I make the QR code on my phone?",
+          "a": "Google says review QR codes can only be generated in a computer browser. Once downloaded, you can print or share it anywhere."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-review-qr-counter-card.webp",
+        "alt": "A small printed counter card with a QR code asking for a review, beside a card reader at the checkout of a gift shop, as a customer scans it with a phone, with wrapped gifts and string lights behind",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up your Google review link and QR code on your counter card, receipts and thank-you emails, plus a simple way to reply to new reviews, on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-google-review-qr-code-counter-card"
+      },
+      "updated": "2026-11-02"
     }
   ],
   "static": [

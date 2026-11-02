@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import site from "../content/site.json";
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           <p className="muted">© 2026 {site.name}, a StorenTech company. Preview build — content under review.</p>
         </div></footer>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

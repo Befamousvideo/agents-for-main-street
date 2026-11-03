@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 2, 2026",
+  "updated": "November 3, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -806,7 +806,8 @@
             "Send one abandoned-cart SMS (with proper SMS consent) — One opted-in SMS within 48 hours of abandonment, with a checkout link; never take payment by text.",
             "Show holiday ship-by dates on your site and order emails automatically — post USPS send-by dates, minus your packing time, on your banner and order emails.",
             "Get an alert when card testers hit your online checkout — count failed payments per hour and alert the owner when they spike, with a refund-and-tighten-checkout checklist.",
-            "Text or email customers the moment a pickup order is ready — mark the order ready, Shopify emails pickup instructions, and an optional opted-in text and 3-day reminder clear the pickup shelf."
+            "Text or email customers the moment a pickup order is ready — mark the order ready, Shopify emails pickup instructions, and an optional opted-in text and 3-day reminder clear the pickup shelf.",
+            "Capture holiday SMS opt-ins at checkout before Black Friday — Put an unchecked SMS marketing consent checkbox and short disclosure at checkout or receipt signup, store opt-ins with a timestamp, then connect that list to your SMS tool before Black Friday."
           ]
         },
         {
@@ -825,7 +826,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Send your holiday emails from an address people can reply to, and answer them",
-            "Put your Google review QR code on the counter and receipts during the holiday rush"
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         }
       ],
@@ -835,7 +837,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-03"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1398,7 +1400,8 @@
             "Alert staff when a SKU drops below your reorder threshold",
             "Show holiday ship-by dates on your site and order emails automatically",
             "Get an alert when card testers hit your online checkout",
-            "Text or email customers the moment a pickup order is ready"
+            "Text or email customers the moment a pickup order is ready",
+            "Capture holiday SMS opt-ins at checkout before Black Friday"
           ]
         },
         {
@@ -1406,7 +1409,8 @@
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Use Thanksgiving week to thank your best customers with early access"
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         }
       ],
@@ -1758,7 +1762,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-03"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2335,7 +2339,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "Send your holiday emails from an address people can reply to, and answer them"
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         },
         {
@@ -2589,7 +2594,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Use Thanksgiving week to thank your best customers with early access",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         },
         {
@@ -3159,7 +3165,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Get an alert when card testers hit your online checkout",
-            "Text or email customers the moment a pickup order is ready"
+            "Text or email customers the moment a pickup order is ready",
+            "Capture holiday SMS opt-ins at checkout before Black Friday"
           ]
         },
         {
@@ -3167,7 +3174,8 @@
           "ul": [
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         }
       ],
@@ -3707,7 +3715,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Check your email setup before holiday promos go out",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         },
         {
@@ -4190,7 +4199,8 @@
             "Show holiday ship-by dates on your site and order emails automatically",
             "Alert staff when a SKU drops below your reorder threshold",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
-            "Send one abandoned-cart SMS (with proper SMS consent)"
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Capture holiday SMS opt-ins at checkout before Black Friday"
           ]
         },
         {
@@ -4198,7 +4208,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
           ]
         }
       ],
@@ -4674,6 +4685,181 @@
         "href": "/build-it-for-me?recipe=tip-google-review-qr-code-counter-card"
       },
       "updated": "2026-11-02"
+    },
+    {
+      "path": "/industries/retail/holiday-sms-opt-in-at-checkout",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Capture holiday SMS opt-ins at checkout before Black Friday",
+      "seoTitle": "Holiday SMS opt-in at checkout: capture consent before Black Friday (2026 how-to)",
+      "summary": "Black Friday texts only work if people already said yes to SMS. Before the rush, put an explicit SMS marketing checkbox and short disclosure at checkout, on the receipt signup, or in a popup. Store who opted in in your sheet or CRM, then connect that list to your SMS tool so you can text only the people who asked for it.",
+      "steps": [
+        "Decide where shoppers will see the ask: checkout, e-receipt signup, or a popup that offers a clear reason to join (early access, ship alerts, or holiday deals).",
+        "Add an unchecked SMS marketing consent checkbox. Keep it separate from email signup and from transactional texts like order and shipping updates.",
+        "Next to the checkbox, show a short disclosure: your store name, that texts are recurring marketing messages, roughly how often, that message and data rates may apply, that consent is not required to buy, and that they can reply STOP to cancel.",
+        "Collect the mobile number only when the box is checked. Do not treat a phone number entered for delivery or account creation as SMS marketing consent.",
+        "Save each opt-in with a timestamp, the form or page used, and the phone number into your CRM, Shopify/Woo customer profile, Google Sheet, or your SMS tool's built-in form sync (Omnisend, Klaviyo, Twilio and similar).",
+        "In your SMS tool, create a segment or list that only includes contacts with marketing SMS consent. Exclude people who only get transactional messages.",
+        "Send a confirmation or welcome text that names your brand and reminds them they can reply STOP. Then keep Black Friday and Cyber Week promos on that consented list only.",
+        "Register or verify your sending number early (US A2P 10DLC or toll-free verification through your provider). Carrier approval can take days to weeks, so do not wait until the week of Black Friday."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your store checkout or a form builder, a place to store consent (CRM or sheet), and an SMS tool such as Omnisend, Klaviyo or Twilio. No custom code required if your platform already supports an SMS consent checkbox."
+          ]
+        },
+        {
+          "h": "What's confirmed (vendor help)",
+          "ul": [
+            "Omnisend's Black Friday SMS guide says to get consent, identify yourself, make opting out easy, respect quiet hours (often 8 AM to 9 PM local time), and register early for 10DLC.",
+            "Omnisend's SMS compliance checklist says marketing texts need prior explicit opt-in, while purely transactional SMS is treated differently when messages stay non-promotional.",
+            "Klaviyo's US SMS compliance help says email opt-in is not SMS consent, even if someone gave a phone number on an email form, and that marketing consent should state recurring messages may use an autodialer and that consent is not a condition of purchase.",
+            "Both vendors stress a clear STOP opt-out path and that quiet hours and some state rules can be stricter than the common 8 AM–9 PM window."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Keep marketing SMS consent separate from order, shipping and pickup texts. A delivery number is not a marketing list.",
+            "Do not buy phone lists or reuse numbers from another brand. Klaviyo notes consent does not transfer across brands.",
+            "This page is practical setup guidance, not legal advice. Ask your SMS provider or counsel about TCPA, 10DLC, state quiet hours and what your disclosure must say."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Omnisend: Black Friday SMS marketing tips — https://www.omnisend.com/blog/black-friday-sms-marketing/",
+            "Omnisend: SMS compliance checklist — https://www.omnisend.com/blog/sms-compliance-checklist/",
+            "Klaviyo Help: Understanding US SMS compliance laws — https://help.klaviyo.com/hc/en-us/articles/360035055312",
+            "Checked at the source on November 3, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Text or email customers the moment a pickup order is ready",
+            "Show holiday ship-by dates on your site and order emails automatically"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I text everyone who bought from me last year?",
+          "a": "Not for marketing, unless they separately opted into SMS marketing. Collect a fresh checkbox and disclosure, or use only people already on your SMS marketing list."
+        },
+        {
+          "q": "Should I pre-check the SMS box?",
+          "a": "No. Omnisend and Klaviyo describe consent as an affirmative opt-in. Leave the marketing SMS box unchecked by default."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/holiday-sms-opt-in-at-checkout.webp",
+        "alt": "A retail gift shop checkout counter with a tablet showing a generic SMS consent checkbox, wrapped holiday gifts and soft string lights behind, with no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=holiday-sms-opt-in-at-checkout"
+      },
+      "updated": "2026-11-03"
+    },
+    {
+      "path": "/tips/holiday-texting-basics-opt-in-stop-quiet-hours",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+      "seoTitle": "Holiday SMS basics for small shops: opt-in only, brand name, Reply STOP, quiet hours (2026)",
+      "summary": "Holiday texts land when people expect them and trust the sender. Before Black Friday volume climbs, text only people who opted into SMS, put your store name in every message, include Reply STOP, and schedule in each recipient's local time within quiet hours. Register your sending number early so carriers do not filter you when traffic peaks.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Better deliverability and customer trust heading into BFCM: messages that carriers are more likely to deliver, and a list that is less likely to complain or opt out mid-sale."
+          ]
+        },
+        {
+          "h": "How to do it (about 20 minutes, plus registration time)",
+          "ul": [
+            "Audit your list: marketing SMS only to people with a recorded SMS opt-in. Do not copy phone numbers from email-only or checkout-only fields.",
+            "In every promotional text, lead with your brand or store name so people know who is texting.",
+            "Include a clear Reply STOP (or equivalent) opt-out in promotional messages. Many SMS tools add this by default; if you send manually, add it yourself.",
+            "Schedule campaigns in the recipient's local time zone. Omnisend and Klaviyo commonly cite quiet hours around 8 AM–9 PM local time under the TCPA; some states are stricter, so check your provider's quiet-hours settings rather than guessing.",
+            "Start 10DLC brand and campaign registration (or toll-free verification) through your SMS provider now. Omnisend notes unregistered numbers can be blocked and registration should be finished well before November volume.",
+            "Space promotional sends so the same person is not flooded; Omnisend suggests keeping Black Friday promotional texts several hours apart."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "This tip summarizes vendor guidance for shop owners. It is not legal advice. TCPA, state quiet hours, 10DLC and consent rules change and can carry fines. Confirm your wording, timing and registration with your SMS provider or counsel before you send."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Omnisend: Black Friday SMS marketing tips — https://www.omnisend.com/blog/black-friday-sms-marketing/",
+            "CTIA Messaging Principles and Best Practices (PDF) — https://api.ctia.org/wp-content/uploads/2023/05/230523-CTIA-Messaging-Principles-and-Best-Practices-FINAL.pdf",
+            "Last checked at the source: November 3, 2026. Backlog item TB-026."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Capture holiday SMS opt-ins at checkout before Black Friday"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 8 AM–9 PM always safe?",
+          "a": "Vendors often cite that TCPA window in the recipient's local time, and note that some states start quiet hours earlier. Use your SMS tool's quiet-hours controls and ask your provider if you sell across many states."
+        },
+        {
+          "q": "Do order updates need Reply STOP?",
+          "a": "Promotional texts should include an easy opt-out. Keep marketing consent separate from transactional order and shipping texts, and follow your provider's rules for each type."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-holiday-texting-basics.webp",
+        "alt": "A shop owner at a desk drafting a short SMS on a smartphone beside holiday garland and wrapped gifts, with no brand logos on the phone screen",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI wires SMS opt-in at checkout, quiet-hours scheduling and STOP handling on the SMS tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-holiday-texting-basics"
+      },
+      "updated": "2026-11-03"
     }
   ],
   "static": [

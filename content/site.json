@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 3, 2026",
+  "updated": "November 4, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -487,7 +487,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Send one abandoned-cart SMS (with proper SMS consent)"
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
           ]
         },
         {
@@ -495,7 +496,8 @@
           "ul": [
             "Put your holiday offer in real text, not inside one big image",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         }
       ],
@@ -807,7 +809,8 @@
             "Show holiday ship-by dates on your site and order emails automatically — post USPS send-by dates, minus your packing time, on your banner and order emails.",
             "Get an alert when card testers hit your online checkout — count failed payments per hour and alert the owner when they spike, with a refund-and-tighten-checkout checklist.",
             "Text or email customers the moment a pickup order is ready — mark the order ready, Shopify emails pickup instructions, and an optional opted-in text and 3-day reminder clear the pickup shelf.",
-            "Capture holiday SMS opt-ins at checkout before Black Friday — Put an unchecked SMS marketing consent checkbox and short disclosure at checkout or receipt signup, store opt-ins with a timestamp, then connect that list to your SMS tool before Black Friday."
+            "Capture holiday SMS opt-ins at checkout before Black Friday — Put an unchecked SMS marketing consent checkbox and short disclosure at checkout or receipt signup, store opt-ins with a timestamp, then connect that list to your SMS tool before Black Friday.",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday — Pull repeated how-it-works, comparison and policy questions from support into a sheet, then publish a visible FAQ page before Black Friday ads go live."
           ]
         },
         {
@@ -827,7 +830,8 @@
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Send your holiday emails from an address people can reply to, and answer them",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         }
       ],
@@ -837,7 +841,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-04"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1762,7 +1766,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-04"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2340,7 +2344,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Send your holiday emails from an address people can reply to, and answer them",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         },
         {
@@ -2595,7 +2600,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         },
         {
@@ -3716,7 +3722,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Check your email setup before holiday promos go out",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         },
         {
@@ -4009,7 +4016,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Draft replies to new Google reviews for approval",
             "Sell and deliver e-gift cards automatically this holiday season",
-            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
           ]
         },
         {
@@ -4017,7 +4025,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         }
       ],
@@ -4106,7 +4115,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Put your holiday offer in real text, not inside one big image",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         },
         {
@@ -4399,7 +4409,8 @@
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
-            "Draft replies to new Google reviews for approval"
+            "Draft replies to new Google reviews for approval",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
           ]
         },
         {
@@ -4407,7 +4418,8 @@
           "ul": [
             "Check your email setup before holiday promos go out",
             "Put your holiday offer in real text, not inside one big image",
-            "Send your holiday emails from an address people can reply to, and answer them"
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         }
       ],
@@ -4741,7 +4753,8 @@
           "ul": [
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Text or email customers the moment a pickup order is ready",
-            "Show holiday ship-by dates on your site and order emails automatically"
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
           ]
         },
         {
@@ -4750,7 +4763,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         }
       ],
@@ -4826,7 +4840,8 @@
           "ul": [
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
           ]
         },
         {
@@ -4860,6 +4875,185 @@
         "href": "/build-it-for-me?recipe=tip-holiday-texting-basics"
       },
       "updated": "2026-11-03"
+    },
+    {
+      "path": "/industries/retail/pre-purchase-faq-from-support",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+      "seoTitle": "Pre-purchase FAQ from support questions before Black Friday (2026 how-to)",
+      "summary": "Shoppers researching furniture, appliances, spa packages or other higher-ticket items ask the same how-it-works, comparison, shipping and return questions for weeks before they buy. Before Black Friday ads go live, pull those repeats from email, DMs and reviews into a Google Sheet, write plain answers, then publish a visible FAQ or how-it-works page on your store so the sale does not have to explain everything from scratch.",
+      "steps": [
+        "Open last 30–90 days of support email, chat, DMs, review comments and sales notes. List every question that came up more than once about how something works, what’s included, how it compares, shipping timing, returns, warranties or setup.",
+        "Create a Google Sheet with columns: Question, Short answer, Longer how-it-works notes, Source (email/review/DM), Priority (high/medium), Status (draft/ready/published). Put one row per unique question.",
+        "Write answers in plain English. Link to product pages, shipping policy and returns pages where they already exist. Prefer honest limits (“ships in 5–7 business days”) over hype.",
+        "On Shopify, go to Online Store > Pages > Add page. Title it clearly (FAQ, How it works, or Buying guide). Paste your highest-priority Q&As into the page content, or use your theme’s collapsible/FAQ section if you have one. Keep Visibility set to Visible and Save.",
+        "If you are not on Shopify, publish the same Q&As as a Google Doc shared as “Anyone with the link can view,” or as a page on Squarespace/WordPress/Wix. The goal is one public URL shoppers and staff can share.",
+        "Add the page to your main or footer menu (Shopify: Content > Menus) and link it from product pages for higher-ticket items and from Black Friday sale emails.",
+        "Optional: keep the Sheet as the source of truth. When a new repeat question appears in support, add a row, draft the answer, then update the published page the same week.",
+        "Optional: use Zapier or Make to append new form or helpdesk tickets into the Sheet so the backlog grows automatically; you still approve wording before anything goes live on the site."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a spreadsheet (Google Sheets works), your store’s page editor (Shopify Pages or equivalent), and access to recent support threads. No custom code required."
+          ]
+        },
+        {
+          "h": "What's confirmed (vendor help)",
+          "ul": [
+            "Shopify Help says you create pages under Online Store > Pages > Add page, set Visibility to Visible, add content in the rich text editor, Save, then add the page to a menu if you want it in navigation.",
+            "Shopify’s FAQ page guide says to start from the questions customers already ask in tickets, reviews and forums, group them into clear categories, and place high-intent topics (shipping, returns, pricing) near the top.",
+            "Zapier’s FAQ template and FAQ/help-center automations describe keeping FAQ rows in a table or Google Sheet and routing repeated support questions into a backlog so you can publish missing answers before ticket volume climbs."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Do not invent product claims. If a question needs a medical, safety or legal answer you cannot verify, say you will confirm with the manufacturer or counsel before publishing.",
+            "Keep the Sheet private to staff; only the published page should be public.",
+            "Update answers when policies or ship-by dates change for the holidays so Black Friday traffic does not hit stale info."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Shopify Help: Creating and editing pages — https://help.shopify.com/en/manual/online-store/add-edit-pages",
+            "Shopify: How to Create an FAQ Page + 12 Examples (2026) — https://www.shopify.com/blog/120928069-how-to-create-faq-page",
+            "Zapier: FAQ Template — https://zapier.com/templates/details/faq",
+            "Zapier: FAQ & Help Center Management Automations — https://zapier.com/automations/customer-service-success/self-service-support/faq-help-center-management",
+            "Checked at the source on November 4, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Batch-write product descriptions and image alt text",
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Schedule your holiday offers and events as Google Business Profile posts"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should every product get its own FAQ?",
+          "a": "Start with one store-wide FAQ for shared policies, then add a short how-it-works or buying-guide section on the product pages that get the most pre-purchase questions."
+        },
+        {
+          "q": "Can I paste answers from ChatGPT without editing?",
+          "a": "No. Use AI only as a draft, then check every fact against your real policies, inventory and manufacturer materials before the page goes live."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/pre-purchase-faq-from-support.webp",
+        "alt": "A Main Street shop owner at a desk reviewing a laptop FAQ document with wrapped holiday gifts nearby and no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=pre-purchase-faq-from-support"
+      },
+      "updated": "2026-11-04"
+    },
+    {
+      "path": "/tips/answer-buyer-questions-before-black-friday",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+      "seoTitle": "Answer buyer research questions before Black Friday ads (higher-ticket tips 2026)",
+      "summary": "For furniture, appliances, spa packages, devices and other considered purchases, Black Friday discounts work best after shoppers already understand how the offer works. SparkToro’s Amanda Natividad argues the heavy lifting happens in the months before the sale: publish clear how-it-works, comparison and FAQ answers so November ads do not have to introduce, educate and close all at once.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A calmer BFCM push: ads and emails can point to pages that already answer the research questions your higher-ticket buyers ask, instead of forcing one promo to do all the explaining."
+          ]
+        },
+        {
+          "h": "How to do it (about 45–90 minutes to start)",
+          "ul": [
+            "List the questions buyers ask before they spend: how it works, what’s included, how it compares to alternatives, results or proof you can honestly share, shipping and return risk, and who it is (or isn’t) for.",
+            "Mine the same questions from support email, DMs, reviews, sales calls and search suggestions—not only from your own opinions.",
+            "Publish or refresh one honest how-it-works page, one comparison or buying-guide page, and an FAQ that answers those questions in plain English. Link each from the product page.",
+            "Share those answers where people research (your site first; then email replies, Google Business posts, or trusted local partners). The SparkToro brief stresses that considered buyers form opinions off your site as well as on it.",
+            "Only after those pages exist, turn up Black Friday ads, email and SMS. The sale message can then be short: the thing you’ve been researching is on sale.",
+            "Keep a living backlog in a sheet so new repeat questions become new FAQ rows before Cyber Week traffic spikes."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "This tip rewrites a marketing-process lesson from SparkToro for Main Street shops. It is not medical, product-efficacy or legal advice. Skip health or device-performance claims unless you can cite a primary source you have checked yourself."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Amanda Natividad / SparkToro: How We’d Market a $400 Skincare Device Before Black Friday (published 2026-08-26) — https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/",
+            "Last checked at the source: November 4, 2026. Backlog item TB-028."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Batch-write product descriptions and image alt text"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this only apply to beauty devices?",
+          "a": "No. SparkToro frames it for any considered purchase—mattresses, software, cars, appliances and similar. Use it for any Main Street offer where people research before they buy."
+        },
+        {
+          "q": "What if Black Friday is next week and I have no content yet?",
+          "a": "Publish a short FAQ with your top five real questions this week, link it from ads and product pages, then expand after Cyber Week. Perfect pages are less important than honest answers that already exist."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-answer-buyer-questions-before-bf.webp",
+        "alt": "A boutique owner drafting how-it-works notes on a tablet beside seasonal products and holiday garland, with no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI turns your repeated support questions into a published FAQ/how-it-works page on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
+      },
+      "updated": "2026-11-04"
     }
   ],
   "static": [

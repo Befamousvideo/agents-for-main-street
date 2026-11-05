@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 4, 2026",
+  "updated": "November 5, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -488,7 +488,8 @@
           "h": "Related recipes",
           "ul": [
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Set a Shopify Black Friday automatic discount with Active dates"
           ]
         },
         {
@@ -497,7 +498,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -810,7 +812,8 @@
             "Get an alert when card testers hit your online checkout — count failed payments per hour and alert the owner when they spike, with a refund-and-tighten-checkout checklist.",
             "Text or email customers the moment a pickup order is ready — mark the order ready, Shopify emails pickup instructions, and an optional opted-in text and 3-day reminder clear the pickup shelf.",
             "Capture holiday SMS opt-ins at checkout before Black Friday — Put an unchecked SMS marketing consent checkbox and short disclosure at checkout or receipt signup, store opt-ins with a timestamp, then connect that list to your SMS tool before Black Friday.",
-            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday — Pull repeated how-it-works, comparison and policy questions from support into a sheet, then publish a visible FAQ page before Black Friday ads go live."
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday — Pull repeated how-it-works, comparison and policy questions from support into a sheet, then publish a visible FAQ page before Black Friday ads go live.",
+            "Set a Shopify Black Friday automatic discount with Active dates — Create a customer-facing automatic amount-off discount with Active dates so Black Friday prices apply in cart without a code."
           ]
         },
         {
@@ -831,7 +834,8 @@
             "Send your holiday emails from an address people can reply to, and answer them",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -841,7 +845,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-04"
+      "updated": "2026-11-05"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1766,7 +1770,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-04"
+      "updated": "2026-11-05"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2345,7 +2349,8 @@
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Send your holiday emails from an address people can reply to, and answer them",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         },
         {
@@ -2601,7 +2606,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         },
         {
@@ -2774,13 +2780,15 @@
             "Show holiday ship-by dates on your site and order emails automatically",
             "Get an alert when card testers hit your online checkout",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
-            "Schedule your holiday offers and events as Google Business Profile posts"
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Set a Shopify Black Friday automatic discount with Active dates"
           ]
         },
         {
           "h": "Related tips",
           "ul": [
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -3172,7 +3180,8 @@
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Get an alert when card testers hit your online checkout",
             "Text or email customers the moment a pickup order is ready",
-            "Capture holiday SMS opt-ins at checkout before Black Friday"
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Set a Shopify Black Friday automatic discount with Active dates"
           ]
         },
         {
@@ -3181,7 +3190,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -3723,7 +3733,8 @@
             "Check your email setup before holiday promos go out",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         },
         {
@@ -4017,7 +4028,8 @@
             "Draft replies to new Google reviews for approval",
             "Sell and deliver e-gift cards automatically this holiday season",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
-            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Set a Shopify Black Friday automatic discount with Active dates"
           ]
         },
         {
@@ -4026,7 +4038,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Keep reviews out of your holiday giveaways and discounts",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -4116,7 +4129,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Use Thanksgiving week to thank your best customers with early access",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         },
         {
@@ -4754,7 +4768,8 @@
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Text or email customers the moment a pickup order is ready",
             "Show holiday ship-by dates on your site and order emails automatically",
-            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Set a Shopify Black Friday automatic discount with Active dates"
           ]
         },
         {
@@ -4764,7 +4779,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -4932,7 +4948,8 @@
             "Capture holiday SMS opt-ins at checkout before Black Friday",
             "Batch-write product descriptions and image alt text",
             "Auto-answer the same holiday questions by email with Gmail templates and filters",
-            "Schedule your holiday offers and events as Google Business Profile posts"
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Set a Shopify Black Friday automatic discount with Active dates"
           ]
         },
         {
@@ -4942,7 +4959,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         }
       ],
@@ -5019,7 +5037,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
           ]
         },
         {
@@ -5054,6 +5073,188 @@
         "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
       },
       "updated": "2026-11-04"
+    },
+    {
+      "path": "/industries/retail/black-friday-automatic-discount",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Set a Shopify Black Friday automatic discount with Active dates",
+      "seoTitle": "Shopify Black Friday automatic discount with Active dates (2026 how-to)",
+      "summary": "Black Friday and Cyber Monday shoppers expect the sale price to appear in the cart without hunting for a code. Shopify lets you create an amount-off automatic discount, give it a customer-facing title, and set Active dates so it turns on and off on your published schedule. Pair a public automatic discount for the open sale with a separate code if you want VIP early access.",
+      "steps": [
+        "Decide the public offer (for example percentage or fixed amount off orders or a sale collection) and write the exact start and end times in your store’s admin time zone. Confirm that zone under Shopify Settings > General so midnight in your emails matches midnight in Discounts.",
+        "In Shopify admin go to Discounts > Create discount. Choose Amount off orders (sitewide) or Amount off products (a sale collection or specific products).",
+        "Under Method, select Automatic discount. In Title, enter the customer-facing name shoppers will see in cart and checkout (for example “Black Friday: 20% off”), not an internal code name.",
+        "In Discount value, enter the percentage or fixed amount. Leave minimum purchase off for a true sitewide sale, or set a minimum if that is your plan. Set Eligibility to All customers for the public BFCM window.",
+        "Optional: under Combinations, allow shipping discounts if you also run free shipping. Remember Shopify allows a maximum of 25 active automatic discounts (including app-based ones).",
+        "In Active dates, set the start date/time for Black Friday (or your published start) and click Set end date for when the public sale ends. Save the discount. Automatic discounts apply in cart and at checkout; they do not apply on the post-purchase page.",
+        "Optional VIP early access: create a separate Amount off discount as a Discount code, limit it to a customer segment or specific customers, and share the code only with your best customers before the public automatic discount starts.",
+        "Before go-live, place a test order (or use Shopify’s draft/order preview tools you already use) and confirm the automatic title and amount appear in cart and checkout. Add a short line on your sale collection and homepage that the discount applies automatically—no code needed.",
+        "After the end date, confirm the discount shows as expired/inactive on the Discounts page so leftover sale banners do not promise a price that no longer applies."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "A Shopify admin login with permission to manage Discounts, a written BFCM offer and schedule, and (optional) a sale collection. No custom code required."
+          ]
+        },
+        {
+          "h": "What's confirmed (vendor help)",
+          "ul": [
+            "Shopify Help: Automatic discounts apply in the cart and at checkout when eligibility conditions are met, and are commonly used for site-wide sales and collection promotions. You can create amount off, free shipping, buy X get Y, or app-based automatic discounts, up to 25 active automatic discounts including app-based ones.",
+            "Shopify Help: Amount off automatic discounts are created under Discounts > Create discount, with Method set to Automatic discount, a customer-facing Title, a discount value, eligibility, optional combinations, and Active dates (start/end) that follow the time zone set in Shopify admin.",
+            "Shopify Help: Preparing for seasonal sales (BFCM) lists setting up automatic discounts or discount codes among promotion planning steps alongside sale collections, abandoned checkout recovery and gift cards.",
+            "Automatic discounts created in Shopify admin do not apply to the post-purchase page at checkout."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Do not invent a discount percentage for this recipe—use the offer you already published to customers. Keep email, ads and the discount Title aligned.",
+            "Active dates use your store’s admin time zone. If marketing says “midnight Eastern” but admin is Pacific, fix one of them before go-live.",
+            "Customers must add all eligible items to the cart for an automatic discount to apply correctly. For Buy X get Y, inventory of the free/discounted items must stay available.",
+            "VIP early-access codes and the public automatic discount are easier to reason about as two separate discounts with non-overlapping Active dates or clear combination rules."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Shopify Help: Automatic discounts — https://help.shopify.com/en/manual/discounts/discount-methods/automatic-discounts",
+            "Shopify Help: Amount off discounts — https://help.shopify.com/en/manual/discounts/discount-types/percentage-fixed-amount",
+            "Shopify Help: Preparing for seasonal sales — https://help.shopify.com/en/manual/promoting-marketing/marketing-for-bfcm",
+            "Checked at the source on November 5, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Sell and deliver e-gift cards automatically this holiday season"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should Black Friday use a code or an automatic discount?",
+          "a": "Use an automatic discount for the public sale so shoppers do not forget a code at checkout. Keep a separate discount code if you want a private VIP or early-access window."
+        },
+        {
+          "q": "Can I stack this with free shipping?",
+          "a": "Only if you enable the matching combination on both discounts. Test cart and checkout before you advertise a stacked offer."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/black-friday-automatic-discount.webp",
+        "alt": "A Main Street retail shop owner at a wooden counter setting a holiday sale discount on a laptop beside wrapped gifts and a chalkboard that says SALE, with no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=black-friday-automatic-discount"
+      },
+      "updated": "2026-11-05"
+    },
+    {
+      "path": "/tips/answer-one-homepage-question",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Answer the one question every first-time visitor asks at the top of your homepage",
+      "seoTitle": "Answer the one homepage question visitors ask first (Main Street tip 2026)",
+      "summary": "First-time visitors often stall on one unanswered question—“Will it fit?” “Do you serve my area?” “What’s included?”—before they scroll. Conversion Rate Experts’ DiamondBack Covers win report shows how surfacing that single question (and answering it) at the top of the homepage can remove the blocker. Find your one question from real visitors, then put a plain-English answer above the fold.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A homepage that answers the make-or-break first question immediately, so holiday traffic does not bounce while hunting for fit, service area, pricing basics or what’s included."
+          ]
+        },
+        {
+          "h": "How to do it (about 30–60 minutes to start)",
+          "ul": [
+            "List the questions new visitors ask in the first minute: sales calls, chat, email, Google reviews, “People also ask,” and in-person walk-ins. Look for the same wording repeating.",
+            "Pick the single question that shows up most for first-time buyers (fit, service area, turnaround, pricing model, what’s included). If two tie, choose the one that blocks purchase the most.",
+            "Write a one-sentence answer in plain English. Link to a short FAQ, sizing chart, service-area page or how-it-works page for details—do not bury the answer only on an interior page.",
+            "Place that question and answer at the top of the homepage (hero subhead, banner, or first content block)—before long brand stories or seasonal promo walls.",
+            "Optional: A/B test the new above-the-fold answer against your current homepage if you already use a testing tool; otherwise ship the clearer version and watch bounce and inquiry quality for two weeks.",
+            "Revisit after Black Friday week: holiday shoppers may ask a new first question (ship-by dates, gift returns). Update the homepage line when the top question changes."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "This tip rewrites a Conversion Rate Experts Win Report about one client (DiamondBack Covers). It is a single-client case study—do not treat any lift percentage in that report as a promise for your shop. Use the method (find the real first question; answer it above the fold), not the headline number."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Conversion Rate Experts: Win Report — How answering one question increased conversions (DiamondBack Covers) — https://conversion-rate-experts.com/diamondback-covers-answer-one-question-win-report/",
+            "Last checked at the source: November 5, 2026. Backlog item TB-005."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Batch-write product descriptions and image alt text"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What if my customers ask ten different first questions?",
+          "a": "Still pick one primary above-the-fold answer, then link a short FAQ for the next few. The homepage hero cannot answer everything; it should clear the #1 blocker."
+        },
+        {
+          "q": "Does this replace a full FAQ page?",
+          "a": "No. Pair it with a published FAQ or how-it-works page for deeper research questions, especially on higher-ticket holiday items."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-answer-one-homepage-question.webp",
+        "alt": "A small business owner beside a storefront window display with a handwritten paper sign that asks Will it fit?, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI finds the one homepage question your first-time visitors ask and installs a clear above-the-fold answer on the tools you already use, within 7 days. You approve every change before it goes live.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
+      },
+      "updated": "2026-11-05"
     }
   ],
   "static": [

@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 5, 2026",
+  "updated": "November 6, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -299,7 +299,8 @@
           "ul": [
             "Ask every customer for a Google review automatically (without review gating)",
             "Schedule your holiday offers and events as Google Business Profile posts",
-            "Auto-answer the same holiday questions by email with Gmail templates and filters"
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -308,7 +309,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
-            "Put your Google review QR code on the counter and receipts during the holiday rush"
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -489,7 +491,8 @@
           "ul": [
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
-            "Set a Shopify Black Friday automatic discount with Active dates"
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -499,7 +502,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -813,7 +817,8 @@
             "Text or email customers the moment a pickup order is ready — mark the order ready, Shopify emails pickup instructions, and an optional opted-in text and 3-day reminder clear the pickup shelf.",
             "Capture holiday SMS opt-ins at checkout before Black Friday — Put an unchecked SMS marketing consent checkbox and short disclosure at checkout or receipt signup, store opt-ins with a timestamp, then connect that list to your SMS tool before Black Friday.",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday — Pull repeated how-it-works, comparison and policy questions from support into a sheet, then publish a visible FAQ page before Black Friday ads go live.",
-            "Set a Shopify Black Friday automatic discount with Active dates — Create a customer-facing automatic amount-off discount with Active dates so Black Friday prices apply in cart without a code."
+            "Set a Shopify Black Friday automatic discount with Active dates — Create a customer-facing automatic amount-off discount with Active dates so Black Friday prices apply in cart without a code.",
+            "Put a feature-benefit card in your product gallery before Black Friday — Move your top feature–benefit pairs into an early product-gallery card so Black Friday shoppers see them without scrolling."
           ]
         },
         {
@@ -835,7 +840,8 @@
             "Put your Google review QR code on the counter and receipts during the holiday rush",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -845,7 +851,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-05"
+      "updated": "2026-11-06"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1135,7 +1141,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
             "Send your holiday emails from an address people can reply to, and answer them",
-            "Put your Google review QR code on the counter and receipts during the holiday rush"
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -1145,7 +1152,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-06"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1189,7 +1196,8 @@
           "h": "Related recipes",
           "ul": [
             "Draft replies to new Google reviews for approval",
-            "Text back every missed call automatically for an HVAC business"
+            "Text back every missed call automatically for an HVAC business",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -1199,7 +1207,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Put your Google review QR code on the counter and receipts during the holiday rush"
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -1409,7 +1418,8 @@
             "Show holiday ship-by dates on your site and order emails automatically",
             "Get an alert when card testers hit your online checkout",
             "Text or email customers the moment a pickup order is ready",
-            "Capture holiday SMS opt-ins at checkout before Black Friday"
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -1418,7 +1428,8 @@
             "Put your holiday offer in real text, not inside one big image",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time"
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -1770,7 +1781,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-05"
+      "updated": "2026-11-06"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2350,7 +2361,8 @@
             "Send your holiday emails from an address people can reply to, and answer them",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -2607,7 +2619,8 @@
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -3181,7 +3194,8 @@
             "Get an alert when card testers hit your online checkout",
             "Text or email customers the moment a pickup order is ready",
             "Capture holiday SMS opt-ins at checkout before Black Friday",
-            "Set a Shopify Black Friday automatic discount with Active dates"
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -3191,7 +3205,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -3375,7 +3390,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Use Thanksgiving week to thank your best customers with early access",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
-            "Put your Google review QR code on the counter and receipts during the holiday rush"
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -3555,7 +3571,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
-            "Put your Google review QR code on the counter and receipts during the holiday rush"
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -3734,7 +3751,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -4029,7 +4047,8 @@
             "Sell and deliver e-gift cards automatically this holiday season",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
-            "Set a Shopify Black Friday automatic discount with Active dates"
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -4039,7 +4058,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -4677,7 +4697,8 @@
           "h": "Related tips",
           "ul": [
             "Keep reviews out of your holiday giveaways and discounts",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -4769,7 +4790,8 @@
             "Text or email customers the moment a pickup order is ready",
             "Show holiday ship-by dates on your site and order emails automatically",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
-            "Set a Shopify Black Friday automatic discount with Active dates"
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -4780,7 +4802,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -4949,7 +4972,8 @@
             "Batch-write product descriptions and image alt text",
             "Auto-answer the same holiday questions by email with Gmail templates and filters",
             "Schedule your holiday offers and events as Google Business Profile posts",
-            "Set a Shopify Black Friday automatic discount with Active dates"
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -4960,7 +4984,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -5038,7 +5063,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -5132,7 +5158,8 @@
             "Capture holiday SMS opt-ins at checkout before Black Friday",
             "Show holiday ship-by dates on your site and order emails automatically",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
-            "Sell and deliver e-gift cards automatically this holiday season"
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Put a feature-benefit card in your product gallery before Black Friday"
           ]
         },
         {
@@ -5142,7 +5169,8 @@
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         }
       ],
@@ -5219,7 +5247,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas"
+            "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
           ]
         },
         {
@@ -5255,6 +5284,185 @@
         "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
       },
       "updated": "2026-11-05"
+    },
+    {
+      "path": "/industries/retail/feature-benefit-product-gallery",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Put a feature-benefit card in your product gallery before Black Friday",
+      "seoTitle": "Feature-benefit product gallery image before Black Friday (2026 how-to)",
+      "summary": "Holiday shoppers spend most of their attention on the product image gallery—and often never scroll to the selling points buried lower on the page. Conversion Rate Experts’ DiamondBack Covers win report shows how replacing an early gallery slot with a simple feature-plus-benefit card can lift conversions when those messages would otherwise stay below the fold. Build one card from what buyers already tell you, place it near the top of the gallery, and keep the wording honest.",
+      "steps": [
+        "Pull the top reasons people already buy from you: post-purchase surveys, Google reviews, sales-call notes and returns reasons. Write the three or four messages that show up most (security, fit, durability, what’s included, ship-by timing).",
+        "For each message, write one concrete feature and the plain-English benefit it delivers (for example “double-stitched seams” + “holds up after weekly washes”). Do not invent lab claims or percentages you cannot show.",
+        "Design a single 1:1 or 4:3 card (Canva or your product photographer) with those feature–benefit pairs, readable on a phone. Keep brand logos off the card if you sell multi-brand goods; use your own product photos only.",
+        "In Shopify (or your store), open the product template for your top holiday SKUs. Add the card as an early image in the media gallery—often slot 2 after the hero photo—so it appears where heatmaps show attention, not at the bottom of the description.",
+        "Write image alt text that names the features and benefits in plain words for accessibility and image search.",
+        "Optional: if you already A/B test, compare the gallery with the card against the photo-only gallery on a high-traffic SKU for one to two weeks. If you do not test, ship the clearer card and watch add-to-cart and support questions about those features.",
+        "Before Black Friday ads ramp, spot-check mobile: the card should be visible without deep scrolling, and the automatic discount or sale badge should still be obvious.",
+        "Reuse the same card language on the first FAQ answers and in your pre-purchase FAQ page so ads, gallery and support stay aligned."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Your top product pages, a short list of real buyer reasons, a design tool or photographer, and admin access to edit product media. No custom code required."
+          ]
+        },
+        {
+          "h": "What's confirmed (source)",
+          "ul": [
+            "Conversion Rate Experts’ DiamondBack Covers win report describes research where security was the most-cited purchase reason, yet fewer than 13% of visitors scrolled far enough to see key protection messages on the page.",
+            "The tested variation turned an early product-gallery image into an infographic pairing four features with their benefits; CRE reports a 15% conversion lift in that single-client test.",
+            "CRE’s takeaway is transferable: put your most persuasive feature–benefit pairs into the part of the page that already gets the most attention (often the gallery), rather than relying on below-the-fold copy alone."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Treat the 15% figure as a single-client case study, not a promise for your store. Use the method (feature + benefit in the hot zone), not the headline percentage.",
+            "Only state features and benefits you can stand behind. Avoid fake review counts, invented warranties or “#1 rated” claims.",
+            "Keep sale prices and automatic discounts consistent with what the gallery card promises for the holiday window."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Conversion Rate Experts: Win Report — How an infographic increased conversions (DiamondBack Covers) — https://conversion-rate-experts.com/diamondback-covers-infographic-win-report/",
+            "Checked at the source on November 6, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Batch-write product descriptions and image alt text",
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Send one abandoned-cart SMS (with proper SMS consent)"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this replace good product photos?",
+          "a": "No. Keep real photos of the product. The card is an early gallery slot that answers “so what?” next to the pictures people already stare at."
+        },
+        {
+          "q": "What if I only sell services, not products?",
+          "a": "Use the same idea on your booking or package page: put the top feature–benefit pairs in the first visual block visitors see, not only in a long FAQ."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/feature-benefit-product-gallery.webp",
+        "alt": "A retail shop laptop on a wooden counter showing a product page with a simple feature-benefit card beside wrapped holiday gifts, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=feature-benefit-product-gallery"
+      },
+      "updated": "2026-11-06"
+    },
+    {
+      "path": "/tips/reply-every-google-review",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Reply to every Google review with a short, personal answer—and take complaints offline",
+      "seoTitle": "Reply to every Google review personally this holiday season (Main Street tip)",
+      "summary": "Holiday traffic brings more Google reviews—good and bad. Google’s Business Profile help says to reply, keep replies short and relevant, avoid promotions in the reply, personalize negative responses, and take complex complaints to a private phone or email thread. A quick, specific answer shows shoppers you are listening before Black Friday week.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Public proof that you read feedback, clearer answers for people comparing you during the holiday rush, and a calmer path for complaints that should not play out in the review thread."
+          ]
+        },
+        {
+          "h": "How to do it (about 20–40 minutes to start)",
+          "ul": [
+            "Open Google Business Profile → Reviews (or the Maps listing you manage). Sort newest first and clear anything unanswered from the past two weeks before peak holiday weeks.",
+            "For positive reviews: thank them, mention one specific detail they named (item, staff, visit), and invite a return—without a coupon or “leave another review for 10% off.”",
+            "For negative reviews: stay polite, acknowledge the specific issue, apologize when it fits, and invite them to continue by phone or email so private details stay offline. Never post their phone number, order ID or medical/financial details.",
+            "Keep replies short. Google notes that long replies lose readers before the useful point.",
+            "Skip copy-paste “Thanks for your feedback!” on every review. Prefer replies where you can answer a question or share a helpful update.",
+            "If a review breaks Google’s content policies, flag it in the product—do not argue policy in the public reply.",
+            "Optional: pair this habit with your review-request QR on the counter, and keep any holiday giveaway completely separate from asking for reviews."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Google prohibits offering incentives for reviews, for changing reviews, or for removing negative ones. Replies must follow Google’s content policies. This tip is practical guidance from Google’s help pages, not legal advice about defamation or refunds."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Business Profile Help: Tips to get more reviews (includes reply guidance) — https://support.google.com/business/answer/3474122",
+            "Last checked at the source: November 6, 2026. Backlog item TB-002."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Draft replies to new Google reviews for approval",
+            "Ask every customer for a Google review automatically (without review gating)",
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Put a feature-benefit card in your product gallery before Black Friday"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I reply to old reviews too?",
+          "a": "Start with the newest unanswered ones shoppers see first. Then work backward if you have time before the holiday peak."
+        },
+        {
+          "q": "Can my AI draft the replies?",
+          "a": "Yes—if you approve every draft before it posts, keep private details out, and make each reply specific. See our Google review replies recipe."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-reply-every-google-review.webp",
+        "alt": "A cafe owner at a wooden counter laptop drafting a short polite reply to a five-star customer review, sticky thank-you notes nearby, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a Google review reply workflow on the tools you already use—drafts for your approval, reminders for unanswered reviews, and holiday-safe wording—within 7 days. You approve every public reply before it posts.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-reply-every-google-review"
+      },
+      "updated": "2026-11-06"
     }
   ],
   "static": [

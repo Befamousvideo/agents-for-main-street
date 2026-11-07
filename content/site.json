@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 6, 2026",
+  "updated": "November 7, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -503,7 +503,8 @@
             "Get your products into Google's free listings before holiday shoppers start searching",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -708,6 +709,12 @@
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Text or email customers the moment a pickup order is ready"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+          ]
         }
       ],
       "faq": [
@@ -841,7 +848,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -851,7 +859,8 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-06"
+      "updated": "2026-11-07",
+      "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
       "path": "/industries/restaurants/reservation-reminders",
@@ -1142,7 +1151,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Send your holiday emails from an address people can reply to, and answer them",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -1152,7 +1162,8 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-06"
+      "updated": "2026-11-07",
+      "seoTitle": "AI automations for local businesses: no-code recipes, step by step"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1781,7 +1792,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-06"
+      "updated": "2026-11-07"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -1840,7 +1851,8 @@
             "Send polite overdue-invoice reminders automatically",
             "Ask every customer for a Google review automatically (without review gating)",
             "Reply to new website leads within minutes, automatically",
-            "Hold every \"new bank details\" email until someone calls to verify"
+            "Hold every \"new bank details\" email until someone calls to verify",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
           ]
         },
         {
@@ -2101,7 +2113,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "Send your holiday emails from an address people can reply to, and answer them"
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -2109,7 +2122,8 @@
           "ul": [
             "Batch-write product descriptions and image alt text",
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Draft replies to new Google reviews for approval"
+            "Draft replies to new Google reviews for approval",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
           ]
         }
       ],
@@ -2362,7 +2376,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -2620,7 +2635,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -3206,7 +3222,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -3292,7 +3309,8 @@
           "h": "Related recipes",
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
-            "Hold every \"new bank details\" email until someone calls to verify"
+            "Hold every \"new bank details\" email until someone calls to verify",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
           ]
         },
         {
@@ -3752,7 +3770,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -4351,7 +4370,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Put your holiday offer in real text, not inside one big image"
+            "Put your holiday offer in real text, not inside one big image",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -4444,7 +4464,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
             "Draft replies to new Google reviews for approval",
-            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
           ]
         },
         {
@@ -4535,7 +4556,8 @@
           "h": "Related recipes",
           "ul": [
             "Auto-answer the same holiday questions by email with Gmail templates and filters",
-            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
           ]
         }
       ],
@@ -4791,7 +4813,8 @@
             "Show holiday ship-by dates on your site and order emails automatically",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
             "Set a Shopify Black Friday automatic discount with Active dates",
-            "Put a feature-benefit card in your product gallery before Black Friday"
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
           ]
         },
         {
@@ -4985,7 +5008,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -5064,7 +5088,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -5170,7 +5195,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -5248,7 +5274,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         },
         {
@@ -5349,7 +5376,8 @@
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
           ]
         }
       ],
@@ -5463,6 +5491,200 @@
         "href": "/build-it-for-me?recipe=tip-reply-every-google-review"
       },
       "updated": "2026-11-06"
+    },
+    {
+      "path": "/industries/local-business/gmail-spam-rate-watch",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Get a weekly alert when Gmail users start marking your emails as spam",
+      "seoTitle": "Gmail spam rate alert with Postmaster Tools (holiday 2026 how-to)",
+      "summary": "Holiday email volume is when spam complaints quietly climb—especially after a new signup source or a bigger send. Your email tool’s complaint report does not show Gmail’s own spam-complaint rate; Google Postmaster Tools does. Verify your sending domain once, then have a weekly automation read the rate and ping you if it rises toward Google’s limits (keep it under 0.10% and never reach 0.30%).",
+      "steps": [
+        "Find the domain your email tool signs mail with (the DKIM d= domain or the SPF Return-Path domain). Your email provider’s domain-setup page shows it.",
+        "Sign in to Google Postmaster Tools on a computer, add that domain, and verify it by pasting the TXT or CNAME record Google gives you into your DNS. Dashboards stay empty until the domain is verified.",
+        "Give a second trusted person read access in Postmaster Tools (Manage users) so alerts are not tied to one inbox.",
+        "Each Monday, open the spam-rate dashboard—or have an automation do it. Developers or a builder can connect the Postmaster Tools API to Zapier, Make, n8n or a small script that pulls the latest daily spam rate.",
+        "Set two alert levels: a heads-up if the rate goes above 0.10%, and an urgent alert at 0.20% so you act well before Google’s 0.30% ceiling. Send the alert to email or Slack with the date range.",
+        "When an alert fires, write down what changed in the days before: a new signup form or list source, a bigger or more frequent send, a new offer type. Undo or slow the most recent change first.",
+        "Make unsubscribing easy (one-click unsubscribe and a visible link), confirm new signups, and stop mailing people who never open—then watch the next several reported days before sending more.",
+        "Keep a one-line log of each alert and the fix you made, so next holiday season you know which list sources caused trouble."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Access to your domain’s DNS, a Google account for Postmaster Tools, and your email tool’s domain settings. For the automated version: a Google Cloud project with the Postmaster Tools API turned on, plus Zapier, Make, n8n or a small script. Costs: see each vendor’s current pricing page."
+          ]
+        },
+        {
+          "h": "What's confirmed (source)",
+          "ul": [
+            "Google’s Email sender guidelines tell senders to keep the spam rate reported in Postmaster Tools below 0.10% and to avoid ever reaching 0.30% or higher.",
+            "Postmaster Tools shows spam rate, reputation, authentication and delivery errors for mail sent to personal Gmail accounts, once you add and verify the DKIM or SPF domain.",
+            "Google says dashboard data is not real time (typically updated within 24 hours), uses UTC, and may be missing on low-volume days to protect user privacy.",
+            "Google’s Postmaster Tools API lets you pull these statistics, including spam rate and compliance status, into other systems."
+          ]
+        },
+        {
+          "h": "Real-world example",
+          "p": [
+            "Audience Bridge, a newsletter-monitoring company, wrote on November 4, 2026 that after it pushed more co-registration signups into one of its own newsletters, Gmail’s reported spam rate stayed above 0.30% for four days. It cut that signup volume in half first and kept watching. This is one publisher’s account, written by a vendor; use it as a pattern (check what changed before complaints rose), not as a benchmark."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Small lists may never show data, because Google hides low-volume days. If you send only a few hundred emails a week to Gmail users, rely on unsubscribe and reply trends instead.",
+            "Your email tool’s complaint number is not Gmail’s number. Yahoo and others send complaint feedback to providers; Gmail reports an aggregate rate in Postmaster Tools.",
+            "Treat 0.30% as a hard limit, not a target. Aim to stay under 0.10% so a single bad send doesn’t push you over.",
+            "Never buy email lists or add people who did not sign up—Google’s guidelines call this out directly."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Gmail Help: Email sender guidelines — https://support.google.com/a/answer/81126",
+            "Gmail Help: Set up Postmaster Tools — https://support.google.com/mail/answer/9981691",
+            "Gmail Help: Postmaster Tools dashboards — https://support.google.com/mail/answer/14668346",
+            "Google for Developers: Postmaster Tools API overview — https://developers.google.com/workspace/gmail/postmaster",
+            "Audience Bridge: We pushed acquisition too hard. Complaints followed. (Nov 4, 2026) — https://www.audiencebridge.io/p/we-pushed-acquisition-too-hard-complaints-followed",
+            "Checked at the source on November 7, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Get a warning before your domain name or website security certificate expires",
+            "Capture holiday SMS opt-ins at checkout before Black Friday"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Check your email setup before holiday promos go out",
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Put your holiday offer in real text, not inside one big image",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this replace SPF, DKIM and DMARC setup?",
+          "a": "No. Authentication gets your mail accepted; the spam-rate alert tells you whether people still want it. Do both—see our holiday email setup check tip."
+        },
+        {
+          "q": "Will Postmaster Tools tell me which subscribers complained?",
+          "a": "No. Google reports an aggregate rate for your domain, not individual names."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/gmail-spam-rate-watch.webp",
+        "alt": "A bakery owner in an apron at a back-office desk studying a laptop chart that trends downward, with a coffee cup and holiday flyers nearby, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=gmail-spam-rate-watch"
+      },
+      "updated": "2026-11-07"
+    },
+    {
+      "path": "/tips/ai-check-landing-pages-before-ads",
+      "group": "tips",
+      "label": "Tip · Retail & online shops",
+      "title": "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+      "seoTitle": "Use AI to check landing pages before Black Friday ads run",
+      "summary": "Paying for holiday ads that land on a sold-out product, a broken mobile menu or a coupon that contradicts the banner wastes money fast. A Practical Ecommerce how-to (Nov 3, 2026) suggests giving ChatGPT or Claude your campaign pages, screenshots and a crawl report with one narrow job—find broken links, conflicting offers, wrong availability and mobile problems, with evidence—then testing the shopping path yourself on phone and desktop before the ads start.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Fewer wasted ad clicks in your most expensive week, a short fix list instead of a vague worry, and a repeatable check you can run before every promotion."
+          ]
+        },
+        {
+          "h": "How to do it (about an hour before each campaign)",
+          "ul": [
+            "List only the pages your ads point to: the landing page, the product or category pages, cart and checkout.",
+            "Collect evidence: a phone screenshot and a desktop screenshot of each page, the page text, and a free crawl or audit report (Google Lighthouse is built into Chrome; crawler tools such as Screaming Frog have a limited free version).",
+            "Give your AI assistant one specific job, in your own words. For example: “Check these pages for broken links, offers that don’t match, items shown as available that are sold out, missing product details and mobile layout problems. For each, give the URL, the evidence and how it would affect a shopper. Mark anything you could not confirm. Do not claim you clicked or checked out. Do not change the site.”",
+            "Add your real campaign details—sale dates, discount code or automatic discount, shipping cutoff—so the AI can spot contradictions.",
+            "Then do the human part: on your phone and on a computer, open the menu, pick a size or color, add to cart and place a test order. Confirm the sale shows up correctly in your ad platform’s conversion report.",
+            "Sort the findings by customer impact. A checkout failure beats a spacing glitch. Fix the top items, then re-check before the ads go live.",
+            "Repeat the same short check before Small Business Saturday and Cyber Monday campaigns."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "AI can misread screenshots or invent problems, so treat its list as leads to verify, not facts. Don’t paste customer data, order details or admin logins into the AI tool—public page content and screenshots are enough. Tool names and free tiers change; check each vendor’s current page."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Practical Ecommerce: Find Site Errors with AI before Ads Run (Nov 3, 2026) — https://www.practicalecommerce.com/find-site-errors-with-ai-before-ads-run",
+            "Chrome for Developers: Lighthouse overview — https://developer.chrome.com/docs/lighthouse/overview",
+            "Last checked at the source: November 7, 2026. Spotted via TLDR Marketing (Nov 6, 2026). Backlog item TB-088."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Put your holiday offer in real text, not inside one big image",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Get your products into Google's free listings before holiday shoppers start searching"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Batch-write product descriptions and image alt text",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Alert staff when a SKU drops below your reorder threshold",
+            "Get a weekly alert when Gmail users start marking your emails as spam"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can AI test my checkout for me?",
+          "a": "Not reliably. Use AI to review pages and reports, but place the test order yourself on a phone and a computer."
+        },
+        {
+          "q": "Do I need paid tools?",
+          "a": "No. Lighthouse is free in Chrome, and the AI review works with the assistant you already use. Paid crawlers help larger catalogs."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-ai-check-landing-pages-before-ads.webp",
+        "alt": "An online clothing shop owner at a wooden desk comparing a product page on a laptop and a phone next to a printed checklist, with folded sweaters and shipping boxes behind her, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a pre-campaign page check on the tools you already use—an AI review prompt tuned to your store, a crawl report, and a short human test checklist—within 7 days. You review every finding before anything on your site changes.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-ai-check-landing-pages-before-ads"
+      },
+      "updated": "2026-11-07"
     }
   ],
   "static": [

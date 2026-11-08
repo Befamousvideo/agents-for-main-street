@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 7, 2026",
+  "updated": "November 8, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -602,6 +602,12 @@
           "ul": [
             "Send a personalized rebooking nudge to salon clients — A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
           ]
+        },
+        {
+          "h": "Tips for salons",
+          "ul": [
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+          ]
         }
       ],
       "faq": [
@@ -609,7 +615,9 @@
           "q": "What's the easiest automation for salons businesses to start with?",
           "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
         }
-      ]
+      ],
+      "updated": "2026-11-08",
+      "seoTitle": "AI automations for salons: no-code recipes and local tips"
     },
     {
       "path": "/industries/service-businesses/ai-receptionist-booking",
@@ -825,7 +833,8 @@
             "Capture holiday SMS opt-ins at checkout before Black Friday — Put an unchecked SMS marketing consent checkbox and short disclosure at checkout or receipt signup, store opt-ins with a timestamp, then connect that list to your SMS tool before Black Friday.",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday — Pull repeated how-it-works, comparison and policy questions from support into a sheet, then publish a visible FAQ page before Black Friday ads go live.",
             "Set a Shopify Black Friday automatic discount with Active dates — Create a customer-facing automatic amount-off discount with Active dates so Black Friday prices apply in cart without a code.",
-            "Put a feature-benefit card in your product gallery before Black Friday — Move your top feature–benefit pairs into an early product-gallery card so Black Friday shoppers see them without scrolling."
+            "Put a feature-benefit card in your product gallery before Black Friday — Move your top feature–benefit pairs into an early product-gallery card so Black Friday shoppers see them without scrolling.",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         },
         {
@@ -849,7 +858,8 @@
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         }
       ],
@@ -859,7 +869,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -993,7 +1003,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         }
       ],
@@ -1003,7 +1014,8 @@
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
       ],
-      "updated": "2026-10-29"
+      "updated": "2026-11-08",
+      "seoTitle": "AI automations for restaurants: holiday-ready no-code recipes"
     },
     {
       "path": "/industries/clinics",
@@ -1152,7 +1164,8 @@
             "Send your holiday emails from an address people can reply to, and answer them",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         }
       ],
@@ -1162,7 +1175,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "seoTitle": "AI automations for local businesses: no-code recipes, step by step"
     },
     {
@@ -1673,7 +1686,8 @@
           "h": "Related tips",
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)"
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         }
       ],
@@ -1792,7 +1806,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-07"
+      "updated": "2026-11-08"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2385,7 +2399,8 @@
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Draft replies to new Google reviews for approval",
-            "Schedule your holiday offers and events as Google Business Profile posts"
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         }
       ],
@@ -2645,7 +2660,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Ask every customer for a Google review automatically (without review gating)",
-            "Show holiday ship-by dates on your site and order emails automatically"
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         }
       ],
@@ -2810,7 +2826,8 @@
             "Get an alert when card testers hit your online checkout",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
             "Schedule your holiday offers and events as Google Business Profile posts",
-            "Set a Shopify Black Friday automatic discount with Active dates"
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         },
         {
@@ -3111,7 +3128,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Check your email setup before holiday promos go out",
             "Keep reviews out of your holiday giveaways and discounts",
-            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page"
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         },
         {
@@ -3119,7 +3137,8 @@
           "ul": [
             "Sell and deliver e-gift cards automatically this holiday season",
             "Turn holiday pre-orders into a daily kitchen prep list and pickup reminders",
-            "Send reservation reminders that cut restaurant no-shows"
+            "Send reservation reminders that cut restaurant no-shows",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         }
       ],
@@ -3211,7 +3230,8 @@
             "Text or email customers the moment a pickup order is ready",
             "Capture holiday SMS opt-ins at checkout before Black Friday",
             "Set a Shopify Black Friday automatic discount with Active dates",
-            "Put a feature-benefit card in your product gallery before Black Friday"
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         },
         {
@@ -3409,7 +3429,8 @@
             "Use Thanksgiving week to thank your best customers with early access",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         },
         {
@@ -3590,7 +3611,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         },
         {
@@ -3967,7 +3989,8 @@
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Keep reviews out of your holiday giveaways and discounts",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
-            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google"
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         },
         {
@@ -4078,7 +4101,8 @@
             "Get your products into Google's free listings before holiday shoppers start searching",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         }
       ],
@@ -4720,7 +4744,8 @@
           "ul": [
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         },
         {
@@ -4996,7 +5021,8 @@
             "Auto-answer the same holiday questions by email with Gmail templates and filters",
             "Schedule your holiday offers and events as Google Business Profile posts",
             "Set a Shopify Black Friday automatic discount with Active dates",
-            "Put a feature-benefit card in your product gallery before Black Friday"
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         },
         {
@@ -5097,7 +5123,8 @@
           "ul": [
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
             "Capture holiday SMS opt-ins at checkout before Black Friday",
-            "Batch-write product descriptions and image alt text"
+            "Batch-write product descriptions and image alt text",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         }
       ],
@@ -5184,7 +5211,8 @@
             "Show holiday ship-by dates on your site and order emails automatically",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
             "Sell and deliver e-gift cards automatically this holiday season",
-            "Put a feature-benefit card in your product gallery before Black Friday"
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         },
         {
@@ -5366,7 +5394,8 @@
             "Batch-write product descriptions and image alt text",
             "Set a Shopify Black Friday automatic discount with Active dates",
             "Show holiday ship-by dates on your site and order emails automatically",
-            "Send one abandoned-cart SMS (with proper SMS consent)"
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         },
         {
@@ -5455,7 +5484,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "For higher-ticket holiday buys, answer research questions before Black Friday ads"
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
           ]
         },
         {
@@ -5658,7 +5688,8 @@
             "Batch-write product descriptions and image alt text",
             "Show holiday ship-by dates on your site and order emails automatically",
             "Alert staff when a SKU drops below your reorder threshold",
-            "Get a weekly alert when Gmail users start marking your emails as spam"
+            "Get a weekly alert when Gmail users start marking your emails as spam",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
           ]
         }
       ],
@@ -5685,6 +5716,198 @@
         "href": "/build-it-for-me?recipe=tip-ai-check-landing-pages-before-ads"
       },
       "updated": "2026-11-07"
+    },
+    {
+      "path": "/industries/retail/holiday-return-policy-before-ads",
+      "group": "recipes",
+      "label": "Retail shops",
+      "title": "Publish your return-and-exchange policy before Black Friday ads go live",
+      "seoTitle": "Publish your return policy before Black Friday ads (Shopify how-to)",
+      "summary": "Holiday shoppers check return rules before they buy, and Black Friday ads that promise “easy returns” have to match what your store actually does. Shopify’s Terms of Service require a current, public refund policy that is easy to find. Write down your real rules, set them in Settings → Policies, publish the written return and refund policy (automated or edited by you), link it in your menu, and read your ads against it before Cyber Week (Thanksgiving November 26 through Cyber Monday November 30).",
+      "steps": [
+        "Write down the rules you will actually follow this season: how many days customers have, whether the window starts on purchase, shipment or delivery, who pays return shipping, any restocking fee, what counts as final sale, how gift returns work, and whether you will extend the window for holiday purchases.",
+        "In Shopify, go to Settings → Policies. Under Return and cancellation rules, turn on return rules and set the return window, return shipping (free, a flat fee, or the customer buys a label), an optional restocking-fee percentage, and any final-sale products or collections.",
+        "Optional: add a return-window override for specific collections (for example a shorter window on sale items) and cancellation rules for unfulfilled orders if you want customers to be able to cancel before something ships.",
+        "Open the written Return and refund policy in the Written policies section. You can turn on Use automated policy so the text stays in sync with those return rules, or turn automation off and write or edit the policy yourself. Shopify’s help pages say you are responsible for reviewing it before you save.",
+        "Check the published policy against Shopify’s refund-policy checklist: the time a product must be returned, the address it should be sent to, who pays to return it, that refund timing can depend on where the customer lives, and contact details if a refund is delayed. Shopify’s 2026 return-policy guide also recommends stating item condition, refund vs. exchange vs. store credit, how to start a return, processing time, and exceptions (gifts, damaged items, international orders, final sale), including any holiday extension.",
+        "Policies are automatically linked in the checkout footer, and a return-policy link appears on the order review page. Also add the policy to a store menu (Content → Menus) so shoppers can find it before checkout. The page lives at /policies/refund-policy on your domain.",
+        "If you want customers to start returns themselves, go to Settings → Customer accounts and turn on Self-serve returns and cancellations, then add the customer-accounts URL to your policy or footer.",
+        "Read every Black Friday, Small Business Saturday and Cyber Monday ad, email and landing-page line against the published policy. If an ad says “free returns” or “hassle-free exchanges,” the policy must say the same thing.",
+        "Brief whoever will handle December returns, and process one test return in admin (Orders → an order → Return) so shipping-label and refund steps match what customers will read."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "A Shopify admin login with access to Settings → Policies (and Customer accounts if you use self-serve returns). Owners on other platforms should publish the same information on their site using that platform’s policy tools—the checklist still applies. This is not legal advice; Shopify says to consult a lawyer if you need help deciding what the law requires."
+          ]
+        },
+        {
+          "h": "What's confirmed (source)",
+          "ul": [
+            "Shopify’s consumer-protection help page says that under Shopify’s Terms of Service you must provide current, accurate, public-facing and easy-to-access information about your refund policy, including the return time window, the return address, who pays to return an item, that refund timing may depend on the customer’s location, and contact information if a refund is delayed.",
+            "Return and cancellation rules are set in Settings → Policies. Return rules cover fulfilled items (window, shipping cost, restocking fee, final-sale exceptions and optional window overrides). Cancellation rules cover unfulfilled items. Changes apply to future orders, not orders already placed.",
+            "You can publish an automated return and refund policy that uses those settings and updates when they change, or write the policy yourself. Shopify’s templates are informational only, are not legal advice, and do not guarantee compliance; you are responsible for the accuracy of what you publish and for following it.",
+            "After you add store policies they are automatically linked in the checkout footer. Shopify also recommends linking them in your store menus. A direct link uses /policies/refund-policy on your domain.",
+            "Shopify’s 2026 “How To Write a Return Policy” guide includes a writing checklist and notes that you can mention holiday or promotion extensions in the return-window section. It tells you to publish the policy where customers can find it before they buy.",
+            "Self-serve returns and cancellations are turned on separately under Settings → Customer accounts. Customers can submit requests only for items that are eligible under your rules."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "This page is a how-to for publishing what you already decided—not legal advice. Consumer-protection rules vary by where you and your customers are, and Shopify says you remain responsible for following applicable laws.",
+            "Do not promise in ads what the policy does not allow. Shopify also warns against marketing claims that are not true (for example a fake limited-stock notice).",
+            "Automated policy text may not cover subscriptions, regulated products or every market you sell to. Review it whenever your practices change. If you sell to customers in the European Union, Shopify documents extra withdrawal settings; review those pages with a legal advisor rather than copying another store’s policy.",
+            "If you run the business from home, the published policy may show a contact address. Shopify notes that some disclosures require a physical business address and that you should use business contact details you are comfortable making public.",
+            "Return fees are not automatically deducted from refunds; Shopify says you need to deduct applicable fees when you create the refund."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Shopify Help: Adding store policies — https://help.shopify.com/en/manual/checkout-settings/refund-privacy-tos",
+            "Shopify Help: Setting up return and cancellation rules — https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/return-rules",
+            "Shopify Help: Consumer protection laws (refund policy) — https://help.shopify.com/en/manual/compliance/legal/consumer-protection",
+            "Shopify: How To Write a Return Policy (+ Free Template) (2026) — https://www.shopify.com/blog/return-policy",
+            "Checked at the source on November 8, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set a Shopify Black Friday automatic discount with Active dates",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
+            "Sell and deliver e-gift cards automatically this holiday season"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Shopify’s automated policy count as legal advice?",
+          "a": "No. Shopify says its automated templates are for informational purposes only and do not guarantee compliance. Review the text so it matches what you actually do, and talk to a lawyer if you need help with the law in the places you sell."
+        },
+        {
+          "q": "Should I mention returns in my Black Friday ads?",
+          "a": "Yes—if the published policy supports what you say. Shoppers look for this before they buy. The ad, the landing page and the policy page should use the same rules."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/holiday-return-policy-before-ads.webp",
+        "alt": "A clothing boutique owner at a wooden checkout counter reviewing a printed return policy beside folded sweaters, plain gift boxes and shopping bags, with holiday greenery nearby, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=holiday-return-policy-before-ads"
+      },
+      "updated": "2026-11-08"
+    },
+    {
+      "path": "/tips/claim-keep-yelp-current",
+      "group": "tips",
+      "label": "Tip · Local services & shops",
+      "title": "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+      "seoTitle": "Claim your Yelp page: AI tools use it for local search (2026)",
+      "summary": "When people ask an AI assistant for the best salon, restaurant or plumber nearby, those systems often cite Yelp alongside other local sources. A Foundation Marketing study with AirOps, looking at millions of AI answers to local-business questions in late 2025, found Yelp was cited far more often than other local directories—especially for “near me” and “best” questions. The study is from a marketing firm, not Yelp, so treat it as a reason to keep your page current, not as a ranking promise. Claiming a Yelp Business Page is free: update holiday hours, photos and review replies before shoppers start searching.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A claimed page you can edit yourself, current holiday hours and photos for people (and AI tools) who look you up, and a habit of answering reviews so your public page looks cared for during the busiest shopping weeks."
+          ]
+        },
+        {
+          "h": "How to do it (about an hour, then a weekly check)",
+          "ul": [
+            "On a computer, go to biz.yelp.com (or open the Yelp for Business app) and search for your business. Yelp’s help pages say this is the easiest way to start a claim; the site walks you through verification and account setup.",
+            "If there is no claim option, the page may already be claimed by someone else or may still be pending approval. If phone verification does not work, Yelp’s claim article says you will get a prompt to send a report to its support team.",
+            "If you are not listed yet, add the business from Yelp for Business after searching first so you do not create a duplicate. Yelp says new listings are reviewed by moderators before they appear in search, typically within a couple of days, and you need to confirm the email address you provide.",
+            "After the page is yours, update the details people use to choose you: phone number, address, website, categories and hours—including Thanksgiving week, Black Friday and any early closures. Upload recent photos of the storefront, work or menu (no fake reviews, no stock photos that are not your business).",
+            "Reply to reviews in your own words, including critical ones, and take complaints offline. Do not offer discounts or freebies in exchange for reviews.",
+            "Log in regularly. Yelp says a claimed page may later show as unclaimed after a period of owner inactivity; Yelp’s business-page product page says this can happen if you have not logged into Yelp for Business in the last 90 days.",
+            "Do the same hour-and-photo check on your Google Business Profile so the two public listings do not contradict each other."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Claiming the page is free. Paid Yelp ads or upgrade packages are optional and are not required to keep hours and photos updated. The Foundation + AirOps figures are from one vendor study of late-2025 AI answers—we are not repeating their percentages here. Yelp menus and review times can change; confirm the current steps at biz.yelp.com. Never pay someone who contacts you out of the blue claiming they can “claim” or “feature” your page."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Yelp for Business: How do I claim a business page? — https://biz.yelp.com/support-center/Yelp_Business_Page/Getting_Started/How-do-I-claim-a-business-page/en-US",
+            "Yelp for Business: How do I add a business to Yelp? — https://biz.yelp.com/support-center/Yelp_Business_Page/Getting_Started/How-do-I-add-a-business-to-Yelp/en-US",
+            "Yelp for Business: Why Claim Your Business Page on Yelp — https://business.yelp.com/products/business-page/",
+            "Foundation Marketing with AirOps: The LLMs Have Spoken: Yelp is the Top Source for AI Local Search — https://foundationinc.co/lab/yelp-ai-local-discovery/",
+            "Last checked at the source: November 8, 2026. Backlog item TB-004."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Put your Google review QR code on the counter and receipts during the holiday rush",
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
+            "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
+            "Sell experience gifts and restaurant gift cards early this holiday season"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Schedule your holiday offers and events as Google Business Profile posts",
+            "Publish your return-and-exchange policy before Black Friday ads go live"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I have to pay Yelp to claim my page?",
+          "a": "No. Yelp says there is no charge to create or claim a Business Page. Advertising and paid upgrade tools are separate and optional."
+        },
+        {
+          "q": "Is this a guarantee that ChatGPT or Google will recommend me?",
+          "a": "No. One study found Yelp is cited often for local “near me” questions, which is why a current page helps. It is not a promise about any one assistant or search result."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-claim-keep-yelp-current.webp",
+        "alt": "A salon owner at a wooden reception desk updating a business listing on a laptop, with a printed hours sheet beside her and a Main Street with simple holiday wreaths visible through the window, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a claimed, current Yelp page workflow on the tools you already use—holiday hours, photo prompts and a simple review-reply checklist—within 7 days. You approve every public change before anything is posted.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-claim-keep-yelp-current"
+      },
+      "updated": "2026-11-08"
     }
   ],
   "static": [

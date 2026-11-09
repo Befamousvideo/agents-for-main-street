@@ -28,7 +28,7 @@
     }
   ],
   "footer": "Agents for Main Street: AI recipes for salons, HVAC, clinics, realtors, law firms and more.",
-  "mailingAddress": "Mailing address: [to be provided]",
+  "mailingAddress": "Mailing address: P.O. Box 372, Corona Del Mar, CA 92625",
   "newsletter": {
     "title": "New automations every week",
     "blurb": "One short email a week with the newest recipes for your industry."
@@ -6181,7 +6181,7 @@
         {
           "h": "[PLACEHOLDER] How to reach us",
           "p": [
-            "[PLACEHOLDER] Use the contact form on this site. We do not publish an email address or phone number. A mailing address is listed below when one is available."
+            "[PLACEHOLDER] Use the contact form on this site. We do not publish an email address or phone number. The mailing address is listed below and in the site footer."
           ]
         }
       ],

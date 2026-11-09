@@ -1,6 +1,6 @@
 // Affiliate URL helpers. CJS so both Next and the node check script can load this file.
 const HIGGSFIELD_AFFILIATE_URL = "https://higgsfield.ai?fpr=vincent-116c2b";
-const AFFILIATE_DISCLOSURE = "Affiliate link: we may earn a commission at no extra cost to you.";
+const AFFILIATE_DISCLOSURE = "Affiliate link: We earn a commission if you buy through this link, at no extra cost to you.";
 
 const URL_RE = /(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]])/g;
 const MD_LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;

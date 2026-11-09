@@ -6122,12 +6122,12 @@
       "group": "recipes",
       "label": "Any local business",
       "title": "Make a 15-second AI video ad",
-      "seoTitle": "Make a 15-second AI video ad for a local business",
-      "summary": "Write one sentence about a real offer, generate a 15-second clip in an AI video tool, review it, then post it where your customers already are.",
+      "seoTitle": "How can a local business make a 15-second AI video ad?",
+      "summary": "Write one sentence about a real offer, generate a short AI video (about 15 seconds), review every detail, then post it where your customers already are.",
       "steps": [
         "Pick one offer you can actually deliver this week. Write one sentence: who it is for, what they get, and what to do next (book, visit, or shop).",
         "Gather 1–3 assets you own, such as a product photo, a storefront photo, or your logo. Skip anything you do not have permission to use.",
-        "Open an AI video generation platform, paste your sentence, attach a photo if the tool accepts one, and generate a 15-second clip.",
+        "Open an AI video generation platform, paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.",
         "Watch the clip all the way through. Fix anything that misstates your offer, shows the wrong product, or invents a price, address or detail you did not provide.",
         "Export the video and post it on a channel you already use, with the same next step as in your script.",
         "Write down the date, the offer, and where you posted it, so you can tell later which clip was worth repeating."
@@ -6136,8 +6136,8 @@
         {
           "h": "What you need",
           "p": [
+            "Affiliate link: We earn a commission if you buy through this link, at no extra cost to you.",
             "Tools: an AI video generation platform, a one-sentence offer, and photos you own. One option is [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b), an AI video generation platform.",
-            "Affiliate link: we may earn a commission at no extra cost to you.",
             "Costs: see each vendor's current pricing page; we don't list prices we haven't verified."
           ]
         },
@@ -6147,7 +6147,7 @@
             "Do not put a phone number, email address, or payment details in the prompt or on-screen text. Point people to the contact details already on your profile.",
             "Review every clip before it goes public. AI video can invent details.",
             "Use only photos, logos, voices and music you have the right to use.",
-            "If you run the clip as a paid ad, follow that network's ad rules and only claim what you can stand behind."
+            "If you run the clip as a paid ad, follow that network's ad rules, only claim what you can stand behind, and check that the export is watermark-free if the network requires it."
           ]
         },
         {
@@ -6190,7 +6190,7 @@
       ],
       "cta": {
         "title": "Want this built for you?",
-        "text": "StorenTech AI can set up this automation for your business.",
+        "text": "StorenTech AI can help you set this up for your business.",
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=make-15-second-ai-video-ad"
       },

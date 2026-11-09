@@ -104,6 +104,11 @@ function contentChecks() {
   else ok("recipe has affiliate URL");
   if (!blob.includes(AFFILIATE_DISCLOSURE)) fail("recipe missing disclosure");
   else ok("recipe has disclosure");
+  const need = (recipe.blocks || []).find(b => b.h === "What you need");
+  if (!need || need.p?.[0] !== AFFILIATE_DISCLOSURE) fail("disclosure must be What you need p[0]");
+  else ok("disclosure is before the affiliate link");
+  if (!need?.p?.[1]?.includes(HIGGSFIELD_AFFILIATE_URL)) fail("affiliate link must be What you need p[1]");
+  else ok("affiliate link is What you need p[1]");
   if (/\b(coupon|discount|% off|promo code)\b/i.test(blob)) fail("recipe has coupon/discount wording");
   else ok("recipe has no coupon/discount wording");
   scanPii("new recipe", blob, { allowExisting: false });

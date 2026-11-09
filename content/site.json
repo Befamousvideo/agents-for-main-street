@@ -31,7 +31,13 @@
   "mailingAddress": "Mailing address:\nAgents for Main Street, a StorenTech company\nP.O. Box 372, Corona Del Mar, CA 92625",
   "newsletter": {
     "title": "New automations every week",
-    "blurb": "One short email a week with the newest recipes for your industry."
+    "blurb": "One short email a week with the newest recipes for your industry.",
+    "emailFooter": [
+      "Agents for Main Street, a StorenTech company",
+      "P.O. Box 372, Corona Del Mar, CA 92625",
+      "You received this email because you signed up for the Agents for Main Street newsletter.",
+      "To stop receiving these emails, use the unsubscribe link in this message. The unsubscribe link stays available for at least 30 days after we send the message. We honor opt-out requests within 10 business days."
+    ]
   },
   "sponsorSlot": "Reach small-business owners who are looking for AI tools.",
   "mainCta": {
@@ -6213,7 +6219,7 @@
         {
           "h": "Newsletter email practices",
           "p": [
-            "Newsletter emails are sent by Agents for Main Street, a StorenTech company. Each email includes this mailing address: P.O. Box 372, Corona Del Mar, CA 92625. Each email includes a way to unsubscribe. We honor opt-out requests within 10 business days. We do not use false sender information or misleading subject lines."
+            "Newsletter emails are sent by Agents for Main Street, a StorenTech company. Each email includes this mailing address: P.O. Box 372, Corona Del Mar, CA 92625. Each email includes a way to unsubscribe. The unsubscribe link stays available for at least 30 days after we send the message. We honor opt-out requests within 10 business days. We do not use false sender information or misleading subject lines."
           ]
         },
         {
@@ -6224,7 +6230,7 @@
           "ul": [
             "Vercel, our website host, and Vercel Analytics and Vercel Speed Insights, which measure traffic and performance. Confirmed: the site is served by Vercel, and the site loads Vercel Analytics and Vercel Speed Insights scripts.",
             "Cloudflare Turnstile, which helps reduce spam on some forms (the build-request form and the advertise order form). Confirmed: those forms load Cloudflare’s Turnstile script.",
-            "Stripe, if and when a payment is taken. The advertise page says approved ads are billed through a Stripe payment link. Stripe checkout is not live for the $49 workshop or the $375 build (Stripe is still in sandbox). We did not find a Stripe script on the pages we checked.",
+            "Stripe, if and when a payment is taken. The advertise page says approved ads are billed through a Stripe payment link. Stripe checkout is not live for the $49 workshop or the $375 build (Stripe is still in sandbox). We did not find a Stripe script on the pages we checked. When a payment is taken, Stripe processes it; we do not collect your card details on this website.",
             "An email-delivery provider, if we use one to send newsletters or form notifications. We could not confirm the vendor from the live pages or scripts. Forms post to this site’s own /api routes. Resend was not found.",
             "HubSpot was not found in the live pages or scripts, and is not listed as a current recipient."
           ]
@@ -6246,13 +6252,30 @@
         {
           "h": "How we announce changes",
           "p": [
-            "We will post the updated policy on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one."
+            "We will post the updated policy on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one. DECISION FOR VINCENT: keep this change-notice method?"
           ]
         },
         {
           "h": "Reviewing or changing your information",
           "p": [
             "Use the [contact form](/contact) to ask what information we have about you, or to ask us to update it."
+          ]
+        },
+        {
+          "h": "California privacy rights (VERIFY-1)",
+          "p": [
+            "We have not confirmed whether the California Consumer Privacy Act (CCPA), as amended, applies to us. That depends on revenue and data-volume thresholds that are not stated here. The official figures are listed separately and are not blended: Civil Code §1798.140 uses $25,000,000 as adjusted; the California Privacy Protection Agency posts the adjusted amount, effective January 1, 2025, as $26,625,000; the California Attorney General’s FAQ still says “over $25 million.”",
+            "We do not sell personal information. Based on the tools we could confirm on this site, we do not share personal information for cross-context behavioral advertising as those terms are defined under California law.",
+            "If CCPA applies, California residents may have the right to know what personal information we collect and how we use and share it; to delete it, with legal exceptions; to correct inaccurate information; to opt out of sale or sharing; to limit the use of sensitive personal information if we collect it for purposes that require that choice; and not to be discriminated against for exercising those rights.",
+            "To make a request, use the [contact form](/contact). You do not need an account. An authorized agent may submit a request on your behalf.",
+            "Notice at collection, if CCPA applies: we collect the categories of information listed under “Information we collect” above, and we use them for the purposes listed under “How we use it.”",
+            "DECISION FOR VINCENT: Keep this conditional CCPA section, clearly marked as applying if the law covers us?"
+          ]
+        },
+        {
+          "h": "Payments and refunds",
+          "p": [
+            "Refund, cancellation, and dispute terms for the $49 workshop, the $375 build, and the $79 / $199 advertising placements are on the [refund policy](/refund). Ad refund terms also appear on the [advertise page](/advertise) and in the [Ad Policy](/advertise/policy)."
           ]
         }
       ]
@@ -6292,20 +6315,22 @@
         {
           "h": "Payments, refunds, cancellation, and disputes",
           "p": [
-            "When we sell the $49 workshop or the $375 build, the refund, cancellation, and dispute terms on our [refund policy](/refund-policy) apply. Online checkout for those offers is not live yet.",
+            "When we sell the $49 workshop or the $375 build, the refund, cancellation, and dispute terms on our [refund policy](/refund) apply. Online checkout for those offers is not live yet.",
+            "For $79 and $199 advertising placements, the refund and cancellation terms on the [advertise page](/advertise), in the [Ad Policy](/advertise/policy), and on the [refund policy](/refund) apply. Those placements are a one-time payment for a 30-day run, not a subscription, and they do not renew automatically. You only pay if we approve your ad and send you a Stripe payment link. Nothing is charged before that.",
+            "When a payment is taken, Stripe processes it through that payment link. We do not collect your card details on this website. Prices are in US dollars.",
             "If you need to cancel, request a refund, or question a charge, use the [contact form](/contact)."
           ]
         },
         {
           "h": "Newsletter",
           "p": [
-            "If you join the Agents for Main Street newsletter, we send a short email with site updates and practical ideas. Each newsletter identifies the sender as Agents for Main Street, a StorenTech company, includes the mailing address above, and includes a way to unsubscribe. We honor opt-out requests within 10 business days."
+            "If you join the Agents for Main Street newsletter, we send a short email with site updates and practical ideas. Each newsletter identifies the sender as Agents for Main Street, a StorenTech company, includes the mailing address above, and includes a way to unsubscribe. The unsubscribe link stays available for at least 30 days after we send the message. We honor opt-out requests within 10 business days."
           ]
         },
         {
           "h": "Changes",
           "p": [
-            "We may update these terms. We will post the updated terms on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one."
+            "We may update these terms. We will post the updated terms on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one. DECISION FOR VINCENT: keep this change-notice method?"
           ]
         },
         {
@@ -6345,13 +6370,14 @@
     {
       "path": "/refund",
       "title": "Refund, cancellation, and disputes",
-      "summary": "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today.",
+      "summary": "Refund, cancellation, and dispute terms for the $49 workshop, the $375 build, and $79 / $199 advertising placements. Online checkout for the workshop and build is not live yet.",
       "tldr": false,
       "cta": false,
       "blocks": [
         {
+          "h": "$49 workshop and $375 build",
           "p": [
-            "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today.",
+            "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today for them.",
             "If you already paid, or if you need to cancel or question a charge, use the [contact form](/contact)."
           ],
           "mailing": true
@@ -6371,16 +6397,22 @@
           ]
         },
         {
-          "h": "Advertising placements",
+          "h": "Advertising placements ($79 and $199)",
           "p": [
-            "Refund and cancellation terms for advertising placements are in our [advertising policy](/advertise/policy)."
+            "The live [advertise page](/advertise) offers a Sponsor slot at $79 for 30 days and Featured at $199 for 30 days. These are one-time payments for a 30-day run, not a subscription, and they do not renew automatically. You only pay if we approve your ad and send you a Stripe payment link. Nothing is charged before that.",
+            "If we reject your ad before it runs, you aren't charged. If you somehow already paid, you get a full refund.",
+            "If we remove a running ad, we refund the unused portion of your 30 days.",
+            "If you cancel after your ad starts running, that payment is not refunded.",
+            "We may reject any ad, or remove a running ad, at our discretion.",
+            "The version of the [Ad Policy](/advertise/policy) at the time you order applies to your run. To cancel, request a refund, or ask a question, use the [contact form](/contact)."
           ]
         },
         {
           "h": "Disputes",
           "p": [
-            "If you have a question about a charge, start with the [contact form](/contact) so we can look up the order.",
+            "If you have a question about a charge, including an ad-placement charge, start with the [contact form](/contact) so we can look up the order.",
             "You may also contact your card issuer about a charge. If a card-network dispute is opened, we may share order and policy records with the payment processor and the card network to respond to the dispute.",
+            "When a payment is taken, Stripe processes it through a payment link we send after approval. We do not collect your card details on this website. Prices are in US dollars.",
             "These terms do not limit any rights you may have under applicable law."
           ]
         }

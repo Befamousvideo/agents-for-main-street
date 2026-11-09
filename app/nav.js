@@ -1,4 +1,6 @@
 import site from "../content/site.json";
+import affiliates from "./affiliates";
+const { tokenizeLinks, externalRel } = affiliates;
 const human = (s) => s.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const real = () => [...site.pages, ...site.static];
 // Synthetic index pages for any intermediate path that has child pages but no page of its own,
@@ -20,10 +22,12 @@ export function matchTitle(text) {
   const cands = [norm(head), norm(head.replace(/^[^:]{1,40}:\s*/, ""))];
   return site.pages.find(p => cands.includes(norm(p.title))) || null;
 }
-// Render bare http(s) URLs inside text as real links (source citations).
-const URL_RE = /(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]])/g;
-export function Linked({ t }) { const parts = String(t).split(URL_RE);
-  return <>{parts.map((x, i) => i % 2 ? <a key={i} href={x} rel="noopener" target="_blank">{x}</a> : x)}</>; }
+// Render markdown [label](url) and bare http(s) URLs. Affiliate URLs get rel="sponsored nofollow".
+export function Linked({ t }) {
+  return <>{tokenizeLinks(t).map((tok, i) => tok.type === "link"
+    ? <a key={i} href={tok.href} rel={externalRel(tok.href)} target="_blank">{tok.text}</a>
+    : tok.text)}</>;
+}
 // Per-page dates: page.updated (ISO yyyy-mm-dd) wins, else the site-wide date.
 export const isoDate = (s) => { if (!s) return undefined; const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(s) ? s + "T00:00:00Z" : s + " 00:00 UTC"); return isNaN(d) ? undefined : d.toISOString().slice(0, 10); };
 export const pageDateIso = (p) => isoDate(p.updated) || isoDate(site.updated);

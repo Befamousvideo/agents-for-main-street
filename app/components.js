@@ -18,6 +18,10 @@ export function Cta({ cta }) {
 export function Sponsor() {
   return <HouseAd />;
 }
+export function MailingAddress({ className = "muted" }) {
+  if (!site.mailingAddress) return null;
+  return <p className={className} style={{ whiteSpace: "pre-line" }}>{site.mailingAddress}</p>;
+}
 export function Block({ b }) {
   return (<section>
     {b.h && <h2>{b.h}</h2>}
@@ -27,5 +31,6 @@ export function Block({ b }) {
     {b.ul && <ul>{b.ul.map((t, i) => <Li key={i} t={t} />)}</ul>}
     {b.pre && <pre>{b.pre}</pre>}
     {b.table && <table><thead><tr>{b.table[0].map((c, i) => <th key={i}>{c}</th>)}</tr></thead><tbody>{b.table.slice(1).map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j}>{c}</td>)}</tr>)}</tbody></table>}
+    {b.mailing && <MailingAddress />}
   </section>);
 }

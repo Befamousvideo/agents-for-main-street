@@ -28,7 +28,7 @@
     }
   ],
   "footer": "Agents for Main Street: AI recipes for salons, HVAC, clinics, realtors, law firms and more.",
-  "mailingAddress": "Mailing address: P.O. Box 372, Corona Del Mar, CA 92625",
+  "mailingAddress": "Mailing address:\nAgents for Main Street, a StorenTech company\nP.O. Box 372, Corona Del Mar, CA 92625",
   "newsletter": {
     "title": "New automations every week",
     "blurb": "One short email a week with the newest recipes for your industry."
@@ -6165,80 +6165,226 @@
     {
       "path": "/privacy",
       "title": "Privacy policy",
-      "summary": "[PLACEHOLDER] Draft privacy policy. Final copy pending legal review. We collect only what you submit and never sell personal information.",
-      "flag": "Placeholder copy — final privacy policy arrives after legal review.",
-      "effectiveDate": "[to be provided]",
-      "showMailingAddress": true,
+      "summary": "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it.",
+      "effectiveDate": "[EFFECTIVE DATE - VINCENT TO CHOOSE]",
+      "tldr": false,
+      "cta": false,
       "blocks": [
         {
-          "h": "[PLACEHOLDER] What we collect",
-          "ul": [
-            "[PLACEHOLDER] We collect information you submit through our contact form and newsletter signup when those features are in use.",
-            "[PLACEHOLDER] We use privacy-friendly analytics.",
-            "[PLACEHOLDER] We never sell personal information."
+          "p": [
+            "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it. It is written in plain language and is not a guarantee of legal compliance."
           ]
         },
         {
-          "h": "[PLACEHOLDER] How to reach us",
+          "h": "How to contact us",
           "p": [
-            "[PLACEHOLDER] Use the contact form on this site. We do not publish an email address or phone number. The mailing address is listed below and in the site footer."
+            "The way to reach us, including to ask about this policy or to request a review or change of personal information we have about you, is the [contact form](/contact)."
+          ],
+          "mailing": true
+        },
+        {
+          "h": "Information we collect",
+          "p": [
+            "We collect information you submit, including:"
+          ],
+          "ul": [
+            "Newsletter sign-up: your email address, and the page you signed up from.",
+            "“Build it for me” requests: name, business name, industry, the recipe you want (if you include one), budget range, email, phone, and your consent to be contacted about the request.",
+            "Advertise requests: name, business details, email, phone, placement choice, ad content, and related files you upload.",
+            "Contact form: name, email, and message."
+          ]
+        },
+        {
+          "p": [
+            "We also collect technical information needed to run and protect the site, such as the fact that a page was viewed and, on some forms, a spam-prevention token.",
+            "We do not sell personal information."
+          ]
+        },
+        {
+          "h": "How we use it",
+          "ul": [
+            "To send the newsletter if you joined it.",
+            "To follow up on a build request or an advertise request.",
+            "To reply to a message you send through the contact form.",
+            "To operate, secure, and understand use of this website.",
+            "To process a payment when a payment is actually taken."
+          ]
+        },
+        {
+          "h": "Newsletter email practices",
+          "p": [
+            "Newsletter emails are sent by Agents for Main Street, a StorenTech company. Each email includes this mailing address: P.O. Box 372, Corona Del Mar, CA 92625. Each email includes a way to unsubscribe. We honor opt-out requests within 10 business days. We do not use false sender information or misleading subject lines."
+          ]
+        },
+        {
+          "h": "Categories of third parties that may receive information",
+          "p": [
+            "These are the third parties we could confirm from the live site’s hosting, scripts, and forms, plus payment handling described on the advertise page. We mark anything we could not confirm."
+          ],
+          "ul": [
+            "Vercel, our website host, and Vercel Analytics and Vercel Speed Insights, which measure traffic and performance. Confirmed: the site is served by Vercel, and the site loads Vercel Analytics and Vercel Speed Insights scripts.",
+            "Cloudflare Turnstile, which helps reduce spam on some forms (the build-request form and the advertise order form). Confirmed: those forms load Cloudflare’s Turnstile script.",
+            "Stripe, if and when a payment is taken. The advertise page says approved ads are billed through a Stripe payment link. Stripe checkout is not live for the $49 workshop or the $375 build (Stripe is still in sandbox). We did not find a Stripe script on the pages we checked.",
+            "An email-delivery provider, if we use one to send newsletters or form notifications. We could not confirm the vendor from the live pages or scripts. Forms post to this site’s own /api routes. Resend was not found.",
+            "HubSpot was not found in the live pages or scripts, and is not listed as a current recipient."
+          ]
+        },
+        {
+          "p": [
+            "If a card-network dispute is opened, we may also share relevant order information with the payment processor and the card network."
+          ]
+        },
+        {
+          "h": "Cookies, analytics, Do Not Track, and other tracking",
+          "p": [
+            "We use Vercel Analytics and Vercel Speed Insights to understand how the site is used and how it performs. These scripts are served from this site.",
+            "Some forms use Cloudflare Turnstile, which loads a script from Cloudflare to help tell people from bots.",
+            "We do not respond to Do Not Track browser signals.",
+            "From the pages and scripts we checked, we did not find advertising pixels, HubSpot, or other third-party marketing trackers that collect browsing activity across other websites. We have not independently confirmed every server-side tool that may run after a form is submitted."
+          ]
+        },
+        {
+          "h": "How we announce changes",
+          "p": [
+            "We will post the updated policy on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one."
+          ]
+        },
+        {
+          "h": "Reviewing or changing your information",
+          "p": [
+            "Use the [contact form](/contact) to ask what information we have about you, or to ask us to update it."
           ]
         }
-      ],
-      "cta": false
+      ]
     },
     {
       "path": "/terms",
       "title": "Terms of use",
-      "summary": "[PLACEHOLDER] Draft terms pending legal review. Content is general information, not professional advice.",
-      "flag": "Placeholder copy — final terms arrive after legal review.",
-      "showMailingAddress": true,
+      "summary": "Agents for Main Street is a StorenTech company. These terms apply to this website.",
+      "effectiveDate": "[EFFECTIVE DATE - VINCENT TO CHOOSE]",
+      "tldr": false,
+      "cta": false,
       "blocks": [
         {
-          "h": "[PLACEHOLDER] Using this site",
           "p": [
-            "[PLACEHOLDER] Content is provided for general information and may contain errors. Verify with official vendor documentation before acting.",
-            "[PLACEHOLDER] Questions about these terms can be sent through the contact form on this site. We do not publish an email address or phone number."
+            "Agents for Main Street is a StorenTech company. These terms apply to this website."
+          ]
+        },
+        {
+          "h": "The information on this site",
+          "p": [
+            "Content on this site is general information and may contain errors. It is not professional advice. Check official vendor documentation before you act on a recipe or tip."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "The way to reach us is the [contact form](/contact)."
+          ],
+          "mailing": true
+        },
+        {
+          "h": "Builds and other work",
+          "p": [
+            "If you ask StorenTech AI to build an automation for you, that work is quoted and agreed separately. The live “Build it for me” page is a request form, not a checkout."
+          ]
+        },
+        {
+          "h": "Payments, refunds, cancellation, and disputes",
+          "p": [
+            "When we sell the $49 workshop or the $375 build, the refund, cancellation, and dispute terms on our [refund policy](/refund-policy) apply. Online checkout for those offers is not live yet.",
+            "If you need to cancel, request a refund, or question a charge, use the [contact form](/contact)."
+          ]
+        },
+        {
+          "h": "Newsletter",
+          "p": [
+            "If you join the Agents for Main Street newsletter, we send a short email with site updates and practical ideas. Each newsletter identifies the sender as Agents for Main Street, a StorenTech company, includes the mailing address above, and includes a way to unsubscribe. We honor opt-out requests within 10 business days."
+          ]
+        },
+        {
+          "h": "Changes",
+          "p": [
+            "We may update these terms. We will post the updated terms on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one."
+          ]
+        },
+        {
+          "h": "Questions",
+          "p": [
+            "Use the [contact form](/contact)."
           ]
         }
-      ],
-      "cta": false
+      ]
     },
     {
       "path": "/contact",
-      "title": "Contact",
-      "summary": "[PLACEHOLDER] Use this form to reach Agents for Main Street. This page is form-only: we do not publish an email address or phone number.",
-      "flag": "Placeholder copy — final contact copy arrives after review.",
+      "title": "Send us a message",
+      "summary": "Use this form to reach Agents for Main Street. We use the details you send only to reply to your message.",
+      "tldr": false,
       "showMailingAddress": true,
       "cta": false,
+      "blocks": [
+        {
+          "p": [
+            "Use this form to reach Agents for Main Street. We use the details you send only to reply to your message."
+          ]
+        }
+      ],
       "form": {
-        "title": "Send a message",
+        "title": "Contact form",
         "fields": [
           "Name",
           "Email",
           "Message"
         ],
         "button": "Send message",
-        "note": "We'll only use your details to respond to this message. We never sell your information.",
+        "note": "We’ll only use these details to reply to your message. We don’t sell your information. See our [Privacy policy](/privacy).",
         "live": "contact"
       }
     },
     {
       "path": "/refund",
-      "title": "Refund policy",
-      "summary": "[PLACEHOLDER] Draft refund policy pending legal review. Final copy will replace this text.",
-      "flag": "Placeholder copy — final refund policy arrives after legal review.",
-      "showMailingAddress": true,
+      "title": "Refund, cancellation, and disputes",
+      "summary": "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today.",
+      "tldr": false,
+      "cta": false,
       "blocks": [
         {
-          "h": "[PLACEHOLDER] Refunds",
           "p": [
-            "[PLACEHOLDER] This refund policy is a placeholder. It will be replaced with the reviewed copy.",
-            "[PLACEHOLDER] Until then, send refund questions through the contact form on this site. We do not publish an email address or phone number."
+            "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today.",
+            "If you already paid, or if you need to cancel or question a charge, use the [contact form](/contact)."
+          ],
+          "mailing": true
+        },
+        {
+          "h": "$49 workshop",
+          "p": [
+            "You may request a refund of the $49 workshop fee if [WHO QUALIFIES - VINCENT TO CHOOSE] and you cancel [REFUND WINDOW - VINCENT TO CHOOSE].",
+            "To cancel or request a refund, submit the [contact form](/contact) and include the name used on the order and the workshop date, if you have them."
+          ]
+        },
+        {
+          "h": "$375 build",
+          "p": [
+            "You may request a refund of the $375 build fee if [WHO QUALIFIES - VINCENT TO CHOOSE] and you cancel [REFUND WINDOW - VINCENT TO CHOOSE].",
+            "To cancel or request a refund, submit the [contact form](/contact) and include the name used on the order and a short description of the build."
+          ]
+        },
+        {
+          "h": "Advertising placements",
+          "p": [
+            "Refund and cancellation terms for advertising placements are in our [advertising policy](/advertise/policy)."
+          ]
+        },
+        {
+          "h": "Disputes",
+          "p": [
+            "If you have a question about a charge, start with the [contact form](/contact) so we can look up the order.",
+            "You may also contact your card issuer about a charge. If a card-network dispute is opened, we may share order and policy records with the payment processor and the card network to respond to the dispute.",
+            "These terms do not limit any rights you may have under applicable law."
           ]
         }
-      ],
-      "cta": false
+      ]
     },
     {
       "path": "/industries",

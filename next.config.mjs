@@ -1,1 +1,1 @@
-export default { reactStrictMode: true, async redirects() { return [{ source: "/sponsor", destination: "/advertise", permanent: true }, { source: "/industries/clinics/flu-shot-reminders", destination: "/industries/clinics", statusCode: 301 }]; } };
+export default { reactStrictMode: true, async redirects() { return [{ source: "/sponsor", destination: "/advertise", permanent: true }, { source: "/refund-policy", destination: "/refund", permanent: true }, { source: "/industries/clinics/flu-shot-reminders", destination: "/industries/clinics", statusCode: 301 }]; } };

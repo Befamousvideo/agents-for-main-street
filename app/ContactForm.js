@@ -29,7 +29,7 @@ export default function ContactForm() {
       if (r.ok && j.ok) setState("done"); else { setState("error"); setMsg(j.error || "Something went wrong. Please try again."); if (SITE_KEY && window.turnstile && tsId.current != null) window.turnstile.reset(tsId.current); }
     } catch { setState("error"); setMsg("Network error. Please try again."); }
   }
-  if (state === "done") return (<p className="nl-success" role="status"><strong>Thanks, your message is in!</strong> We'll follow up, usually within 2 business days.</p>);
+  if (state === "done") return (<p className="nl-success" role="status">Thanks. We received your message and will get back to you.</p>);
   const busy = state === "loading";
   return (<form className="brf" onSubmit={onSubmit}>
     <label>Name<input name="name" required maxLength={120} autoComplete="name" disabled={busy} /></label>

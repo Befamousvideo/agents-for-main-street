@@ -15,7 +15,7 @@ export default function Advertise() {
     <section><h2>Placements and pricing (founding rates)</h2>
       <table><thead><tr><th>Placement</th><th>What you get</th><th>Price</th></tr></thead><tbody>
         {plans.map(p => <tr key={p.id}><td>{p.name}</td><td>{p.desc}</td><td>${p.price / 100} / {p.days} days</td></tr>)}</tbody></table>
-      <p className="muted small">Ads appear in the single ad spot near the end of content pages, labeled "Ad". Prices are one-time payments per 30-day run, not subscriptions.</p></section>
+      <p className="muted small">Ads appear in the single ad spot near the end of content pages, labeled "Ad". Prices are one-time payments per 30-day run, not subscriptions. Refund and cancellation terms are in the <a href="/advertise/policy">Ad Policy</a>.</p></section>
     <section><h2>Ad specs</h2><ul>
       <li>Headline: up to 40 characters</li><li>Ad text: up to 120 characters</li><li>Destination URL: one https:// link to your own site</li>
       <li>Optional image: PNG or JPG, up to 1 MB, 600×314 px (or a 300×300 px logo)</li><li>No pop-ups, scripts, tracking pixels or animated ads</li></ul></section>

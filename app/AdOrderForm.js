@@ -26,7 +26,7 @@ export default function AdOrderForm({ plans, categories }) {
     <label>Business name<input name="business" required maxLength={160} disabled={busy} /></label>
     <label>Business website<input name="bizsite" type="url" required maxLength={300} placeholder="https://" disabled={busy} /></label>
     <label>Email<input type="email" name="email" required maxLength={254} disabled={busy} /></label>
-    <label>Phone<input type="tel" name="phone" required maxLength={40} autoComplete="tel" placeholder="(949) 555-1234" disabled={busy} /></label>
+    <label>Phone<input type="tel" name="phone" required maxLength={40} autoComplete="tel" disabled={busy} /></label>
     <label>Business category<select name="category" required defaultValue="" disabled={busy}><option value="" disabled>Choose one</option>{categories.map(c => <option key={c}>{c}</option>)}</select></label>
     <label>Placement<select name="plan" required defaultValue="" disabled={busy}><option value="" disabled>Choose one</option>{plans.map(p => <option key={p.id} value={p.id}>{p.name}: ${p.price / 100} for {p.days} days</option>)}</select></label>
     <label>Start date<input type="date" name="start" required min={today} disabled={busy} /></label>

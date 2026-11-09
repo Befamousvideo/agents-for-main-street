@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 8, 2026",
+  "updated": "November 9, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -606,7 +606,8 @@
         {
           "h": "Tips for salons",
           "ul": [
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         }
       ],
@@ -616,7 +617,7 @@
           "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
         }
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "seoTitle": "AI automations for salons: no-code recipes and local tips"
     },
     {
@@ -715,7 +716,8 @@
             "Batch-write product descriptions and image alt text",
             "Get a weekly inventory variance alert for your restaurant",
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Text or email customers the moment a pickup order is ready"
+            "Text or email customers the moment a pickup order is ready",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -737,7 +739,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=low-stock-reorder-alert"
       },
-      "updated": "2026-10-15"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/local-business/meeting-notes-to-action",
@@ -834,7 +836,8 @@
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday — Pull repeated how-it-works, comparison and policy questions from support into a sheet, then publish a visible FAQ page before Black Friday ads go live.",
             "Set a Shopify Black Friday automatic discount with Active dates — Create a customer-facing automatic amount-off discount with Active dates so Black Friday prices apply in cart without a code.",
             "Put a feature-benefit card in your product gallery before Black Friday — Move your top feature–benefit pairs into an early product-gallery card so Black Friday shoppers see them without scrolling.",
-            "Publish your return-and-exchange policy before Black Friday ads go live"
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -859,7 +862,8 @@
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         }
       ],
@@ -869,7 +873,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -1004,7 +1008,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         }
       ],
@@ -1014,7 +1019,7 @@
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "seoTitle": "AI automations for restaurants: holiday-ready no-code recipes"
     },
     {
@@ -1165,7 +1170,8 @@
             "Put your Google review QR code on the counter and receipts during the holiday rush",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         }
       ],
@@ -1175,7 +1181,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "seoTitle": "AI automations for local businesses: no-code recipes, step by step"
     },
     {
@@ -1443,7 +1449,8 @@
             "Get an alert when card testers hit your online checkout",
             "Text or email customers the moment a pickup order is ready",
             "Capture holiday SMS opt-ins at checkout before Black Friday",
-            "Put a feature-benefit card in your product gallery before Black Friday"
+            "Put a feature-benefit card in your product gallery before Black Friday",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -1477,7 +1484,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=abandoned-cart-sms"
       },
-      "updated": "2026-10-18"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/contractors/web-lead-instant-reply",
@@ -1806,7 +1813,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-08"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2039,6 +2046,12 @@
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Ask every new customer how they found you, and log it automatically"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+          ]
         }
       ],
       "faq": [
@@ -2061,7 +2074,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-automated-calls"
       },
-      "updated": "2026-10-21"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/offer-in-real-text",
@@ -2661,7 +2674,8 @@
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Ask every customer for a Google review automatically (without review gating)",
             "Show holiday ship-by dates on your site and order emails automatically",
-            "Publish your return-and-exchange policy before Black Friday ads go live"
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         }
       ],
@@ -2681,7 +2695,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-cyber-week-2026-timing"
       },
-      "updated": "2026-10-23"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/restaurants/holiday-preorder-prep-list",
@@ -3231,7 +3245,8 @@
             "Capture holiday SMS opt-ins at checkout before Black Friday",
             "Set a Shopify Black Friday automatic discount with Active dates",
             "Put a feature-benefit card in your product gallery before Black Friday",
-            "Publish your return-and-exchange policy before Black Friday ads go live"
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -3273,7 +3288,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-ship-by-dates"
       },
-      "updated": "2026-10-26"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/local-business/domain-ssl-expiry-alerts",
@@ -3834,7 +3849,7 @@
       "group": "recipes",
       "label": "Any local business",
       "title": "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
-      "seoTitle": "After-hours auto replies for Facebook and Instagram DMs (Meta Business Suite Inbox automations)",
+      "seoTitle": "After-hours auto replies for Facebook and Instagram DMs",
       "summary": "Holiday shoppers message your Facebook Page and Instagram account at night asking \"Are you open?\", \"Where are you?\" and \"Do you sell gift cards?\". Meta Business Suite's built-in Inbox automations can answer those for you: an away message when you're closed, plus instant answers for hours, location, contact details and your most common questions. This recipe sets them up in about an hour, with your holiday hours and gift card link ready before the rush.",
       "steps": [
         "Connect your Facebook Page and Instagram business account (and WhatsApp Business, if you use it) to Meta Business Suite, and pick the right business portfolio in the top-left menu.",
@@ -3928,7 +3943,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=after-hours-dm-replies"
       },
-      "updated": "2026-10-29"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/tiktok-must-eat-restaurant-guide",
@@ -4234,7 +4249,7 @@
       "group": "recipes",
       "label": "Retail",
       "title": "Text or email customers the moment a pickup order is ready",
-      "seoTitle": "Buy online, pick up in store: automatic ready-for-pickup notifications for small shops (2026 how-to)",
+      "seoTitle": "Ready-for-pickup texts and emails for small shops (BOPIS)",
       "summary": "Pickup orders are a big part of holiday shopping for local shops: no shipping cutoffs, no porch thieves. The weak spot is the handoff. Customers don't know when to come, staff field \"is it ready?\" calls, and bags pile up on the shelf. Shopify's built-in pickup in store sends a Ready for pickup email the moment you mark an order ready. This recipe sets that up properly, adds clear pickup instructions, and adds an optional text and a gentle reminder for bags nobody has collected.",
       "steps": [
         "In Shopify admin, go to Settings > Shipping and delivery > Pickup in store, pick your location and turn on Let customers pick up orders directly at this location.",
@@ -4287,7 +4302,8 @@
             "Alert staff when a SKU drops below your reorder threshold",
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Capture holiday SMS opt-ins at checkout before Black Friday"
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -4326,7 +4342,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=ready-for-pickup-notifications"
       },
-      "updated": "2026-10-31"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/google-free-product-listings",
@@ -4395,7 +4411,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Put your holiday offer in real text, not inside one big image",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         },
         {
@@ -4429,14 +4446,14 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-google-free-product-listings"
       },
-      "updated": "2026-10-31"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/local-business/gmail-template-auto-replies",
       "group": "recipes",
       "label": "Local business",
       "title": "Auto-answer the same holiday questions by email with Gmail templates and filters",
-      "seoTitle": "Gmail templates and filters for small businesses: auto-reply to repeat holiday questions (2026 how-to)",
+      "seoTitle": "Gmail templates and filters to auto-answer holiday questions",
       "summary": "In December the same emails arrive again and again: \"Are you open on the 24th?\", \"Do you do gift cards?\", \"What's your return policy?\". Gmail has a built-in way to answer them. Save the answer as a template, then create a filter that sends that template automatically when a matching email arrives. It's free, it lives in the Gmail you already use, and you can switch it off in January.",
       "steps": [
         "List your top 3 to 5 repeat questions for the season, such as holiday hours, gift cards, returns, ordering cutoffs or booking.",
@@ -4528,7 +4545,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=gmail-template-auto-replies"
       },
-      "updated": "2026-11-01"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/reply-to-address-not-no-reply",
@@ -4614,7 +4631,7 @@
       "group": "recipes",
       "label": "Service businesses",
       "title": "Let customers book holiday appointments themselves with a free Google Calendar booking page",
-      "seoTitle": "Google Calendar appointment schedule for small businesses: a self-serve booking page for the holidays (2026 how-to)",
+      "seoTitle": "Free Google Calendar booking page for small businesses",
       "summary": "December is when phones ring with \"Do you have anything Saturday?\". Google Calendar has a built-in appointment schedule that gives you a booking page link. Customers pick an open time, your calendar fills in, and Google sends the confirmation. You set the hours, the buffers, the daily limit and the days you're closed, so a busy season doesn't turn into double bookings.",
       "steps": [
         "On a computer, open Google Calendar, click Create and choose Appointment schedule. (You can't create one in the Calendar phone app.)",
@@ -4697,14 +4714,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-calendar-booking-page"
       },
-      "updated": "2026-11-02"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/google-review-qr-code-counter-card",
       "group": "tips",
       "label": "Tip · Any local business",
       "title": "Put your Google review QR code on the counter and receipts during the holiday rush",
-      "seoTitle": "Google review QR code for small businesses: get more reviews from holiday shoppers (2026 how-to)",
+      "seoTitle": "Google review QR code card for holiday shoppers (how-to)",
       "summary": "The holidays bring more people through your door than any other time of year, and many are first-time visitors. Google gives every Business Profile a free review link and QR code. Put it where people already look, at the register, on receipts and in thank-you emails, and asking for a review takes no extra effort from you or your staff.",
       "blocks": [
         {
@@ -4778,7 +4795,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-google-review-qr-code-counter-card"
       },
-      "updated": "2026-11-02"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/retail/holiday-sms-opt-in-at-checkout",
@@ -4839,7 +4856,8 @@
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
             "Set a Shopify Black Friday automatic discount with Active dates",
             "Put a feature-benefit card in your product gallery before Black Friday",
-            "Get a weekly alert when Gmail users start marking your emails as spam"
+            "Get a weekly alert when Gmail users start marking your emails as spam",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -4881,14 +4899,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-sms-opt-in-at-checkout"
       },
-      "updated": "2026-11-03"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/holiday-texting-basics-opt-in-stop-quiet-hours",
       "group": "tips",
       "label": "Tip · Retail shops",
       "title": "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
-      "seoTitle": "Holiday SMS basics for small shops: opt-in only, brand name, Reply STOP, quiet hours (2026)",
+      "seoTitle": "Holiday SMS basics: opt-in, Reply STOP and quiet hours",
       "summary": "Holiday texts land when people expect them and trust the sender. Before Black Friday volume climbs, text only people who opted into SMS, put your store name in every message, include Reply STOP, and schedule in each recipient's local time within quiet hours. Register your sending number early so carriers do not filter you when traffic peaks.",
       "blocks": [
         {
@@ -4935,7 +4953,8 @@
           "h": "Related recipes",
           "ul": [
             "Send one abandoned-cart SMS (with proper SMS consent)",
-            "Capture holiday SMS opt-ins at checkout before Black Friday"
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         }
       ],
@@ -4961,7 +4980,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-holiday-texting-basics"
       },
-      "updated": "2026-11-03"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/retail/pre-purchase-faq-from-support",
@@ -5115,7 +5134,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         },
         {
@@ -5150,7 +5170,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
       },
-      "updated": "2026-11-04"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/retail/black-friday-automatic-discount",
@@ -5212,7 +5232,8 @@
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
             "Sell and deliver e-gift cards automatically this holiday season",
             "Put a feature-benefit card in your product gallery before Black Friday",
-            "Publish your return-and-exchange policy before Black Friday ads go live"
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
           ]
         },
         {
@@ -5254,7 +5275,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=black-friday-automatic-discount"
       },
-      "updated": "2026-11-05"
+      "updated": "2026-11-09"
     },
     {
       "path": "/tips/answer-one-homepage-question",
@@ -5303,7 +5324,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         },
         {
@@ -5338,7 +5360,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
       },
-      "updated": "2026-11-05"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/retail/feature-benefit-product-gallery",
@@ -5676,7 +5698,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Use Thanksgiving week to thank your best customers with early access",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         },
         {
@@ -5715,7 +5738,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-ai-check-landing-pages-before-ads"
       },
-      "updated": "2026-11-07"
+      "updated": "2026-11-09"
     },
     {
       "path": "/industries/retail/holiday-return-policy-before-ads",
@@ -5873,7 +5896,8 @@
             "Keep reviews out of your holiday giveaways and discounts",
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
-            "Sell experience gifts and restaurant gift cards early this holiday season"
+            "Sell experience gifts and restaurant gift cards early this holiday season",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
           ]
         },
         {
@@ -5907,7 +5931,191 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-claim-keep-yelp-current"
       },
-      "updated": "2026-11-08"
+      "updated": "2026-11-09"
+    },
+    {
+      "path": "/tips/say-who-you-serve-ai-answers",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+      "seoTitle": "Tell AI tools who you serve and how you price (2026 tip)",
+      "summary": "Some holiday shoppers now ask ChatGPT, Copilot or Google’s AI answers to suggest a shop, salon or contractor. Those tools summarize your website and listings in their own words. A study published by Search Engine Land on November 5, 2026 scored about 2,000 brand mentions across four AI engines in one software category and found they usually got what a business does right, were shakier on who it is for, and often invented missing details—most often prices. Close those gaps yourself: one plain sentence on who you serve, where, and how pricing works, repeated everywhere you are listed.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "AI answers and first-time visitors that describe your business the way you would—who it is for, the area you cover and how pricing works—instead of a guess. That makes it more likely the right holiday shoppers pick you and fewer wrong-fit inquiries show up."
+          ]
+        },
+        {
+          "h": "How to do it (about an hour)",
+          "ul": [
+            "Write your ground truth in four short lines: what you do, who it is for (for example “families in Midtown looking for handmade gifts under $50” or “homeowners within 20 miles of Springfield”), what makes you different, and one proof point you can back up (years in business, a real award, a real review count).",
+            "Add a pricing line. If you publish prices, show them. If you price by quote, say so and give the rule: “Pricing is by quote and depends on room size and materials; most kitchen refreshes start at a site visit.” The study found engines repeated that kind of conditional sentence when brands published it.",
+            "Put the who-it’s-for sentence near the top of your homepage and About page in plain text (not inside an image), and use the same wording in your Google Business Profile description, Yelp page, Facebook page and any directory you control.",
+            "Keep one differentiator and repeat it the same way everywhere. The study found a single clear, consistently repeated message held up best; vague or mixed messages got blurred.",
+            "Check what AI tools say: ask two or three assistants “What is [your business] in [your town], who is it for, and what does it cost?” Ask more than once, because answers change between runs. Note anything wrong—especially prices, hours or services you do not offer.",
+            "Fix your own pages and listings first so the correct facts are easy to find. If a wrong fact traces to a third-party directory, update or claim that listing too.",
+            "Recheck after any price or service change, and before Black Friday (November 27) and Small Business Saturday (November 28)."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "The study looked at one business-software category (dental practice software), not local shops, so treat it as a direction, not a promise about your results. We are not repeating its percentages. Only publish prices, proof points and service areas that are true and that you will honor; do not invent awards or review counts. No AI tool is guaranteed to recommend you or describe you correctly, and anyone who promises a “rank in ChatGPT” is overselling. You do not need to paste customer data into an AI tool to do any of this."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Search Engine Land (Emma Baker, November 5, 2026): AI knows what your brand does, but not who it’s for — https://searchengineland.com/ai-knows-what-your-brand-does-but-not-who-its-for-500556",
+            "Spotted via TLDR Marketing, November 9, 2026.",
+            "Last checked at the source: November 9, 2026. Backlog item TB-090."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Get your products into Google's free listings before holiday shoppers start searching"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Get ready for Google's automated calls asking your prices and booking times",
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "I don’t want to publish exact prices. What should I say?",
+          "a": "Publish the rule instead of a number: what the price depends on and how someone gets a quote. That still gives AI tools and shoppers something true to repeat instead of a guess."
+        },
+        {
+          "q": "Will this make ChatGPT recommend my business?",
+          "a": "No one can promise that. It makes the facts about you clearer and more consistent, which is what AI answers draw on. Answers still vary from tool to tool and from one try to the next."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-say-who-you-serve-ai-answers.webp",
+        "alt": "A gift shop owner in a candle-lit boutique typing on a laptop at a wooden counter, with a handwritten card reading “Who we serve” beside her and holiday lights in the window, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI writes your who-we-serve and pricing lines with you, updates them on your website and the listings you control, and sets a simple monthly check of what AI assistants say about you—within 7 days. You approve every public change before anything is posted.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-say-who-you-serve-ai-answers"
+      },
+      "updated": "2026-11-09"
+    },
+    {
+      "path": "/industries/retail/back-in-stock-alerts",
+      "group": "recipes",
+      "label": "Retail shops",
+      "title": "Let shoppers sign up for back-in-stock alerts on sold-out holiday items",
+      "seoTitle": "Back-in-stock alerts for holiday best-sellers (Klaviyo how-to)",
+      "summary": "When a holiday best-seller sells out, shoppers who wanted it usually leave. A back-in-stock form puts a “Notify me” button on sold-out product pages and lets them ask for an email or text when it returns. In Klaviyo (with Shopify or BigCommerce), you build a back-in-stock flow that waits until the item is restocked, then publish a back-in-stock form. Set it up before Black Friday (November 27) so sold-out items keep collecting interested buyers.",
+      "steps": [
+        "Check you can use it: Klaviyo’s built-in back-in-stock form works for stores with an enabled Shopify or BigCommerce integration, and Klaviyo onsite tracking must be installed on your storefront. Other platforms use Klaviyo’s back-in-stock flow installation guide instead.",
+        "Build the flow first. In Klaviyo go to Flows → Create flow, search the library for “back in stock,” and pick a template (or build your own triggered by the Klaviyo metric Subscribed to Back in Stock, with no trigger or profile filters).",
+        "Keep the Back in stock delay directly after the trigger. Subscribers wait there until their item is restocked; you do not need extra time delays.",
+        "Use one notification message. Klaviyo recommends turning Smart Sending off for it so a recent email does not cause the alert to be skipped. Preview it to make sure it shows the right product, then set the message to Live—messages left in Draft do not send.",
+        "Create the form: Sign-up forms → Create form → search “back in stock” and choose a template. Choose whether the “Notify me” button replaces the Add to cart button or sits beneath it, and match the styling to your store.",
+        "Decide on channels. Email is the simplest. If you add a phone field for text or WhatsApp alerts, finish that channel’s setup first and keep the required consent and disclosure language—Klaviyo says explicit consent is required and cannot be made optional.",
+        "On Shopify, optionally use Targeting with product tags so the button only appears on products you will actually restock this season. Then publish the form.",
+        "After the first sign-up is recorded, open Back in stock settings (account Settings → Other, or from the delay step) and set a minimum restock quantity and how many people to notify per batch, so 300 people are not alerted when 3 units arrive.",
+        "Test with a real product: mark a variant out of stock, sign up with your own email, restock it and confirm the alert arrives."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: Shopify or BigCommerce store + Klaviyo with onsite tracking installed. Shopify’s app store also has other back-in-stock apps; the steps differ but the idea is the same. Costs: see each vendor’s current pricing page."
+          ]
+        },
+        {
+          "h": "What's confirmed (source)",
+          "ul": [
+            "Klaviyo’s back-in-stock form shows a customizable “Notify me” button on product pages when the selected variant is out of stock and matches your targeting; the button appears and disappears with your inventory.",
+            "Shoppers can sign up by email, text message or WhatsApp depending on your setup. An optional checkbox can also ask for promotional email consent; for texts and WhatsApp, explicit consent and disclosure language are required.",
+            "Submitting the form logs a Subscribed to Back in Stock event. A flow triggered by that metric, with a Back in stock delay, sends the alert once the item meets your inventory and notification settings.",
+            "You can only have one back-in-stock form in your account at a time. If you installed Klaviyo’s older back-in-stock code snippet, remove it first to avoid duplicate buttons.",
+            "Back in stock settings cover minimum inventory rules and how many customers to notify and how long to wait between batches; the settings tab appears only after at least one Subscribed to Back in Stock event."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "If you use Shopify POS and sell online, Klaviyo counts in-store and warehouse inventory together, so a unit sitting on your shop shelf can trigger an online alert.",
+            "Klaviyo cannot recheck inventory before a second message, so keep the flow to one alert rather than a reminder series.",
+            "Only offer alerts on items you really expect to restock before the gift deadline, and say so on the page (“Back in early December”) if you know. Do not use the alert list for unrelated promotions unless the shopper also opted in to marketing.",
+            "Text alerts follow the same consent and quiet-hours rules as your other texts; see our holiday texting tip."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Klaviyo Help Center: How to set up a back in stock form (updated Oct 21, 2026) — https://help.klaviyo.com/hc/en-us/articles/38767539287323",
+            "Klaviyo Help Center: How to build a back in stock flow (updated Oct 7, 2026) — https://help.klaviyo.com/hc/en-us/articles/115003872251",
+            "Klaviyo Help Center: Understanding how back in stock flows work — https://help.klaviyo.com/hc/en-us/articles/360051612551",
+            "Checked at the source on November 9, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Alert staff when a SKU drops below your reorder threshold",
+            "Capture holiday SMS opt-ins at checkout before Black Friday",
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Text or email customers the moment a pickup order is ready",
+            "Set a Shopify Black Friday automatic discount with Active dates"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
+            "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I do this without Klaviyo?",
+          "a": "Yes. Shopify’s app store has several back-in-stock apps, and some email tools include the feature. Look for the same pieces: a Notify me button on sold-out items, a consent-aware sign-up form, and an alert that waits for a real restock."
+        },
+        {
+          "q": "Should I text or email the alert?",
+          "a": "Email works for everyone who signs up. Text alerts only go to shoppers who gave explicit consent through the form, and they follow the same rules as your other marketing texts."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/back-in-stock-alerts-holiday.webp",
+        "alt": "A home-goods shop employee checking a smartphone beside a wooden shelf with an empty spot and a blank tag where a sold-out item stood, knit throws and kraft gift boxes on nearby shelves, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=back-in-stock-alerts"
+      },
+      "updated": "2026-11-09"
     }
   ],
   "static": [

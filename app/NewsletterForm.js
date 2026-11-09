@@ -17,10 +17,10 @@ export default function NewsletterForm() {
   if (state === "done") return (<p className="nl-success" role="status"><strong>You're on the list!</strong> Thanks for signing up. We'll never sell your email.</p>);
   return (<>
     <form onSubmit={onSubmit}>
-      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email" disabled={state === "loading"} />
+      <input type="email" name="email" required aria-label="Email" disabled={state === "loading"} />
       <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px" }} />
       <button type="submit" disabled={state === "loading"}>{state === "loading" ? "Joining…" : "Join the list"}</button>
     </form>
-    {state === "error" ? <p className="small" role="alert" style={{ color: "#b42318" }}>{msg}</p> : <p className="muted small">Free. Unsubscribe anytime. We'll never sell your email.</p>}
+    {state === "error" ? <p className="small" role="alert" style={{ color: "#b42318" }}>{msg}</p> : <p className="muted small">Free. Unsubscribe anytime. By joining, you agree to our <a href="/privacy">privacy policy</a>.</p>}
   </>);
 }

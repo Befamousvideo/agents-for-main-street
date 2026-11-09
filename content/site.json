@@ -28,6 +28,7 @@
     }
   ],
   "footer": "Agents for Main Street: AI recipes for salons, HVAC, clinics, realtors, law firms and more.",
+  "mailingAddress": "Mailing address: [to be provided]",
   "newsletter": {
     "title": "New automations every week",
     "blurb": "One short email a week with the newest recipes for your industry."
@@ -6164,15 +6165,23 @@
     {
       "path": "/privacy",
       "title": "Privacy policy",
-      "summary": "Draft privacy policy pending review. We collect only what you submit and never sell personal information.",
-      "flag": "Draft — pending legal review before launch.",
+      "summary": "[PLACEHOLDER] Draft privacy policy. Final copy pending legal review. We collect only what you submit and never sell personal information.",
+      "flag": "Placeholder copy — final privacy policy arrives after legal review.",
+      "effectiveDate": "[to be provided]",
+      "showMailingAddress": true,
       "blocks": [
         {
+          "h": "[PLACEHOLDER] What we collect",
           "ul": [
-            "We collect email addresses only when you subscribe (not yet active).",
-            "We use privacy-friendly analytics.",
-            "We never sell personal information.",
-            "Contact details will be published at launch."
+            "[PLACEHOLDER] We collect information you submit through our contact form and newsletter signup when those features are in use.",
+            "[PLACEHOLDER] We use privacy-friendly analytics.",
+            "[PLACEHOLDER] We never sell personal information."
+          ]
+        },
+        {
+          "h": "[PLACEHOLDER] How to reach us",
+          "p": [
+            "[PLACEHOLDER] Use the contact form on this site. We do not publish an email address or phone number. A mailing address is listed below when one is available."
           ]
         }
       ],
@@ -6181,12 +6190,51 @@
     {
       "path": "/terms",
       "title": "Terms of use",
-      "summary": "Draft terms pending review. Content is general information, not professional advice.",
-      "flag": "Draft — pending legal review before launch.",
+      "summary": "[PLACEHOLDER] Draft terms pending legal review. Content is general information, not professional advice.",
+      "flag": "Placeholder copy — final terms arrive after legal review.",
+      "showMailingAddress": true,
       "blocks": [
         {
+          "h": "[PLACEHOLDER] Using this site",
           "p": [
-            "Content is provided for general information and may contain errors. Verify with official vendor documentation before acting."
+            "[PLACEHOLDER] Content is provided for general information and may contain errors. Verify with official vendor documentation before acting.",
+            "[PLACEHOLDER] Questions about these terms can be sent through the contact form on this site. We do not publish an email address or phone number."
+          ]
+        }
+      ],
+      "cta": false
+    },
+    {
+      "path": "/contact",
+      "title": "Contact",
+      "summary": "[PLACEHOLDER] Use this form to reach Agents for Main Street. This page is form-only: we do not publish an email address or phone number.",
+      "flag": "Placeholder copy — final contact copy arrives after review.",
+      "showMailingAddress": true,
+      "cta": false,
+      "form": {
+        "title": "Send a message",
+        "fields": [
+          "Name",
+          "Email",
+          "Message"
+        ],
+        "button": "Send message",
+        "note": "We'll only use your details to respond to this message. We never sell your information.",
+        "live": "contact"
+      }
+    },
+    {
+      "path": "/refund",
+      "title": "Refund policy",
+      "summary": "[PLACEHOLDER] Draft refund policy pending legal review. Final copy will replace this text.",
+      "flag": "Placeholder copy — final refund policy arrives after legal review.",
+      "showMailingAddress": true,
+      "blocks": [
+        {
+          "h": "[PLACEHOLDER] Refunds",
+          "p": [
+            "[PLACEHOLDER] This refund policy is a placeholder. It will be replaced with the reviewed copy.",
+            "[PLACEHOLDER] Until then, send refund questions through the contact form on this site. We do not publish an email address or phone number."
           ]
         }
       ],

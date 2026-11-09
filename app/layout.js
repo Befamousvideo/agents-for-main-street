@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <main className="wrap">{children}</main>
         <footer className="ftr"><div className="wrap">
           <p>{site.footer}</p>
-          <p><a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/advertise">Advertise</a> · <a href="/newsletter">Newsletter</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/rss.xml">RSS</a></p>
+          <p><a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/advertise">Advertise</a> · <a href="/newsletter">Newsletter</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/contact">Contact</a> · <a href="/refund">Refund</a> · <a href="/rss.xml">RSS</a></p>
           <p className="muted">© 2026 {site.name}, a StorenTech company. Preview build — content under review.</p>
         </div></footer>
         <Analytics />

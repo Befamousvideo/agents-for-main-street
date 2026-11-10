@@ -26,7 +26,7 @@ export function Block({ b }) {
   return (<section>
     {b.h && <h2>{b.h}</h2>}
     {b.img && <img className="hero" src={b.img.src} alt={b.img.alt} width={b.img.w} height={b.img.h} loading="lazy" />}
-    {b.p && b.p.map((t, i) => <p key={i}><Linked t={t} /></p>)}
+    {b.p && b.p.map((t, i) => <p key={i} className={/^Affiliate link:/i.test(String(t)) ? "muted small affiliate-note" : undefined}><Linked t={t} /></p>)}
     {b.ol && <ol>{b.ol.map((t, i) => <Li key={i} t={t} />)}</ol>}
     {b.ul && <ul>{b.ul.map((t, i) => <Li key={i} t={t} />)}</ul>}
     {b.pre && <pre>{b.pre}</pre>}

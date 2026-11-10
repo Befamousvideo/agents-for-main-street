@@ -1,4 +1,6 @@
 import site from "../content/site.json";
+import affiliates from "./affiliates";
+const { externalRel } = affiliates;
 const human = (s) => s.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const real = () => [...site.pages, ...site.static];
 // Synthetic index pages for any intermediate path that has child pages but no page of its own,
@@ -20,7 +22,7 @@ export function matchTitle(text) {
   const cands = [norm(head), norm(head.replace(/^[^:]{1,40}:\s*/, ""))];
   return site.pages.find(p => cands.includes(norm(p.title))) || null;
 }
-// Render markdown [label](/path) links and bare http(s) URLs (source citations).
+// Render markdown [label](/path) and http(s) URLs. Affiliate URLs get rel="sponsored nofollow".
 const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^)\s]+|\/[^)\s]+)\)|(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]])/g;
 export function Linked({ t }) {
   const s = String(t); const out = []; let last = 0; let i = 0; let m;
@@ -30,8 +32,8 @@ export function Linked({ t }) {
     if (m[1] != null) {
       const href = m[2].replace(/^https?:\/\/\/+/, "/");
       const ext = /^https?:\/\//.test(href);
-      out.push(<a key={i++} href={href} {...(ext ? { rel: "noopener", target: "_blank" } : {})}>{m[1]}</a>);
-    } else out.push(<a key={i++} href={m[3]} rel="noopener" target="_blank">{m[3]}</a>);
+      out.push(<a key={i++} href={href} {...(ext ? { rel: externalRel(href), target: "_blank" } : {})}>{m[1]}</a>);
+    } else out.push(<a key={i++} href={m[3]} rel={externalRel(m[3])} target="_blank">{m[3]}</a>);
     last = m.index + m[0].length;
   }
   if (last < s.length) out.push(s.slice(last));

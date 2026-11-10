@@ -23,7 +23,7 @@ export default function Policy() {
       <li>If we reject your ad before it runs, you aren't charged (and if you somehow already paid, you get a full refund).</li>
       <li>If we remove a running ad, we refund the unused portion of your 30 days.</li>
       <li>Ads you cancel after they start running aren't refunded.</li></ul></section>
-    <p className="muted small">Questions? Reply to any email from us. This policy may be updated; the version at the time you order applies to your run.</p>
+    <p className="muted small">Questions? Use the contact form. This policy may be updated; the version at the time you order applies to your run.</p>
     <p><a className="btn" href="/advertise">Back to Advertise</a></p>
   </article>);
 }

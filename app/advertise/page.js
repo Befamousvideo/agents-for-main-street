@@ -24,6 +24,16 @@ export default function Advertise() {
       <li>We review it, usually within 2 business days.</li>
       <li>If it's approved, we email you a secure Stripe payment link. Nothing is charged before that.</li>
       <li>Your ad goes live on your start date and runs for 30 days.</li></ol></section>
+    <section>
+      <h2>Refunds and cancellation</h2>
+      <p>You only pay if we approve your ad and send you a payment link. Nothing is charged before that. Prices are a one-time payment for a 30-day run, not a subscription, and they do not renew automatically.</p>
+      <p>If we reject your ad before it runs, you aren't charged. If you somehow already paid, you get a full refund.</p>
+      <p>If we remove a running ad, we refund the unused portion of your 30 days.</p>
+      <p>If you cancel after your ad starts running, that payment is not refunded.</p>
+      <p>We may reject any ad, or remove a running ad, at our discretion.</p>
+      <p>These terms also appear in our <a href="/advertise/policy">Ad Policy</a>. The version at the time you order applies to your run.</p>
+      <p>Questions? Use the contact form.</p>
+    </section>
     <section className="card"><h2>Order an ad</h2><AdOrderForm plans={plans} categories={CATEGORIES} /></section>
   </article>);
 }

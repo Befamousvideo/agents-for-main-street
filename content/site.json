@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 9, 2026",
+  "updated": "November 10, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -113,7 +113,8 @@
           "ul": [
             "Reply to new website leads within minutes, automatically",
             "Remind past customers to book a fall heating tune-up",
-            "Text customers pipe-freeze tips before a hard freeze, automatically"
+            "Text customers pipe-freeze tips before a hard freeze, automatically",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         }
       ],
@@ -129,7 +130,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=missed-call-text-back"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/salons/rebooking-nudge",
@@ -579,7 +580,8 @@
         {
           "h": "Recipes",
           "ul": [
-            "Text back every missed call automatically for an HVAC business — When a call is missed during a job, send an automatic text asking for the address and issue, log the reply, and alert the on-call tech."
+            "Text back every missed call automatically for an HVAC business — When a call is missed during a job, send an automatic text asking for the address and issue, log the reply, and alert the on-call tech.",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         }
       ],
@@ -588,7 +590,8 @@
           "q": "What's the easiest automation for hvac businesses to start with?",
           "a": "When a call is missed during a job, send an automatic text asking for the address and issue, log the reply, and alert the on-call tech."
         }
-      ]
+      ],
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/salons",
@@ -658,7 +661,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Get ready for Google's automated calls asking your prices and booking times",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
-            "Let customers book holiday appointments themselves with a free Google Calendar booking page"
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         }
       ],
@@ -678,7 +682,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=ai-receptionist-booking"
       },
-      "updated": "2026-10-15",
+      "updated": "2026-11-10",
       "seoTitle": "AI receptionist that answers FAQs and books appointments"
     },
     {
@@ -774,7 +778,8 @@
           "h": "Related recipes",
           "ul": [
             "Draft replies to new Google reviews for approval",
-            "Follow up on sent quotes automatically"
+            "Follow up on sent quotes automatically",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         }
       ],
@@ -790,7 +795,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=meeting-notes-to-action"
       },
-      "updated": "2026-10-15",
+      "updated": "2026-11-10",
       "seoTitle": "Turn meeting transcripts into summaries and action items"
     },
     {
@@ -804,7 +809,8 @@
           "h": "Recipes",
           "ul": [
             "AI virtual receptionist that answers FAQs and books on Google Calendar — Use an AI receptionist to answer common questions from a business-info sheet, check Google Calendar availability, book appointments, and log every conversation to Sheets.",
-            "Send polite overdue-invoice reminders automatically — built-in reminders first, then a before/on/after due-date schedule, with an owner-approved note at 30 days."
+            "Send polite overdue-invoice reminders automatically — built-in reminders first, then a before/on/after due-date schedule, with an owner-approved note at 30 days.",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         }
       ],
@@ -814,7 +820,7 @@
           "a": "An AI receptionist that answers approved FAQs and books on Google Calendar, with a human handoff for anything outside the sheet."
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/retail",
@@ -863,7 +869,8 @@
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         }
       ],
@@ -873,7 +880,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -1009,7 +1016,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         }
       ],
@@ -1019,7 +1027,7 @@
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
       ],
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "seoTitle": "AI automations for restaurants: holiday-ready no-code recipes"
     },
     {
@@ -1171,7 +1179,8 @@
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         }
       ],
@@ -1181,7 +1190,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "seoTitle": "AI automations for local businesses: no-code recipes, step by step"
     },
     {
@@ -1531,7 +1540,8 @@
             "Text back every missed call automatically for an HVAC business",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Ask every new customer how they found you, and log it automatically",
-            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies"
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         },
         {
@@ -1561,7 +1571,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=web-lead-instant-reply"
       },
-      "updated": "2026-10-19"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/local-business/receipt-capture-bookkeeping",
@@ -1686,7 +1696,8 @@
             "Get a warning before your domain name or website security certificate expires",
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
             "Schedule your holiday offers and events as Google Business Profile posts",
-            "Auto-answer the same holiday questions by email with Gmail templates and filters"
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         },
         {
@@ -1718,7 +1729,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-hours-everywhere"
       },
-      "updated": "2026-10-20"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/service-businesses/how-did-you-hear-tracking",
@@ -1813,7 +1824,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -1883,7 +1894,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Ask your web host to confirm your site got this week's critical PHP security update",
-            "Send your holiday emails from an address people can reply to, and answer them"
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         }
       ],
@@ -1903,7 +1915,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-holiday-email-setup-check"
       },
-      "updated": "2026-10-20"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/hvac/fall-heating-tune-up-reminders",
@@ -2044,7 +2056,8 @@
           "ul": [
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
-            "Ask every new customer how they found you, and log it automatically"
+            "Ask every new customer how they found you, and log it automatically",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         },
         {
@@ -2074,7 +2087,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-automated-calls"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/offer-in-real-text",
@@ -2141,7 +2154,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "Send your holiday emails from an address people can reply to, and answer them",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         },
         {
@@ -2170,7 +2184,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-offer-in-real-text"
       },
-      "updated": "2026-10-21"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/local-business/w9-collection-before-1099s",
@@ -2404,7 +2418,8 @@
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         },
         {
@@ -2433,7 +2448,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-small-business-saturday-plan"
       },
-      "updated": "2026-10-22"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/hvac/freeze-warning-customer-alerts",
@@ -2492,7 +2507,8 @@
           "ul": [
             "Remind past customers to book a fall heating tune-up",
             "Text back every missed call automatically for an HVAC business",
-            "Ask every new customer how they found you, and log it automatically"
+            "Ask every new customer how they found you, and log it automatically",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         }
       ],
@@ -2516,7 +2532,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=freeze-warning-customer-alerts"
       },
-      "updated": "2026-10-23"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/clinics/fsa-year-end-reminders",
@@ -3295,7 +3311,7 @@
       "group": "recipes",
       "label": "Any local business",
       "title": "Get a warning before your domain name or website security certificate expires",
-      "seoTitle": "Domain and SSL certificate expiry alerts for small business websites (200-day certs)",
+      "seoTitle": "Domain and SSL expiry alerts for small business websites",
       "summary": "If your domain name lapses or your site's security certificate expires, customers see an error page or nothing at all, often in your busiest week. Certificates now expire faster: since March 15, 2026 the industry maximum is 200 days, dropping to 100 days in March 2027. This recipe keeps one list of your renewal dates and sends you alerts 30, 14 and 3 days before anything runs out.",
       "steps": [
         "List every domain you own and every website on it in a Google Sheet: domain, registrar, renewal date, whether auto-renew is on, the card on file, and who has the login.",
@@ -3382,7 +3398,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=domain-ssl-expiry-alerts"
       },
-      "updated": "2026-10-26"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/no-review-incentives-holiday-promos",
@@ -3486,7 +3502,7 @@
       "group": "recipes",
       "label": "Any local business",
       "title": "Send new seasonal hires their paperwork checklist and finish Form I-9 on time",
-      "seoTitle": "Seasonal hiring checklist: automate I-9 and W-4 reminders (3-business-day rule)",
+      "seoTitle": "Seasonal hiring checklist: automate I-9 and W-4 reminders",
       "summary": "Holiday hiring moves fast, and paperwork is easy to miss. USCIS says the employer must complete and sign Section 2 of Form I-9 within 3 business days of a new employee's first day of work for pay (or on day one if the job lasts less than 3 days). This recipe sends each new hire a welcome checklist, reminds them to bring their documents, and alerts you before the I-9 deadline passes.",
       "steps": [
         "Keep one Google Sheet of new hires: name, start date (first day of work for pay), manager, and checkboxes for I-9 Section 1, I-9 Section 2, W-4 and any state forms.",
@@ -3566,7 +3582,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=seasonal-hire-paperwork"
       },
-      "updated": "2026-10-27"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/report-review-extortion",
@@ -3668,7 +3684,7 @@
       "group": "recipes",
       "label": "Retail",
       "title": "Get an alert when card testers hit your online checkout",
-      "seoTitle": "Card testing fraud alert for small online stores (failed payment spike automation)",
+      "seoTitle": "Card testing fraud alerts for small online stores",
       "summary": "Card testing is when fraudsters use a store's checkout to find out which stolen card numbers still work, usually with lots of small payments or card setups. Stripe's docs say it can lead to disputes, higher decline rates and fees for the store. This recipe watches your failed payments and alerts you within minutes when they spike, so you can refund fraudulent charges and ask your developer or platform to tighten checkout before the damage grows.",
       "steps": [
         "Pick your signal: failed or declined payments from your payment processor. Most processors and store platforms can send an event or email for each failed payment, and automation tools like Zapier, Make or n8n can receive them.",
@@ -3747,14 +3763,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=card-testing-alerts"
       },
-      "updated": "2026-10-28"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/thanksgiving-early-access-best-customers",
       "group": "tips",
       "label": "Tip · Retail shops",
       "title": "Use Thanksgiving week to thank your best customers with early access",
-      "seoTitle": "Thanksgiving email idea for small shops: early access for your best customers",
+      "seoTitle": "Thanksgiving email idea: early access for your best customers",
       "summary": "Thanksgiving is Thursday, Nov 26, 2026. Instead of one more \"sale starts now\" blast, send a short thank-you to your best customers that week and give them first access to your holiday deals. Klaviyo's Thanksgiving campaign guide suggests rewarding loyal customers with early access, choosing them by how much or how often they buy, and asking for reviews automatically once customers have had time to use what they bought.",
       "blocks": [
         {
@@ -3808,7 +3824,8 @@
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         },
         {
@@ -3842,7 +3859,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-thanksgiving-early-access-best-customers"
       },
-      "updated": "2026-10-28"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/local-business/after-hours-dm-replies",
@@ -3907,7 +3924,8 @@
             "Sell and deliver e-gift cards automatically this holiday season",
             "Reply to new website leads within minutes, automatically",
             "Schedule your holiday offers and events as Google Business Profile posts",
-            "Auto-answer the same holiday questions by email with Gmail templates and filters"
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         },
         {
@@ -3943,14 +3961,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=after-hours-dm-replies"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/tiktok-must-eat-restaurant-guide",
       "group": "tips",
       "label": "Tip · Restaurants and experiences",
       "title": "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
-      "seoTitle": "TikTok Must Eat restaurant guide (Oct 2026): what restaurant owners should do now",
+      "seoTitle": "TikTok Must Eat restaurant guide: what owners should do now",
       "summary": "On October 28, 2026, TikTok launched Must Eat, a restaurant guide built from what people post, review and comment on TikTok. It starts in the areas around New York City, Los Angeles and the Bay Area, and TikTok says no restaurant can pay to be featured. If you run a restaurant there, spend 30 minutes making sure your TikTok place page, location tags and reservation link are accurate so diners who find you can actually visit or book.",
       "blocks": [
         {
@@ -4039,14 +4057,14 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-tiktok-must-eat-restaurant-guide"
       },
-      "updated": "2026-10-29"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/local-business/google-business-profile-holiday-posts",
       "group": "recipes",
       "label": "Any local business",
       "title": "Schedule your holiday offers and events as Google Business Profile posts",
-      "seoTitle": "Schedule Google Business Profile posts for holiday offers and events (2026 how-to)",
+      "seoTitle": "Schedule Google Business Profile holiday posts (2026 how-to)",
       "summary": "People who find you on Google Search and Maps this season want to know what's on: your Small Business Saturday offer, a holiday open house, gift card deals, extended hours. Google Business Profile lets you publish Offer, Event and Update posts that show on your profile, and you can schedule them ahead and set some to repeat. This recipe plans your holiday posts in one sitting, with an optional AI step that drafts them from a simple sheet so you only review and approve.",
       "steps": [
         "Make a simple Google Sheet of your holiday moments from now to early January: offer or event name, start and end dates and times, one-line description, coupon code or link if any.",
@@ -4147,14 +4165,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-business-profile-holiday-posts"
       },
-      "updated": "2026-10-30"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/pinterest-holiday-planning-q5",
       "group": "tips",
       "label": "Tip · Retail shops",
       "title": "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
-      "seoTitle": "Pinterest holiday 2026 tip for small shops: post early and keep going through Q5",
+      "seoTitle": "Pinterest holiday tip for small shops: post early, keep going",
       "summary": "Pinterest says holiday activity on its platform picks up as early as September and that people come to Pinterest first of all to shop. It also points to \"Q5\", the week between Christmas and New Year's, when many of its users are still buying. If you sell gifts, decor, food or anything giftable, a small batch of good product photos posted now, refreshed for New Year's, can keep you in front of planners for the whole season.",
       "blocks": [
         {
@@ -4242,7 +4260,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-pinterest-holiday-planning-q5"
       },
-      "updated": "2026-10-30"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/retail/ready-for-pickup-notifications",
@@ -4349,7 +4367,7 @@
       "group": "tips",
       "label": "Tip · Retail shops",
       "title": "Get your products into Google's free listings before holiday shoppers start searching",
-      "seoTitle": "Google Merchant Center free listings for small shops: 2026 holiday setup tip",
+      "seoTitle": "Google Merchant Center free listings: holiday setup tip",
       "summary": "Google shows products at no cost across Search, the Shopping tab, Images, Lens, Maps, YouTube and Gemini, and on your Business Profile, through free listings in Google Merchant Center. A new study suggests Google's AI Mode links to its own Shopping pages for most product answers, so being in Google's product data matters more. If you sell online or in store, a free Merchant Center account with clean product data is a solid step to take before the holiday rush.",
       "blocks": [
         {
@@ -4446,7 +4464,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-google-free-product-listings"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/local-business/gmail-template-auto-replies",
@@ -4506,7 +4524,8 @@
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
             "Draft replies to new Google reviews for approval",
             "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
-            "Get a weekly alert when Gmail users start marking your emails as spam"
+            "Get a weekly alert when Gmail users start marking your emails as spam",
+            "Get every voicemail transcribed and emailed to whoever calls back"
           ]
         },
         {
@@ -4545,14 +4564,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=gmail-template-auto-replies"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/reply-to-address-not-no-reply",
       "group": "tips",
       "label": "Tip · Any local business",
       "title": "Send your holiday emails from an address people can reply to, and answer them",
-      "seoTitle": "Don't use a no-reply address: small business email tip for the 2026 holidays",
+      "seoTitle": "Don't send holiday emails from a no-reply address",
       "summary": "Holiday promos and order emails often go out from \"no-reply\" addresses. That tells customers you don't want to hear from them, right when they have questions about gifts, hours and orders. Email Love's Andy King argues for treating email like hospitality: send from a real address, keep the door open for replies, and answer the ones that need answering. For a small business, a reply is often a sale or a saved customer.",
       "blocks": [
         {
@@ -4590,7 +4609,8 @@
           "ul": [
             "Check your email setup before holiday promos go out",
             "Put your holiday offer in real text, not inside one big image",
-            "Plan your Small Business Saturday offer now (Saturday, Nov 28)"
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         },
         {
@@ -4624,7 +4644,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-reply-to-address-not-no-reply"
       },
-      "updated": "2026-11-01"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/service-businesses/google-calendar-booking-page",
@@ -4802,7 +4822,7 @@
       "group": "recipes",
       "label": "Retail",
       "title": "Capture holiday SMS opt-ins at checkout before Black Friday",
-      "seoTitle": "Holiday SMS opt-in at checkout: capture consent before Black Friday (2026 how-to)",
+      "seoTitle": "Holiday SMS opt-in at checkout before Black Friday (how-to)",
       "summary": "Black Friday texts only work if people already said yes to SMS. Before the rush, put an explicit SMS marketing checkbox and short disclosure at checkout, on the receipt signup, or in a popup. Store who opted in in your sheet or CRM, then connect that list to your SMS tool so you can text only the people who asked for it.",
       "steps": [
         "Decide where shoppers will see the ask: checkout, e-receipt signup, or a popup that offers a clear reason to join (early access, ship alerts, or holiday deals).",
@@ -4899,7 +4919,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-sms-opt-in-at-checkout"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/holiday-texting-basics-opt-in-stop-quiet-hours",
@@ -5091,7 +5111,7 @@
       "group": "tips",
       "label": "Tip · Retail shops",
       "title": "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-      "seoTitle": "Answer buyer research questions before Black Friday ads (higher-ticket tips 2026)",
+      "seoTitle": "Answer buyer research questions before Black Friday ads",
       "summary": "For furniture, appliances, spa packages, devices and other considered purchases, Black Friday discounts work best after shoppers already understand how the offer works. SparkToro’s Amanda Natividad argues the heavy lifting happens in the months before the sale: publish clear how-it-works, comparison and FAQ answers so November ads do not have to introduce, educate and close all at once.",
       "blocks": [
         {
@@ -5170,7 +5190,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/retail/black-friday-automatic-discount",
@@ -5465,7 +5485,7 @@
       "group": "tips",
       "label": "Tip · Any business",
       "title": "Reply to every Google review with a short, personal answer—and take complaints offline",
-      "seoTitle": "Reply to every Google review personally this holiday season (Main Street tip)",
+      "seoTitle": "Reply to every Google review this holiday season (how-to)",
       "summary": "Holiday traffic brings more Google reviews—good and bad. Google’s Business Profile help says to reply, keep replies short and relevant, avoid promotions in the reply, personalize negative responses, and take complex complaints to a private phone or email thread. A quick, specific answer shows shoppers you are listening before Black Friday week.",
       "blocks": [
         {
@@ -5542,7 +5562,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-reply-every-google-review"
       },
-      "updated": "2026-11-06"
+      "updated": "2026-11-10"
     },
     {
       "path": "/industries/local-business/gmail-spam-rate-watch",
@@ -5617,7 +5637,8 @@
             "Check your email setup before holiday promos go out",
             "Send your holiday emails from an address people can reply to, and answer them",
             "Put your holiday offer in real text, not inside one big image",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Draft a December “year in review” email now—your shop’s own highlights are enough"
           ]
         }
       ],
@@ -5647,7 +5668,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=gmail-spam-rate-watch"
       },
-      "updated": "2026-11-07"
+      "updated": "2026-11-10"
     },
     {
       "path": "/tips/ai-check-landing-pages-before-ads",
@@ -6195,6 +6216,187 @@
         "href": "/build-it-for-me?recipe=make-15-second-ai-video-ad"
       },
       "updated": "2026-11-09"
+    },
+    {
+      "path": "/tips/december-year-in-review-email",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Draft a December “year in review” email now—your shop’s own highlights are enough",
+      "seoTitle": "Year-in-review email for a small business (December tip)",
+      "summary": "Big brands send “Wrapped”-style year-in-review emails every December, and small businesses often skip them because they don’t track personal customer stats. Email Love co-founder Andy King argues you don’t need personal data: shop-level highlights—your best sellers, a milestone, a community moment—can carry the whole email. Draft yours in November, while the year is fresh and before the holiday rush, then send it in December to people who opted in to your emails.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A friendly December email that reminds regulars why they chose you, shows what you accomplished together, and gives them a reason to visit or order before the year ends—without building a personalized data campaign or uploading customer lists anywhere."
+          ]
+        },
+        {
+          "h": "How to do it (about an hour)",
+          "ul": [
+            "Pull three to five true, shop-level facts from your own records: your most-loved product or service this year, something new you launched, a milestone (an anniversary, a new location, a new hire), and a community moment (a fundraiser, a local event, a donation you can document).",
+            "Run Email Love’s quick check: which number would make customers say “whoa,” what achievement they would be proud to support, what defined your year, what you did together, and what surprised you. If you can answer three of the five, you have enough for the email.",
+            "Lead with your strongest item. Email Love’s advice is not to bury your best stat in section four, and to skip insider numbers like subscriber counts or open rates that customers do not care about.",
+            "Make big numbers easy to picture (“enough coffee to fill…”, “trees planted along Main Street”) and give every highlight a photo—your own product shots, your team or the event.",
+            "If you use an AI writing tool, give it only your aggregate facts (“we sold about 1,200 pies,” “our top three items were…”) and ask for a short, warm draft in your voice. Edit it yourself before it goes anywhere.",
+            "End with one clear next step: your holiday hours, a gift card link, or what is coming next year. Send it from an address people can reply to.",
+            "Schedule it for early to mid December, only to your marketing email list, and send a test to yourself on a phone first."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Only use numbers and achievements you can back up from your own records; do not round up or invent milestones, awards or donation totals. If you are small, Email Love suggests focusing on growth or impact rather than a tiny customer count. Do not paste customer names, email lists, card details or order histories into an AI tool to build this—aggregate totals are all you need. Send only to people who agreed to get your marketing emails, include your usual unsubscribe link, and keep holiday sending inside your email tool’s normal limits."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Email Love (Andy King, published December 9, 2025; updated September 25, 2026): Your Data Isn’t Personal Enough for a Wrapped Email? Think Again — https://emaillove.com/your-data-isnt-personal-enough-for-a-wrapped-email-think-again",
+            "Last checked at the source: November 10, 2026. Backlog item TB-018."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Send your holiday emails from an address people can reply to, and answer them",
+            "Check your email setup before holiday promos go out",
+            "Use Thanksgiving week to thank your best customers with early access",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Put your holiday offer in real text, not inside one big image"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Get a weekly alert when Gmail users start marking your emails as spam"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "I only have a few hundred customers. Is a year-in-review email worth it?",
+          "a": "Yes, if you have a few true highlights to share. Focus on what you did together—your best-loved item, a milestone, a local moment—rather than a small total. Keep it short and personal."
+        },
+        {
+          "q": "Can AI write it for me?",
+          "a": "AI can turn your notes into a first draft. Give it only your own aggregate facts, never customer lists, and edit the draft so every claim is true and it sounds like you."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-december-year-in-review-email.webp",
+        "alt": "A coffee roaster shop owner in a cozy sweater at a wooden counter in December, smiling at a laptop showing a blurred email layout of product photos, a notepad of handwritten notes and kraft coffee bags with string lights behind her, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI pulls your shop-level highlights with you, drafts your year-in-review email in your voice, and sets it up in your own email tool to send to your opted-in list—within 7 days. You approve the final email before anything is sent.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-december-year-in-review-email"
+      },
+      "updated": "2026-11-10"
+    },
+    {
+      "path": "/industries/local-business/voicemail-transcripts-by-email",
+      "group": "recipes",
+      "label": "Any local business",
+      "title": "Get every voicemail transcribed and emailed to whoever calls back",
+      "seoTitle": "Google Voice voicemail transcripts by email (how-to)",
+      "summary": "During the holiday rush, voicemails pile up on a phone nobody checks until evening. If your business line runs on Google Voice, you can turn on voicemail transcripts and have every voicemail emailed to you, so you can read it in seconds between jobs. A Gmail filter can then label those emails or forward them to whoever handles callbacks. Google warns transcripts can be wrong or missing, so play the recording when a name, number or time matters.",
+      "steps": [
+        "On a computer, go to voice.google.com, click Settings, then Voicemail.",
+        "Turn on Voicemail transcripts. (On Google Workspace accounts, your admin may control this, and Google lists the languages it supports.)",
+        "In the same section, turn on Get voicemail via email. New voicemails will now arrive in the Gmail account linked to that Google Voice number.",
+        "Leave yourself a test voicemail from another phone and confirm the email arrives with the transcript.",
+        "In Gmail, check the box next to that voicemail email, click More → Filter messages like these, and create a filter that applies a label such as “Callbacks” so voicemails never get lost among other mail.",
+        "If someone else returns calls, first add their address under Settings → See all settings → Forwarding and POP/IMAP → Add a forwarding address and have them click Gmail’s verification link. Then edit the filter and choose Forward it to that address.",
+        "Optional automation: if you already use Zapier or Make, a new email with your “Callbacks” label can create a task in your to-do list or CRM with the caller’s number and the transcript, so every message gets an owner.",
+        "Recheck after any phone-system change, and once a week during busy season make sure the Callbacks label is empty by closing time."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a Google Voice number (personal or Google Voice for Google Workspace) and the Gmail account it is linked to. Zapier or Make only if you add the optional task step. Costs: see Google Voice’s current plans and each tool’s pricing page. If your phone line is not on Google Voice, check whether your phone provider offers voicemail-to-email; the Gmail filter steps work the same way."
+          ]
+        },
+        {
+          "h": "What's confirmed (source)",
+          "ul": [
+            "Google Voice can forward voicemail transcripts to your email: Settings → Voicemail → Get voicemail via email.",
+            "Voicemail transcripts are turned on or off in Settings → Voicemail; Google says transcripts may be incorrect or missing.",
+            "When you open a voicemail from an email, Google asks you to sign in to Google Voice before you can listen to it.",
+            "Gmail filters can label, archive, star or forward new incoming mail, and you can build one from an existing message with Filter messages like these.",
+            "To forward with a filter, you first add a forwarding address; Gmail sends a verification link to that address, and only new messages are forwarded."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Transcripts miss words, especially names, addresses and phone numbers. Play the audio before you quote a price, confirm an appointment or call back a number the transcript may have garbled.",
+            "Voicemails can contain personal details. Forward only to people who handle callbacks, and do not paste transcripts into AI tools you have not vetted.",
+            "If a voicemail never shows up, check Google Voice’s Spam folder.",
+            "Gmail shows a forwarding notice for the first week after you add a forwarding filter. If you ever see a forwarding notice you did not set up, Google says to change your password and turn forwarding off."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Voice Help: Forward voicemail transcripts — https://support.google.com/voice/answer/9182115",
+            "Google Voice Help: Check your voicemail in Google Voice — https://support.google.com/voice/answer/168515",
+            "Gmail Help: Create rules to filter your emails — https://support.google.com/mail/answer/6579",
+            "Gmail Help: Automatically forward Gmail messages to another account — https://support.google.com/mail/answer/10957",
+            "Checked at the source on November 10, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Text back every missed call automatically for an HVAC business",
+            "AI virtual receptionist that answers FAQs and books on Google Calendar",
+            "Reply to new website leads within minutes, automatically",
+            "Auto-answer the same holiday questions by email with Gmail templates and filters",
+            "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
+            "Turn call and meeting transcripts into summaries and action items",
+            "Text customers pipe-freeze tips before a hard freeze, automatically"
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Get ready for Google's automated calls asking your prices and booking times"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I get the transcript as a text message instead?",
+          "a": "Check Google Voice’s Voicemail settings for the delivery options your account offers. Email is the easiest to label, forward and search."
+        },
+        {
+          "q": "Should an AI call people back for me?",
+          "a": "Not without a careful setup. Start with transcripts by email and a human callback; if you want an AI receptionist later, see our AI receptionist recipe."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/voicemail-transcripts-by-email.webp",
+        "alt": "A bearded tradesman in a work van cab reading a voicemail transcript on his smartphone, with a clipboard and tool bag on the passenger seat and snowy houses outside in late-afternoon light, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=voicemail-transcripts-by-email"
+      },
+      "updated": "2026-11-10"
     }
   ],
   "static": [

@@ -3,7 +3,7 @@ import { randomUUID } from "crypto";
 import { resolveMx } from "dns/promises";
 export const runtime = "nodejs";
 const EMAIL = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/;
-const NOTIFY = "vincent@storentech.com";
+const NOTIFY = Buffer.from("dmluY2VudEBzdG9yZW50ZWNoLmNvbQ==", "base64").toString("utf8");
 const FROM = "Agents for Main Street <requests@agentsformainstreet.com>";
 const SOURCE = "afms";
 const SUBJECT_PREFIX = "[Agents for Main Street]";

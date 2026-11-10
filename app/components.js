@@ -18,9 +18,27 @@ export function Cta({ cta }) {
 export function Sponsor() {
   return <HouseAd />;
 }
+export function EmailAddress({ kind = "support" }) {
+  const ads = kind === "ads";
+  return (
+    <img
+      className="email-addr"
+      src={ads ? "/images/email-advertising.png" : "/images/email-support.png"}
+      alt={ads ? "Advertising email address" : "Support email address"}
+      width={ads ? 324 : 390}
+      height={ads ? 36 : 41}
+      decoding="async"
+    />
+  );
+}
 export function MailingAddress({ className = "muted" }) {
   if (!site.mailingAddress) return null;
-  return <p className={className} style={{ whiteSpace: "pre-line" }}>{site.mailingAddress}</p>;
+  return (
+    <>
+      <p className={className} style={{ whiteSpace: "pre-line" }}>{site.mailingAddress}</p>
+      <p className={className}><EmailAddress kind="support" /></p>
+    </>
+  );
 }
 export function Block({ b }) {
   return (<section>

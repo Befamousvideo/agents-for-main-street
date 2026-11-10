@@ -3,7 +3,7 @@ import { randomUUID } from "crypto";
 import { resolveMx } from "dns/promises";
 import { parsePhoneNumberFromString } from "libphonenumber-js";
 import site from "../../../../content/site.json";
-import { PLANS, CATEGORIES, NOTIFY, BASE, putJson, send, esc, clean, adminLink, blobReady } from "../../../ads-lib";
+import { PLANS, CATEGORIES, BASE, putJson, send, notify, esc, clean, adminLink, blobReady } from "../../../ads-lib";
 export const runtime = "nodejs";
 const EMAIL = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/;
 const DISPOSABLE = new Set(["mailinator.com","guerrillamail.com","guerrillamail.net","sharklasers.com","10minutemail.com","10minutemail.net","tempmail.com","temp-mail.org","temp-mail.io","yopmail.com","yopmail.net","trashmail.com","getnada.com","nada.email","dispostable.com","maildrop.cc","throwawaymail.com","fakeinbox.com","mailnesia.com","mintemail.com","emailondeck.com","mohmal.com","tempail.com","tempr.email","discard.email","spamgourmet.com","getairmail.com","moakt.com","burnermail.io","mailpoof.com","inboxkitten.com","1secmail.com","tempmailo.com","minuteinbox.com","mail.tm","emailfake.com","grr.la","guerrillamailblock.com","spam4.me","mytemp.email"]);
@@ -65,7 +65,7 @@ export async function POST(req) {
     ["Placement", `${plan.name}: $${plan.price / 100} for ${plan.days} days`], ["Start date", o.startDate], ["Headline", o.headline], ["Ad text", o.body], ["Destination URL", o.url], ["Image", o.image ? `${o.image.w}×${o.image.h} ${o.image.type}, ${Math.round(o.image.bytes / 1024)} KB` : "none"], ["Notes", o.notes || "—"]]
     .map(([k, v]) => `<tr><td valign="top"><b>${k}</b></td><td>${esc(v)}</td></tr>`).join("");
   const img = o.image ? `<p><a href="${BASE}/api/n/img?id=${id}">View the uploaded image</a></p>` : "";
-  const emailed = await send(NOTIFY, `Ad order to review: ${o.business} (${site.name})`,
+  const emailed = await notify(`Ad order to review: ${o.business} (${site.name})`,
     `<p>New ad order on ${esc(site.domain)}. Check it against the <a href="${BASE}/advertise/policy">Ad Policy</a> (no competitors, adult content, gambling, weapons, drugs, crypto, political or deceptive claims).</p><table cellpadding="4">${rows}</table>${img}
      <p><b>To approve:</b> <a href="${adminLink(id, "approve")}">Approve and send payment link</a><br><b>To reject:</b> <a href="${adminLink(id, "reject")}">Reject</a></p>
      <p class="small">Each link opens a confirmation page; nothing happens until you press the button there. No payment is taken until the advertiser pays the link they receive after approval.</p>`, o.email);

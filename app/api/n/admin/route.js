@@ -1,5 +1,5 @@
 import site from "../../../../content/site.json";
-import { PLANS, BASE, NOTIFY, findOrder, moveOrder, verify, send, esc, stripe, stripeReady, delPath } from "../../../ads-lib";
+import { PLANS, BASE, findOrder, moveOrder, verify, send, notify, esc, stripe, stripeReady, delPath } from "../../../ads-lib";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 const page = (t, body, status = 200) => new Response(`<!doctype html><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>${esc(t)}</title><body style="font-family:system-ui;max-width:640px;margin:40px auto;padding:0 16px"><h1>${esc(t)}</h1>${body}</body>`, { status, headers: { "Content-Type": "text/html; charset=utf-8" } });
@@ -41,7 +41,7 @@ export async function POST(req) {
   if (L.action === "remove") {
     if (L.status !== "active") return page("Not active", `<p>This order is ${L.status}.</p>`);
     await moveOrder({ ...o, removedAt: new Date().toISOString(), reason }, "active", "expired");
-    await send(NOTIFY, `Ad removed: ${o.business}`, `<p>The ad was removed. If unused time should be refunded, issue a prorated refund for payment ${esc(o.paymentIntent || o.checkoutSession || "")} in Stripe.</p>`);
+    await notify(`Ad removed: ${o.business}`, `<p>The ad was removed. If unused time should be refunded, issue a prorated refund for payment ${esc(o.paymentIntent || o.checkoutSession || "")} in Stripe.</p>`);
     return page("Removed", "<p>The ad no longer shows. Per the Ad Policy, refund the unused time in Stripe (a reminder email was sent to you).</p>");
   }
   if (L.action === "purge") { await delPath(`ads/${L.status}/${o.id}.json`); if (o.image) await delPath(o.image.path); return page("Deleted", "<p>Record deleted.</p>"); }

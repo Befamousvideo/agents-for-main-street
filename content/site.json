@@ -28,9 +28,16 @@
     }
   ],
   "footer": "Agents for Main Street: AI recipes for salons, HVAC, clinics, realtors, law firms and more.",
+  "mailingAddress": "Mailing address:\nAgents for Main Street, a StorenTech company\nP.O. Box 372, Corona Del Mar, CA 92625",
   "newsletter": {
     "title": "New automations every week",
-    "blurb": "One short email a week with the newest recipes for your industry."
+    "blurb": "One short email a week with the newest recipes for your industry.",
+    "emailFooter": [
+      "Agents for Main Street, a StorenTech company",
+      "P.O. Box 372, Corona Del Mar, CA 92625",
+      "You received this email because you signed up for the Agents for Main Street newsletter.",
+      "To stop receiving these emails, use the unsubscribe link in this message. The unsubscribe link stays available for at least 30 days after we send the message. We honor opt-out requests within 10 business days."
+    ]
   },
   "sponsorSlot": "Reach small-business owners who are looking for AI tools.",
   "mainCta": {
@@ -6641,33 +6648,254 @@
     {
       "path": "/privacy",
       "title": "Privacy policy",
-      "summary": "Draft privacy policy pending review. We collect only what you submit and never sell personal information.",
-      "flag": "Draft — pending legal review before launch.",
+      "summary": "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it.",
+      "effectiveDate": "November 11, 2026",
+      "tldr": false,
+      "cta": false,
       "blocks": [
         {
+          "p": [
+            "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it. It is written in plain language and is not a guarantee of legal compliance."
+          ]
+        },
+        {
+          "h": "How to contact us",
+          "p": [
+            "The way to reach us, including to ask about this policy or to request a review or change of personal information we have about you, is the [contact form](/contact)."
+          ],
+          "mailing": true
+        },
+        {
+          "h": "Information we collect",
+          "p": [
+            "We collect information you submit, including:"
+          ],
           "ul": [
-            "We collect email addresses only when you subscribe (not yet active).",
-            "We use privacy-friendly analytics.",
-            "We never sell personal information.",
-            "Contact details will be published at launch."
+            "Newsletter sign-up: your email address, and the page you signed up from.",
+            "“Build it for me” requests: name, business name, industry, the recipe you want (if you include one), budget range, email, phone, and your consent to be contacted about the request.",
+            "Advertise requests: name, business details, email, phone, placement choice, ad content, and related files you upload.",
+            "Contact form: name, email, and message."
+          ]
+        },
+        {
+          "p": [
+            "We also collect technical information needed to run and protect the site, such as the fact that a page was viewed and, on some forms, a spam-prevention token.",
+            "We do not sell personal information."
+          ]
+        },
+        {
+          "h": "How we use it",
+          "ul": [
+            "To send the newsletter if you joined it.",
+            "To follow up on a build request or an advertise request.",
+            "To reply to a message you send through the contact form.",
+            "To operate, secure, and understand use of this website.",
+            "To process a payment when a payment is actually taken."
+          ]
+        },
+        {
+          "h": "Newsletter email practices",
+          "p": [
+            "Newsletter emails are sent by Agents for Main Street, a StorenTech company. Each email includes this mailing address: P.O. Box 372, Corona Del Mar, CA 92625. Each email includes a way to unsubscribe. The unsubscribe link stays available for at least 30 days after we send the message. We honor opt-out requests within 10 business days. We do not use false sender information or misleading subject lines."
+          ]
+        },
+        {
+          "h": "Categories of third parties that may receive information",
+          "p": [
+            "These are the third parties we could confirm from the live site’s hosting, scripts, and forms, plus payment handling described on the advertise page. We mark anything we could not confirm."
+          ],
+          "ul": [
+            "Vercel, our website host, and Vercel Analytics and Vercel Speed Insights, which measure traffic and performance. Confirmed: the site is served by Vercel, and the site loads Vercel Analytics and Vercel Speed Insights scripts.",
+            "Cloudflare Turnstile, which helps reduce spam on some forms (the build-request form and the advertise order form). Confirmed: those forms load Cloudflare’s Turnstile script.",
+            "Stripe, if and when a payment is taken. The advertise page says approved ads are billed through a Stripe payment link. Stripe checkout is not live for the $49 workshop or the $375 build (Stripe is still in sandbox). We did not find a Stripe script on the pages we checked. When a payment is taken, Stripe processes it; we do not collect your card details on this website.",
+            "Contact-form messages are delivered by our email provider, Resend.",
+            "HubSpot was not found in the live pages or scripts, and is not listed as a current recipient."
+          ]
+        },
+        {
+          "p": [
+            "If a card-network dispute is opened, we may also share relevant order information with the payment processor and the card network."
+          ]
+        },
+        {
+          "h": "Cookies, analytics, Do Not Track, and other tracking",
+          "p": [
+            "We use Vercel Analytics and Vercel Speed Insights to understand how the site is used and how it performs. These scripts are served from this site.",
+            "Some forms use Cloudflare Turnstile, which loads a script from Cloudflare to help tell people from bots.",
+            "We do not respond to Do Not Track browser signals.",
+            "From the pages and scripts we checked, we did not find advertising pixels, HubSpot, or other third-party marketing trackers that collect browsing activity across other websites. We have not independently confirmed every server-side tool that may run after a form is submitted."
+          ]
+        },
+        {
+          "h": "How we announce changes",
+          "p": [
+            "We will post the updated policy on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one."
+          ]
+        },
+        {
+          "h": "Reviewing or changing your information",
+          "p": [
+            "Use the [contact form](/contact) to ask what information we have about you, or to ask us to update it."
+          ]
+        },
+        {
+          "h": "California privacy rights",
+          "p": [
+            "We have not confirmed whether the California Consumer Privacy Act (CCPA), as amended, applies to us. That depends on revenue and data-volume thresholds that are not stated here. The official figures are listed separately and are not blended: Civil Code §1798.140 uses $25,000,000 as adjusted; the California Privacy Protection Agency posts the adjusted amount, effective January 1, 2025, as $26,625,000; the California Attorney General’s FAQ still says “over $25 million.”",
+            "We do not sell personal information. Based on the tools we could confirm on this site, we do not share personal information for cross-context behavioral advertising as those terms are defined under California law.",
+            "If CCPA applies, California residents may have the right to know what personal information we collect and how we use and share it; to delete it, with legal exceptions; to correct inaccurate information; to opt out of sale or sharing; to limit the use of sensitive personal information if we collect it for purposes that require that choice; and not to be discriminated against for exercising those rights.",
+            "To make a request, use the [contact form](/contact). You do not need an account. An authorized agent may submit a request on your behalf.",
+            "Notice at collection, if CCPA applies: we collect the categories of information listed under “Information we collect” above, and we use them for the purposes listed under “How we use it.”"
+          ]
+        },
+        {
+          "h": "Payments and refunds",
+          "p": [
+            "Refund, cancellation, and dispute terms for the $49 workshop, the $375 build, and the $79 / $199 advertising placements are on the [refund policy](/refund). Ad refund terms also appear in the [Ad Policy](/advertise/policy)."
           ]
         }
-      ],
-      "cta": false
+      ]
     },
     {
       "path": "/terms",
       "title": "Terms of use",
-      "summary": "Draft terms pending review. Content is general information, not professional advice.",
-      "flag": "Draft — pending legal review before launch.",
+      "summary": "Agents for Main Street is a StorenTech company. These terms apply to this website.",
+      "effectiveDate": "November 11, 2026",
+      "tldr": false,
+      "cta": false,
       "blocks": [
         {
           "p": [
-            "Content is provided for general information and may contain errors. Verify with official vendor documentation before acting."
+            "Agents for Main Street is a StorenTech company. These terms apply to this website."
+          ]
+        },
+        {
+          "h": "The information on this site",
+          "p": [
+            "Content on this site is general information and may contain errors. It is not professional advice. Check official vendor documentation before you act on a recipe or tip."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "The way to reach us is the [contact form](/contact)."
+          ],
+          "mailing": true
+        },
+        {
+          "h": "Builds and other work",
+          "p": [
+            "If you ask StorenTech AI to build an automation for you, that work is quoted and agreed separately. The live “Build it for me” page is a request form, not a checkout."
+          ]
+        },
+        {
+          "h": "Payments, refunds, cancellation, and disputes",
+          "p": [
+            "When we sell the $49 workshop or the $375 build, the refund, cancellation, and dispute terms on our [refund policy](/refund) apply. Online checkout for those offers is not live yet.",
+            "Work starts only after you finish the onboarding interview, and no sooner than 3 calendar days after payment lands (24 hours plus 2 days). Customers who cancel before work starts get a full refund, and we absorb the Stripe fee. Once work starts, there's no refund. Workshops keep the full refund for cancelling 7 or more days before the workshop date.",
+            "If you cancel less than 7 days before the workshop date, there's no refund, but you can move to a later workshop once.",
+            "For $79 and $199 advertising placements, the refund and cancellation terms in the [Ad Policy](/advertise/policy) and on the [refund policy](/refund) apply. Those placements are a one-time payment for a 30-day run, not a subscription, and they do not renew automatically. You only pay if we approve your ad and send you a Stripe payment link. Nothing is charged before that.",
+            "When a payment is taken, Stripe processes it through that payment link. We do not collect your card details on this website. Prices are in US dollars.",
+            "If you need to cancel, request a refund, or question a charge, use the [contact form](/contact)."
+          ]
+        },
+        {
+          "h": "Newsletter",
+          "p": [
+            "If you join the Agents for Main Street newsletter, we send a short email with site updates and practical ideas. Each newsletter identifies the sender as Agents for Main Street, a StorenTech company, includes the mailing address above, and includes a way to unsubscribe. The unsubscribe link stays available for at least 30 days after we send the message. We honor opt-out requests within 10 business days."
+          ]
+        },
+        {
+          "h": "Changes",
+          "p": [
+            "We may update these terms. We will post the updated terms on this page and update the effective date. For material changes, we will also mention the change in a newsletter issue when we send one."
+          ]
+        },
+        {
+          "h": "Questions",
+          "p": [
+            "Use the [contact form](/contact)."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "title": "Send us a message",
+      "summary": "Use this form to reach Agents for Main Street. We use the details you send only to reply to your message.",
+      "tldr": false,
+      "showMailingAddress": true,
+      "cta": false,
+      "blocks": [
+        {
+          "p": [
+            "Use this form to reach Agents for Main Street. We use the details you send only to reply to your message."
           ]
         }
       ],
-      "cta": false
+      "form": {
+        "title": "Contact form",
+        "fields": [
+          "Name",
+          "Email",
+          "Message"
+        ],
+        "button": "Send message",
+        "note": "We’ll only use these details to reply to your message. We don’t sell your information. See our [Privacy policy](/privacy).",
+        "live": "contact"
+      }
+    },
+    {
+      "path": "/refund",
+      "title": "Refund, cancellation, and disputes",
+      "summary": "Refund, cancellation, and dispute terms for the $49 workshop, the $375 build, and $79 / $199 advertising placements. Online checkout for the workshop and build is not live yet.",
+      "effectiveDate": "November 11, 2026",
+      "tldr": false,
+      "cta": false,
+      "blocks": [
+        {
+          "h": "$49 workshop and $375 build",
+          "p": [
+            "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today for them.",
+            "Work starts only after you finish the onboarding interview, and no sooner than 3 calendar days after payment lands (24 hours plus 2 days). Customers who cancel before work starts get a full refund, and we absorb the Stripe fee. Once work starts, there's no refund. Workshops keep the full refund for cancelling 7 or more days before the workshop date.",
+            "If you cancel less than 7 days before the workshop date, there's no refund, but you can move to a later workshop once.",
+            "If you already paid, or if you need to cancel or question a charge, use the [contact form](/contact)."
+          ],
+          "mailing": true
+        },
+        {
+          "h": "$49 workshop",
+          "p": [
+            "To cancel or request a refund, submit the [contact form](/contact) and include the name used on the order and the workshop date, if you have them."
+          ]
+        },
+        {
+          "h": "$375 build",
+          "p": [
+            "To cancel or request a refund, submit the [contact form](/contact) and include the name used on the order and a short description of the build."
+          ]
+        },
+        {
+          "h": "Advertising placements ($79 and $199)",
+          "p": [
+            "The live [advertise page](/advertise) offers a Sponsor slot at $79 for 30 days and Featured at $199 for 30 days. These are one-time payments for a 30-day run, not a subscription, and they do not renew automatically. You only pay if we approve your ad and send you a Stripe payment link. Nothing is charged before that.",
+            "If we reject your ad before it runs, you aren't charged. If you somehow already paid, you get a full refund.",
+            "If we remove a running ad, we refund the unused portion of your 30 days.",
+            "If you cancel after your ad starts running, that payment is not refunded.",
+            "We may reject any ad, or remove a running ad, at our discretion.",
+            "The version of the [Ad Policy](/advertise/policy) at the time you order applies to your run. To cancel, request a refund, or ask a question, use the [contact form](/contact)."
+          ]
+        },
+        {
+          "h": "Disputes",
+          "p": [
+            "If you have a question about a charge, including an ad-placement charge, start with the [contact form](/contact) so we can look up the order.",
+            "You may also contact your card issuer about a charge. If a card-network dispute is opened, we may share order and policy records with the payment processor and the card network to respond to the dispute.",
+            "When a payment is taken, Stripe processes it through a payment link we send after approval. We do not collect your card details on this website. Prices are in US dollars.",
+            "These terms do not limit any rights you may have under applicable law."
+          ]
+        }
+      ]
     },
     {
       "path": "/industries",

@@ -38,8 +38,8 @@ export default function BuildRequestForm() {
     <label>Industry<input name="industry" required maxLength={120} placeholder="e.g. Restaurant, contractor, salon" disabled={busy} /></label>
     <label>Recipe (optional)<textarea name="recipe" rows={3} maxLength={1000} placeholder="Which automation do you want built?" disabled={busy} /></label>
     <label>Budget range<select name="budget" required defaultValue="" disabled={busy}><option value="" disabled>Choose one</option>{BUDGETS.map(x => <option key={x}>{x}</option>)}</select></label>
-    <label>Email<input type="email" name="email" required maxLength={254} placeholder="you@example.com" disabled={busy} /></label>
-    <label>Phone<input type="tel" name="phone" required maxLength={40} autoComplete="tel" placeholder="(949) 555-1234" disabled={busy} /></label>
+    <label>Email<input type="email" name="email" required maxLength={254} autoComplete="email" disabled={busy} /></label>
+    <label>Phone<input type="tel" name="phone" required maxLength={40} autoComplete="tel" disabled={busy} /></label>
     <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px" }} />
     {SITE_KEY && <div ref={tsRef} style={{ margin: "12px 0" }} />}
     <label className="small brf-check"><input type="checkbox" name="consent" required disabled={busy} /><span>I agree to be contacted by StorenTech AI about this request.</span></label>

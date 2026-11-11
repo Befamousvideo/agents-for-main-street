@@ -6793,6 +6793,7 @@
           "p": [
             "When we sell the $49 workshop or the $375 build, the refund, cancellation, and dispute terms on our [refund policy](/refund) apply. Online checkout for those offers is not live yet.",
             "Work starts only after you finish the onboarding interview, and no sooner than 3 calendar days after payment lands (24 hours plus 2 days). Customers who cancel before work starts get a full refund, and we absorb the Stripe fee. Once work starts, there's no refund. Workshops keep the full refund for cancelling 7 or more days before the workshop date.",
+            "If you cancel less than 7 days before the workshop date, there's no refund, but you can move to a later workshop once.",
             "For $79 and $199 advertising placements, the refund and cancellation terms in the [Ad Policy](/advertise/policy) and on the [refund policy](/refund) apply. Those placements are a one-time payment for a 30-day run, not a subscription, and they do not renew automatically. You only pay if we approve your ad and send you a Stripe payment link. Nothing is charged before that.",
             "When a payment is taken, Stripe processes it through that payment link. We do not collect your card details on this website. Prices are in US dollars.",
             "If you need to cancel, request a refund, or question a charge, use the [contact form](/contact)."
@@ -6857,6 +6858,7 @@
           "p": [
             "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today for them.",
             "Work starts only after you finish the onboarding interview, and no sooner than 3 calendar days after payment lands (24 hours plus 2 days). Customers who cancel before work starts get a full refund, and we absorb the Stripe fee. Once work starts, there's no refund. Workshops keep the full refund for cancelling 7 or more days before the workshop date.",
+            "If you cancel less than 7 days before the workshop date, there's no refund, but you can move to a later workshop once.",
             "If you already paid, or if you need to cancel or question a charge, use the [contact form](/contact)."
           ],
           "mailing": true

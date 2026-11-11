@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 10, 2026",
+  "updated": "November 11, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -160,7 +160,8 @@
         {
           "h": "Related recipes",
           "ul": [
-            "Let customers book holiday appointments themselves with a free Google Calendar booking page"
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+            "Recover failed membership and subscription card payments automatically"
           ]
         }
       ],
@@ -176,7 +177,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=rebooking-nudge"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/clinics/appointment-prep-faq",
@@ -311,7 +312,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         }
       ],
@@ -327,7 +329,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-review-replies"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/law-firms/intake-form-summarizer",
@@ -603,14 +605,16 @@
         {
           "h": "Recipes",
           "ul": [
-            "Send a personalized rebooking nudge to salon clients — A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
+            "Send a personalized rebooking nudge to salon clients — A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link.",
+            "Recover failed membership and subscription card payments automatically"
           ]
         },
         {
           "h": "Tips for salons",
           "ul": [
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         }
       ],
@@ -620,7 +624,7 @@
           "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
         }
       ],
-      "updated": "2026-11-09",
+      "updated": "2026-11-11",
       "seoTitle": "AI automations for salons: no-code recipes and local tips"
     },
     {
@@ -810,7 +814,8 @@
           "ul": [
             "AI virtual receptionist that answers FAQs and books on Google Calendar — Use an AI receptionist to answer common questions from a business-info sheet, check Google Calendar availability, book appointments, and log every conversation to Sheets.",
             "Send polite overdue-invoice reminders automatically — built-in reminders first, then a before/on/after due-date schedule, with an owner-approved note at 30 days.",
-            "Get every voicemail transcribed and emailed to whoever calls back"
+            "Get every voicemail transcribed and emailed to whoever calls back",
+            "Recover failed membership and subscription card payments automatically"
           ]
         }
       ],
@@ -820,7 +825,7 @@
           "a": "An AI receptionist that answers approved FAQs and books on Google Calendar, with a human handoff for anything outside the sheet."
         }
       ],
-      "updated": "2026-11-10"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/retail",
@@ -870,7 +875,8 @@
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "Draft a December “year in review” email now—your shop’s own highlights are enough"
+            "Draft a December “year in review” email now—your shop’s own highlights are enough",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         }
       ],
@@ -880,7 +886,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -1017,7 +1023,8 @@
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "Draft a December “year in review” email now—your shop’s own highlights are enough"
+            "Draft a December “year in review” email now—your shop’s own highlights are enough",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         }
       ],
@@ -1027,7 +1034,7 @@
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
       ],
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "seoTitle": "AI automations for restaurants: holiday-ready no-code recipes"
     },
     {
@@ -1180,7 +1187,8 @@
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "Draft a December “year in review” email now—your shop’s own highlights are enough"
+            "Draft a December “year in review” email now—your shop’s own highlights are enough",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         }
       ],
@@ -1190,8 +1198,8 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-10",
-      "seoTitle": "AI automations for local businesses: no-code recipes, step by step"
+      "updated": "2026-11-11",
+      "seoTitle": "AI automations for local businesses: no-code recipes"
     },
     {
       "path": "/industries/local-business/review-request-follow-up",
@@ -1316,7 +1324,8 @@
             "Follow up on sent quotes automatically",
             "Chase clients for missing documents automatically",
             "Capture receipts by photo or email and file them for your bookkeeper",
-            "Collect W-9s from contractors before year-end, automatically"
+            "Collect W-9s from contractors before year-end, automatically",
+            "Recover failed membership and subscription card payments automatically"
           ]
         },
         {
@@ -1338,7 +1347,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=overdue-invoice-reminders"
       },
-      "updated": "2026-10-17"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/clinics/appointment-no-show-reminders",
@@ -1384,7 +1393,8 @@
             "Answer pre-visit questions with an approved-document FAQ assistant for a clinic",
             "Send reservation reminders that cut restaurant no-shows",
             "Remind patients to use their FSA money before the plan year ends",
-            "Let customers book holiday appointments themselves with a free Google Calendar booking page"
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+            "Recover failed membership and subscription card payments automatically"
           ]
         }
       ],
@@ -1408,7 +1418,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=appointment-no-show-reminders"
       },
-      "updated": "2026-10-18",
+      "updated": "2026-11-11",
       "seoTitle": "Clinic no-show reminders: a layered reminder sequence"
     },
     {
@@ -1705,7 +1715,8 @@
           "ul": [
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         }
       ],
@@ -1729,7 +1740,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-hours-everywhere"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/service-businesses/how-did-you-hear-tracking",
@@ -1824,7 +1835,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-10"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2857,7 +2868,8 @@
             "Answer Facebook and Instagram messages after hours with an away message and FAQ replies",
             "Schedule your holiday offers and events as Google Business Profile posts",
             "Set a Shopify Black Friday automatic discount with Active dates",
-            "Publish your return-and-exchange policy before Black Friday ads go live"
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Recover failed membership and subscription card payments automatically"
           ]
         },
         {
@@ -2888,14 +2900,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=egift-card-delivery"
       },
-      "updated": "2026-10-24"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/php-security-update-oct-2026",
       "group": "tips",
       "label": "Tip · Any business",
       "title": "Ask your web host to confirm your site got this week's critical PHP security update",
-      "seoTitle": "Critical PHP update, Oct 2026: what small business sites should do",
+      "seoTitle": "Critical PHP update, Oct 2026: what small business sites must do",
       "summary": "On October 21, 2026, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two critical flaws that can let an attacker run code on a web server without logging in. If your website runs on PHP (most WordPress and many hosted sites do), ask your host or developer to confirm it's updated. It's a five-minute email.",
       "blocks": [
         {
@@ -2980,14 +2992,14 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-php-security-update-oct-2026"
       },
-      "updated": "2026-10-24"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/local-business/verify-bank-change-requests",
       "group": "recipes",
       "label": "Any local business",
       "title": "Hold every \"new bank details\" email until someone calls to verify",
-      "seoTitle": "Stop payment-change email scams: an automatic verify-before-pay hold",
+      "seoTitle": "Stop payment-change email scams with a verify-before-pay hold",
       "summary": "Scammers send emails that look like they're from a vendor, landlord or even the owner, asking you to pay to a \"new\" bank account. This recipe flags any email that mentions changed payment details, puts the payment on hold, and reminds staff to call the sender at a number you already have on file before a single dollar moves. The FBI and FTC both recommend this kind of second-channel check.",
       "steps": [
         "Make a simple vendor contact sheet (Google Sheets or Airtable) with each vendor's known phone number, taken from a contract or past invoice, not from a new email.",
@@ -3068,7 +3080,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=verify-bank-change-requests"
       },
-      "updated": "2026-10-25",
+      "updated": "2026-11-11",
       "image": {
         "src": "/images/bank-branch-front.webp",
         "alt": "Front entrance of a red-brick neighborhood bank branch on a main street",
@@ -3081,7 +3093,7 @@
       "group": "tips",
       "label": "Tip · Restaurants and experiences",
       "title": "Sell experience gifts and restaurant gift cards early this holiday season",
-      "seoTitle": "Holiday 2026: half of shoppers plan to gift experiences (Deloitte survey)",
+      "seoTitle": "Holiday 2026: shoppers plan to gift experiences (Deloitte survey)",
       "summary": "Deloitte's 2026 Holiday Retail Survey found that 50% of shoppers plan to give an experience this year, and restaurant gift cards or in-person meals top the list at 37%. If you run a restaurant, salon, studio or any business people visit, put your gift cards and experience packages in front of customers now, before Thanksgiving week.",
       "blocks": [
         {
@@ -3192,7 +3204,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-experience-gifts-restaurant-gift-cards-2026"
       },
-      "updated": "2026-10-28",
+      "updated": "2026-11-11",
       "image": {
         "src": "/images/gift-card-wall.webp",
         "alt": "Store gift card display with cards for a favorite restaurant, fast food, online store, coffee shop and more",
@@ -3205,7 +3217,7 @@
       "group": "recipes",
       "label": "Retail",
       "title": "Show holiday ship-by dates on your site and order emails automatically",
-      "seoTitle": "USPS 2026 holiday shipping deadlines: auto-show ship-by dates to shoppers",
+      "seoTitle": "USPS 2026 holiday shipping deadlines: auto-show ship-by dates",
       "summary": "USPS recommends sending by Dec. 17 (Ground Advantage and First-Class Mail), Dec. 18 (Priority Mail) or Dec. 19 (Priority Mail Express) for expected delivery before Dec. 25 in the lower 48 states. This recipe turns those dates, minus your own packing time, into a countdown banner, a line in every order confirmation, and an automatic switch to \"local pickup or e-gift card\" messaging once the last safe day has passed.",
       "steps": [
         "Write down your own order cutoff for each shipping option: the USPS send-by date minus the days you need to pack and hand off orders. Keep it in one Google Sheet so every tool reads the same dates.",
@@ -3304,7 +3316,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-ship-by-dates"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/local-business/domain-ssl-expiry-alerts",
@@ -3405,7 +3417,7 @@
       "group": "tips",
       "label": "Tip · Any local business",
       "title": "Keep reviews out of your holiday giveaways and discounts",
-      "seoTitle": "Holiday promo check: Google bans discounts or giveaways for reviews",
+      "seoTitle": "Holiday promo check: Google bans discounts for reviews",
       "summary": "Holiday giveaways and \"leave us a review, get 10% off\" offers are tempting, but Google's rules don't allow offering any discount, freebie or payment in exchange for a review, or asking only your happy customers. Google can remove those reviews and restrict your Business Profile. Ask everyone, offer nothing for it, and keep your holiday deals separate.",
       "blocks": [
         {
@@ -3495,7 +3507,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-no-review-incentives-holiday-promos"
       },
-      "updated": "2026-10-26"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/local-business/seasonal-hire-paperwork",
@@ -3733,7 +3745,8 @@
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Show holiday ship-by dates on your site and order emails automatically",
             "Sell and deliver e-gift cards automatically this holiday season",
-            "Hold every \"new bank details\" email until someone calls to verify"
+            "Hold every \"new bank details\" email until someone calls to verify",
+            "Recover failed membership and subscription card payments automatically"
           ]
         }
       ],
@@ -3763,7 +3776,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=card-testing-alerts"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/thanksgiving-early-access-best-customers",
@@ -4704,7 +4717,8 @@
             "Send a personalized rebooking nudge to salon clients",
             "AI virtual receptionist that answers FAQs and books on Google Calendar",
             "Cut clinic no-shows with a layered appointment reminder sequence",
-            "Set holiday hours everywhere and answer \"Are you open?\" automatically"
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Recover failed membership and subscription card payments automatically"
           ]
         }
       ],
@@ -4734,7 +4748,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-calendar-booking-page"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/google-review-qr-code-counter-card",
@@ -5007,7 +5021,7 @@
       "group": "recipes",
       "label": "Retail",
       "title": "Turn repeated support questions into a pre-purchase FAQ page before Black Friday",
-      "seoTitle": "Pre-purchase FAQ from support questions before Black Friday (2026 how-to)",
+      "seoTitle": "Pre-purchase FAQ from support questions before Black Friday",
       "summary": "Shoppers researching furniture, appliances, spa packages or other higher-ticket items ask the same how-it-works, comparison, shipping and return questions for weeks before they buy. Before Black Friday ads go live, pull those repeats from email, DMs and reviews into a Google Sheet, write plain answers, then publish a visible FAQ or how-it-works page on your store so the sale does not have to explain everything from scratch.",
       "steps": [
         "Open last 30–90 days of support email, chat, DMs, review comments and sales notes. List every question that came up more than once about how something works, what’s included, how it compares, shipping timing, returns, warranties or setup.",
@@ -5104,7 +5118,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=pre-purchase-faq-from-support"
       },
-      "updated": "2026-11-04"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/answer-buyer-questions-before-black-friday",
@@ -5197,7 +5211,7 @@
       "group": "recipes",
       "label": "Retail",
       "title": "Set a Shopify Black Friday automatic discount with Active dates",
-      "seoTitle": "Shopify Black Friday automatic discount with Active dates (2026 how-to)",
+      "seoTitle": "Shopify Black Friday automatic discount with Active dates",
       "summary": "Black Friday and Cyber Monday shoppers expect the sale price to appear in the cart without hunting for a code. Shopify lets you create an amount-off automatic discount, give it a customer-facing title, and set Active dates so it turns on and off on your published schedule. Pair a public automatic discount for the open sale with a separate code if you want VIP early access.",
       "steps": [
         "Decide the public offer (for example percentage or fixed amount off orders or a sale collection) and write the exact start and end times in your store’s admin time zone. Confirm that zone under Shopify Settings > General so midnight in your emails matches midnight in Discounts.",
@@ -5295,14 +5309,14 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=black-friday-automatic-discount"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/answer-one-homepage-question",
       "group": "tips",
       "label": "Tip · Any business",
       "title": "Answer the one question every first-time visitor asks at the top of your homepage",
-      "seoTitle": "Answer the one homepage question visitors ask first (Main Street tip 2026)",
+      "seoTitle": "Answer the one homepage question visitors ask first (2026 tip)",
       "summary": "First-time visitors often stall on one unanswered question—“Will it fit?” “Do you serve my area?” “What’s included?”—before they scroll. Conversion Rate Experts’ DiamondBack Covers win report shows how surfacing that single question (and answering it) at the top of the homepage can remove the blocker. Find your one question from real visitors, then put a plain-English answer above the fold.",
       "blocks": [
         {
@@ -5380,14 +5394,14 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/retail/feature-benefit-product-gallery",
       "group": "recipes",
       "label": "Retail",
       "title": "Put a feature-benefit card in your product gallery before Black Friday",
-      "seoTitle": "Feature-benefit product gallery image before Black Friday (2026 how-to)",
+      "seoTitle": "Feature-benefit product gallery images before Black Friday",
       "summary": "Holiday shoppers spend most of their attention on the product image gallery—and often never scroll to the selling points buried lower on the page. Conversion Rate Experts’ DiamondBack Covers win report shows how replacing an early gallery slot with a simple feature-plus-benefit card can lift conversions when those messages would otherwise stay below the fold. Build one card from what buyers already tell you, place it near the top of the gallery, and keep the wording honest.",
       "steps": [
         "Pull the top reasons people already buy from you: post-purchase surveys, Google reviews, sales-call notes and returns reasons. Write the three or four messages that show up most (security, fit, durability, what’s included, ship-by timing).",
@@ -5478,7 +5492,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=feature-benefit-product-gallery"
       },
-      "updated": "2026-11-06"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/reply-every-google-review",
@@ -5720,7 +5734,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Use Thanksgiving week to thank your best customers with early access",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         },
         {
@@ -5759,14 +5774,14 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-ai-check-landing-pages-before-ads"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/retail/holiday-return-policy-before-ads",
       "group": "recipes",
       "label": "Retail shops",
       "title": "Publish your return-and-exchange policy before Black Friday ads go live",
-      "seoTitle": "Publish your return policy before Black Friday ads (Shopify how-to)",
+      "seoTitle": "Publish your return policy before Black Friday ads (Shopify)",
       "summary": "Holiday shoppers check return rules before they buy, and Black Friday ads that promise “easy returns” have to match what your store actually does. Shopify’s Terms of Service require a current, public refund policy that is easy to find. Write down your real rules, set them in Settings → Policies, publish the written return and refund policy (automated or edited by you), link it in your menu, and read your ads against it before Cyber Week (Thanksgiving November 26 through Cyber Monday November 30).",
       "steps": [
         "Write down the rules you will actually follow this season: how many days customers have, whether the window starts on purchase, shipment or delivery, who pays return shipping, any restocking fee, what counts as final sale, how gift returns work, and whether you will extend the window for holiday purchases.",
@@ -5865,7 +5880,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-return-policy-before-ads"
       },
-      "updated": "2026-11-08"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/claim-keep-yelp-current",
@@ -5918,7 +5933,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         },
         {
@@ -5952,7 +5968,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-claim-keep-yelp-current"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/tips/say-who-you-serve-ai-answers",
@@ -6001,7 +6017,8 @@
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Get your products into Google's free listings before holiday shoppers start searching"
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
           ]
         },
         {
@@ -6034,7 +6051,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-say-who-you-serve-ai-answers"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-11"
     },
     {
       "path": "/industries/retail/back-in-stock-alerts",
@@ -6397,6 +6414,184 @@
         "href": "/build-it-for-me?recipe=voicemail-transcripts-by-email"
       },
       "updated": "2026-11-10"
+    },
+    {
+      "path": "/tips/claim-your-business-in-chatgpt",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+      "seoTitle": "Claim your business in ChatGPT: small business how-to (2026)",
+      "summary": "On November 10, 2026, OpenAI opened a beta called Businesses in ChatGPT. Through a new Business Hub, an owner or authorized representative can claim the business, verify it, and correct the details ChatGPT shows—website, description, category, logo, delivery and return policies. After an identity check you also get basic counts of how often ChatGPT mentions you and how many people click through to your site. It is free to claim, but OpenAI says it does not guarantee more recommendations. Claim it before someone else does, and make sure the details match your website and Google listing.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Control over the official facts ChatGPT shows when holiday shoppers ask about your business, a blue check once you are verified, and your first real numbers from OpenAI on how often you come up and how many people click to your website—without paying for ads or an agency."
+          ]
+        },
+        {
+          "h": "How to do it (about 30 minutes, plus review time)",
+          "ul": [
+            "Sign in to ChatGPT with an account you will keep (ideally a business email, not a departing employee’s), open Business Hub from the sidebar and search for your business by name.",
+            "Pick the listing that matches your business. OpenAI says local stores and restaurants can currently claim only an existing U.S. listing; online businesses may be able to add one.",
+            "Verify that you represent the business using one of the methods offered—a code by text or automated call to your business phone, a code to your business email, a DNS TXT record on your website domain, or your Shopify store. If someone else manages your domain, ask them to add the record.",
+            "Wait for OpenAI to approve the claim by email, then complete the separate identity check with Persona. You may need a government ID, business registration details and proof you are authorized. Make sure the business name and address match your official records.",
+            "Once approved, update your website, description, category, logo, cover photo, and delivery and return policies. Use the same plain who-we-serve sentence, hours and service area you use on your website and Google Business Profile.",
+            "If you sell products online, you can connect a product feed (CSV or Shopify) with prices and availability. Check that sale prices and stock are current before Black Friday.",
+            "Open Insights once a month to see mentions and website clicks for the past 28 days. A blank number can just mean activity has not reached OpenAI’s reporting threshold yet.",
+            "Write down who has access. The admin who claimed the business can add teammates and grant an agency access; each person should use their own ChatGPT account."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Claiming is optional and does not buy you placement: OpenAI says ChatGPT still makes its own independent recommendations and that ads do not influence those answers. Do not skip your Google Business Profile, Yelp or website for this. OpenAI reviews every change, so updates can take time to show up, and ChatGPT may still use other sources. Watch for pitches from anyone charging to “get you into ChatGPT”—claiming is free. If your business is already claimed by someone else, such as a former agency or reseller, use the Dispute ownership option on the profile rather than creating a duplicate. Business Agents (a chat bot for your business inside ChatGPT) and ChatGPT Ads are separate, optional steps; Business Agents are currently limited to eligible U.S. ecommerce and online service businesses. Only share information you are comfortable making public."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "OpenAI (November 10, 2026): Introducing Businesses in ChatGPT — https://openai.com/index/introducing-businesses-chatgpt",
+            "OpenAI Help Center: Setting up your business on ChatGPT — https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt",
+            "OpenAI: Businesses in ChatGPT — https://openai.com/business/businesses-in-chatgpt/",
+            "Last checked at the source: November 11, 2026. Backlog item TB-091 (found via TLDR Marketing, November 11, 2026)."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Draft replies to new Google reviews for approval"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does it cost anything to claim my business in ChatGPT?",
+          "a": "OpenAI says you do not need an ads account or a ChatGPT Enterprise agreement to claim an eligible business. Advertising and Business Agents are separate, optional steps."
+        },
+        {
+          "q": "Will claiming make ChatGPT recommend my business more?",
+          "a": "No guarantee. OpenAI says claiming lets you manage the information you provide, but ChatGPT keeps making independent recommendations. Accurate, consistent details everywhere you are listed are still your best bet."
+        },
+        {
+          "q": "Can I see what customers asked ChatGPT about me?",
+          "a": "No. OpenAI says businesses get aggregate counts and broad discovery topics, not individual prompts or conversations."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-claim-your-business-in-chatgpt.webp",
+        "alt": "A smiling bakery owner in an apron at a flour-dusted counter looking at a laptop showing a blurred chat assistant and a business profile card with a blue check, pastry cases and holiday string lights behind her, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI helps you claim and verify your business in ChatGPT, lines up your description, hours and policies with your website and Google listing, and sets a monthly check of your ChatGPT mentions and clicks—within 7 days. You approve every detail before it is submitted.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-claim-your-business-in-chatgpt"
+      },
+      "updated": "2026-11-11"
+    },
+    {
+      "path": "/industries/service-businesses/failed-payment-recovery",
+      "group": "recipes",
+      "label": "Service businesses",
+      "title": "Recover failed membership and subscription card payments automatically",
+      "seoTitle": "Failed payment recovery for memberships with Stripe (how-to)",
+      "summary": "If you bill members or subscribers by card—a gym, studio, salon membership, lawn plan or monthly service—some renewals fail every month because of expired cards or declines. If you bill through Stripe, you can let it retry failed payments automatically, email the customer a secure link to update their card after each failure, warn them before a card expires, and decide what happens if every retry fails. Set it up once before the holidays, when gift spending and travel make declines more likely to go unnoticed.",
+      "steps": [
+        "In the Stripe Dashboard, go to Billing → Revenue recovery → Retries. Stripe turns on Smart Retries by default for new accounts (up to 8 retries within 2 weeks); confirm it is on, or set your own schedule.",
+        "Choose what happens when the last retry fails: cancel the subscription, mark it unpaid, leave it past due, or pause it if eligible. For memberships, pausing or leaving past due usually gives you time to reach the customer personally.",
+        "In the revenue recovery settings, turn on Send emails when card payments fail. Stripe emails the customer after each failed payment with a link to update their payment method.",
+        "Under Email notifications and customer management, turn on Send emails about expiring cards (sent about a month before the card on file expires) and, if you want, renewal reminders.",
+        "Set the update-card link to the Stripe-hosted Customer Portal (or your own page), and check your branding settings so the emails show your business name and logo.",
+        "Test it in a Stripe sandbox using the confirmed email of a team member, so you see exactly what customers will receive.",
+        "Once a week, filter Subscriptions by Past due and call or text anyone a retry has not fixed. A friendly personal note works better than a third automated email.",
+        "Optional automation: if you use Zapier or Make with Stripe, a failed-invoice event can create a task for your front desk with the customer’s name—keep card details out of the task."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a Stripe account that bills subscriptions or recurring invoices. Zapier or Make only for the optional front-desk task. Costs: see Stripe’s current Billing pricing and each tool’s pricing page. If you bill through another payment system (Square, your booking software), look for its equivalent automatic retry and expired-card email settings; the weekly past-due check works the same way."
+          ]
+        },
+        {
+          "h": "What's confirmed (source)",
+          "ul": [
+            "Smart Retries automatically retry failed subscription and invoice payments, including subscriptions created with payment links, and are on by default for new Stripe accounts (up to 8 retries within 2 weeks).",
+            "Stripe does not retry when there is no payment method or the issuer returns a hard decline (such as a lost or stolen card); those retries only run after the customer adds a new payment method.",
+            "When retries run out, you can cancel the subscription, mark it unpaid, leave it past due, or pause it if eligible.",
+            "With failed-payment emails turned on, Stripe emails the customer after each failed payment with a chance to update their payment method.",
+            "Expiring-card emails go out one month before the default card on file expires. Stripe keeps logs of these emails for 60 days on the Customers page."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Never ask customers to send card numbers by text, email or phone message. Point them only to the secure update link.",
+            "Tell members in your terms what happens after a failed payment (for example, their membership pauses), and follow those terms.",
+            "Watch for fake “update your card” emails that copy your branding; tell customers your real emails only link to your Stripe-hosted page or your own site.",
+            "If a customer disputes a charge instead of updating their card, handle it in Stripe’s disputes area rather than retrying manually."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Stripe Docs: Automate payment retries — https://docs.stripe.com/billing/revenue-recovery/smart-retries",
+            "Stripe Docs: Automate customer emails — https://docs.stripe.com/billing/revenue-recovery/customer-emails",
+            "Stripe Docs: Provide a customer portal to your customers — https://docs.stripe.com/customer-management",
+            "Checked at the source on November 11, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send polite overdue-invoice reminders automatically",
+            "Send a personalized rebooking nudge to salon clients",
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+            "Cut clinic no-shows with a layered appointment reminder sequence",
+            "Get an alert when card testers hit your online checkout",
+            "Sell and deliver e-gift cards automatically this holiday season"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will automatic retries annoy my customers?",
+          "a": "Retries happen in the background. Customers only hear from you if you turn on failed-payment emails, which give them a link to fix the card. Keep any personal follow-up short and friendly."
+        },
+        {
+          "q": "Can AI write my failed-payment messages?",
+          "a": "Yes, an AI tool can draft a warm, short note in your voice. Give it no customer names or card details, and review it before you save it as a template."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/failed-payment-recovery.webp",
+        "alt": "A fitness studio owner sitting at her front desk with rolled yoga mats and plants behind her, reviewing a tablet showing a blurred billing list with a few amber warning dots, soft daylight, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=failed-payment-recovery"
+      },
+      "updated": "2026-11-11"
     }
   ],
   "static": [

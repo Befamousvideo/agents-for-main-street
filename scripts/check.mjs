@@ -64,27 +64,60 @@ function unitAffiliate() {
 const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
 const PHONE_RE = /(?:\+1[\s.-]?)?(?:\(?\d{3}\)?[\s.-]?)\d{3}[\s.-]\d{4}/g;
 const CARD_RE = /\b(?:\d[ -]*?){13,19}\b/g;
-const ALLOWED_EMAIL = new Set([
-  "you@example.com",
-  "vincent@storentech.com",
-  "ads@agentsformainstreet.com",
-  "requests@agentsformainstreet.com"
-]);
+const ALLOWED_EMAIL_RE = /@(?:example|agentsformainstreet|storentech)\.com$/i;
 const ALLOWED_PHONE = new Set(["(949) 555-1234"]);
+const B64_RE = /[A-Za-z0-9+/]{16,}={0,2}/g;
+const HEX_RE = /\b(?:[0-9a-fA-F]{2}){8,64}\b/g;
+const FROM_CHAR_RE = /(?:String\.)?fromCharCode\s*\(([\d\s,]+)\)/g;
+
+function allowedEmail(e) {
+  return ALLOWED_EMAIL_RE.test(String(e || "").trim());
+}
+
+function emailsInDecoded(raw) {
+  const s = String(raw || "").replace(/[\u0000-\u001f]+/g, "").trim();
+  if (!s || s.length > 80 || !/^[ -~]+$/.test(s)) return [];
+  const m = s.match(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/);
+  return m ? [m[0]] : [];
+}
+
+function encodedEmails(text) {
+  const found = [];
+  for (const tok of text.match(B64_RE) || []) {
+    if (tok.length % 4) continue;
+    try { found.push(...emailsInDecoded(Buffer.from(tok, "base64").toString("utf8"))); }
+    catch {}
+  }
+  for (const tok of text.match(HEX_RE) || []) {
+    if (tok.length % 2) continue;
+    try { found.push(...emailsInDecoded(Buffer.from(tok, "hex").toString("utf8"))); }
+    catch {}
+  }
+  for (const m of text.matchAll(FROM_CHAR_RE)) {
+    const codes = m[1].split(",").map(n => Number(n.trim())).filter(n => Number.isInteger(n) && n >= 0 && n <= 0x10ffff);
+    if (!codes.length) continue;
+    try { found.push(...emailsInDecoded(String.fromCharCode(...codes))); }
+    catch {}
+  }
+  return [...new Set(found)];
+}
 
 function scanPii(label, text, { allowExisting = false } = {}) {
   const stripped = text.replace(/https?:\/\/[^\s"'<>]+/g, " ");
   const emails = [...new Set((stripped.match(EMAIL_RE) || []))];
   const phones = [...new Set((stripped.match(PHONE_RE) || []))];
   const cards = [...new Set((stripped.match(CARD_RE) || []))];
-  const extraEmail = allowExisting ? emails.filter(e => !ALLOWED_EMAIL.has(e)) : emails;
+  const extraEmail = allowExisting ? emails.filter(e => !allowedEmail(e)) : emails;
   const extraPhone = allowExisting ? phones.filter(p => !ALLOWED_PHONE.has(p)) : phones;
   const extraCard = cards.filter(c => {
     const digits = c.replace(/\D/g, "");
     return digits.length >= 13 && digits.length <= 19 && !/^0+$/.test(digits);
   });
+  const extraEncoded = encodedEmails(stripped);
   if (extraEmail.length) fail(`${label} emails: ${extraEmail.join(", ")}`);
   else ok(`${label} no unexpected emails`);
+  if (extraEncoded.length) fail(`${label} encoded emails`);
+  else ok(`${label} no encoded emails`);
   if (extraPhone.length) fail(`${label} phones: ${extraPhone.join(", ")}`);
   else ok(`${label} no unexpected phones`);
   if (extraCard.length) fail(`${label} card-like: ${extraCard.join(", ")}`);

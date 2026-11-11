@@ -2,8 +2,10 @@ import { put, list, del, get } from "@vercel/blob";
 import { createHmac, timingSafeEqual } from "crypto";
 import site from "../content/site.json";
 import { SELF } from "./network";
-export const NOTIFY = "vincent@storentech.com";
 export const FROM = `${site.name} Ads <ads@agentsformainstreet.com>`;
+export function notifyTo() {
+  return String(process.env.NOTIFY_TO || "").trim();
+}
 export const BASE = `https://${site.domain}`;
 export const PLANS = {
   rotating: { id: "rotating", name: "Sponsor slot (rotating)", price: 7900, days: 30, desc: "Your ad rotates in the ad spot on content pages for 30 days." },
@@ -46,6 +48,14 @@ export async function send(to, subject, html, replyTo) {
   if (!r.ok) console.error("resend failed", r.status, await r.text().catch(() => ""));
   return r.ok;
 }
+export async function notify(subject, html, replyTo) {
+  const to = notifyTo();
+  if (!to) {
+    console.warn("notify skipped: NOTIFY_TO is not set");
+    return false;
+  }
+  return send(to, subject, html, replyTo);
+}
 export const stripeReady = () => !!process.env.STRIPE_SECRET_KEY;
 export async function stripe(path, params, method = "POST") {
   const r = await fetch(`https://api.stripe.com/v1/${path}`, { method, headers: { Authorization: `Bearer ${process.env.STRIPE_SECRET_KEY}`, ...(method === "POST" ? { "Content-Type": "application/x-www-form-urlencoded" } : {}) },
@@ -57,7 +67,7 @@ export async function activate(order, from, info = {}) {
   const days = (PLANS[order.plan] || PLANS.rotating).days;
   const o = { ...order, ...info, paidAt: now.toISOString(), startsAt: start.toISOString(), expiresAt: new Date(start.getTime() + days * 864e5).toISOString() };
   await moveOrder(o, from, "active");
-  await send(NOTIFY, `Ad paid and scheduled: ${o.business} (${site.name})`, `<p>${esc(o.business)} paid for "${esc(PLANS[o.plan]?.name)}". The ad runs ${esc(o.startsAt.slice(0, 10))} to ${esc(o.expiresAt.slice(0, 10))}.</p><p>Remove it early: <a href="${adminLink(o.id, "remove")}">remove ad</a></p>`);
+  await notify(`Ad paid and scheduled: ${o.business} (${site.name})`, `<p>${esc(o.business)} paid for "${esc(PLANS[o.plan]?.name)}". The ad runs ${esc(o.startsAt.slice(0, 10))} to ${esc(o.expiresAt.slice(0, 10))}.</p><p>Remove it early: <a href="${adminLink(o.id, "remove")}">remove ad</a></p>`);
   await send(o.email, `Your ad on ${site.name} is scheduled`, `<p>Hi ${esc(o.name)},</p><p>Thanks, payment received. Your ad will run from ${esc(o.startsAt.slice(0, 10))} to ${esc(o.expiresAt.slice(0, 10))}, labeled "Ad".</p><p>— ${esc(site.name)}</p>`);
   return o;
 }

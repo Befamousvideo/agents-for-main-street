@@ -4,8 +4,10 @@ import { resolveMx } from "dns/promises";
 import { parsePhoneNumberFromString } from "libphonenumber-js";
 export const runtime = "nodejs";
 const EMAIL = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/;
-const NOTIFY = "vincent@storentech.com";
 const FROM = "Agents for Main Street <requests@agentsformainstreet.com>";
+function notifyTo() {
+  return String(process.env.NOTIFY_TO || "").trim();
+}
 const BUDGETS = ["Under $500", "$500–$1,500", "$1,500–$5,000", "$5,000+", "Not sure yet"];
 const DISPOSABLE = new Set(["mailinator.com","guerrillamail.com","guerrillamail.net","sharklasers.com","10minutemail.com","10minutemail.net","tempmail.com","temp-mail.org","temp-mail.io","yopmail.com","yopmail.net","trashmail.com","getnada.com","nada.email","dispostable.com","maildrop.cc","throwawaymail.com","fakeinbox.com","mailnesia.com","mintemail.com","emailondeck.com","mohmal.com","tempail.com","tempr.email","discard.email","spamgourmet.com","getairmail.com","moakt.com","burnermail.io","mailpoof.com","inboxkitten.com","1secmail.com","tempmailo.com","minuteinbox.com","mail.tm","emailfake.com","grr.la","guerrillamailblock.com","spam4.me","mytemp.email"]);
 const MIN_FILL_MS = 3000;
@@ -31,6 +33,14 @@ async function send(to, subject, html, replyTo) {
     body: JSON.stringify({ from: FROM, to: [to], subject, html, ...(replyTo ? { reply_to: replyTo } : {}) }) });
   if (!r.ok) console.error("resend email failed", r.status, await r.text().catch(() => ""));
   return r.ok;
+}
+async function notify(subject, html, replyTo) {
+  const to = notifyTo();
+  if (!to) {
+    console.warn("notify skipped: NOTIFY_TO is not set");
+    return false;
+  }
+  return send(to, subject, html, replyTo);
 }
 export async function POST(req) {
   let b;
@@ -67,7 +77,7 @@ export async function POST(req) {
     const rows = [["Name", rec.name], ["Business", rec.business], ["Industry", rec.industry], ["Recipe", rec.recipe || "—"], ["Budget", rec.budget], ["Email", rec.email], ["Phone", rec.phone], ["ID", id]]
       .map(([k, v]) => `<tr><td><b>${k}</b></td><td>${esc(v)}</td></tr>`).join("");
     try {
-      notified = await send(NOTIFY, `New build request: ${rec.business}`, `<p>New "Request a build" submission on agentsformainstreet.com:</p><table cellpadding="4">${rows}</table>`, rec.email);
+      notified = await notify(`New build request: ${rec.business}`, `<p>New "Request a build" submission on agentsformainstreet.com:</p><table cellpadding="4">${rows}</table>`, rec.email);
       if (stored || notified) await send(rec.email, "We got your build request", `<p>Hi ${esc(rec.name)},</p><p>Thanks for your request for ${esc(rec.business)}. StorenTech AI will review it and follow up with a quote, usually within 2 business days.</p><p>— Agents for Main Street</p>`);
     } catch (e) { console.error("resend error", e && e.message); }
   }

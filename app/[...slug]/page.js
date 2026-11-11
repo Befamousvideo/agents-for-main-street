@@ -2,7 +2,7 @@ import site from "../../content/site.json";
 import { notFound } from "next/navigation";
 import BuildRequestForm from "../BuildRequestForm";
 import ContactForm from "../ContactForm";
-import { Newsletter, Cta, Sponsor, Block, MailingAddress } from "../components";
+import { Newsletter, Cta, Sponsor, Block, MailingAddress, EmailAddress } from "../components";
 import { allPages, pageAt, childrenOf, matchTitle, Listing, TaxListing, groupOf, Linked, pageDateIso, pageDateLabel, effectiveDateLabel } from "../nav";
 import Search from "../Search";
 const all = allPages;
@@ -49,6 +49,7 @@ export default async function Page({ params }) {
     {p.form && !p.form.live && <section className="card"><h2>{p.form.title}</h2>{p.form.fields.map(f => <label key={f}>{f}<input disabled placeholder={f} /></label>)}
       <button className="btn" type="button" disabled>{p.form.button}</button><p className="muted small"><Linked t={p.form.note} /></p></section>}
     {p.showMailingAddress && <MailingAddress />}
+    {p.path === "/contact" && <p><EmailAddress kind="ads" /></p>}
     {p.faq && <section><h2>FAQ</h2>{p.faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>}
     {p.group && <Sponsor />}
     {p.cta !== false && <Cta cta={p.cta || site.mainCta} />}

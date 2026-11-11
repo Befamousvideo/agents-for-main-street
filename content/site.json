@@ -6649,7 +6649,7 @@
       "path": "/privacy",
       "title": "Privacy policy",
       "summary": "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it.",
-      "effectiveDate": "[GO-LIVE DATE]",
+      "effectiveDate": "November 11, 2026",
       "tldr": false,
       "cta": false,
       "blocks": [
@@ -6760,7 +6760,7 @@
       "path": "/terms",
       "title": "Terms of use",
       "summary": "Agents for Main Street is a StorenTech company. These terms apply to this website.",
-      "effectiveDate": "[GO-LIVE DATE]",
+      "effectiveDate": "November 11, 2026",
       "tldr": false,
       "cta": false,
       "blocks": [
@@ -6792,6 +6792,7 @@
           "h": "Payments, refunds, cancellation, and disputes",
           "p": [
             "When we sell the $49 workshop or the $375 build, the refund, cancellation, and dispute terms on our [refund policy](/refund) apply. Online checkout for those offers is not live yet.",
+            "Work starts only after you finish the ONB1 interview, and no sooner than 3 calendar days after payment lands (24 hours plus 2 days). Customers who cancel before work starts get a full refund, and we absorb the Stripe fee. Once work starts, there's no refund. Workshops keep the full refund for cancelling 7 or more days ahead.",
             "For $79 and $199 advertising placements, the refund and cancellation terms in the [Ad Policy](/advertise/policy) and on the [refund policy](/refund) apply. Those placements are a one-time payment for a 30-day run, not a subscription, and they do not renew automatically. You only pay if we approve your ad and send you a Stripe payment link. Nothing is charged before that.",
             "When a payment is taken, Stripe processes it through that payment link. We do not collect your card details on this website. Prices are in US dollars.",
             "If you need to cancel, request a refund, or question a charge, use the [contact form](/contact)."
@@ -6854,6 +6855,7 @@
           "h": "$49 workshop and $375 build",
           "p": [
             "These terms will apply when Agents for Main Street sells the $49 workshop and the $375 build. Online checkout for those offers is not live yet, and this page does not mean that payment is being taken today for them.",
+            "Work starts only after you finish the ONB1 interview, and no sooner than 3 calendar days after payment lands (24 hours plus 2 days). Customers who cancel before work starts get a full refund, and we absorb the Stripe fee. Once work starts, there's no refund. Workshops keep the full refund for cancelling 7 or more days ahead.",
             "If you already paid, or if you need to cancel or question a charge, use the [contact form](/contact)."
           ],
           "mailing": true
@@ -6861,14 +6863,12 @@
         {
           "h": "$49 workshop",
           "p": [
-            "You may request a full refund of the $49 workshop fee if you are the payer and you cancel 7 or more days before a workshop, or before build work starts.",
             "To cancel or request a refund, submit the [contact form](/contact) and include the name used on the order and the workshop date, if you have them."
           ]
         },
         {
           "h": "$375 build",
           "p": [
-            "You may request a full refund of the $375 build fee if you are the payer and you cancel 7 or more days before a workshop, or before build work starts.",
             "To cancel or request a refund, submit the [contact form](/contact) and include the name used on the order and a short description of the build."
           ]
         },

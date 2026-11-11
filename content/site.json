@@ -6848,6 +6848,7 @@
       "path": "/refund",
       "title": "Refund, cancellation, and disputes",
       "summary": "Refund, cancellation, and dispute terms for the $49 workshop, the $375 build, and $79 / $199 advertising placements. Online checkout for the workshop and build is not live yet.",
+      "effectiveDate": "November 11, 2026",
       "tldr": false,
       "cta": false,
       "blocks": [

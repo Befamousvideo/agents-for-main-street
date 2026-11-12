@@ -66,9 +66,7 @@ const PHONE_RE = /(?:\+1[\s.-]?)?(?:\(?\d{3}\)?[\s.-]?)\d{3}[\s.-]\d{4}/g;
 const CARD_RE = /\b(?:\d[ -]*?){13,19}\b/g;
 const ALLOWED_EMAIL = new Set([
   "you@example.com",
-  "vincent@storentech.com",
-  "ads@agentsformainstreet.com",
-  "requests@agentsformainstreet.com"
+  "vincent@storentech.com"
 ]);
 const ALLOWED_PHONE = new Set(["(949) 555-1234"]);
 

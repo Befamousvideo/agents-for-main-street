@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 11, 2026",
+  "updated": "November 12, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -137,7 +137,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=missed-call-text-back"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-12",
+      "seoTitle": "HVAC missed-call text back: auto-reply to every missed call"
     },
     {
       "path": "/industries/salons/rebooking-nudge",
@@ -469,7 +470,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=quote-follow-up"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-11-12",
+      "seoTitle": "Contractor quote follow-up emails, sent automatically"
     },
     {
       "path": "/industries/retail/product-descriptions-alt-text",
@@ -621,7 +623,8 @@
           "ul": [
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         }
       ],
@@ -631,7 +634,7 @@
           "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
         }
       ],
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "seoTitle": "AI automations for salons: no-code recipes and local tips"
     },
     {
@@ -855,7 +858,8 @@
             "Set a Shopify Black Friday automatic discount with Active dates — Create a customer-facing automatic amount-off discount with Active dates so Black Friday prices apply in cart without a code.",
             "Put a feature-benefit card in your product gallery before Black Friday — Move your top feature–benefit pairs into an early product-gallery card so Black Friday shoppers see them without scrolling.",
             "Publish your return-and-exchange policy before Black Friday ads go live",
-            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items",
+            "Hold high-risk online orders for a quick review before they ship"
           ]
         },
         {
@@ -883,7 +887,8 @@
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         }
       ],
@@ -893,7 +898,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -1031,7 +1036,8 @@
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         }
       ],
@@ -1041,7 +1047,7 @@
           "a": "Reservation reminders, if your booking system doesn't already send them. Then add a weekly inventory variance alert."
         }
       ],
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "seoTitle": "AI automations for restaurants: holiday-ready no-code recipes"
     },
     {
@@ -1069,7 +1075,9 @@
           "q": "Which automation should I start with?",
           "a": "Start with the approved-document FAQ assistant for pre-visit questions, then add the layered appointment no-show reminder sequence once your messaging vendor and BAA are in place."
         }
-      ]
+      ],
+      "seoTitle": "AI automations for clinics: no-code front-desk recipes",
+      "updated": "2026-11-12"
     },
     {
       "path": "/industries/realtors",
@@ -1129,7 +1137,9 @@
           "q": "Which automation should I start with?",
           "a": "Start with “Follow up on sent quotes automatically”. It's a small, low-risk workflow you can review before it touches customers."
         }
-      ]
+      ],
+      "seoTitle": "AI automations for contractors: quotes, leads, job reports",
+      "updated": "2026-11-12"
     },
     {
       "path": "/industries/accounting",
@@ -1195,7 +1205,8 @@
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         }
       ],
@@ -1205,7 +1216,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "seoTitle": "AI automations for local businesses: no-code recipes"
     },
     {
@@ -1476,7 +1487,8 @@
             "Text or email customers the moment a pickup order is ready",
             "Capture holiday SMS opt-ins at checkout before Black Friday",
             "Put a feature-benefit card in your product gallery before Black Friday",
-            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items",
+            "Hold high-risk online orders for a quick review before they ship"
           ]
         },
         {
@@ -1510,7 +1522,8 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=abandoned-cart-sms"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-12",
+      "seoTitle": "Abandoned-cart SMS with proper consent: one-text recipe"
     },
     {
       "path": "/industries/contractors/web-lead-instant-reply",
@@ -1842,7 +1855,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -3281,7 +3294,8 @@
             "Set a Shopify Black Friday automatic discount with Active dates",
             "Put a feature-benefit card in your product gallery before Black Friday",
             "Publish your return-and-exchange policy before Black Friday ads go live",
-            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items",
+            "Hold high-risk online orders for a quick review before they ship"
           ]
         },
         {
@@ -3323,7 +3337,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-ship-by-dates"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "path": "/industries/local-business/domain-ssl-expiry-alerts",
@@ -3753,7 +3767,8 @@
             "Show holiday ship-by dates on your site and order emails automatically",
             "Sell and deliver e-gift cards automatically this holiday season",
             "Hold every \"new bank details\" email until someone calls to verify",
-            "Recover failed membership and subscription card payments automatically"
+            "Recover failed membership and subscription card payments automatically",
+            "Hold high-risk online orders for a quick review before they ship"
           ]
         }
       ],
@@ -3783,7 +3798,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=card-testing-alerts"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "path": "/tips/thanksgiving-early-access-best-customers",
@@ -4341,7 +4356,8 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Send one abandoned-cart SMS (with proper SMS consent)",
             "Capture holiday SMS opt-ins at checkout before Black Friday",
-            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items"
+            "Let shoppers sign up for back-in-stock alerts on sold-out holiday items",
+            "Hold high-risk online orders for a quick review before they ship"
           ]
         },
         {
@@ -4380,7 +4396,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=ready-for-pickup-notifications"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-12"
     },
     {
       "path": "/tips/google-free-product-listings",
@@ -5082,7 +5098,8 @@
             "Schedule your holiday offers and events as Google Business Profile posts",
             "Set a Shopify Black Friday automatic discount with Active dates",
             "Put a feature-benefit card in your product gallery before Black Friday",
-            "Publish your return-and-exchange policy before Black Friday ads go live"
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Hold high-risk online orders for a quick review before they ship"
           ]
         },
         {
@@ -5095,7 +5112,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         }
       ],
@@ -5125,7 +5143,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=pre-purchase-faq-from-support"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "path": "/tips/answer-buyer-questions-before-black-friday",
@@ -5176,7 +5194,8 @@
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         },
         {
@@ -5211,7 +5230,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-12"
     },
     {
       "path": "/industries/retail/black-friday-automatic-discount",
@@ -5366,7 +5385,8 @@
             "Holiday shoppers plan early on Pinterest: keep posting through the week after Christmas",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         },
         {
@@ -5401,7 +5421,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "path": "/industries/retail/feature-benefit-product-gallery",
@@ -5590,7 +5610,7 @@
       "group": "recipes",
       "label": "Any local business",
       "title": "Get a weekly alert when Gmail users start marking your emails as spam",
-      "seoTitle": "Gmail spam rate alert with Postmaster Tools (holiday 2026 how-to)",
+      "seoTitle": "Gmail spam rate alerts with Postmaster Tools (holiday how-to)",
       "summary": "Holiday email volume is when spam complaints quietly climb—especially after a new signup source or a bigger send. Your email tool’s complaint report does not show Gmail’s own spam-complaint rate; Google Postmaster Tools does. Verify your sending domain once, then have a weekly automation read the rate and ping you if it rises toward Google’s limits (keep it under 0.10% and never reach 0.30%).",
       "steps": [
         "Find the domain your email tool signs mail with (the DKIM d= domain or the SPF Return-Path domain). Your email provider’s domain-setup page shows it.",
@@ -5689,7 +5709,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=gmail-spam-rate-watch"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-12"
     },
     {
       "path": "/tips/ai-check-landing-pages-before-ads",
@@ -6025,7 +6045,8 @@
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Get your products into Google's free listings before holiday shoppers start searching",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
           ]
         },
         {
@@ -6058,7 +6079,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-say-who-you-serve-ai-answers"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "path": "/industries/retail/back-in-stock-alerts",
@@ -6599,6 +6620,183 @@
         "href": "/build-it-for-me?recipe=failed-payment-recovery"
       },
       "updated": "2026-11-11"
+    },
+    {
+      "path": "/tips/search-console-long-questions",
+      "group": "tips",
+      "label": "Tip · Any business",
+      "title": "Find the long questions people Google before they find you—and answer them before the holiday rush",
+      "seoTitle": "Find customers' long Google questions in Search Console (2026)",
+      "summary": "Google Search Console—free if your website is verified there—shows the exact searches that made your site appear in Google. One filter pulls out only the long ones, eight words or more. Those are the full questions shoppers type before they pick a business (“can I order a custom cake for Christmas Eve pickup near me”), and the same kind of question they ask AI chat tools. Pick the ones where you show up but few people click, and answer each one plainly near the top of the page that already shows up. It takes about 30 minutes, costs nothing, and is worth doing before holiday searches peak.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "A short list of real questions your future customers are already asking, in their own words, and a page that answers them before they click a competitor. You stop guessing what to write: Google’s own data tells you."
+          ]
+        },
+        {
+          "h": "How to do it (about 30 minutes)",
+          "ul": [
+            "Sign in to Google Search Console (search.google.com/search-console). If your site is not set up there yet, add and verify it first—your web person or website builder can help—and come back in a few weeks once data builds up.",
+            "Open Performance → Search results. Set the date range to the last 3 months, and turn on Impressions and CTR (click-through rate) above the chart.",
+            "Click + Add filter → Query → Custom (regex), leave it on Matches regex, and paste: ^(?:\\S+\\s+){7,}\\S+$ — this keeps only searches of eight words or more. Click Apply.",
+            "Sort the table by Impressions. Copy the top 10–20 long questions into a sheet with their impressions, clicks and CTR.",
+            "Start with questions that have many impressions but few clicks: people see you in results, but your page doesn’t look like the answer.",
+            "Click a question, then the Pages tab, to see which of your pages shows up for it. That is usually the page to fix—unless it is clearly the wrong page (a blog post when your service page should answer it); then add the answer to the right page.",
+            "Answer the question in one or two plain sentences near the top of that page or under its own heading (price range, order deadline, service area, “yes, we do same-day pickup”). Keep it true and specific; skip keyword stuffing.",
+            "Use the same list for your Google Business Profile posts, your FAQ page and your staff’s phone answers, so every channel says the same thing.",
+            "Check the filter again in a month to see whether clicks rose on the questions you answered."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Search Console doesn’t show every search: Google leaves out very rare queries to protect searchers’ privacy, so treat the list as a sample, not the whole picture. The regex filter uses Google’s RE2 syntax; if the pattern returns nothing, check you pasted it exactly, or try a shorter version for 6+ words (^(?:\\S+\\s+){5,}\\S+$). Answering a question on your page does not guarantee a higher ranking or a mention in AI answers. Never put customer names or private details on the page. This tip came from a marketer’s LinkedIn post shared in TLDR Marketing; the steps below were checked against Google’s own Search Console Help."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google Search Console Help: Performance report (Search results) — Advanced filtering and comparison (regex filter, RE2 syntax) — https://support.google.com/webmasters/answer/17011165?hl=en",
+            "Google Search Console Help: Performance report (Search results) — Overview and basic setup — https://support.google.com/webmasters/answer/7576553?hl=en",
+            "Google Search Central Blog: Search Console regex filters update and quick tips — https://developers.google.com/search/blog/2021/06/regex-negative-match",
+            "Last checked at the source: November 12, 2026. Backlog item TB-092 (found via TLDR Marketing, November 12, 2026; original idea from Oleksii Sidorov on LinkedIn)."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to know regex to use this?",
+          "a": "No. Copy and paste the pattern exactly as shown into the Custom (regex) filter. It simply keeps searches with eight or more words."
+        },
+        {
+          "q": "Why don't I see any long questions?",
+          "a": "Your site may be new to Search Console or get few searches yet. Try a longer date range, the 6+ word version of the pattern, or check back in a few weeks."
+        },
+        {
+          "q": "Is this the same as asking ChatGPT what people search for?",
+          "a": "No. Search Console shows real searches from Google where your site actually appeared. AI tools can guess, but this is your own data."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-search-console-long-questions.webp",
+        "alt": "A hardware store owner in a flannel shirt at a wooden checkout counter looking at a laptop with a blurred search analytics table, a notepad of handwritten customer questions beside it, tool shelves and simple holiday garlands behind, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI connects your Google Search Console, pulls your customers’ long questions every month into a simple sheet, and drafts plain-English answers for the right pages—installed on your own tools within 7 days. You approve every word before it goes on your site.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-search-console-long-questions"
+      },
+      "updated": "2026-11-12"
+    },
+    {
+      "path": "/industries/retail/hold-high-risk-orders",
+      "group": "recipes",
+      "label": "Retail",
+      "title": "Hold high-risk online orders for a quick review before they ship",
+      "seoTitle": "Shopify Flow: hold high-risk orders before they ship (how-to)",
+      "summary": "Holiday rush is when stolen-card orders slip through: the box ships, the real cardholder disputes the charge weeks later, and you lose the product and the money. If you sell on Shopify, its free Shopify Flow automation app can wait for Shopify’s fraud analysis, put any high-risk order on hold so it can’t be packed, tag it, and email whoever reviews orders. A person then checks it, contacts the customer if needed, and releases or cancels it. It takes about 20 minutes to set up from Shopify’s own template.",
+      "steps": [
+        "Install Shopify Flow from the Shopify App Store (made by Shopify) and open it from Apps in your admin.",
+        "Click Create workflow → Browse templates and search for “Hold fulfillments based on risk level” (holds a fulfillment order when the risk level is high). Shopify also has templates such as holding orders from customers with past chargebacks.",
+        "Or build it yourself: trigger Order risk analyzed (it runs once Shopify’s fraud analysis finishes); condition: the order’s risk level is High (add Medium if you want more caution); action: Hold fulfillment order, with a reason note like “Held for fraud review.”",
+        "Add the action Add order tags (for example risk-review) and Send internal email to the person who reviews orders. Keep card details out of the email; include only the order number.",
+        "Turn the workflow on, then test it: with Shopify Payments in test mode, place a test order with the high-risk test email address listed in Shopify’s “Testing fraud analysis” help section to simulate a high-risk recommendation and confirm it is held and tagged.",
+        "Review held orders in Orders (filter by the risk-review tag). Open Order risk on each one, look at the recommendation, and decide: release the hold and ship, contact the customer to confirm, or cancel and refund.",
+        "After review, swap the tag to risk-reviewed so the list only shows orders still waiting. Check the list at least once a day during the holidays so good customers aren’t left waiting."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: a Shopify store and the free Shopify Flow app. Costs: Flow itself is free from Shopify; see Shopify’s pricing page for your plan. Not on Shopify? Many payment and store platforms have similar risk flags—Stripe users can start with our card-testing alerts recipe—and the daily human review works the same way."
+          ]
+        },
+        {
+          "h": "What's confirmed (Shopify Help Center)",
+          "ul": [
+            "Shopify’s fraud analysis flags medium- and high-risk orders on the Orders page and can recommend fulfilling, confirming with the customer, or considering cancellation. Fraud indicators are available on the Basic plan or higher; fraud recommendations on the Grow plan or higher, or when you use Shopify Payments.",
+            "Some orders get no fraud recommendation, including test orders, free orders, orders paid in full with a gift card, Point of Sale orders, B2B orders and subscription renewals.",
+            "The Order risk analyzed trigger starts a workflow when Shopify’s fraud analysis is complete; it does not run for third-party fraud app assessments, and it does not fire immediately after an order is created.",
+            "The Hold fulfillment order action sets the order to On hold so it isn’t fulfilled until the hold is removed, and can include a reason, notes and a merchant notification.",
+            "Shopify says fulfilling high-risk orders can lead to more chargebacks, and that the card-issuing bank—not Shopify—decides whether to reverse funds."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Hold, don’t auto-cancel: a short delay is better than cancelling a real customer’s gift order by mistake.",
+            "Never ask a customer to send card numbers by email or text to “verify” an order. Ask them to confirm order details or call you instead.",
+            "One risk signal (like a billing country different from shipping) isn’t proof of fraud—gift orders often ship to another address. Follow Shopify’s overall recommendation and your own judgment.",
+            "If you use a third-party fraud app, this trigger won’t see its scores; check that app’s own Flow triggers."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Shopify Help Center: Reviewing orders with fraud analysis — https://help.shopify.com/en/manual/fulfillment/managing-orders/protecting-orders/fraud-analysis",
+            "Shopify Help Center: Shopify Flow trigger — Order risk analyzed — https://help.shopify.com/en/manual/shopify-flow/reference/triggers/order-risk-analyzed",
+            "Shopify Help Center: Shopify Flow action — Hold fulfillment order — https://help.shopify.com/en/manual/shopify-flow/reference/actions/hold-fulfillment",
+            "Shopify App Store: Shopify Flow — https://apps.shopify.com/flow",
+            "Checked at the source on November 12, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Get an alert when card testers hit your online checkout",
+            "Text or email customers the moment a pickup order is ready",
+            "Show holiday ship-by dates on your site and order emails automatically",
+            "Send one abandoned-cart SMS (with proper SMS consent)",
+            "Turn repeated support questions into a pre-purchase FAQ page before Black Friday"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will this stop every fraudulent order?",
+          "a": "No. It puts a person between a risky order and the shipping label. Shopify Payments also blocks some high-risk checkouts before an order is created, but no tool catches everything."
+        },
+        {
+          "q": "Can AI review the held orders for me?",
+          "a": "An AI tool can summarize the order and Shopify’s risk notes for your reviewer, but keep a person making the ship-or-cancel call, and keep card details out of any AI tool."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you'd rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/hold-high-risk-orders.webp",
+        "alt": "A gift shop owner in a back-room packing area holding a packed cardboard box with a plain orange hold sticker while checking a tablet showing a blurred order list with one row highlighted in red, shelves of plain kraft boxes behind, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your business.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=hold-high-risk-orders"
+      },
+      "updated": "2026-11-12"
     }
   ],
   "static": [

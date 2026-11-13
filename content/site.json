@@ -4125,6 +4125,7 @@
           "ul": [
             "Posts appear on your Business Profile on Google Search and Maps: in the Updates and Overview tabs on mobile, and in the From the owner section on desktop.",
             "Update posts can include a description, photo or video and an action button with a link.",
+            "Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b). Affiliate link: we may earn a commission if you sign up, at no cost to you.",
             "Offer posts need a title and start and end dates and times. Google adds a View offer button automatically, and you can add a coupon code, a link and terms and conditions.",
             "Event posts need a title and start and end dates and times. If you don't add times, the event is listed as running for 24 hours.",
             "You can schedule a post for a future date and time, and set posts to repeat weekly, monthly or on a custom schedule.",
@@ -4202,7 +4203,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-business-profile-holiday-posts"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-13"
     },
     {
       "path": "/tips/pinterest-holiday-planning-q5",
@@ -6197,7 +6198,7 @@
       "steps": [
         "Pick one offer you can actually deliver this week. Write one sentence: who it is for, what they get, and what to do next (book, visit, or shop).",
         "Gather 1–3 assets you own, such as a product photo, a storefront photo, or your logo. Skip anything you do not have permission to use.",
-        "Open an AI video generation platform, paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.",
+        "Open an AI video generation platform such as [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b). Affiliate link: we may earn a commission if you sign up, at no cost to you. Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.",
         "Watch the clip all the way through. Fix anything that misstates your offer, shows the wrong product, or invents a price, address or detail you did not provide.",
         "Export the video and post it on a channel you already use, with the same next step as in your script.",
         "Write down the date, the offer, and where you posted it, so you can tell later which clip was worth repeating."
@@ -6206,8 +6207,15 @@
         {
           "h": "What you need",
           "p": [
-            "Affiliate link: We earn a commission if you buy through this link, at no extra cost to you.",
-            "Tools: an AI video generation platform, a one-sentence offer, and photos you own. One option is [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b), an AI video generation platform.",
+            "Tools: an AI video generation platform, a one-sentence offer, and photos you own.",
+            {
+              "card": "tool",
+              "h": "Higgsfield",
+              "p": "An AI platform for making images and short videos. Start from a written prompt or an image you upload, and use templates built for short social clips and product ads. Good fit for this recipe: paste your one-sentence offer, add a product or storefront photo you own, and generate a short clip to review.",
+              "cta": "Try Higgsfield →",
+              "href": "https://higgsfield.ai?fpr=vincent-116c2b",
+              "disclosure": "Affiliate link: we may earn a commission if you sign up, at no cost to you."
+            },
             "Costs: see each vendor's current pricing page; we don't list prices we haven't verified."
           ]
         },
@@ -6264,7 +6272,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=make-15-second-ai-video-ad"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-13"
     },
     {
       "path": "/tips/december-year-in-review-email",

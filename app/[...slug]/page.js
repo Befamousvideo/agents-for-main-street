@@ -4,7 +4,9 @@ import BuildRequestForm from "../BuildRequestForm";
 import ContactForm from "../ContactForm";
 import { Newsletter, Cta, Sponsor, Block, MailingAddress, EmailAddress } from "../components";
 import { allPages, pageAt, childrenOf, matchTitle, Listing, TaxListing, groupOf, Linked, pageDateIso, pageDateLabel, effectiveDateLabel } from "../nav";
+import affiliates from "../affiliates";
 import Search from "../Search";
+const { wrapAffiliate, schemaText, ldJson } = affiliates;
 const all = allPages;
 const find = (slug) => all().find(p => p.path === "/" + slug.join("/"));
 export const dynamicParams = false;
@@ -28,11 +30,11 @@ export default async function Page({ params }) {
   if (crumbs[0] && crumbs[0].h === "/industries") crumbs[0].name = "Industries";
   if (crumbs[0] && crumbs[0].h === "/tips") crumbs[0].name = "Tips";
   const ld = [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: site.name, item: `https://${site.domain}/` }, ...crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 2, name: c.name, ...(c.h ? { item: `https://${site.domain}${c.h}` } : {}) })), { "@type": "ListItem", position: crumbs.length + 2, name: p.title, item: url }] }];
-  if (p.steps) ld.push({ "@context": "https://schema.org", "@type": "HowTo", name: p.title, description: p.summary, ...(p.updated ? { dateModified: p.updated } : {}), step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: s })) });
+  if (p.steps) ld.push({ "@context": "https://schema.org", "@type": "HowTo", name: p.title, description: p.summary, ...(p.updated ? { dateModified: p.updated } : {}), step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: schemaText(s) })) });
   else if (p.group) ld.push({ "@context": "https://schema.org", "@type": "Article", headline: p.title, description: p.summary, ...(p.image ? { image: `https://${site.domain}${p.image.src}` } : {}), dateModified: pageDateIso(p), mainEntityOfPage: url, publisher: { "@type": "Organization", name: site.name } });
   if (p.faq) ld.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: p.faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) });
   return (<article>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ldJson(ld) }} />
     <p className="crumbs"><a href="/">Home</a>{crumbs.map((c, i) => <span key={i}> / {c.h ? <a href={c.h}>{c.name}</a> : c.name}</span>)}</p>
     <h1>{p.title}</h1>
     {p.effectiveDate && <p className="muted small">Effective date: {effectiveDateLabel(p)}</p>}
@@ -40,7 +42,7 @@ export default async function Page({ params }) {
     {p.flag && <div className="flag">⚠️ {p.flag}</div>}
     {p.tldr !== false && <div className="tldr"><strong>Quick answer:</strong> {p.summary}</div>}
     {p.group && <p className="muted small">Last updated {pageDateLabel(p)}</p>}
-    {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}><Linked t={s} /></li>)}</ol></section>}
+    {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}>{wrapAffiliate(s) ? <p><Linked t={s} /></p> : <Linked t={s} />}</li>)}</ol></section>}
     {(p.blocks || []).filter(b => !(hasKids && (b.ul || b.ol) && !b.p && (b.ul || b.ol).every(t => matchTitle(t)))).map((b, i) => <Block key={i} b={b} />)}
     {p.path === "/industries" && <Search />}
     {hasKids && (isTax ? <TaxListing only={p.taxGroup} /> : <Listing path={p.path} />)}

@@ -1,6 +1,6 @@
 import site from "../content/site.json";
 import affiliates from "./affiliates";
-const { externalRel } = affiliates;
+const { externalRel, tokenizeLinks, wrapAffiliate } = affiliates;
 const human = (s) => s.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const real = () => [...site.pages, ...site.static];
 // Synthetic index pages for any intermediate path that has child pages but no page of its own,
@@ -22,31 +22,30 @@ export function matchTitle(text) {
   const cands = [norm(head), norm(head.replace(/^[^:]{1,40}:\s*/, ""))];
   return site.pages.find(p => cands.includes(norm(p.title))) || null;
 }
-// Render markdown [label](/path) and http(s) URLs. Affiliate URLs get rel="sponsored nofollow".
-const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^)\s]+|\/[^)\s]+)\)|(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]])/g;
+// Render markdown [label](/path), http(s) URLs, and *emphasis*. Affiliate URLs get rel="sponsored nofollow noopener".
 export function Linked({ t }) {
-  const s = String(t); const out = []; let last = 0; let i = 0; let m;
-  const re = new RegExp(LINK_RE.source, "g");
-  while ((m = re.exec(s))) {
-    if (m.index > last) out.push(s.slice(last, m.index));
-    if (m[1] != null) {
-      const href = m[2].replace(/^https?:\/\/\/+/, "/");
+  return <>{tokenizeLinks(t).map((tok, i) => {
+    if (tok.type === "link") {
+      const href = tok.href.replace(/^https?:\/\/\/+/, "/");
       const ext = /^https?:\/\//.test(href);
-      out.push(<a key={i++} href={href} {...(ext ? { rel: externalRel(href), target: "_blank" } : {})}>{m[1]}</a>);
-    } else out.push(<a key={i++} href={m[3]} rel={externalRel(m[3])} target="_blank">{m[3]}</a>);
-    last = m.index + m[0].length;
-  }
-  if (last < s.length) out.push(s.slice(last));
-  return <>{out}</>;
+      return <a key={i} href={href} {...(ext ? { rel: externalRel(href), target: "_blank" } : {})}>{tok.text}</a>;
+    }
+    if (tok.type === "em") return <em key={i}>{tok.text}</em>;
+    return tok.text;
+  })}</>;
 }
 // Per-page dates: page.updated (ISO yyyy-mm-dd) wins, else the site-wide date.
 export const isoDate = (s) => { if (!s) return undefined; const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(s) ? s + "T00:00:00Z" : s + " 00:00 UTC"); return isNaN(d) ? undefined : d.toISOString().slice(0, 10); };
 export const pageDateIso = (p) => isoDate(p.updated) || isoDate(site.updated);
 export const pageDateLabel = (p) => { const i = pageDateIso(p); return i ? new Date(i + "T00:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }) : site.updated; };
 export const effectiveDateLabel = (p) => { if (!p?.effectiveDate) return ""; const i = isoDate(p.effectiveDate); return i ? new Date(i + "T00:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }) : p.effectiveDate; };
-export function Li({ t }) { const m = matchTitle(t); if (!m) return <li><Linked t={t} /></li>;
-  const head = String(t).split(" — ")[0]; const rest = String(t).slice(head.length);
-  return <li><a href={m.path}>{head}</a>{rest}</li>; }
+export function Li({ t }) {
+  const m = matchTitle(t);
+  const inner = m
+    ? <><a href={m.path}>{String(t).split(" — ")[0]}</a>{String(t).slice(String(t).split(" — ")[0].length)}</>
+    : <Linked t={t} />;
+  return <li>{wrapAffiliate(t) ? <p>{inner}</p> : inner}</li>;
+}
 // Group children by the next path segment under `path`.
 export function grouped(path) {
   const depth = path.slice(1).split("/").filter(Boolean).length;

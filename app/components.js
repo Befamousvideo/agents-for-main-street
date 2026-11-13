@@ -2,6 +2,8 @@ import site from "../content/site.json";
 import NewsletterForm from "./NewsletterForm";
 import HouseAd from "./HouseAd";
 import { Li, Linked } from "./nav";
+import affiliates from "./affiliates";
+const { isToolCard, externalRel } = affiliates;
 export function Newsletter() {
   return (
     <section className="card nl" id="newsletter">
@@ -40,11 +42,26 @@ export function MailingAddress({ className = "muted" }) {
     </>
   );
 }
+export function ToolCard({ card }) {
+  const ext = /^https?:\/\//.test(card.href);
+  return (
+    <div className="card tool-card">
+      <h3>{card.h}</h3>
+      <p>{card.p}</p>
+      <p>
+        <a href={card.href} {...(ext ? { rel: externalRel(card.href), target: "_blank" } : {})}>{card.cta}</a>
+        {" "}{card.disclosure}
+      </p>
+    </div>
+  );
+}
 export function Block({ b }) {
   return (<section>
     {b.h && <h2>{b.h}</h2>}
     {b.img && <img className="hero" src={b.img.src} alt={b.img.alt} width={b.img.w} height={b.img.h} loading="lazy" />}
-    {b.p && b.p.map((t, i) => <p key={i} className={/^Affiliate link:/i.test(String(t)) ? "muted small affiliate-note" : undefined}><Linked t={t} /></p>)}
+    {b.p && b.p.map((t, i) => isToolCard(t)
+      ? <ToolCard key={i} card={t} />
+      : <p key={i}><Linked t={t} /></p>)}
     {b.ol && <ol>{b.ol.map((t, i) => <Li key={i} t={t} />)}</ol>}
     {b.ul && <ul>{b.ul.map((t, i) => <Li key={i} t={t} />)}</ul>}
     {b.pre && <pre>{b.pre}</pre>}

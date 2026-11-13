@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { createRequire } from "node:module";
 import { execFileSync } from "node:child_process";
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -14,11 +14,14 @@ const {
   externalRel,
   tokenizeLinks
 } = require("../app/affiliates.js");
+const ga = require("../app/ga.js");
+const siteMetadata = require("../app/site-metadata.js");
 const site = require("../content/site.json");
 
 const args = new Set(process.argv.slice(2));
 const lintOnly = args.has("--lint");
 const typecheckOnly = args.has("--typecheck");
+const piiBuildOnly = args.has("--pii-build");
 let failed = 0;
 function ok(msg) { console.log("ok  " + msg); }
 function fail(msg) { failed++; console.error("FAIL  " + msg); }
@@ -114,10 +117,125 @@ function contentChecks() {
   scanPii("new recipe", blob, { allowExisting: false });
 }
 
-if (lintOnly || typecheckOnly) {
+function fakeDoc() {
+  const nodes = [];
+  return {
+    getElementById: (id) => nodes.find(n => n.id === id) || null,
+    createElement: () => ({ id: "", async: false, src: "" }),
+    head: { appendChild(n) { nodes.push(n); return n; } },
+    nodes
+  };
+}
+
+function unitGtag() {
+  const now = new Date("2026-11-13T00:00:00.000Z");
+  const denied = {};
+  const deniedDoc = fakeDoc();
+  const deniedResult = ga.startGoogleAnalytics(denied, deniedDoc, { consent: ga.CONSENT_DENIED, id: "G-ECB8CXZGD7", now });
+  if (deniedResult.started || denied.dataLayer || denied.gtag || deniedDoc.nodes.length) fail("gtag must not start without consent");
+  else ok("gtag does not start when consent is denied");
+
+  const unset = {};
+  const unsetResult = ga.startGoogleAnalytics(unset, fakeDoc(), { consent: "unset", id: "G-ECB8CXZGD7", now });
+  if (unsetResult.started || unset.dataLayer) fail("gtag must not start before a consent choice");
+  else ok("gtag does not start before consent");
+
+  const win = {};
+  const doc = fakeDoc();
+  const result = ga.startGoogleAnalytics(win, doc, { consent: ga.CONSENT_GRANTED, id: "G-ECB8CXZGD7", now });
+  if (!result.started) fail("gtag should start after consent");
+  else ok("gtag starts after consent");
+
+  const layer = result.dataLayer;
+  if (!layer || layer.length < 2) fail("gtag dataLayer missing js/config");
+  else {
+    const first = layer[0];
+    const second = layer[1];
+    if (Array.isArray(first) || Object.prototype.toString.call(first) !== "[object Arguments]") fail("gtag js push must be an Arguments object");
+    else ok("gtag js push is an Arguments object");
+    if (first[0] !== "js" || !(first[1] instanceof Date) || first[1] !== now) fail("gtag js command shape");
+    else ok("gtag js command then Date");
+    if (Array.isArray(second) || Object.prototype.toString.call(second) !== "[object Arguments]") fail("gtag config push must be an Arguments object");
+    else ok("gtag config push is an Arguments object");
+    if (second[0] !== "config" || second[1] !== "G-ECB8CXZGD7") fail("gtag config command shape");
+    else ok("gtag config command then measurement ID");
+  }
+
+  const gtagSrc = doc.nodes.find(n => n.src && n.src.includes("googletagmanager.com/gtag/js"));
+  if (!gtagSrc || !gtagSrc.src.includes("G-ECB8CXZGD7")) fail("gtag.js script not loaded after consent");
+  else ok("gtag.js script loads after consent");
+
+  if (ga.measurementId({}) !== "G-ECB8CXZGD7") fail("GA fallback ID");
+  else ok("GA fallback ID is G-ECB8CXZGD7");
+  if (ga.measurementId({ NEXT_PUBLIC_GA_ID: "G-CUSTOM" }) !== "G-CUSTOM") fail("GA env override");
+  else ok("NEXT_PUBLIC_GA_ID overrides fallback");
+}
+
+function unitVerification() {
+  const absent = siteMetadata.googleVerification({});
+  const absentMeta = siteMetadata.googleVerificationMeta({});
+  if (absent !== undefined || absentMeta !== null) fail("verification meta must be absent when env is unset");
+  else ok("verification meta absent when env is unset");
+
+  const token = "test-gsc-token";
+  const present = siteMetadata.googleVerification({ NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: token });
+  const presentMeta = siteMetadata.googleVerificationMeta({ NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: token });
+  if (!present || present.google !== token) fail("verification.google should use the env value");
+  else ok("verification.google set from env");
+  if (!presentMeta || presentMeta.name !== "google-site-verification" || presentMeta.content !== token) fail("verification meta should render when env is set");
+  else ok("verification meta renders when env is set");
+
+  const layout = readFileSync(join(root, "app/layout.js"), "utf8");
+  if (!layout.includes("siteMetadata.googleVerification()") || !/verification \? \{ verification \}/.test(layout)) fail("layout must use metadata.verification.google only when set");
+  else ok("layout wires Next.js metadata.verification.google");
+
+  const privacy = site.static.find(p => p.path === "/privacy");
+  const privacyText = JSON.stringify(privacy || {});
+  if (!/Google Analytics/.test(privacyText)) fail("privacy page must mention Google Analytics");
+  else ok("privacy page mentions Google Analytics");
+}
+
+function walkHtml(dir, acc = []) {
+  if (!existsSync(dir)) return acc;
+  for (const name of readdirSync(dir)) {
+    const p = join(dir, name);
+    const st = statSync(p);
+    if (st.isDirectory()) walkHtml(p, acc);
+    else if (name.endsWith(".html")) acc.push(p);
+  }
+  return acc;
+}
+
+function builtPii() {
+  const nextDir = join(root, ".next");
+  if (!existsSync(nextDir)) {
+    fail("built pii: .next missing; run next build first");
+    return;
+  }
+  const htmlFiles = walkHtml(join(nextDir, "server"));
+  if (!htmlFiles.length) {
+    fail("built pii: no HTML in .next/server");
+    return;
+  }
+  ok(`built pii scanning ${htmlFiles.length} HTML files`);
+  let combined = "";
+  for (const f of htmlFiles) {
+    const text = readFileSync(f, "utf8");
+    combined += text + "\n";
+    scanPii("built " + f.slice(root.length), text, { allowExisting: true });
+  }
+  if (/google-site-verification/i.test(combined) && !process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION) fail("built HTML must omit google-site-verification when env is unset");
+  else ok("built HTML omits google-site-verification when env is unset");
+}
+
+if (piiBuildOnly) {
+  builtPii();
+} else if (lintOnly || typecheckOnly) {
   syntaxCheck();
 } else {
   unitAffiliate();
+  unitGtag();
+  unitVerification();
   contentChecks();
   syntaxCheck();
   const files = walk(root).filter(p => !p.includes("node_modules") && !p.includes(".next"));

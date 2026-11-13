@@ -3,12 +3,16 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import site from "../content/site.json";
 import { MailingAddress } from "./components";
+import AnalyticsConsent from "./AnalyticsConsent";
+import siteMetadata from "./site-metadata";
+const verification = siteMetadata.googleVerification();
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: { default: `${site.name} — ${site.tagline}`, template: `%s | ${site.name}` },
   description: site.description,
   alternates: { canonical: "/", types: { "application/rss+xml": "/rss.xml", "text/plain": "/llms.txt" } },
   openGraph: { siteName: site.name, type: "website", title: site.name, description: site.description },
+  ...(verification ? { verification } : {}),
 };
 export default function RootLayout({ children }) {
   const org = { "@context": "https://schema.org", "@type": "Organization", name: site.name, url: `https://${site.domain}`, parentOrganization: { "@type": "Organization", name: "StorenTech" } };
@@ -27,6 +31,7 @@ export default function RootLayout({ children }) {
           <MailingAddress />
           <p className="muted">© 2026 {site.name}, a StorenTech company.</p>
         </div></footer>
+        <AnalyticsConsent />
         <Analytics />
         <SpeedInsights />
       </body>

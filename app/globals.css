@@ -22,6 +22,7 @@ table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid
 .taxgroup{margin-top:1.5rem}.taxgroup h3{margin-top:1rem}
 .taxtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:.6rem 0}
 .taxtile{padding:.6rem .8rem;margin:0}.taxtile .tt{font-weight:700;display:block;margin-bottom:.2rem}
+.cookie{position:fixed;bottom:0;left:0;right:0;z-index:40;background:#fff;border-top:1px solid #e6e6e0;padding:14px 0;box-shadow:0 -6px 18px rgba(0,0,0,.06)}.cookie-row{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}.cookie-title{font-weight:700;margin:0 0 4px}.cookie p{margin:0;max-width:680px}.cookie-actions{display:flex;gap:8px;flex-wrap:wrap}body:has(.cookie){padding-bottom:140px}
 @media(max-width:700px){.taxtiles{grid-template-columns:repeat(2,1fr)}}
 .search{padding:.7rem .9rem;margin:.6rem 0}
 

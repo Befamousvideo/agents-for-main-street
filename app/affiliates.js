@@ -103,6 +103,38 @@ function lastOpenP(html, from) {
   return idx;
 }
 
+function schemaText(t) {
+  let s = String(t);
+  s = s.replace(MD_LINK_RE, (full, label, href) => isAffiliateUrl(href) ? label : full);
+  s = s.split(AFFILIATE_DISCLOSURE).join("");
+  s = s.replace(/Affiliate link:[^.]*\./g, "");
+  s = s.replace(/https?:\/\/[^\s<>"']*[?&]fpr=[^\s<>"']*/gi, "");
+  return s.replace(/[ \t]+/g, " ").replace(/ \./g, ".").replace(/\s+\n/g, "\n").trim();
+}
+
+function schemaJson(value) {
+  if (typeof value === "string") return schemaText(value);
+  if (Array.isArray(value)) return value.map(schemaJson);
+  if (value && typeof value === "object") {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) out[k] = schemaJson(v);
+    return out;
+  }
+  return value;
+}
+
+function ldJson(value) {
+  return JSON.stringify(schemaJson(value));
+}
+
+function jsonLdScripts(html) {
+  const out = [];
+  const re = /<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi;
+  let m;
+  while ((m = re.exec(html))) out.push(m[1]);
+  return out;
+}
+
 function findAffiliateAnchors(html) {
   const re = /<a\b([^>]*?)href="(https:\/\/higgsfield\.ai\?fpr=vincent-116c2b)"([^>]*)>/gi;
   const out = [];
@@ -145,5 +177,9 @@ module.exports = {
   renderInlineHtml,
   renderToolCardHtml,
   textContainers,
+  schemaText,
+  schemaJson,
+  ldJson,
+  jsonLdScripts,
   findAffiliateAnchors
 };

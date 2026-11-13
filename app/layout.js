@@ -3,6 +3,8 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import site from "../content/site.json";
 import { MailingAddress } from "./components";
+import affiliates from "./affiliates";
+const { ldJson } = affiliates;
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: { default: `${site.name} — ${site.tagline}`, template: `%s | ${site.name}` },
@@ -15,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" style={{ "--accent": site.color }}>
       <body>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ldJson(org) }} />
         <header className="hdr"><div className="wrap row">
           <a href="/" className="logo">{site.name}</a>
           <nav>{site.nav.map(n => <a key={n.href} href={n.href}>{n.label}</a>)}<a href="/industries#search" aria-label="Search recipes">🔍 Search</a></nav>

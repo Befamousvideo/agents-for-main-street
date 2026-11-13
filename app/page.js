@@ -2,12 +2,14 @@ import site from "../content/site.json";
 import { Newsletter, Cta, Sponsor } from "./components";
 import Search from "./Search";
 import { taxGroups } from "./nav";
+import affiliates from "./affiliates";
+const { ldJson } = affiliates;
 export default function Home() {
   const h = site.home;
   const sections = h.sections.map(s => ({ ...s, items: s.group === "hubs" ? taxGroups().map(g => ({ path: g.path, label: "Group", title: g.name, summary: g.industries.map(i => i.name).join(", ") })) : site.pages.filter(p => p.group === s.group).map(p => { const seg = p.path.split("/")[2]; const g = taxGroups().find(g => g.industries.some(i => i.slug === seg)); const ind = g && g.industries.find(i => i.slug === seg); return { ...p, label: ind ? (g.name === ind.name ? ind.name : `${g.name} · ${ind.name}`) : p.label }; }) }));
   const faq = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: h.faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
   return (<>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ldJson(faq) }} />
     <section className="hero"><h1>{h.h1}</h1><p className="lead">{h.lead}</p>
       <div className="row gap">{h.buttons.map(b => <a key={b.href} className={b.secondary ? "btn ghost" : "btn"} href={b.href}>{b.label}</a>)}</div></section>
     <Search />

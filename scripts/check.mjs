@@ -18,6 +18,9 @@ const {
   renderInlineHtml,
   renderToolCardHtml,
   textContainers,
+  schemaText,
+  schemaJson,
+  jsonLdScripts,
   findAffiliateAnchors
 } = require("../app/affiliates.js");
 const site = require("../content/site.json");
@@ -113,6 +116,12 @@ function unitAffiliate() {
   if (!nearSmall.length) fail("nearby-small fixture missing affiliate link");
   else if (!(/<small/i.test(nearSmall[0].nearby) || /aff-disclosure/i.test(nearSmall[0].nearby))) fail("nearby window missed aff-disclosure or <small");
   else ok("test fails if aff-disclosure or <small appears near any affiliate link");
+  if (schemaText(STEP_3) !== STEP_3_SCHEMA) fail("schemaText step 3 " + JSON.stringify(schemaText(STEP_3)));
+  else ok("schemaText strips disclosure and affiliate URL from step 3");
+  const dirtyLd = schemaJson({ text: STEP_3, url: HIGGSFIELD_AFFILIATE_URL });
+  const dirtyJson = JSON.stringify(dirtyLd);
+  if (/Affiliate link/i.test(dirtyJson) || /fpr=/i.test(dirtyJson)) fail("schemaJson left Affiliate link or fpr=");
+  else ok("schemaJson strips Affiliate link and fpr=");
 }
 
 const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
@@ -152,10 +161,30 @@ const TOOLS_LINE = "Tools: an AI video generation platform, a one-sentence offer
 const COSTS_LINE = "Costs: see each vendor's current pricing page; we don't list prices we haven't verified.";
 const CARD_BODY = "An AI platform for making images and short videos. Start from a written prompt or an image you upload, and use templates built for short social clips and product ads. Good fit for this recipe: paste your one-sentence offer, add a product or storefront photo you own, and generate a short clip to review.";
 const STEP_3 = `Open an AI video generation platform such as [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE} Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.`;
+const STEP_3_SCHEMA = "Open an AI video generation platform such as Higgsfield. Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.";
 const STEP_3_HTML = `<p>Open an AI video generation platform such as <a href="${HIGGSFIELD_AFFILIATE_URL}" rel="${AFFILIATE_REL}" target="_blank">Higgsfield</a>. ${AFFILIATE_DISCLOSURE} Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.</p>`;
 const LINE_B = `No time to film? You can turn a dish photo you own into a short clip with an AI video tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). Watch it all the way through before you post, and make sure it shows real food from your menu. ${AFFILIATE_DISCLOSURE} For the full steps, see [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).`;
 const LINE_C = `Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE}`;
 const PROMO_RE = /\b(coupon|discount|% off|promo code|free trial|free plan)\b/i;
+
+function parseJsonLd(html) {
+  const out = [];
+  for (const block of jsonLdScripts(html)) {
+    const value = JSON.parse(block);
+    out.push(...(Array.isArray(value) ? value : [value]));
+  }
+  return out;
+}
+
+function assertJsonLdClean(html, label) {
+  const scripts = jsonLdScripts(html);
+  if (!scripts.length) { fail(`${label} missing JSON-LD`); return []; }
+  for (const block of scripts) {
+    if (/Affiliate link/i.test(block) || /fpr=/i.test(block)) fail(`${label} JSON-LD contains Affiliate link or fpr=`);
+    else ok(`${label} JSON-LD has no Affiliate link or fpr=`);
+  }
+  return parseJsonLd(html);
+}
 
 function contentChecks() {
   const recipe = site.pages.find(p => p.path === PLACEMENT_A);
@@ -169,6 +198,8 @@ function contentChecks() {
   else ok("recipe has steps");
   if (recipe.steps[2] !== STEP_3) fail("recipe step 3 wording");
   else ok("recipe step 3 has Tony's affiliate copy");
+  if (schemaText(recipe.steps[2]) !== STEP_3_SCHEMA) fail("recipe HowTo step 3 schema text");
+  else ok("recipe HowTo step 3 schema text omits disclosure");
   if (renderInlineHtml(STEP_3) !== STEP_3_HTML.replace(/^<p>/, "").replace(/<\/p>$/, "")) fail("recipe step 3 HTML");
   else ok("recipe step 3 renders Tony's HTML");
   if (/\(affiliate link\)/i.test(JSON.stringify(recipe))) fail("recipe uses '(affiliate link)'");
@@ -266,11 +297,16 @@ async function builtChecks(base) {
     if (n) assertAnchor(html, `built ${path}`);
     else if (/\(affiliate link\)/i.test(html) || /aff-disclosure/i.test(html)) fail(`${path} has forbidden affiliate markup`);
     else ok(`${path} has no affiliate markup`);
+    const nodes = assertJsonLdClean(html, `built ${path}`);
     if (path === PLACEMENT_A) {
       if (!html.includes('class="card tool-card"') || !html.includes("Try Higgsfield")) fail("built recipe missing tool card");
       else ok("built recipe has Higgsfield tool card");
       if (!html.includes(STEP_3_HTML)) fail("built recipe step 3 is not Tony's HTML");
       else ok("built recipe step 3 is Tony's HTML");
+      const howto = nodes.find(n => n["@type"] === "HowTo");
+      const step3 = howto?.step?.[2]?.text;
+      if (step3 !== STEP_3_SCHEMA) fail(`built recipe HowTo step 3 is ${JSON.stringify(step3)}`);
+      else ok("built recipe HowTo step 3 omits disclosure");
       const citation = html.match(/https:\/\/higgsfield\.ai\/(?![^\s"'<]*fpr)/);
       if (!citation) fail("built recipe missing non-affiliate Sources citation");
       else ok("built recipe keeps non-affiliate Sources citation");

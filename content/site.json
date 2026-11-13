@@ -4031,6 +4031,7 @@
           "ol": [
             "Search your restaurant's name in TikTok and open its place page. Check the name, address, neighborhood and price range.",
             "Tag your restaurant's location on every video you post, and ask staff who post about work to do the same.",
+            "No time to film? You can turn a dish photo you own into a short clip with an AI video tool like [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b). Watch it all the way through before you post, and make sure it shows real food from your menu. *Affiliate link: we may earn a commission if you sign up, at no cost to you.* For the full steps, see [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).",
             "If you take reservations through OpenTable, make sure your holiday availability is current, since select restaurants can be booked from Must Eat.",
             "Reply to comments and questions on videos about you, especially about hours, parking and reservations.",
             "Put a small \"Tag us on TikTok\" card at the host stand or on the check. Ask for posts, never for a rating or a positive review.",
@@ -4094,7 +4095,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-tiktok-must-eat-restaurant-guide"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/local-business/google-business-profile-holiday-posts",
@@ -4125,6 +4126,7 @@
           "ul": [
             "Posts appear on your Business Profile on Google Search and Maps: in the Updates and Overview tabs on mobile, and in the From the owner section on desktop.",
             "Update posts can include a description, photo or video and an action button with a link.",
+            "Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b). *Affiliate link: we may earn a commission if you sign up, at no cost to you.*",
             "Offer posts need a title and start and end dates and times. Google adds a View offer button automatically, and you can add a coupon code, a link and terms and conditions.",
             "Event posts need a title and start and end dates and times. If you don't add times, the event is listed as running for 24 hours.",
             "You can schedule a post for a future date and time, and set posts to repeat weekly, monthly or on a custom schedule.",
@@ -4202,7 +4204,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-business-profile-holiday-posts"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-13"
     },
     {
       "path": "/tips/pinterest-holiday-planning-q5",
@@ -6206,8 +6208,15 @@
         {
           "h": "What you need",
           "p": [
-            "Affiliate link: We earn a commission if you buy through this link, at no extra cost to you.",
-            "Tools: an AI video generation platform, a one-sentence offer, and photos you own. One option is [Higgsfield](https://higgsfield.ai?fpr=vincent-116c2b), an AI video generation platform.",
+            "Tools: an AI video generation platform, a one-sentence offer, and photos you own.",
+            {
+              "card": "tool",
+              "h": "Higgsfield",
+              "p": "An AI platform for making images and short videos. Start from a written prompt or an image you upload, and use templates built for short social clips and product ads. Good fit for this recipe: paste your one-sentence offer, add a product or storefront photo you own, and generate a short clip to review.",
+              "cta": "Try Higgsfield →",
+              "href": "https://higgsfield.ai?fpr=vincent-116c2b",
+              "disclosure": "Affiliate link: we may earn a commission if you sign up, at no cost to you."
+            },
             "Costs: see each vendor's current pricing page; we don't list prices we haven't verified."
           ]
         },
@@ -6264,7 +6273,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=make-15-second-ai-video-ad"
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-13"
     },
     {
       "path": "/tips/december-year-in-review-email",

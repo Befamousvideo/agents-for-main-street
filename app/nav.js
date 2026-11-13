@@ -1,6 +1,6 @@
 import site from "../content/site.json";
 import affiliates from "./affiliates";
-const { externalRel } = affiliates;
+const { externalRel, tokenizeLinks } = affiliates;
 const human = (s) => s.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const real = () => [...site.pages, ...site.static];
 // Synthetic index pages for any intermediate path that has child pages but no page of its own,
@@ -22,22 +22,21 @@ export function matchTitle(text) {
   const cands = [norm(head), norm(head.replace(/^[^:]{1,40}:\s*/, ""))];
   return site.pages.find(p => cands.includes(norm(p.title))) || null;
 }
-// Render markdown [label](/path) and http(s) URLs. Affiliate URLs get rel="sponsored nofollow".
-const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^)\s]+|\/[^)\s]+)\)|(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]])/g;
+// Render markdown [label](/path), http(s) URLs, and *emphasis*. Affiliate URLs get rel="sponsored nofollow noopener".
 export function Linked({ t }) {
-  const s = String(t); const out = []; let last = 0; let i = 0; let m;
-  const re = new RegExp(LINK_RE.source, "g");
-  while ((m = re.exec(s))) {
-    if (m.index > last) out.push(s.slice(last, m.index));
-    if (m[1] != null) {
-      const href = m[2].replace(/^https?:\/\/\/+/, "/");
+  return <>{tokenizeLinks(t).map((tok, i) => {
+    if (tok.type === "link") {
+      const href = tok.href.replace(/^https?:\/\/\/+/, "/");
       const ext = /^https?:\/\//.test(href);
-      out.push(<a key={i++} href={href} {...(ext ? { rel: externalRel(href), target: "_blank" } : {})}>{m[1]}</a>);
-    } else out.push(<a key={i++} href={m[3]} rel={externalRel(m[3])} target="_blank">{m[3]}</a>);
-    last = m.index + m[0].length;
-  }
-  if (last < s.length) out.push(s.slice(last));
-  return <>{out}</>;
+      return <a key={i} href={href} {...(ext ? { rel: externalRel(href), target: "_blank" } : {})}>{tok.text}</a>;
+    }
+    if (tok.type === "em") {
+      return tok.disclosure
+        ? <small key={i} className="aff-disclosure">{tok.text}</small>
+        : <em key={i}>{tok.text}</em>;
+    }
+    return tok.text;
+  })}</>;
 }
 // Per-page dates: page.updated (ISO yyyy-mm-dd) wins, else the site-wide date.
 export const isoDate = (s) => { if (!s) return undefined; const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(s) ? s + "T00:00:00Z" : s + " 00:00 UTC"); return isNaN(d) ? undefined : d.toISOString().slice(0, 10); };

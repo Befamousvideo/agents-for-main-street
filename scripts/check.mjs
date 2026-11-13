@@ -10,15 +10,24 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 const {
   HIGGSFIELD_AFFILIATE_URL,
   AFFILIATE_DISCLOSURE,
+  AFFILIATE_REL,
   isAffiliateUrl,
+  isToolCard,
   externalRel,
-  tokenizeLinks
+  tokenizeLinks,
+  renderInlineHtml,
+  renderToolCardHtml,
+  textContainers,
+  findAffiliateAnchors
 } = require("../app/affiliates.js");
 const site = require("../content/site.json");
 
-const args = new Set(process.argv.slice(2));
+const argv = process.argv.slice(2);
+const args = new Set(argv);
 const lintOnly = args.has("--lint");
 const typecheckOnly = args.has("--typecheck");
+const builtIdx = argv.indexOf("--built");
+const builtBase = builtIdx >= 0 ? argv[builtIdx + 1] : null;
 let failed = 0;
 function ok(msg) { console.log("ok  " + msg); }
 function fail(msg) { failed++; console.error("FAIL  " + msg); }
@@ -43,12 +52,26 @@ function syntaxCheck() {
   ok(`syntax-check ${files.length} js files`);
 }
 
+function assertAnchor(html, label) {
+  const anchors = findAffiliateAnchors(html);
+  if (!anchors.length) { fail(`${label} missing affiliate <a>`); return []; }
+  for (const a of anchors) {
+    if (a.rel !== AFFILIATE_REL) fail(`${label} rel="${a.rel}" expected "${AFFILIATE_REL}"`);
+    else ok(`${label} rel is ${AFFILIATE_REL}`);
+    if (a.target !== "_blank") fail(`${label} target="${a.target}" expected "_blank"`);
+    else ok(`${label} target is _blank`);
+    if (!a.nearby.includes(AFFILIATE_DISCLOSURE)) fail(`${label} disclosure not next to affiliate link`);
+    else ok(`${label} disclosure sits next to affiliate link`);
+  }
+  return anchors;
+}
+
 function unitAffiliate() {
   if (!isAffiliateUrl(HIGGSFIELD_AFFILIATE_URL)) fail("affiliate URL should be detected");
   else ok("affiliate URL detected");
   if (isAffiliateUrl("https://higgsfield.ai/")) fail("citation URL must not be marked affiliate");
   else ok("citation URL is not affiliate");
-  if (externalRel(HIGGSFIELD_AFFILIATE_URL) !== "sponsored nofollow noopener") fail("affiliate rel");
+  if (externalRel(HIGGSFIELD_AFFILIATE_URL) !== AFFILIATE_REL) fail("affiliate rel");
   else ok("affiliate rel is sponsored nofollow noopener");
   if (externalRel("https://higgsfield.ai/") !== "noopener") fail("citation rel");
   else ok("citation rel is noopener");
@@ -59,6 +82,24 @@ function unitAffiliate() {
   const bare = tokenizeLinks("See https://higgsfield.ai/ for the source.");
   if (!bare.some(t => t.type === "link" && t.href === "https://higgsfield.ai/" && !isAffiliateUrl(t.href))) fail("bare citation tokenize");
   else ok("bare citation URL tokenized");
+  const inner = tokenizeLinks("See [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).");
+  if (!inner.some(t => t.type === "link" && t.href === "/industries/local-business/make-15-second-ai-video-ad")) fail("internal markdown tokenize");
+  else ok("internal markdown link tokenized");
+  const em = tokenizeLinks(`Go [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). *${AFFILIATE_DISCLOSURE}*`);
+  if (!em.some(t => t.type === "em" && t.disclosure && t.text === AFFILIATE_DISCLOSURE)) fail("emphasis disclosure tokenize " + JSON.stringify(em));
+  else ok("emphasis disclosure tokenized");
+  const html = renderInlineHtml(`like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). *${AFFILIATE_DISCLOSURE}*`);
+  assertAnchor(html, "inline render");
+  const cardHtml = renderToolCardHtml({
+    h: "Higgsfield",
+    p: "An AI platform for making images and short videos.",
+    cta: "Try Higgsfield →",
+    href: HIGGSFIELD_AFFILIATE_URL,
+    disclosure: AFFILIATE_DISCLOSURE
+  });
+  if (!cardHtml.includes('class="card tool-card"') || !cardHtml.includes("<h3>Higgsfield</h3>")) fail("tool card markup");
+  else ok("tool card markup");
+  assertAnchor(cardHtml, "tool card render");
 }
 
 const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
@@ -91,31 +132,137 @@ function scanPii(label, text, { allowExisting = false } = {}) {
   else ok(`${label} no payment PAN`);
 }
 
+const PLACEMENT_A = "/industries/local-business/make-15-second-ai-video-ad";
+const PLACEMENT_B = "/tips/tiktok-must-eat-restaurant-guide";
+const PLACEMENT_C = "/industries/local-business/google-business-profile-holiday-posts";
+const TOOLS_LINE = "Tools: an AI video generation platform, a one-sentence offer, and photos you own.";
+const COSTS_LINE = "Costs: see each vendor's current pricing page; we don't list prices we haven't verified.";
+const CARD_BODY = "An AI platform for making images and short videos. Start from a written prompt or an image you upload, and use templates built for short social clips and product ads. Good fit for this recipe: paste your one-sentence offer, add a product or storefront photo you own, and generate a short clip to review.";
+const LINE_B = `No time to film? You can turn a dish photo you own into a short clip with an AI video tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). Watch it all the way through before you post, and make sure it shows real food from your menu. *${AFFILIATE_DISCLOSURE}* For the full steps, see [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).`;
+const LINE_C = `Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). *${AFFILIATE_DISCLOSURE}*`;
+const PROMO_RE = /\b(coupon|discount|% off|promo code|free trial|free plan)\b/i;
+
 function contentChecks() {
-  const recipe = site.pages.find(p => p.path === "/industries/local-business/make-15-second-ai-video-ad");
+  const recipe = site.pages.find(p => p.path === PLACEMENT_A);
+  const tip = site.pages.find(p => p.path === PLACEMENT_B);
+  const gbp = site.pages.find(p => p.path === PLACEMENT_C);
   if (!recipe) { fail("recipe page missing"); return; }
   ok("recipe page exists");
   if (recipe.title !== "Make a 15-second AI video ad") fail("recipe title");
   else ok("recipe title");
   if (recipe.group !== "recipes" || !recipe.steps?.length) fail("recipe format");
   else ok("recipe has steps");
-  const blob = JSON.stringify(recipe);
-  if (!blob.includes(HIGGSFIELD_AFFILIATE_URL)) fail("recipe missing affiliate URL");
-  else ok("recipe has affiliate URL");
-  if (!blob.includes(AFFILIATE_DISCLOSURE)) fail("recipe missing disclosure");
-  else ok("recipe has disclosure");
+  if (recipe.steps[2]?.includes(HIGGSFIELD_AFFILIATE_URL) || /higgsfield/i.test(recipe.steps[2] || "")) fail("optional step-3 extra must not be added");
+  else ok("recipe step 3 has no Higgsfield affiliate extra");
+
   const need = (recipe.blocks || []).find(b => b.h === "What you need");
-  if (!need || need.p?.[0] !== AFFILIATE_DISCLOSURE) fail("disclosure must be What you need p[0]");
-  else ok("disclosure is before the affiliate link");
-  if (!need?.p?.[1]?.includes(HIGGSFIELD_AFFILIATE_URL)) fail("affiliate link must be What you need p[1]");
-  else ok("affiliate link is What you need p[1]");
-  if (/\b(coupon|discount|% off|promo code)\b/i.test(blob)) fail("recipe has coupon/discount wording");
-  else ok("recipe has no coupon/discount wording");
-  scanPii("new recipe", blob, { allowExisting: false });
+  if (!need) { fail("What you need missing"); return; }
+  if (need.p?.[0] !== TOOLS_LINE) fail("Tools line wording");
+  else ok("Tools line wording");
+  const card = need.p?.[1];
+  if (!isToolCard(card) || card.h !== "Higgsfield" || card.p !== CARD_BODY || card.cta !== "Try Higgsfield →" || card.href !== HIGGSFIELD_AFFILIATE_URL || card.disclosure !== AFFILIATE_DISCLOSURE) {
+    fail("Higgsfield tool card copy");
+  } else ok("Higgsfield tool card copy");
+  if (need.p?.[2] !== COSTS_LINE) fail("Costs line wording");
+  else ok("Costs line kept as is");
+  const sources = (recipe.blocks || []).find(b => b.h === "Sources");
+  if (!sources?.p?.some(t => String(t).includes("https://higgsfield.ai/") && !String(t).includes("fpr="))) fail("Sources citation URL");
+  else ok("Sources keeps plain higgsfield.ai citation");
+
+  if (!tip) fail("tiktok tip page missing");
+  else {
+    const doit = (tip.blocks || []).find(b => /^Do this/.test(b.h || ""));
+    const ol = doit?.ol || [];
+    const idx = ol.indexOf("Tag your restaurant's location on every video you post, and ask staff who post about work to do the same.");
+    if (idx < 0 || ol[idx + 1] !== LINE_B) fail("placement B line after step 2");
+    else ok("placement B line after step 2");
+  }
+
+  if (!gbp) fail("GBP holiday posts page missing");
+  else {
+    const confirmed = (gbp.blocks || []).find(b => b.h === "What's confirmed (Google Business Profile Help)");
+    const ul = confirmed?.ul || [];
+    const idx = ul.indexOf("Update posts can include a description, photo or video and an action button with a link.");
+    if (idx < 0 || ul[idx + 1] !== LINE_C) fail("placement C line after update-posts sentence");
+    else ok("placement C line after update-posts sentence");
+  }
+
+  const pages = [...site.pages, ...site.static];
+  let affPages = 0;
+  for (const p of pages) {
+    const blobs = textContainers(p);
+    const hits = blobs.filter(t => t.includes(HIGGSFIELD_AFFILIATE_URL));
+    if (!hits.length) continue;
+    affPages++;
+    for (const blob of hits) {
+      if (!blob.includes(AFFILIATE_DISCLOSURE)) fail(`${p.path} affiliate URL without same-container disclosure`);
+      else ok(`${p.path} disclosure in same container as affiliate URL`);
+      if (blob.includes("Try Higgsfield →") && p.path === PLACEMENT_A) assertAnchor(renderToolCardHtml(need.p[1]), `${p.path} card`);
+      else assertAnchor(renderInlineHtml(blob), p.path);
+      if (PROMO_RE.test(blob)) fail(`${p.path} Higgsfield copy has coupon/discount/free-plan wording`);
+      else ok(`${p.path} Higgsfield copy has no coupon/discount/free-plan wording`);
+    }
+    scanPii(p.path, JSON.stringify(p), { allowExisting: false });
+  }
+  if (affPages !== 3) fail(`expected affiliate links on 3 pages, found ${affPages}`);
+  else ok("affiliate links only on the three intended pages");
+
+  if (JSON.stringify(site.home).includes(HIGGSFIELD_AFFILIATE_URL)) fail("homepage copy has affiliate URL");
+  else ok("homepage has no affiliate URL");
+  const cardCopy = pages.filter(p => p.group === "recipes" || p.group === "tips").map(p => `${p.title}\n${p.summary}\n${p.label || ""}`).join("\n");
+  if (cardCopy.includes(HIGGSFIELD_AFFILIATE_URL) || cardCopy.includes("fpr=vincent")) fail("title/summary cards have affiliate URL");
+  else ok("homepage and /industries cards have no affiliate URL");
+}
+
+async function builtChecks(base) {
+  const paths = ["/", "/industries", "/industries/local-business", PLACEMENT_A, PLACEMENT_B, PLACEMENT_C];
+  const expected = {
+    "/": 0,
+    "/industries": 0,
+    "/industries/local-business": 0,
+    [PLACEMENT_A]: 1,
+    [PLACEMENT_B]: 1,
+    [PLACEMENT_C]: 1
+  };
+  for (const path of paths) {
+    const url = base.replace(/\/$/, "") + path;
+    let html;
+    try {
+      const res = await fetch(url);
+      if (!res.ok) { fail(`GET ${path} status ${res.status}`); continue; }
+      html = await res.text();
+    } catch (e) {
+      fail(`GET ${path} ${e.message}`);
+      continue;
+    }
+    const anchors = findAffiliateAnchors(html);
+    const n = expected[path];
+    if (anchors.length !== n) fail(`${path} affiliate count ${anchors.length}, expected ${n}`);
+    else ok(`${path} affiliate count ${anchors.length}`);
+    for (const a of anchors) {
+      if (a.rel !== AFFILIATE_REL) fail(`${path} built rel="${a.rel}"`);
+      else ok(`${path} built rel is ${AFFILIATE_REL}`);
+      if (a.target !== "_blank") fail(`${path} built target="${a.target}"`);
+      else ok(`${path} built target is _blank`);
+      if (!a.nearby.includes(AFFILIATE_DISCLOSURE)) fail(`${path} built disclosure not next to link`);
+      else ok(`${path} built disclosure sits next to affiliate link`);
+    }
+    if (path === PLACEMENT_A) {
+      if (!html.includes('class="card tool-card"') || !html.includes("Try Higgsfield")) fail("built recipe missing tool card");
+      else ok("built recipe has Higgsfield tool card");
+      if (!html.includes("https://higgsfield.ai/") || html.includes(`https://higgsfield.ai/?fpr`)) { /* citation may appear as higgsfield.ai/ */ }
+      const citation = html.match(/https:\/\/higgsfield\.ai\/(?![^\s"'<]*fpr)/);
+      if (!citation) fail("built recipe missing non-affiliate Sources citation");
+      else ok("built recipe keeps non-affiliate Sources citation");
+    }
+    scanPii(`built ${path}`, html, { allowExisting: false });
+  }
 }
 
 if (lintOnly || typecheckOnly) {
   syntaxCheck();
+} else if (builtBase) {
+  await builtChecks(builtBase);
 } else {
   unitAffiliate();
   contentChecks();

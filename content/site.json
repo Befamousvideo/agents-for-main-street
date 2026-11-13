@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 12, 2026",
+  "updated": "November 13, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -516,7 +516,8 @@
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
           ]
         }
       ],
@@ -532,7 +533,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=product-descriptions-alt-text"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/accounting/missing-documents-chaser",
@@ -888,7 +889,8 @@
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
-            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+            "Find the long questions people Google before they find you—and answer them before the holiday rush",
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
           ]
         }
       ],
@@ -898,7 +900,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -1855,7 +1857,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-12"
+      "updated": "2026-11-13"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2927,7 +2929,7 @@
       "group": "tips",
       "label": "Tip · Any business",
       "title": "Ask your web host to confirm your site got this week's critical PHP security update",
-      "seoTitle": "Critical PHP update, Oct 2026: what small business sites must do",
+      "seoTitle": "Critical PHP update, Oct 2026: what small sites must do",
       "summary": "On October 21, 2026, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two critical flaws that can let an attacker run code on a web server without logging in. If your website runs on PHP (most WordPress and many hosted sites do), ask your host or developer to confirm it's updated. It's a five-minute email.",
       "blocks": [
         {
@@ -3012,7 +3014,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-php-security-update-oct-2026"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/local-business/verify-bank-change-requests",
@@ -3113,7 +3115,7 @@
       "group": "tips",
       "label": "Tip · Restaurants and experiences",
       "title": "Sell experience gifts and restaurant gift cards early this holiday season",
-      "seoTitle": "Holiday 2026: shoppers plan to gift experiences (Deloitte survey)",
+      "seoTitle": "Holiday 2026: shoppers plan experience gifts (Deloitte)",
       "summary": "Deloitte's 2026 Holiday Retail Survey found that 50% of shoppers plan to give an experience this year, and restaurant gift cards or in-person meals top the list at 37%. If you run a restaurant, salon, studio or any business people visit, put your gift cards and experience packages in front of customers now, before Thanksgiving week.",
       "blocks": [
         {
@@ -3224,7 +3226,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-experience-gifts-restaurant-gift-cards-2026"
       },
-      "updated": "2026-11-11",
+      "updated": "2026-11-13",
       "image": {
         "src": "/images/gift-card-wall.webp",
         "alt": "Store gift card display with cards for a favorite restaurant, fast food, online store, coffee shop and more",
@@ -3622,7 +3624,7 @@
       "group": "tips",
       "label": "Tip · Any local business",
       "title": "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
-      "seoTitle": "Negative review extortion: how to report it to Google (don't pay)",
+      "seoTitle": "Review extortion on Google: how to report it (don't pay)",
       "summary": "Some scammers flood a Google Business Profile with 1- and 2-star reviews, then message the owner offering to remove them for money, gift cards or free services. Google says don't engage and don't pay: paying encourages more attempts and doesn't guarantee removal. Save the evidence and report it through Google's merchant extortion form.",
       "blocks": [
         {
@@ -3710,7 +3712,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-report-review-extortion"
       },
-      "updated": "2026-10-27"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/retail/card-testing-alerts",
@@ -4466,7 +4468,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Put your holiday offer in real text, not inside one big image",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
           ]
         },
         {
@@ -4500,7 +4503,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-google-free-product-listings"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/local-business/gmail-template-auto-replies",
@@ -5195,7 +5198,8 @@
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+            "Find the long questions people Google before they find you—and answer them before the holiday rush",
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
           ]
         },
         {
@@ -5230,7 +5234,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
       },
-      "updated": "2026-11-12"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/retail/black-friday-automatic-discount",
@@ -6490,7 +6494,8 @@
           "ul": [
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
           ]
         },
         {
@@ -6527,7 +6532,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-claim-your-business-in-chatgpt"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/service-businesses/failed-payment-recovery",
@@ -6669,7 +6674,8 @@
           "ul": [
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Answer the one question every first-time visitor asks at the top of your homepage",
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
           ]
         },
         {
@@ -6705,7 +6711,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-search-console-long-questions"
       },
-      "updated": "2026-11-12"
+      "updated": "2026-11-13"
     },
     {
       "path": "/industries/retail/hold-high-risk-orders",
@@ -6797,6 +6803,96 @@
         "href": "/build-it-for-me?recipe=hold-high-risk-orders"
       },
       "updated": "2026-11-12"
+    },
+    {
+      "path": "/tips/check-ai-shopping-answers",
+      "group": "tips",
+      "label": "Tip · Retail shops",
+      "title": "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source",
+      "seoTitle": "Check what ChatGPT and Google show for your products (2026)",
+      "summary": "More shoppers now ask ChatGPT or Google what to buy and get product cards back with a price, a rating and a buy link. Those cards are built from product data the AI tools collect, and OpenAI says price updates can lag behind what you charge today. Before Black Friday, spend 30 minutes asking the AI tools the way a shopper would about your five best sellers. If a card shows the wrong price, a sold-out color as in stock, or the wrong model, fix it where the data comes from: your product page, your Google Merchant Center feed and your listings on other marketplaces, so they all say the same thing.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Shoppers who find you through an AI answer see the price and details you actually offer, instead of last month’s price or a reseller’s listing. You also catch mistakes before your holiday sale starts, not after a confused customer emails you."
+          ]
+        },
+        {
+          "h": "How to do it (about 30 minutes)",
+          "ul": [
+            "Pick your 5 best sellers or holiday gift items.",
+            "For each one, write 2–3 questions the way a shopper would ask, not just the product name: “warm wool socks for hiking under $30,” “gift for a coffee lover under $50 that ships by Christmas.”",
+            "Ask each question in ChatGPT and in Google (AI Mode or a regular search that shows an AI answer). Use a private or logged-out browser window so your own history doesn’t shape the answer.",
+            "In a simple sheet, note for each answer: does your product show up, what price and stock it shows, whether the details are right, and which store the buy link goes to.",
+            "Fix wrong prices and stock at the source: update the product page first, then your Google Merchant Center product data (price, sale price, availability) so it matches the page exactly, then any Amazon, Etsy or other marketplace listings.",
+            "If you sell on Shopify, OpenAI says Shopify stores’ product data already reaches ChatGPT through Shopify Catalog, so keep your Shopify product data current. Larger catalogs can look at OpenAI’s product feed program for merchants.",
+            "Make each product easy to identify: a clear title with brand, model, size and color; the GTIN (barcode number) if the product has one; and Product markup on the page (most store builders add it for you; Google’s Rich Results Test shows whether it’s there).",
+            "If ChatGPT shows clearly wrong product info, use the report option in the product menu, as OpenAI’s help page describes.",
+            "Run the same questions again a week before Black Friday and once in December, since AI answers change from day to day."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Fixing your data does not guarantee your product will appear or rank first in an AI answer; OpenAI and Google choose results themselves, and answers vary each time you ask. Never change your page price just to match a wrong AI card: fix the card’s source instead. Google Merchant Center requires the price you submit to match your landing page and checkout. If you run a sale, use the sale price field rather than overwriting the regular price. This tip came from a sponsored article in Search Engine Journal (shared in TLDR Marketing); we checked the steps against OpenAI’s and Google’s own help pages and don’t recommend any paid tracking tool."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "OpenAI Help Center: Shopping with ChatGPT Search (how products, prices and merchants are selected; Shopify Catalog; reporting incorrect info) — https://help.openai.com/en/articles/11128490-improved-shopping-results-from-chatgpt-search",
+            "OpenAI: Power product discovery in ChatGPT (merchant program) — https://chatgpt.com/merchants",
+            "Google Merchant Center Help: Price [price] — https://support.google.com/merchants/answer/6324371",
+            "Google Merchant Center Help: Sale price [sale_price] — https://support.google.com/merchants/answer/6324471",
+            "Google Merchant Center Help: GTIN [gtin] — https://support.google.com/merchants/answer/6324461",
+            "Google Search Central: Merchant listing (Product, Offer) structured data — https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+            "Last checked at the source: November 13, 2026. Backlog item TB-093 (found via TLDR Marketing, November 13, 2026; original article: Search Engine Journal, sponsored by Writesonic, November 12, 2026)."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Get your products into Google's free listings before holiday shoppers start searching",
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Batch-write product descriptions and image alt text"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I have to pay to show up in ChatGPT’s product results?",
+          "a": "No. OpenAI says its product results are chosen independently and aren’t ads. Ads in ChatGPT are separate from product results."
+        },
+        {
+          "q": "I don’t use Google Merchant Center. Does this still help?",
+          "a": "Yes. Start with your own product pages and any marketplace listings. Google’s free product listings and Merchant Center are worth setting up if you sell online; see our free product listings tip."
+        },
+        {
+          "q": "How often should I check?",
+          "a": "Before big sales and once a month after that. AI answers change often, so a single check is only a snapshot."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-check-ai-shopping-answers.webp",
+        "alt": "A gift shop owner at a wooden counter holding a ceramic mug and its price tag while comparing it with a blurred product card on a laptop screen, shelves of mugs and candles and warm string lights behind, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a simple monthly check: your best sellers’ shopper questions run through ChatGPT and Google, results land in one sheet, and any price or stock mismatch with your store or Merchant Center is flagged for you—installed on your own tools within 7 days. You approve every change.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-check-ai-shopping-answers"
+      },
+      "updated": "2026-11-13"
     }
   ],
   "static": [

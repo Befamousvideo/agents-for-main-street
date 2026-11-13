@@ -49,8 +49,8 @@ export function ToolCard({ card }) {
       <h3>{card.h}</h3>
       <p>{card.p}</p>
       <p>
-        {card.disclosure}{" "}
         <a href={card.href} {...(ext ? { rel: externalRel(card.href), target: "_blank" } : {})}>{card.cta}</a>
+        {" "}{card.disclosure}
       </p>
     </div>
   );

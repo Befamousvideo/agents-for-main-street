@@ -64,8 +64,6 @@ function assertAnchor(html, label) {
     else ok(`${label} affiliate link is inside a <p>`);
     if (a.discIdx < 0) fail(`${label} disclosure missing from the same <p> as the link`);
     else ok(`${label} disclosure is in the same <p> as the link`);
-    if (!(a.discIdx >= 0 && a.linkIdx >= 0 && a.discIdx < a.linkIdx)) fail(`${label} disclosure must come before the link in the same <p>`);
-    else ok(`${label} disclosure comes before the link`);
     if (/<small/i.test(a.nearby) || /aff-disclosure/i.test(a.nearby)) fail(`${label} aff-disclosure or <small near affiliate link`);
     else ok(`${label} no aff-disclosure or <small near affiliate link`);
     if (/\bmuted\b/.test(a.pAttrs) || /\bsmall\b/.test(a.pAttrs)) fail(`${label} disclosure <p> uses muted/small class`);
@@ -95,8 +93,10 @@ function unitAffiliate() {
   const inner = tokenizeLinks("See [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).");
   if (!inner.some(t => t.type === "link" && t.href === "/industries/local-business/make-15-second-ai-video-ad")) fail("internal markdown tokenize");
   else ok("internal markdown link tokenized");
-  const html = `<p>${renderInlineHtml(`${AFFILIATE_DISCLOSURE} like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}).`)}</p>`;
-  assertAnchor(html, "inline render");
+  const htmlAfter = `<p>${renderInlineHtml(`Open [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE}`)}</p>`;
+  assertAnchor(htmlAfter, "inline render after link");
+  const htmlBefore = `<p>${renderInlineHtml(`${AFFILIATE_DISCLOSURE} like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}).`)}</p>`;
+  assertAnchor(htmlBefore, "inline render before link");
   const cardHtml = renderToolCardHtml({
     h: "Higgsfield",
     p: "An AI platform for making images and short videos.",
@@ -106,9 +106,13 @@ function unitAffiliate() {
   });
   if (!cardHtml.includes('class="card tool-card"') || !cardHtml.includes("<h3>Higgsfield</h3>")) fail("tool card markup");
   else ok("tool card markup");
-  if (!cardHtml.includes(`<p>${AFFILIATE_DISCLOSURE} <a href="${HIGGSFIELD_AFFILIATE_URL}"`)) fail("tool card disclosure-before-link paragraph");
-  else ok("tool card disclosure-before-link paragraph");
+  if (!cardHtml.includes(`<p><a href="${HIGGSFIELD_AFFILIATE_URL}"`) || !cardHtml.includes(`</a> ${AFFILIATE_DISCLOSURE}</p>`)) fail("tool card same-paragraph disclosure");
+  else ok("tool card same-paragraph disclosure");
   assertAnchor(cardHtml, "tool card render");
+  const nearSmall = findAffiliateAnchors(`<p><a href="${HIGGSFIELD_AFFILIATE_URL}" rel="${AFFILIATE_REL}" target="_blank">Higgsfield</a> ${AFFILIATE_DISCLOSURE}</p><small class="aff-disclosure">x</small>`);
+  if (!nearSmall.length) fail("nearby-small fixture missing affiliate link");
+  else if (!(/<small/i.test(nearSmall[0].nearby) || /aff-disclosure/i.test(nearSmall[0].nearby))) fail("nearby window missed aff-disclosure or <small");
+  else ok("test fails if aff-disclosure or <small appears near any affiliate link");
 }
 
 const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
@@ -147,9 +151,10 @@ const PLACEMENT_C = "/industries/local-business/google-business-profile-holiday-
 const TOOLS_LINE = "Tools: an AI video generation platform, a one-sentence offer, and photos you own.";
 const COSTS_LINE = "Costs: see each vendor's current pricing page; we don't list prices we haven't verified.";
 const CARD_BODY = "An AI platform for making images and short videos. Start from a written prompt or an image you upload, and use templates built for short social clips and product ads. Good fit for this recipe: paste your one-sentence offer, add a product or storefront photo you own, and generate a short clip to review.";
-const STEP_3 = `${AFFILIATE_DISCLOSURE} Open an AI video generation platform such as [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}), paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.`;
-const LINE_B = `${AFFILIATE_DISCLOSURE} No time to film? You can turn a dish photo you own into a short clip with an AI video tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). Watch it all the way through before you post, and make sure it shows real food from your menu. For the full steps, see [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).`;
-const LINE_C = `${AFFILIATE_DISCLOSURE} Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}).`;
+const STEP_3 = `Open an AI video generation platform such as [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE} Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.`;
+const STEP_3_HTML = `<p>Open an AI video generation platform such as <a href="${HIGGSFIELD_AFFILIATE_URL}" rel="${AFFILIATE_REL}" target="_blank">Higgsfield</a>. ${AFFILIATE_DISCLOSURE} Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.</p>`;
+const LINE_B = `No time to film? You can turn a dish photo you own into a short clip with an AI video tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). Watch it all the way through before you post, and make sure it shows real food from your menu. ${AFFILIATE_DISCLOSURE} For the full steps, see [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).`;
+const LINE_C = `Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE}`;
 const PROMO_RE = /\b(coupon|discount|% off|promo code|free trial|free plan)\b/i;
 
 function contentChecks() {
@@ -163,7 +168,9 @@ function contentChecks() {
   if (recipe.group !== "recipes" || !recipe.steps?.length) fail("recipe format");
   else ok("recipe has steps");
   if (recipe.steps[2] !== STEP_3) fail("recipe step 3 wording");
-  else ok("recipe step 3 has disclosure-before-link affiliate copy");
+  else ok("recipe step 3 has Tony's affiliate copy");
+  if (renderInlineHtml(STEP_3) !== STEP_3_HTML.replace(/^<p>/, "").replace(/<\/p>$/, "")) fail("recipe step 3 HTML");
+  else ok("recipe step 3 renders Tony's HTML");
   if (/\(affiliate link\)/i.test(JSON.stringify(recipe))) fail("recipe uses '(affiliate link)'");
   else ok("recipe does not use '(affiliate link)'");
 
@@ -212,10 +219,6 @@ function contentChecks() {
     for (const blob of hits) {
       if (!blob.includes(AFFILIATE_DISCLOSURE)) fail(`${p.path} affiliate URL without same-container disclosure`);
       else ok(`${p.path} disclosure in same container as affiliate URL`);
-      const discAt = blob.indexOf(AFFILIATE_DISCLOSURE);
-      const urlAt = blob.indexOf(HIGGSFIELD_AFFILIATE_URL);
-      if (!(discAt >= 0 && discAt < urlAt)) fail(`${p.path} disclosure must precede affiliate URL in source`);
-      else ok(`${p.path} disclosure precedes affiliate URL in source`);
       if (blob.includes("Try Higgsfield →") && p.path === PLACEMENT_A) assertAnchor(renderToolCardHtml(need.p[1]), `${p.path} card`);
       else assertAnchor(`<p>${renderInlineHtml(blob)}</p>`, p.path);
       if (PROMO_RE.test(blob)) fail(`${p.path} Higgsfield copy has coupon/discount/free-plan wording`);
@@ -266,6 +269,8 @@ async function builtChecks(base) {
     if (path === PLACEMENT_A) {
       if (!html.includes('class="card tool-card"') || !html.includes("Try Higgsfield")) fail("built recipe missing tool card");
       else ok("built recipe has Higgsfield tool card");
+      if (!html.includes(STEP_3_HTML)) fail("built recipe step 3 is not Tony's HTML");
+      else ok("built recipe step 3 is Tony's HTML");
       const citation = html.match(/https:\/\/higgsfield\.ai\/(?![^\s"'<]*fpr)/);
       if (!citation) fail("built recipe missing non-affiliate Sources citation");
       else ok("built recipe keeps non-affiliate Sources citation");

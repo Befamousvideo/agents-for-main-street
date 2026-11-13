@@ -83,7 +83,7 @@ function renderInlineHtml(t) {
 
 function renderToolCardHtml(card) {
   const extra = /^https?:\/\//.test(card.href) ? ` rel="${externalRel(card.href)}" target="_blank"` : "";
-  return `<div class="card tool-card"><h3>${escapeHtml(card.h)}</h3><p>${escapeHtml(card.p)}</p><p>${escapeHtml(card.disclosure)} <a href="${escapeHtml(card.href)}"${extra}>${escapeHtml(card.cta)}</a></p></div>`;
+  return `<div class="card tool-card"><h3>${escapeHtml(card.h)}</h3><p>${escapeHtml(card.p)}</p><p><a href="${escapeHtml(card.href)}"${extra}>${escapeHtml(card.cta)}</a> ${escapeHtml(card.disclosure)}</p></div>`;
 }
 
 function textContainers(value, acc = []) {

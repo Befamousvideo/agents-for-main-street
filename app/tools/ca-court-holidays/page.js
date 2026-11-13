@@ -1,6 +1,6 @@
 import holidays from "./holidays";
 import Checker from "./Checker";
-const { DISCLAIMER } = holidays;
+const { DISCLAIMER, SOURCE_LINKS } = holidays;
 
 export const dynamic = "force-static";
 export const metadata = {
@@ -16,8 +16,10 @@ export default function CaCourtHolidaysPage() {
       <h1>California court holiday checker</h1>
       <div className="tldr"><strong>Quick answer:</strong> Pick a date to see whether California state courts are closed that day (weekend or scheduled judicial holiday), the next court business day, and published holidays in the two weeks before and after.</div>
       <Checker />
-      {/* [CONFIRM: Lexy/Tony wording] */}
       <p className="muted small court-disclaimer">{DISCLAIMER}</p>
+      <p className="muted small">Sources: {SOURCE_LINKS.map((s, i) => (
+        <span key={s.href}>{i ? "; " : ""}<a href={s.href} rel="noopener" target="_blank">{s.label}</a></span>
+      ))}.</p>
     </article>
   );
 }

@@ -18,7 +18,9 @@ export default function Checker() {
     if (!r.ok) { setResult(null); setError(r.error); return; }
     setError("");
     setResult(r);
-    try { track("tool_result", { tool: "ca-court-holidays", closed: r.closed ? "1" : "0" }); } catch { /* analytics is optional */ }
+    try {
+      track("tool_result", { tool: "ca-court-holidays", closed: r.closed || r.likelyClosed ? "1" : (r.notCovered ? "na" : "0") });
+    } catch { /* analytics is optional */ }
   }
 
   return (
@@ -44,19 +46,27 @@ export default function Checker() {
 }
 
 function Result({ result }) {
+  const showStatewideNext = result.nextBusinessDay && !result.notCovered && !result.nextOutsideCoverage;
+  const showOutsideNext = result.nextBusinessDay && !result.notCovered && result.nextOutsideCoverage;
   return (
     <>
       <section className="card" aria-live="polite">
-        <p className={"court-status " + (result.closed ? "closed" : "open")}>
-          {result.closed ? "Closed" : "Open"} on {result.dateLabel}
-        </p>
-        <p>{result.reason}.</p>
-        <p>Next court business day: <strong>{result.nextBusinessDayLabel}</strong></p>
+        <p className={"court-status " + result.statusKind}>{result.status}</p>
+        <p>{result.reason}</p>
+        {result.confirmCaveat && <p>{result.confirmCaveat}</p>}
+        {result.farmworkersNote && <p>{result.farmworkersNote}</p>}
+        {showStatewideNext && (
+          <p>Next court business day (statewide list): <strong>{result.nextBusinessDayLabel}</strong>
+            {result.nextAmbiguous ? <> — Likely closed: {result.nextAmbiguous.name}. {result.nextAmbiguous.detail} {result.confirmCaveat || "Confirm with the court before relying on this date."}</> : null}
+          </p>
+        )}
+        {showOutsideNext && (
+          <p>{result.nextOutsideLabel}: <strong>{result.nextBusinessDayLabel}</strong></p>
+        )}
         {result.county && (
-          <p>{result.county} County does not change this statewide result. Confirm local hours with the clerk via the{" "}
+          <p>This result uses the statewide holiday list. It does not reflect {result.county} County closures or hours; you can find the court's contact information with the{" "}
             <a href={result.countyLocatorUrl} rel="noopener" target="_blank">Judicial Branch court locator</a>.</p>
         )}
-        {result.coverageNote && <p className="muted small">{result.coverageNote}</p>}
         <h2>Court holidays within 14 days</h2>
         {result.nearby.length ? (
           <ul className="court-holidays">{result.nearby.map(h => (
@@ -64,9 +74,10 @@ function Result({ result }) {
           ))}</ul>
         ) : <p className="muted">No published judicial holidays in this dataset within 14 days of {result.dateLabel}.</p>}
         <p className="muted small">Source: <a href={result.sourceUrl} rel="noopener" target="_blank">{result.sourceTitle}</a> · Last checked: {result.lastCheckedLabel}</p>
+        <p className="muted small">{result.disclaimer}</p>
       </section>
       <section className="card nl">
-        <h2>Get a weekly plain-English AI tip for professional services and law firms. Join the list</h2>
+        <h2>Get a weekly plain-English AI tip for professional services and law firms. Join the list.</h2>
         <NewsletterForm />
         <p className="small"><a href="/industries/professional-services">Law and professional-services recipes</a></p>
       </section>

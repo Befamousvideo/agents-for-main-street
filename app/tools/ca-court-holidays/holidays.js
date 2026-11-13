@@ -1,8 +1,22 @@
 // Pure helpers for the CA court-holiday checker. CJS so Next and scripts/check.mjs can both load this file.
 
-const DISCLAIMER = "Information only, not legal advice. This tool does not calculate filing deadlines. Courts can close for emergencies or local reasons; always confirm with the court clerk.";
+const DISCLAIMER = "Information only, not legal advice. This page shows the statewide California judicial holidays published by the Judicial Branch for 2026 and 2027. It does not calculate filing deadlines or count court days. Federal courts follow a different holiday schedule. A court can also close for emergencies or local reasons, so check with that court's clerk before relying on a date. This site is not affiliated with the California courts.";
+
+const NOT_COVERED_TEXT = "This checker only has the published California court holiday lists for 2026 and 2027, so it cannot say whether courts are open on this date. Saturdays and Sundays are always court holidays.";
+
+const CONFIRM_AMBIGUOUS = "Confirm with the court before relying on this date.";
+
+const FARMWORKERS_NOTE = "Farmworkers Day moves from March 31 to April 10 starting in 2027 (SB 1394). April 10, 2027 is a Saturday, so the statewide court list shows Friday, April 9. March 31, 2027 is not on the statewide court holiday list.";
+
+const NEXT_OUTSIDE_LABEL = "Next weekday that is not a listed 2026–2027 holiday (holidays after 2027 are not checked)";
 
 const COUNTY_LOCATOR_URL = "https://courts.ca.gov/find-your-court";
+
+const SOURCE_LINKS = [
+  { href: "https://courts.ca.gov/about/court-holidays", label: "Judicial Branch Court Holidays list (courts.ca.gov/about/court-holidays)" },
+  { href: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=135.", label: "Code of Civil Procedure section 135" },
+  { href: "https://courts.ca.gov/cms/rules/index/one/rule1_11", label: "California Rules of Court, rule 1.11" }
+];
 
 const COUNTIES = [
   "Alameda", "Alpine", "Amador", "Butte", "Calaveras", "Colusa", "Contra Costa",
@@ -21,7 +35,10 @@ const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Frida
 const FORBIDDEN_OUTPUT = [
   /you must file by/i,
   /statute of limitations/i,
-  /AI lawyer/i
+  /AI lawyer/i,
+  /last day to file/i,
+  /deadline is/i,
+  /you should/i
 ];
 
 function parseIsoDate(iso) {
@@ -55,6 +72,19 @@ function holidayMap(dataset) {
   return map;
 }
 
+function ambiguousMap(dataset) {
+  const map = new Map();
+  for (const a of dataset.ambiguous || []) map.set(a.date, a);
+  return map;
+}
+
+function yearCovered(iso, dataset) {
+  const dt = parseIsoDate(iso);
+  if (!dt) return false;
+  const years = dataset.coverageYears || [];
+  return years.length === 0 || years.indexOf(dt.getUTCFullYear()) >= 0;
+}
+
 function holidaysInWindow(iso, dataset, days) {
   const span = days == null ? 14 : days;
   const dt = parseIsoDate(iso);
@@ -69,11 +99,12 @@ function nextBusinessDay(iso, dataset) {
   const start = parseIsoDate(iso);
   if (!start) return null;
   const named = holidayMap(dataset);
+  const amb = ambiguousMap(dataset);
   let cur = addDays(start, 1);
   for (let i = 0; i < 366; i++) {
     const id = toIsoDate(cur);
     const dow = cur.getUTCDay();
-    if (dow !== 0 && dow !== 6 && !named.has(id)) return id;
+    if (dow !== 0 && dow !== 6 && !named.has(id) && !amb.has(id)) return id;
     cur = addDays(cur, 1);
   }
   return null;
@@ -83,33 +114,77 @@ function checkCourtDay(iso, dataset, county) {
   const dt = parseIsoDate(iso);
   if (!dt) return { ok: false, error: "Enter a valid date as YYYY-MM-DD." };
   const date = toIsoDate(dt);
+  const dateLabel = formatLongDate(date);
   const dow = dt.getUTCDay();
   const weekend = dow === 0 || dow === 6;
   const named = holidayMap(dataset);
+  const ambMap = ambiguousMap(dataset);
   const holiday = named.get(date) || null;
-  const closed = weekend || !!holiday;
-  let reason;
-  if (holiday && weekend) reason = `${holiday.name} (scheduled judicial holiday) and ${WEEKDAYS[dow]}`;
-  else if (holiday) reason = `${holiday.name} (scheduled judicial holiday)`;
-  else if (weekend) reason = `${WEEKDAYS[dow]}`;
-  else reason = "Scheduled court business day";
-  const next = nextBusinessDay(date, dataset);
-  const years = dataset.coverageYears || [];
-  const year = dt.getUTCFullYear();
-  const coverageNote = years.length && !years.includes(year)
-    ? `Named judicial holidays in this dataset cover ${years.join(" and ")}. Saturday and Sunday are still treated as closed.`
-    : null;
+  const ambiguous = ambMap.get(date) || null;
+  const covered = yearCovered(date, dataset);
   const countyName = COUNTIES.indexOf(county) >= 0 ? county : null;
+
+  let closed = false;
+  let likelyClosed = false;
+  let notCovered = false;
+  let status = "";
+  let statusKind = "not-holiday";
+  let reason = "";
+  let confirmCaveat = null;
+  let farmworkersNote = null;
+
+  if (weekend) {
+    closed = true;
+    statusKind = "closed";
+    status = "Closed on " + dateLabel;
+    reason = WEEKDAYS[dow] + ".";
+  } else if (holiday) {
+    closed = true;
+    statusKind = "closed";
+    status = "Closed on " + dateLabel;
+    reason = holiday.name + " (scheduled judicial holiday).";
+  } else if (ambiguous) {
+    likelyClosed = true;
+    statusKind = "likely";
+    status = "Likely closed: " + ambiguous.name;
+    reason = ambiguous.detail;
+    confirmCaveat = CONFIRM_AMBIGUOUS;
+  } else if (!covered) {
+    notCovered = true;
+    statusKind = "uncovered";
+    status = "Not covered";
+    reason = NOT_COVERED_TEXT;
+  } else {
+    statusKind = "not-holiday";
+    status = "Not a court holiday: " + dateLabel;
+    reason = "Not a weekend or a published statewide court holiday.";
+  }
+
+  if (date === "2027-03-31" || date === "2027-04-09") farmworkersNote = FARMWORKERS_NOTE;
+
+  const next = covered ? nextBusinessDay(date, dataset) : null;
+  const nextOutsideCoverage = !!(next && !yearCovered(next, dataset));
+  const nextAmbiguous = next ? (ambMap.get(next) || null) : null;
+
   return {
     ok: true,
     date,
-    dateLabel: formatLongDate(date),
+    dateLabel,
     closed,
+    likelyClosed,
+    notCovered,
+    status,
+    statusKind,
     reason,
+    confirmCaveat,
+    farmworkersNote,
     holidayName: holiday ? holiday.name : null,
     weekend,
     nextBusinessDay: next,
     nextBusinessDayLabel: next ? formatLongDate(next) : "",
+    nextOutsideCoverage,
+    nextAmbiguous,
+    nextOutsideLabel: NEXT_OUTSIDE_LABEL,
     nearby: holidaysInWindow(date, dataset, 14),
     county: countyName,
     countyLocatorUrl: COUNTY_LOCATOR_URL,
@@ -117,7 +192,6 @@ function checkCourtDay(iso, dataset, county) {
     sourceTitle: dataset.primarySource.title,
     lastChecked: dataset.lastChecked,
     lastCheckedLabel: formatLongDate(dataset.lastChecked),
-    coverageNote,
     disclaimer: DISCLAIMER
   };
 }
@@ -128,7 +202,12 @@ function outputHasForbidden(text) {
 
 module.exports = {
   DISCLAIMER,
+  NOT_COVERED_TEXT,
+  CONFIRM_AMBIGUOUS,
+  FARMWORKERS_NOTE,
+  NEXT_OUTSIDE_LABEL,
   COUNTY_LOCATOR_URL,
+  SOURCE_LINKS,
   COUNTIES,
   FORBIDDEN_OUTPUT,
   parseIsoDate,

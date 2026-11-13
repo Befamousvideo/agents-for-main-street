@@ -6,7 +6,18 @@ const GA_FALLBACK_ID = "G-ECB8CXZGD7";
 const CONSENT_STORAGE_KEY = "afms-analytics-consent";
 const CONSENT_GRANTED = "granted";
 const CONSENT_DENIED = "denied";
+const CONSENT_RESET_EVENT = "afms-consent-reset";
 const GTAG_SCRIPT_ID = "ga4-gtag";
+const CONSENT_DEFAULT = {
+  ad_storage: "denied",
+  ad_user_data: "denied",
+  ad_personalization: "denied",
+  analytics_storage: "granted"
+};
+const GA_CONFIG_OPTIONS = {
+  allow_google_signals: false,
+  allow_ad_personalization_signals: false
+};
 
 function measurementId(env) {
   const id = (env || process.env).NEXT_PUBLIC_GA_ID;
@@ -14,13 +25,32 @@ function measurementId(env) {
 }
 
 function readConsent(store) {
-  if (!store || typeof store.getItem !== "function") return null;
-  const v = store.getItem(CONSENT_STORAGE_KEY);
-  return v === CONSENT_GRANTED || v === CONSENT_DENIED ? v : null;
+  try {
+    if (!store || typeof store.getItem !== "function") return null;
+    const v = store.getItem(CONSENT_STORAGE_KEY);
+    return v === CONSENT_GRANTED || v === CONSENT_DENIED ? v : null;
+  } catch {
+    return null;
+  }
 }
 
 function writeConsent(store, value) {
-  store.setItem(CONSENT_STORAGE_KEY, value);
+  try {
+    if (store && typeof store.setItem === "function") store.setItem(CONSENT_STORAGE_KEY, value);
+  } catch {}
+}
+
+function clearConsent(store) {
+  try {
+    if (store && typeof store.removeItem === "function") store.removeItem(CONSENT_STORAGE_KEY);
+  } catch {}
+}
+
+function reopenConsentBar(store, target) {
+  clearConsent(store);
+  if (target && typeof target.dispatchEvent === "function") {
+    try { target.dispatchEvent(new Event(CONSENT_RESET_EVENT)); } catch {}
+  }
 }
 
 function createGtag(dataLayer) {
@@ -30,8 +60,9 @@ function createGtag(dataLayer) {
 }
 
 function initGtag(gtag, id, now) {
+  gtag("consent", "default", CONSENT_DEFAULT);
   gtag("js", now || new Date());
-  gtag("config", id);
+  gtag("config", id, GA_CONFIG_OPTIONS);
 }
 
 function loadGtagScript(doc, id) {
@@ -68,10 +99,15 @@ module.exports = {
   CONSENT_STORAGE_KEY,
   CONSENT_GRANTED,
   CONSENT_DENIED,
+  CONSENT_RESET_EVENT,
+  CONSENT_DEFAULT,
+  GA_CONFIG_OPTIONS,
   GTAG_SCRIPT_ID,
   measurementId,
   readConsent,
   writeConsent,
+  clearConsent,
+  reopenConsentBar,
   createGtag,
   initGtag,
   loadGtagScript,

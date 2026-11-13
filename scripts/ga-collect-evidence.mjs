@@ -195,12 +195,19 @@ async function main() {
         if (hit) break;
         await sleep(250);
       }
+      const collectUrlObj = hit ? collectUrl(hit.url) : null;
+      const npa = collectUrlObj?.searchParams.get("npa") ?? (hit?.postData && String(hit.postData).match(/(?:^|[&\n])npa=([^&\n]+)/)?.[1]) ?? null;
+      const gcd = collectUrlObj?.searchParams.get("gcd") ?? null;
+      const adPersonalizationDenied = npa !== "0";
       const out = {
         ok: Boolean(hit),
         measurementId: GA_ID,
         pageUrl,
         consent: { action: "click [data-consent=allow]", result: click.result?.value },
         collect: hit || null,
+        npa,
+        gcd,
+        adPersonalizationDenied,
         relatedRequests: requests.filter(r => r.url && /google|gtag|collect|analytics/i.test(r.url)),
         capturedAt: new Date().toISOString()
       };
@@ -211,7 +218,12 @@ async function main() {
         console.error("no /g/collect request with tid=" + GA_ID);
         process.exit(1);
       }
+      if (npa === "0") {
+        console.error("collect has npa=0 (ad personalization not denied)");
+        process.exit(1);
+      }
       console.log("ok  /g/collect " + hit.url);
+      console.log("ok  npa=" + npa + " gcd=" + gcd);
     } finally {
       cdp.close();
     }

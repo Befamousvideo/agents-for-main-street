@@ -127,6 +127,10 @@ function fakeDoc() {
   };
 }
 
+function isArgs(x) {
+  return x && !Array.isArray(x) && Object.prototype.toString.call(x) === "[object Arguments]";
+}
+
 function unitGtag() {
   const now = new Date("2026-11-13T00:00:00.000Z");
   const denied = {};
@@ -147,18 +151,23 @@ function unitGtag() {
   else ok("gtag starts after consent");
 
   const layer = result.dataLayer;
-  if (!layer || layer.length < 2) fail("gtag dataLayer missing js/config");
+  if (!layer || layer.length < 3) fail("gtag dataLayer missing consent/js/config");
   else {
-    const first = layer[0];
-    const second = layer[1];
-    if (Array.isArray(first) || Object.prototype.toString.call(first) !== "[object Arguments]") fail("gtag js push must be an Arguments object");
-    else ok("gtag js push is an Arguments object");
-    if (first[0] !== "js" || !(first[1] instanceof Date) || first[1] !== now) fail("gtag js command shape");
+    const [consentCmd, jsCmd, configCmd] = layer;
+    if (!isArgs(consentCmd) || !isArgs(jsCmd) || !isArgs(configCmd)) fail("gtag pushes must be Arguments objects");
+    else ok("gtag consent/js/config pushes are Arguments objects");
+    const flags = consentCmd[2] || {};
+    if (consentCmd[0] !== "consent" || consentCmd[1] !== "default"
+      || flags.ad_storage !== "denied" || flags.ad_user_data !== "denied"
+      || flags.ad_personalization !== "denied" || flags.analytics_storage !== "granted") fail("gtag consent default values");
+    else ok("gtag consent default precedes js/config with denied ads and granted analytics");
+    if (jsCmd[0] !== "js" || !(jsCmd[1] instanceof Date) || jsCmd[1] !== now) fail("gtag js command shape");
     else ok("gtag js command then Date");
-    if (Array.isArray(second) || Object.prototype.toString.call(second) !== "[object Arguments]") fail("gtag config push must be an Arguments object");
-    else ok("gtag config push is an Arguments object");
-    if (second[0] !== "config" || second[1] !== "G-ECB8CXZGD7") fail("gtag config command shape");
+    const cfg = configCmd[2] || {};
+    if (configCmd[0] !== "config" || configCmd[1] !== "G-ECB8CXZGD7") fail("gtag config command shape");
     else ok("gtag config command then measurement ID");
+    if (cfg.allow_google_signals !== false || cfg.allow_ad_personalization_signals !== false) fail("gtag config must deny Google signals and ad personalization");
+    else ok("gtag config sets allow_google_signals and allow_ad_personalization_signals false");
   }
 
   const gtagSrc = doc.nodes.find(n => n.src && n.src.includes("googletagmanager.com/gtag/js"));
@@ -169,6 +178,53 @@ function unitGtag() {
   else ok("GA fallback ID is G-ECB8CXZGD7");
   if (ga.measurementId({ NEXT_PUBLIC_GA_ID: "G-CUSTOM" }) !== "G-CUSTOM") fail("GA env override");
   else ok("NEXT_PUBLIC_GA_ID overrides fallback");
+}
+
+function memoryStore() {
+  const data = Object.create(null);
+  return {
+    getItem: k => Object.prototype.hasOwnProperty.call(data, k) ? data[k] : null,
+    setItem: (k, v) => { data[k] = String(v); },
+    removeItem: k => { delete data[k]; }
+  };
+}
+
+function unitCookieSettings() {
+  const store = memoryStore();
+  ga.writeConsent(store, ga.CONSENT_GRANTED);
+  if (ga.readConsent(store) !== ga.CONSENT_GRANTED) fail("consent store write");
+  const events = [];
+  const target = { dispatchEvent(e) { events.push(e.type); return true; } };
+  ga.reopenConsentBar(store, target);
+  if (ga.readConsent(store) !== null) fail("Cookie settings must clear the saved choice");
+  else ok("Cookie settings clears the saved choice");
+  if (!events.includes(ga.CONSENT_RESET_EVENT)) fail("Cookie settings must emit the reset event to re-show the bar");
+  else ok("Cookie settings re-shows the bar");
+
+  const boom = {
+    getItem() { throw new Error("blocked"); },
+    setItem() { throw new Error("blocked"); },
+    removeItem() { throw new Error("blocked"); }
+  };
+  try {
+    ga.writeConsent(boom, ga.CONSENT_GRANTED);
+    ga.readConsent(boom);
+    ga.clearConsent(boom);
+    ok("consent storage errors are caught");
+  } catch {
+    fail("consent storage must not throw");
+  }
+
+  const layout = readFileSync(join(root, "app/layout.js"), "utf8");
+  if (!layout.includes("<CookieSettings />") || !layout.includes("RSS</a> · <CookieSettings")) fail("footer must include Cookie settings button");
+  else ok("footer Cookie settings button is next to the footer links");
+  const bar = readFileSync(join(root, "app/AnalyticsConsent.js"), "utf8");
+  if (!bar.includes('role="region"')) fail("consent bar must use role=region");
+  else ok("consent bar uses role=region");
+  if (!bar.includes(">Analytics<") && !/cookie-title">Analytics</.test(bar)) fail("consent bar title must be Analytics");
+  else ok("consent bar title is Analytics");
+  if (!bar.includes("Vercel") || !bar.includes("cookieless, aggregated analytics and performance measurement run on every page")) fail("consent bar must mention ungated Vercel analytics");
+  else ok("consent bar mentions Vercel cookieless analytics");
 }
 
 function unitVerification() {
@@ -193,6 +249,16 @@ function unitVerification() {
   const privacyText = JSON.stringify(privacy || {});
   if (!/Google Analytics/.test(privacyText)) fail("privacy page must mention Google Analytics");
   else ok("privacy page mentions Google Analytics");
+  const cookies = (privacy?.blocks || []).find(b => b.h === "Cookies, analytics, Do Not Track, and other tracking");
+  const p = cookies?.p || [];
+  if (!p[1]?.includes("`_ga`") || !p[1]?.includes("`afms-analytics-consent`") || !p[1]?.includes("https://www.google.com/policies/privacy/partners/")) fail("privacy B2 cookies/partners wording");
+  else ok("privacy names _ga cookies, localStorage key, and Google partners link");
+  if (p[2] !== "Advertising-related signals (ad_storage, ad_user_data and ad_personalization) stay denied, even after you allow analytics, and we do not turn on Google Analytics advertising features.") fail("privacy B3 advertising-signals sentence");
+  else ok("privacy discloses advertising signals stay denied");
+  if (p[3] !== "To change your choice later, use Cookie settings in the footer. If you switch to Decline, Google Analytics stops loading on later page views; cookies Google already set stay until you clear them in your browser.") fail("privacy B4 Cookie settings sentence");
+  else ok("privacy explains Cookie settings");
+  if (!p[6]?.includes("runs with advertising features and Google signals turned off") || /aside from Google Analytics/.test(p[6] || "")) fail("privacy B5 cross-site sentence");
+  else ok("privacy cross-site sentence matches Lexy B5");
 }
 
 function walkHtml(dir, acc = []) {
@@ -235,6 +301,7 @@ if (piiBuildOnly) {
 } else {
   unitAffiliate();
   unitGtag();
+  unitCookieSettings();
   unitVerification();
   contentChecks();
   syntaxCheck();

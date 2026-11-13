@@ -178,6 +178,15 @@ function unitGtag() {
   else ok("GA fallback ID is G-ECB8CXZGD7");
   if (ga.measurementId({ NEXT_PUBLIC_GA_ID: "G-CUSTOM" }) !== "G-CUSTOM") fail("GA env override");
   else ok("NEXT_PUBLIC_GA_ID overrides fallback");
+
+  const beforeDeny = layer.length;
+  const deniedLater = ga.denyAnalytics(win);
+  const updateCmd = layer[layer.length - 1];
+  if (!deniedLater.updated || layer.length !== beforeDeny + 1) fail("Decline after Allow must update gtag consent");
+  else if (!isArgs(updateCmd) || updateCmd[0] !== "consent" || updateCmd[1] !== "update" || updateCmd[2]?.analytics_storage !== "denied") fail("gtag consent update must deny analytics_storage");
+  else ok("Decline after Allow calls gtag consent update with analytics_storage denied");
+  if (ga.denyAnalytics({}).updated) fail("denyAnalytics must no-op when gtag is missing");
+  else ok("denyAnalytics is a no-op when gtag does not exist");
 }
 
 function memoryStore() {
@@ -225,6 +234,8 @@ function unitCookieSettings() {
   else ok("consent bar title is Analytics");
   if (!bar.includes("Vercel") || !bar.includes("cookieless, aggregated analytics and performance measurement run on every page")) fail("consent bar must mention ungated Vercel analytics");
   else ok("consent bar mentions Vercel cookieless analytics");
+  if (!bar.includes("ga.denyAnalytics(window)")) fail("decide() must call denyAnalytics on Decline");
+  else ok("decide() denies analytics_storage when gtag exists");
 }
 
 function unitVerification() {
@@ -251,7 +262,7 @@ function unitVerification() {
   else ok("privacy page mentions Google Analytics");
   const cookies = (privacy?.blocks || []).find(b => b.h === "Cookies, analytics, Do Not Track, and other tracking");
   const p = cookies?.p || [];
-  if (!p[1]?.includes("`_ga`") || !p[1]?.includes("`afms-analytics-consent`") || !p[1]?.includes("https://www.google.com/policies/privacy/partners/")) fail("privacy B2 cookies/partners wording");
+  if (!p[1]?.includes("_ga") || !p[1]?.includes("_ga_<ID>") || !p[1]?.includes("afms-analytics-consent") || !p[1]?.includes("https://www.google.com/policies/privacy/partners/") || /`/.test(p[1])) fail("privacy B2 cookies/partners wording");
   else ok("privacy names _ga cookies, localStorage key, and Google partners link");
   if (p[2] !== "Advertising-related signals (ad_storage, ad_user_data and ad_personalization) stay denied, even after you allow analytics, and we do not turn on Google Analytics advertising features.") fail("privacy B3 advertising-signals sentence");
   else ok("privacy discloses advertising signals stay denied");
@@ -292,6 +303,15 @@ function builtPii() {
   }
   if (/google-site-verification/i.test(combined) && !process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION) fail("built HTML must omit google-site-verification when env is unset");
   else ok("built HTML omits google-site-verification when env is unset");
+
+  const privacyHtmlPath = join(nextDir, "server/app/privacy.html");
+  if (!existsSync(privacyHtmlPath)) fail("built pii: privacy.html missing");
+  else {
+    const privacyHtml = readFileSync(privacyHtmlPath, "utf8");
+    if (!privacyHtml.includes("_ga") || !privacyHtml.includes("afms-analytics-consent")) fail("built /privacy must name _ga cookies and the consent key");
+    else if (privacyHtml.includes("`_ga") || privacyHtml.includes("`afms-analytics-consent") || /`_ga_/.test(privacyHtml)) fail("built /privacy must not show literal backticks around cookie names");
+    else ok("built /privacy has no literal backticks around _ga / afms-analytics-consent");
+  }
 }
 
 if (piiBuildOnly) {

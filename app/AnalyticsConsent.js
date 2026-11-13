@@ -28,6 +28,7 @@ export default function AnalyticsConsent() {
 
   function decide(value) {
     ga.writeConsent(window.localStorage, value);
+    if (value === ga.CONSENT_DENIED) ga.denyAnalytics(window);
     setChoice(value);
   }
 

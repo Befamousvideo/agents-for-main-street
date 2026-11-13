@@ -76,6 +76,12 @@ function loadGtagScript(doc, id) {
   return s;
 }
 
+function denyAnalytics(win) {
+  if (!win || typeof win.gtag !== "function") return { updated: false };
+  win.gtag("consent", "update", { analytics_storage: "denied" });
+  return { updated: true };
+}
+
 function startGoogleAnalytics(win, doc, opts) {
   const options = opts || {};
   const consent = options.consent;
@@ -111,5 +117,6 @@ module.exports = {
   createGtag,
   initGtag,
   loadGtagScript,
-  startGoogleAnalytics
+  startGoogleAnalytics,
+  denyAnalytics
 };

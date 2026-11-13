@@ -56,9 +56,7 @@ function Result({ result }) {
         {result.confirmCaveat && <p>{result.confirmCaveat}</p>}
         {result.farmworkersNote && <p>{result.farmworkersNote}</p>}
         {showStatewideNext && (
-          <p>Next court business day (statewide list): <strong>{result.nextBusinessDayLabel}</strong>
-            {result.nextAmbiguous ? <> — Likely closed: {result.nextAmbiguous.name}. {result.nextAmbiguous.detail} {result.confirmCaveat || "Confirm with the court before relying on this date."}</> : null}
-          </p>
+          <p>Next court business day (statewide list): <strong>{result.nextBusinessDayLabel}</strong></p>
         )}
         {showOutsideNext && (
           <p>{result.nextOutsideLabel}: <strong>{result.nextBusinessDayLabel}</strong></p>
@@ -70,7 +68,7 @@ function Result({ result }) {
         <h2>Court holidays within 14 days</h2>
         {result.nearby.length ? (
           <ul className="court-holidays">{result.nearby.map(h => (
-            <li key={h.date}><strong>{h.dateLabel}</strong> — {h.name}</li>
+            <li key={h.date}>{h.listText}</li>
           ))}</ul>
         ) : <p className="muted">No published judicial holidays in this dataset within 14 days of {result.dateLabel}.</p>}
         <p className="muted small">Source: <a href={result.sourceUrl} rel="noopener" target="_blank">{result.sourceTitle}</a> · Last checked: {result.lastCheckedLabel}</p>

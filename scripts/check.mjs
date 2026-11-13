@@ -16,9 +16,13 @@ const {
 } = require("../app/affiliates.js");
 const {
   DISCLAIMER,
+  NOT_COVERED_TEXT,
+  CONFIRM_AMBIGUOUS,
+  FARMWORKERS_NOTE,
   COUNTIES,
   checkCourtDay,
   holidaysInWindow,
+  nextBusinessDay,
   outputHasForbidden
 } = require("../app/tools/ca-court-holidays/holidays.js");
 const site = require("../content/site.json");
@@ -142,8 +146,12 @@ function unitCourtHolidays() {
   else ok("weekend next business day is 2026-12-28");
 
   const open = checkCourtDay("2026-03-04", courtHolidays);
-  if (!open.ok || open.closed) fail("ordinary weekday should be open");
-  else ok("ordinary weekday is open");
+  if (!open.ok || open.closed || open.likelyClosed || open.notCovered) fail("ordinary weekday should not be a court holiday");
+  else ok("ordinary weekday is not a court holiday");
+  if (open.status !== "Not a court holiday: " + open.dateLabel) fail("ordinary weekday status " + open.status);
+  else ok("ordinary weekday uses Not a court holiday label");
+  if (open.reason !== "Not a weekend or a published statewide court holiday.") fail("ordinary weekday reason");
+  else ok("ordinary weekday reason");
   if (open.nextBusinessDay !== "2026-03-05") fail("ordinary weekday next " + open.nextBusinessDay);
   else ok("ordinary weekday next business day");
 
@@ -168,18 +176,59 @@ function unitCourtHolidays() {
   if (!amb || listed) fail("2027-12-31 must be marked ambiguous, not a holiday");
   else ok("2027-12-31 is recorded as ambiguous, not a holiday");
   const nyeEve = checkCourtDay("2027-12-31", courtHolidays);
-  if (!nyeEve.ok || nyeEve.closed || nyeEve.holidayName) fail("2027-12-31 should not be treated as a statewide holiday");
-  else ok("2027-12-31 is not treated as a statewide holiday");
+  if (!nyeEve.ok || nyeEve.closed || nyeEve.holidayName) fail("2027-12-31 must not be a published statewide holiday");
+  else ok("2027-12-31 is not in holidays[]");
+  if (!nyeEve.likelyClosed || nyeEve.status !== "Likely closed: New Year's Day 2028 (observed)") fail("2027-12-31 status " + nyeEve.status);
+  else ok("2027-12-31 is Likely closed: New Year's Day 2028 (observed)");
+  if (nyeEve.reason !== courtHolidays.ambiguous[0].detail) fail("2027-12-31 detail text");
+  else ok("2027-12-31 uses Lexy detail text");
+  if (nyeEve.confirmCaveat !== CONFIRM_AMBIGUOUS) fail("2027-12-31 confirm caveat");
+  else ok("2027-12-31 confirm-with-court caveat");
+  if (nextBusinessDay("2027-12-30", courtHolidays) === "2027-12-31") fail("next day after 2027-12-30 must skip ambiguous 12/31");
+  else ok("nextBusinessDay skips 2027-12-31");
+  const dec30 = checkCourtDay("2027-12-30", courtHolidays);
+  if (dec30.nextBusinessDay === "2027-12-31" && !dec30.nextAmbiguous) fail("2027-12-30 next landed on 12/31 without caveat");
+  else ok("2027-12-30 next court business day is not 12/31 without caveat");
+  if (dec30.nextBusinessDay === "2027-12-31") fail("2027-12-30 next should not be 12/31");
+  else ok("2027-12-30 next is " + dec30.nextBusinessDay);
+  if (!dec30.nextOutsideCoverage) fail("2027-12-30 next should be outside 2026–2027 coverage");
+  else ok("2027-12-30 next is labeled as outside coverage");
+
+  const xmas25 = checkCourtDay("2025-12-25", courtHolidays);
+  if (!xmas25.notCovered || xmas25.closed || xmas25.status !== "Not covered") fail("2025-12-25 should be Not covered, not Open");
+  else ok("2025-12-25 is Not covered");
+  if (xmas25.reason !== NOT_COVERED_TEXT) fail("2025-12-25 coverage text");
+  else ok("2025-12-25 uses Lexy Not-covered text");
+  if (xmas25.nextBusinessDay) fail("2025-12-25 should not show a next court business day");
+  else ok("2025-12-25 does not invent a next court business day");
+
+  const sat25 = checkCourtDay("2025-12-27", courtHolidays);
+  if (!sat25.closed || !sat25.weekend) fail("Saturday outside coverage should still be closed");
+  else ok("Saturday outside coverage is still closed");
+
+  const fw = checkCourtDay("2027-04-09", courtHolidays);
+  if (!fw.closed || fw.holidayName !== "Farmworkers Day (formerly Cesar Chavez Day)") fail("2027-04-09 Farmworkers Day");
+  else ok("2027-04-09 remains Farmworkers Day");
+  if (fw.farmworkersNote !== FARMWORKERS_NOTE) fail("Farmworkers note on 2027-04-09");
+  else ok("Farmworkers note on 2027-04-09");
+  const mar31 = checkCourtDay("2027-03-31", courtHolidays);
+  if (mar31.closed || mar31.farmworkersNote !== FARMWORKERS_NOTE) fail("2027-03-31 should not be a holiday and should show Farmworkers note");
+  else ok("2027-03-31 is not a statewide holiday, with Farmworkers note");
 
   const page = readFileSync(join(root, "app/tools/ca-court-holidays/page.js"), "utf8");
   const checker = readFileSync(join(root, "app/tools/ca-court-holidays/Checker.js"), "utf8");
   if (!page.includes("{DISCLAIMER}") && !page.includes(DISCLAIMER)) fail("disclaimer missing from page");
   else ok("disclaimer on page");
-  if (!page.includes("[CONFIRM: Lexy/Tony wording]")) fail("disclaimer confirm comment missing");
-  else ok("disclaimer confirm comment is source-only");
+  if (page.includes("[CONFIRM: Lexy/Tony wording]") || checker.includes("[CONFIRM: Lexy/Tony wording]")) fail("CONFIRM comment must be removed");
+  else ok("CONFIRM comment removed");
   if (DISCLAIMER.includes("CONFIRM")) fail("CONFIRM leaked into visible disclaimer");
   else ok("CONFIRM is not in visible disclaimer");
-  if (!checker.includes("Get a weekly plain-English AI tip for professional services and law firms. Join the list")) fail("CTA copy missing");
+  if (DISCLAIMER !== "Information only, not legal advice. This page shows the statewide California judicial holidays published by the Judicial Branch for 2026 and 2027. It does not calculate filing deadlines or count court days. Federal courts follow a different holiday schedule. A court can also close for emergencies or local reasons, so check with that court's clerk before relying on a date. This site is not affiliated with the California courts.") fail("disclaimer text");
+  else ok("disclaimer is Lexy's wording");
+  const holidaySrc = readFileSync(join(root, "app/tools/ca-court-holidays/holidays.js"), "utf8");
+  if (!page.includes("SOURCE_LINKS") || !holidaySrc.includes("Code of Civil Procedure section 135") || !holidaySrc.includes("California Rules of Court, rule 1.11")) fail("page sources line missing CCP 135 / CRC 1.11");
+  else ok("page sources line links CCP 135 and CRC 1.11");
+  if (!checker.includes("Get a weekly plain-English AI tip for professional services and law firms. Join the list.")) fail("CTA copy missing");
   else ok("CTA copy present");
   if (!checker.includes("NewsletterForm")) fail("CTA not wired to existing newsletter form");
   else ok("CTA uses existing NewsletterForm");
@@ -195,13 +244,21 @@ function unitCourtHolidays() {
   if (homeBlob.includes("ca-court-holidays")) fail("tool must not be on homepage");
   else ok("tool is not on homepage");
   const resultBlob = JSON.stringify({ ...xmas, disclaimer: undefined });
-  if (outputHasForbidden(resultBlob) || /you must file by|AI lawyer/i.test(page + checker)) fail("forbidden advice/deadline wording");
+  if (outputHasForbidden(resultBlob) || /you must file by|AI lawyer|last day to file|deadline is|you should/i.test(page + checker)) fail("forbidden advice/deadline wording");
   else ok("no deadline, statute, or advice wording in output");
   if (!/does not calculate filing deadlines/.test(DISCLAIMER)) fail("disclaimer must say this tool does not calculate filing deadlines");
   else ok("disclaimer states the tool does not calculate filing deadlines");
+  if (!checker.includes("Next court business day (statewide list)")) fail("next-day label missing statewide qualifier");
+  else ok("next-day label includes statewide list");
+  if (!checker.includes("This result uses the statewide holiday list. It does not reflect")) fail("county line missing Lexy wording");
+  else ok("county line uses Lexy wording");
   const sources = (courtHolidays.sources || []).map(s => s.url);
   if (!sources.includes("https://courts.ca.gov/about/court-holidays")) fail("primary courts.ca.gov source missing");
   else ok("official courts.ca.gov source recorded");
+  if (!sources.includes("https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1394")) fail("SB 1394 source missing");
+  else ok("SB 1394 source recorded");
+  if (!String(courtHolidays.notes[1] || "").includes("Eid al-Fitr, Eid al-Adha, and Sylvia Mendez Day")) fail("2027 CCP 135 exclusions missing from notes");
+  else ok("2027 CCP 135 exclusions noted in dataset");
 }
 
 function scanBuiltPii() {

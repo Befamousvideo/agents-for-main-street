@@ -4,7 +4,9 @@ import BuildRequestForm from "../BuildRequestForm";
 import ContactForm from "../ContactForm";
 import { Newsletter, Cta, Sponsor, Block, MailingAddress, EmailAddress } from "../components";
 import { allPages, pageAt, childrenOf, matchTitle, Listing, TaxListing, groupOf, Linked, pageDateIso, pageDateLabel, effectiveDateLabel } from "../nav";
+import affiliates from "../affiliates";
 import Search from "../Search";
+const { wrapAffiliate } = affiliates;
 const all = allPages;
 const find = (slug) => all().find(p => p.path === "/" + slug.join("/"));
 export const dynamicParams = false;
@@ -40,7 +42,7 @@ export default async function Page({ params }) {
     {p.flag && <div className="flag">⚠️ {p.flag}</div>}
     {p.tldr !== false && <div className="tldr"><strong>Quick answer:</strong> {p.summary}</div>}
     {p.group && <p className="muted small">Last updated {pageDateLabel(p)}</p>}
-    {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}><Linked t={s} /></li>)}</ol></section>}
+    {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}>{wrapAffiliate(s) ? <p><Linked t={s} /></p> : <Linked t={s} />}</li>)}</ol></section>}
     {(p.blocks || []).filter(b => !(hasKids && (b.ul || b.ol) && !b.p && (b.ul || b.ol).every(t => matchTitle(t)))).map((b, i) => <Block key={i} b={b} />)}
     {p.path === "/industries" && <Search />}
     {hasKids && (isTax ? <TaxListing only={p.taxGroup} /> : <Listing path={p.path} />)}

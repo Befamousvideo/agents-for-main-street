@@ -1,6 +1,6 @@
 import site from "../content/site.json";
 import affiliates from "./affiliates";
-const { externalRel, tokenizeLinks } = affiliates;
+const { externalRel, tokenizeLinks, wrapAffiliate } = affiliates;
 const human = (s) => s.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const real = () => [...site.pages, ...site.static];
 // Synthetic index pages for any intermediate path that has child pages but no page of its own,
@@ -30,11 +30,7 @@ export function Linked({ t }) {
       const ext = /^https?:\/\//.test(href);
       return <a key={i} href={href} {...(ext ? { rel: externalRel(href), target: "_blank" } : {})}>{tok.text}</a>;
     }
-    if (tok.type === "em") {
-      return tok.disclosure
-        ? <small key={i} className="aff-disclosure">{tok.text}</small>
-        : <em key={i}>{tok.text}</em>;
-    }
+    if (tok.type === "em") return <em key={i}>{tok.text}</em>;
     return tok.text;
   })}</>;
 }
@@ -43,9 +39,13 @@ export const isoDate = (s) => { if (!s) return undefined; const d = new Date(/^\
 export const pageDateIso = (p) => isoDate(p.updated) || isoDate(site.updated);
 export const pageDateLabel = (p) => { const i = pageDateIso(p); return i ? new Date(i + "T00:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }) : site.updated; };
 export const effectiveDateLabel = (p) => { if (!p?.effectiveDate) return ""; const i = isoDate(p.effectiveDate); return i ? new Date(i + "T00:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }) : p.effectiveDate; };
-export function Li({ t }) { const m = matchTitle(t); if (!m) return <li><Linked t={t} /></li>;
-  const head = String(t).split(" — ")[0]; const rest = String(t).slice(head.length);
-  return <li><a href={m.path}>{head}</a>{rest}</li>; }
+export function Li({ t }) {
+  const m = matchTitle(t);
+  const inner = m
+    ? <><a href={m.path}>{String(t).split(" — ")[0]}</a>{String(t).slice(String(t).split(" — ")[0].length)}</>
+    : <Linked t={t} />;
+  return <li>{wrapAffiliate(t) ? <p>{inner}</p> : inner}</li>;
+}
 // Group children by the next path segment under `path`.
 export function grouped(path) {
   const depth = path.slice(1).split("/").filter(Boolean).length;

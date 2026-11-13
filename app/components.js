@@ -49,9 +49,8 @@ export function ToolCard({ card }) {
       <h3>{card.h}</h3>
       <p>{card.p}</p>
       <p>
+        {card.disclosure}{" "}
         <a href={card.href} {...(ext ? { rel: externalRel(card.href), target: "_blank" } : {})}>{card.cta}</a>
-        {" "}
-        <small className="aff-disclosure">{card.disclosure}</small>
       </p>
     </div>
   );
@@ -62,7 +61,7 @@ export function Block({ b }) {
     {b.img && <img className="hero" src={b.img.src} alt={b.img.alt} width={b.img.w} height={b.img.h} loading="lazy" />}
     {b.p && b.p.map((t, i) => isToolCard(t)
       ? <ToolCard key={i} card={t} />
-      : <p key={i} className={/^Affiliate link:/i.test(String(t)) ? "muted small affiliate-note" : undefined}><Linked t={t} /></p>)}
+      : <p key={i}><Linked t={t} /></p>)}
     {b.ol && <ol>{b.ol.map((t, i) => <Li key={i} t={t} />)}</ol>}
     {b.ul && <ul>{b.ul.map((t, i) => <Li key={i} t={t} />)}</ul>}
     {b.pre && <pre>{b.pre}</pre>}

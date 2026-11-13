@@ -8,9 +8,8 @@ a{color:var(--accent)}.wrap{max-width:1040px;margin:0 auto;padding:0 20px}.row{d
 .tldr{background:#fff;border-left:4px solid var(--accent);padding:14px 18px;border-radius:8px;margin:16px 0}.flag{background:#fff7e0;border:1px solid #f0d27a;padding:10px 14px;border-radius:8px;font-size:.95rem}
 .sponsor{border:1px dashed #bbb;border-radius:10px;padding:12px 16px;margin:28px 0;font-size:.95rem;color:#555}
 .nl form{display:flex;gap:8px;flex-wrap:wrap}.nl input{padding:11px;border:1px solid #ccc;border-radius:8px;font-size:1rem;flex:1;min-width:220px}label{display:block;margin:8px 0;font-weight:600;font-size:.9rem}label input{display:block;width:100%;margin-top:4px;padding:10px;border:1px solid #ccc;border-radius:8px}
-.muted{color:#777}.small{font-size:.85rem}.affiliate-note{margin-top:-.4rem}.crumbs{font-size:.85rem;color:#777;margin-top:28px}pre{background:#111;color:#eee;padding:14px;border-radius:8px;white-space:pre-wrap}
+.muted{color:#777}.small{font-size:.85rem}.crumbs{font-size:.85rem;color:#777;margin-top:28px}pre{background:#111;color:#eee;padding:14px;border-radius:8px;white-space:pre-wrap}
 .tool-card{margin:16px 0}.tool-card h3{margin:0 0 .4rem}.tool-card p:last-child{margin-bottom:0}
-.aff-disclosure{color:#777;font-size:.85rem}
 .email-addr{display:inline-block;height:1.15em;width:auto;vertical-align:-.15em}
 table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid #ddd;padding:8px;text-align:left;font-size:.95rem}details{background:#fff;border:1px solid #e6e6e0;border-radius:8px;padding:10px 14px;margin:8px 0}summary{font-weight:600;cursor:pointer}
 .ftr{border-top:1px solid #e6e6e0;margin-top:60px;padding:24px 0;font-size:.9rem;background:#fff}article h1{font-size:2.1rem;line-height:1.2}

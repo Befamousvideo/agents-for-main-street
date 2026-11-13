@@ -20,6 +20,10 @@ function isToolCard(t) {
   return !!(t && typeof t === "object" && t.card === "tool");
 }
 
+function wrapAffiliate(t) {
+  return typeof t === "string" && t.includes("higgsfield.ai?fpr=");
+}
+
 function externalRel(href) {
   return isAffiliateUrl(href) ? AFFILIATE_REL : "noopener";
 }
@@ -32,8 +36,7 @@ function splitEmphasis(text) {
   let m;
   while ((m = re.exec(s))) {
     if (m.index > last) parts.push({ type: "text", text: s.slice(last, m.index) });
-    const inner = m[1];
-    parts.push({ type: "em", text: inner, disclosure: /^Affiliate link:/i.test(inner) });
+    parts.push({ type: "em", text: m[1] });
     last = m.index + m[0].length;
   }
   if (last < s.length) parts.push({ type: "text", text: s.slice(last) });
@@ -73,26 +76,31 @@ function renderInlineHtml(t) {
       const attrs = ext ? ` rel="${externalRel(tok.href)}" target="_blank"` : "";
       return `<a href="${escapeHtml(tok.href)}"${attrs}>${escapeHtml(tok.text)}</a>`;
     }
-    if (tok.type === "em") {
-      if (tok.disclosure) return `<small class="aff-disclosure">${escapeHtml(tok.text)}</small>`;
-      return `<em>${escapeHtml(tok.text)}</em>`;
-    }
+    if (tok.type === "em") return `<em>${escapeHtml(tok.text)}</em>`;
     return escapeHtml(tok.text);
   }).join("");
 }
 
 function renderToolCardHtml(card) {
-  const rel = externalRel(card.href);
-  const extra = /^https?:\/\//.test(card.href) ? ` rel="${rel}" target="_blank"` : "";
-  return `<div class="card tool-card"><h3>${escapeHtml(card.h)}</h3><p>${escapeHtml(card.p)}</p><p><a href="${escapeHtml(card.href)}"${extra}>${escapeHtml(card.cta)}</a> <small class="aff-disclosure">${escapeHtml(card.disclosure)}</small></p></div>`;
+  const extra = /^https?:\/\//.test(card.href) ? ` rel="${externalRel(card.href)}" target="_blank"` : "";
+  return `<div class="card tool-card"><h3>${escapeHtml(card.h)}</h3><p>${escapeHtml(card.p)}</p><p>${escapeHtml(card.disclosure)} <a href="${escapeHtml(card.href)}"${extra}>${escapeHtml(card.cta)}</a></p></div>`;
 }
 
 function textContainers(value, acc = []) {
   if (typeof value === "string") acc.push(value);
   else if (Array.isArray(value)) value.forEach(v => textContainers(v, acc));
-  else if (isToolCard(value)) acc.push([value.h, value.p, value.cta, value.href, value.disclosure].filter(Boolean).join("\n"));
+  else if (isToolCard(value)) acc.push([value.h, value.p, value.disclosure, value.cta, value.href].filter(Boolean).join("\n"));
   else if (value && typeof value === "object") Object.values(value).forEach(v => textContainers(v, acc));
   return acc;
+}
+
+function lastOpenP(html, from) {
+  const slice = html.slice(0, from);
+  let idx = -1;
+  const re = /<p(?:\s|>)/gi;
+  let m;
+  while ((m = re.exec(slice))) idx = m.index;
+  return idx;
 }
 
 function findAffiliateAnchors(html) {
@@ -103,8 +111,24 @@ function findAffiliateAnchors(html) {
     const attrs = `${m[1]} ${m[3]}`;
     const rel = (attrs.match(/\brel="([^"]*)"/i) || [])[1] || "";
     const target = (attrs.match(/\btarget="([^"]*)"/i) || [])[1] || "";
-    const after = html.slice(m.index, m.index + 700);
-    out.push({ href: m[2], rel, target, nearby: after });
+    const pStart = lastOpenP(html, m.index);
+    const pEnd = html.indexOf("</p>", m.index);
+    const pHtml = pStart >= 0 && pEnd > pStart ? html.slice(pStart, pEnd + 4) : "";
+    const pOpen = pHtml.match(/^<p\b([^>]*)>/i);
+    const pAttrs = pOpen ? pOpen[1] : "";
+    const pInner = pHtml.replace(/^<p\b[^>]*>/i, "").replace(/<\/p>$/i, "");
+    const nearby = html.slice(Math.max(0, m.index - 400), m.index + 400);
+    out.push({
+      href: m[2],
+      rel,
+      target,
+      pHtml,
+      pAttrs,
+      pInner,
+      discIdx: pInner.indexOf(AFFILIATE_DISCLOSURE),
+      linkIdx: pInner.search(/<a\b/i),
+      nearby
+    });
   }
   return out;
 }
@@ -115,6 +139,7 @@ module.exports = {
   AFFILIATE_REL,
   isAffiliateUrl,
   isToolCard,
+  wrapAffiliate,
   externalRel,
   tokenizeLinks,
   renderInlineHtml,

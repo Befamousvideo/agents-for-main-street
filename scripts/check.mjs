@@ -163,8 +163,9 @@ const CARD_BODY = "An AI platform for making images and short videos. Start from
 const STEP_3 = `Open an AI video generation platform such as [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE} Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.`;
 const STEP_3_SCHEMA = "Open an AI video generation platform such as Higgsfield. Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.";
 const STEP_3_HTML = `<p>Open an AI video generation platform such as <a href="${HIGGSFIELD_AFFILIATE_URL}" rel="${AFFILIATE_REL}" target="_blank">Higgsfield</a>. ${AFFILIATE_DISCLOSURE} Paste your sentence, attach a photo if the tool accepts one, set length to about 15 seconds if asked, and generate the clip.</p>`;
-const LINE_B = `No time to film? You can turn a dish photo you own into a short clip with an AI video tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). Watch it all the way through before you post, and make sure it shows real food from your menu. ${AFFILIATE_DISCLOSURE} For the full steps, see [Make a 15-second AI video ad](/industries/local-business/make-15-second-ai-video-ad).`;
 const LINE_C = `Want a short video for your update post? Our [15-second AI video ad recipe](/industries/local-business/make-15-second-ai-video-ad) shows how to make one with a tool like [Higgsfield](${HIGGSFIELD_AFFILIATE_URL}). ${AFFILIATE_DISCLOSURE}`;
+const TIKTOK_STEP_2 = "Tag your restaurant's location on every video you post, and ask staff who post about work to do the same.";
+const TIKTOK_STEP_3 = "If you take reservations through OpenTable, make sure your holiday availability is current, since select restaurants can be booked from Must Eat.";
 const PROMO_RE = /\b(coupon|discount|% off|promo code|free trial|free plan)\b/i;
 
 function parseJsonLd(html) {
@@ -226,9 +227,12 @@ function contentChecks() {
   else {
     const doit = (tip.blocks || []).find(b => /^Do this/.test(b.h || ""));
     const ol = doit?.ol || [];
-    const idx = ol.indexOf("Tag your restaurant's location on every video you post, and ask staff who post about work to do the same.");
-    if (idx < 0 || ol[idx + 1] !== LINE_B) fail("placement B line after step 2");
-    else ok("placement B line after step 2");
+    const idx = ol.indexOf(TIKTOK_STEP_2);
+    if (idx < 0 || ol[idx + 1] !== TIKTOK_STEP_3) fail("tiktok Do this was not restored from main");
+    else ok("tiktok Do this restored from main (no affiliate line)");
+    const tipBlob = JSON.stringify(tip);
+    if (tipBlob.includes(HIGGSFIELD_AFFILIATE_URL) || /fpr=/.test(tipBlob) || /Affiliate link/i.test(tipBlob)) fail("tiktok tip still has affiliate copy");
+    else ok("tiktok tip has no affiliate copy");
   }
 
   if (!gbp) fail("GBP holiday posts page missing");
@@ -257,8 +261,8 @@ function contentChecks() {
     }
     scanPii(p.path, JSON.stringify(p), { allowExisting: false });
   }
-  if (affPages !== 3) fail(`expected affiliate links on 3 pages, found ${affPages}`);
-  else ok("affiliate links only on the three intended pages");
+  if (affPages !== 2) fail(`expected affiliate links on 2 pages, found ${affPages}`);
+  else ok("affiliate links only on the recipe and GBP holiday-posts pages");
 
   if (JSON.stringify(site.home).includes(HIGGSFIELD_AFFILIATE_URL)) fail("homepage copy has affiliate URL");
   else ok("homepage has no affiliate URL");
@@ -276,7 +280,7 @@ async function builtChecks(base) {
     "/industries": 0,
     "/industries/local-business": 0,
     [PLACEMENT_A]: 2,
-    [PLACEMENT_B]: 1,
+    [PLACEMENT_B]: 0,
     [PLACEMENT_C]: 1
   };
   for (const path of paths) {

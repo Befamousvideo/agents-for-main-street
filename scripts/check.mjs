@@ -19,6 +19,9 @@ const {
   NOT_COVERED_TEXT,
   CONFIRM_AMBIGUOUS,
   FARMWORKERS_NOTE,
+  NEXT_OUTSIDE_LABEL,
+  LIKELY_CLOSED_LIST_SUFFIX,
+  SOURCE_LINKS,
   COUNTIES,
   checkCourtDay,
   holidaysInWindow,
@@ -187,12 +190,20 @@ function unitCourtHolidays() {
   if (nextBusinessDay("2027-12-30", courtHolidays) === "2027-12-31") fail("next day after 2027-12-30 must skip ambiguous 12/31");
   else ok("nextBusinessDay skips 2027-12-31");
   const dec30 = checkCourtDay("2027-12-30", courtHolidays);
-  if (dec30.nextBusinessDay === "2027-12-31" && !dec30.nextAmbiguous) fail("2027-12-30 next landed on 12/31 without caveat");
-  else ok("2027-12-30 next court business day is not 12/31 without caveat");
   if (dec30.nextBusinessDay === "2027-12-31") fail("2027-12-30 next should not be 12/31");
   else ok("2027-12-30 next is " + dec30.nextBusinessDay);
   if (!dec30.nextOutsideCoverage) fail("2027-12-30 next should be outside 2026–2027 coverage");
   else ok("2027-12-30 next is labeled as outside coverage");
+  if (NEXT_OUTSIDE_LABEL !== "Next weekday that is not a weekend, a listed 2026–2027 holiday, or a date marked likely closed (2028 court holidays are not in this checker yet)") fail("NEXT_OUTSIDE_LABEL text");
+  else ok("NEXT_OUTSIDE_LABEL is Lexy R2 wording");
+  if (dec30.nextOutsideLabel !== NEXT_OUTSIDE_LABEL) fail("2027-12-30 next-outside label");
+  else ok("2027-12-30 uses NEXT_OUTSIDE_LABEL");
+  const likelyList = "Friday, December 31, 2027 — New Year's Day 2028 (observed)" + LIKELY_CLOSED_LIST_SUFFIX;
+  if (!(dec30.nearby || []).some(h => h.listText === likelyList && h.likelyClosed)) fail("2027-12-30 nearby missing likely-closed 12/31: " + (dec30.nearby || []).map(h => h.listText).join(" | "));
+  else ok("2027-12-30 ±14 list includes likely-closed 12/31");
+  const dec20 = checkCourtDay("2027-12-20", courtHolidays);
+  if (!(dec20.nearby || []).some(h => h.listText === likelyList && h.likelyClosed)) fail("2027-12-20 nearby missing likely-closed 12/31");
+  else ok("2027-12-20 ±14 list includes likely-closed 12/31");
 
   const xmas25 = checkCourtDay("2025-12-25", courtHolidays);
   if (!xmas25.notCovered || xmas25.closed || xmas25.status !== "Not covered") fail("2025-12-25 should be Not covered, not Open");
@@ -244,8 +255,27 @@ function unitCourtHolidays() {
   if (homeBlob.includes("ca-court-holidays")) fail("tool must not be on homepage");
   else ok("tool is not on homepage");
   const resultBlob = JSON.stringify({ ...xmas, disclaimer: undefined });
-  if (outputHasForbidden(resultBlob) || /you must file by|AI lawyer|last day to file|deadline is|you should/i.test(page + checker)) fail("forbidden advice/deadline wording");
-  else ok("no deadline, statute, or advice wording in output");
+  const holidaysCopy = [
+    DISCLAIMER,
+    NOT_COVERED_TEXT,
+    CONFIRM_AMBIGUOUS,
+    FARMWORKERS_NOTE,
+    NEXT_OUTSIDE_LABEL,
+    LIKELY_CLOSED_LIST_SUFFIX,
+    "Enter a valid date as YYYY-MM-DD.",
+    "Not a weekend or a published statewide court holiday.",
+    ...(SOURCE_LINKS || []).map(s => s.label)
+  ].join("\n");
+  const renderedResults = JSON.stringify([dec30, nyeEve, xmas25]);
+  if (
+    outputHasForbidden(holidaysCopy) ||
+    outputHasForbidden(renderedResults) ||
+    outputHasForbidden(resultBlob) ||
+    /you must file by|AI lawyer|last day to file|deadline is|you should/i.test(page + checker)
+  ) fail("forbidden advice/deadline wording");
+  else ok("no deadline, statute, or advice wording in holidays.js copy or rendered results");
+  if (checker.includes("nextAmbiguous")) fail("dead nextAmbiguous display branch still present");
+  else ok("nextAmbiguous display branch removed");
   if (!/does not calculate filing deadlines/.test(DISCLAIMER)) fail("disclaimer must say this tool does not calculate filing deadlines");
   else ok("disclaimer states the tool does not calculate filing deadlines");
   if (!checker.includes("Next court business day (statewide list)")) fail("next-day label missing statewide qualifier");

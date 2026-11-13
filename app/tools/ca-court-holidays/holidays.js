@@ -8,7 +8,9 @@ const CONFIRM_AMBIGUOUS = "Confirm with the court before relying on this date.";
 
 const FARMWORKERS_NOTE = "Farmworkers Day moves from March 31 to April 10 starting in 2027 (SB 1394). April 10, 2027 is a Saturday, so the statewide court list shows Friday, April 9. March 31, 2027 is not on the statewide court holiday list.";
 
-const NEXT_OUTSIDE_LABEL = "Next weekday that is not a listed 2026–2027 holiday (holidays after 2027 are not checked)";
+const NEXT_OUTSIDE_LABEL = "Next weekday that is not a weekend, a listed 2026–2027 holiday, or a date marked likely closed (2028 court holidays are not in this checker yet)";
+
+const LIKELY_CLOSED_LIST_SUFFIX = " (likely closed; not yet on the statewide list)";
 
 const COUNTY_LOCATOR_URL = "https://courts.ca.gov/find-your-court";
 
@@ -85,14 +87,32 @@ function yearCovered(iso, dataset) {
   return years.length === 0 || years.indexOf(dt.getUTCFullYear()) >= 0;
 }
 
+function nearbyListText(item) {
+  if (item.likelyClosed) return item.dateLabel + " — " + item.name + LIKELY_CLOSED_LIST_SUFFIX;
+  return item.dateLabel + " — " + item.name;
+}
+
 function holidaysInWindow(iso, dataset, days) {
   const span = days == null ? 14 : days;
   const dt = parseIsoDate(iso);
   if (!dt) return [];
   const start = toIsoDate(addDays(dt, -span));
   const end = toIsoDate(addDays(dt, span));
-  return (dataset.holidays || []).filter(h => h.date >= start && h.date <= end)
-    .map(h => ({ date: h.date, name: h.name, year: h.year, dateLabel: formatLongDate(h.date) }));
+  const rows = [];
+  for (const h of dataset.holidays || []) {
+    if (h.date < start || h.date > end) continue;
+    const item = { date: h.date, name: h.name, year: h.year, dateLabel: formatLongDate(h.date), likelyClosed: false };
+    item.listText = nearbyListText(item);
+    rows.push(item);
+  }
+  for (const a of dataset.ambiguous || []) {
+    if (a.date < start || a.date > end) continue;
+    const item = { date: a.date, name: a.name, dateLabel: formatLongDate(a.date), likelyClosed: true };
+    item.listText = nearbyListText(item);
+    rows.push(item);
+  }
+  rows.sort((x, y) => x.date.localeCompare(y.date));
+  return rows;
 }
 
 function nextBusinessDay(iso, dataset) {
@@ -164,7 +184,6 @@ function checkCourtDay(iso, dataset, county) {
 
   const next = covered ? nextBusinessDay(date, dataset) : null;
   const nextOutsideCoverage = !!(next && !yearCovered(next, dataset));
-  const nextAmbiguous = next ? (ambMap.get(next) || null) : null;
 
   return {
     ok: true,
@@ -183,7 +202,6 @@ function checkCourtDay(iso, dataset, county) {
     nextBusinessDay: next,
     nextBusinessDayLabel: next ? formatLongDate(next) : "",
     nextOutsideCoverage,
-    nextAmbiguous,
     nextOutsideLabel: NEXT_OUTSIDE_LABEL,
     nearby: holidaysInWindow(date, dataset, 14),
     county: countyName,
@@ -206,6 +224,7 @@ module.exports = {
   CONFIRM_AMBIGUOUS,
   FARMWORKERS_NOTE,
   NEXT_OUTSIDE_LABEL,
+  LIKELY_CLOSED_LIST_SUFFIX,
   COUNTY_LOCATOR_URL,
   SOURCE_LINKS,
   COUNTIES,
@@ -214,6 +233,7 @@ module.exports = {
   toIsoDate,
   formatLongDate,
   holidaysInWindow,
+  nearbyListText,
   nextBusinessDay,
   checkCourtDay,
   outputHasForbidden

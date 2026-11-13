@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { createRequire } from "node:module";
 import { execFileSync } from "node:child_process";
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -14,7 +14,15 @@ const {
   externalRel,
   tokenizeLinks
 } = require("../app/affiliates.js");
+const {
+  DISCLAIMER,
+  COUNTIES,
+  checkCourtDay,
+  holidaysInWindow,
+  outputHasForbidden
+} = require("../app/tools/ca-court-holidays/holidays.js");
 const site = require("../content/site.json");
+const courtHolidays = require("../content/ca-court-holidays.json");
 
 const args = new Set(process.argv.slice(2));
 const lintOnly = args.has("--lint");
@@ -114,11 +122,126 @@ function contentChecks() {
   scanPii("new recipe", blob, { allowExisting: false });
 }
 
+function unitCourtHolidays() {
+  const xmas = checkCourtDay("2026-12-25", courtHolidays);
+  if (!xmas.ok || !xmas.closed) fail("2026-12-25 should be closed");
+  else ok("2026-12-25 is closed");
+  if (xmas.nextBusinessDay !== "2026-12-28") fail("2026-12-25 next business day " + xmas.nextBusinessDay);
+  else ok("2026-12-25 next business day is 2026-12-28");
+  if (xmas.holidayName !== "Christmas Day") fail("2026-12-25 holiday name");
+  else ok("2026-12-25 is Christmas Day");
+  const xmasNear = (xmas.nearby || []).map(h => h.date).sort();
+  const expectXmasNear = ["2026-12-25", "2027-01-01"];
+  if (xmasNear.join(",") !== expectXmasNear.join(",")) fail("2026-12-25 nearby " + xmasNear.join(","));
+  else ok("2026-12-25 +/-14 day holiday list");
+
+  const sat = checkCourtDay("2026-12-26", courtHolidays);
+  if (!sat.ok || !sat.closed || !sat.weekend) fail("weekend should be closed");
+  else ok("weekend date is closed");
+  if (sat.nextBusinessDay !== "2026-12-28") fail("weekend next business day " + sat.nextBusinessDay);
+  else ok("weekend next business day is 2026-12-28");
+
+  const open = checkCourtDay("2026-03-04", courtHolidays);
+  if (!open.ok || open.closed) fail("ordinary weekday should be open");
+  else ok("ordinary weekday is open");
+  if (open.nextBusinessDay !== "2026-03-05") fail("ordinary weekday next " + open.nextBusinessDay);
+  else ok("ordinary weekday next business day");
+
+  const around = holidaysInWindow("2026-11-20", courtHolidays, 14).map(h => h.date);
+  const expectAround = ["2026-11-11", "2026-11-26", "2026-11-27"];
+  if (around.join(",") !== expectAround.join(",")) fail("+/-14 list " + around.join(","));
+  else ok("+/-14 day list around 2026-11-20");
+
+  const empty = holidaysInWindow("2026-04-15", courtHolidays, 14);
+  if (empty.length) fail("2026-04-15 should have no nearby holidays");
+  else ok("empty +/-14 list on ordinary mid-April date");
+
+  if (COUNTIES.length !== 58) fail("expected 58 CA counties, got " + COUNTIES.length);
+  else ok("58 California counties for link-out");
+
+  const withCounty = checkCourtDay("2026-03-04", courtHolidays, "Los Angeles");
+  if (withCounty.county !== "Los Angeles" || withCounty.closed) fail("county should be display-only");
+  else ok("county is display/link-out only");
+
+  const amb = (courtHolidays.ambiguous || []).some(a => a.date === "2027-12-31");
+  const listed = (courtHolidays.holidays || []).some(h => h.date === "2027-12-31");
+  if (!amb || listed) fail("2027-12-31 must be marked ambiguous, not a holiday");
+  else ok("2027-12-31 is recorded as ambiguous, not a holiday");
+  const nyeEve = checkCourtDay("2027-12-31", courtHolidays);
+  if (!nyeEve.ok || nyeEve.closed || nyeEve.holidayName) fail("2027-12-31 should not be treated as a statewide holiday");
+  else ok("2027-12-31 is not treated as a statewide holiday");
+
+  const page = readFileSync(join(root, "app/tools/ca-court-holidays/page.js"), "utf8");
+  const checker = readFileSync(join(root, "app/tools/ca-court-holidays/Checker.js"), "utf8");
+  if (!page.includes("{DISCLAIMER}") && !page.includes(DISCLAIMER)) fail("disclaimer missing from page");
+  else ok("disclaimer on page");
+  if (!page.includes("[CONFIRM: Lexy/Tony wording]")) fail("disclaimer confirm comment missing");
+  else ok("disclaimer confirm comment is source-only");
+  if (DISCLAIMER.includes("CONFIRM")) fail("CONFIRM leaked into visible disclaimer");
+  else ok("CONFIRM is not in visible disclaimer");
+  if (!checker.includes("Get a weekly plain-English AI tip for professional services and law firms. Join the list")) fail("CTA copy missing");
+  else ok("CTA copy present");
+  if (!checker.includes("NewsletterForm")) fail("CTA not wired to existing newsletter form");
+  else ok("CTA uses existing NewsletterForm");
+  if (!checker.includes("/api/subscribe") && !readFileSync(join(root, "app/NewsletterForm.js"), "utf8").includes("/api/subscribe")) fail("newsletter endpoint missing");
+  else ok("newsletter uses existing /api/subscribe");
+  if (!checker.includes("/industries/professional-services")) fail("professional-services recipes link missing");
+  else ok("link to professional-services recipes");
+  if (!checker.includes('track("tool_result"') && !checker.includes("track('tool_result'")) fail("tool_result analytics event missing");
+  else ok("optional tool_result analytics event");
+  if (site.nav.some(n => String(n.href).includes("ca-court-holidays"))) fail("tool must not be in nav");
+  else ok("tool is not in nav");
+  const homeBlob = JSON.stringify(site.home || {});
+  if (homeBlob.includes("ca-court-holidays")) fail("tool must not be on homepage");
+  else ok("tool is not on homepage");
+  const resultBlob = JSON.stringify({ ...xmas, disclaimer: undefined });
+  if (outputHasForbidden(resultBlob) || /you must file by|AI lawyer/i.test(page + checker)) fail("forbidden advice/deadline wording");
+  else ok("no deadline, statute, or advice wording in output");
+  if (!/does not calculate filing deadlines/.test(DISCLAIMER)) fail("disclaimer must say this tool does not calculate filing deadlines");
+  else ok("disclaimer states the tool does not calculate filing deadlines");
+  const sources = (courtHolidays.sources || []).map(s => s.url);
+  if (!sources.includes("https://courts.ca.gov/about/court-holidays")) fail("primary courts.ca.gov source missing");
+  else ok("official courts.ca.gov source recorded");
+}
+
+function scanBuiltPii() {
+  const dir = join(root, ".next");
+  if (!existsSync(dir)) { ok("built PII scan skipped (no .next yet)"); return; }
+  const serverDir = join(dir, "server");
+  const targets = [];
+  if (existsSync(serverDir)) {
+    walk(serverDir).forEach(p => {
+      if (p.includes("ca-court-holidays") && (p.endsWith(".html") || p.endsWith(".rsc") || p.endsWith(".js") || p.endsWith(".body"))) targets.push(p);
+    });
+  }
+  const html = join(dir, "server/app/tools/ca-court-holidays.html");
+  if (existsSync(html)) targets.push(html);
+  const unique = [...new Set(targets)];
+  if (!unique.length) { fail("built PII scan: no ca-court-holidays output in .next"); return; }
+  let blob = "";
+  for (const f of unique) blob += "\n" + readFileSync(f, "utf8");
+  scanPii("built ca-court-holidays", blob, { allowExisting: true });
+  if (!blob.includes(DISCLAIMER)) fail("built output missing disclaimer");
+  else ok("built output includes disclaimer");
+  let built = blob;
+  if (!/Get a weekly plain-English AI tip|Join the list/.test(built)) {
+    walk(dir).forEach(p => {
+      if (/\.(js|rsc|html)$/.test(p) && statSync(p).size < 2_000_000) {
+        const t = readFileSync(p, "utf8");
+        if (t.includes("Get a weekly plain-English AI tip") || t.includes("ca-court-holidays")) built += "\n" + t;
+      }
+    });
+  }
+  if (!/Get a weekly plain-English AI tip|Join the list/.test(built)) fail("built output missing CTA");
+  else ok("built output includes CTA");
+}
+
 if (lintOnly || typecheckOnly) {
   syntaxCheck();
 } else {
   unitAffiliate();
   contentChecks();
+  unitCourtHolidays();
   syntaxCheck();
   const files = walk(root).filter(p => !p.includes("node_modules") && !p.includes(".next"));
   for (const f of files) {
@@ -129,6 +252,7 @@ if (lintOnly || typecheckOnly) {
       }
     }
   }
+  scanBuiltPii();
 }
 
 if (failed) {

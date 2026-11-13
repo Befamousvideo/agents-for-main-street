@@ -6943,7 +6943,7 @@
       "path": "/privacy",
       "title": "Privacy policy",
       "summary": "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it.",
-      "effectiveDate": "November 11, 2026",
+      "effectiveDate": "November 13, 2026",
       "tldr": false,
       "cta": false,
       "blocks": [
@@ -7000,6 +7000,7 @@
           ],
           "ul": [
             "Vercel, our website host, and Vercel Analytics and Vercel Speed Insights, which measure traffic and performance. Confirmed: the site is served by Vercel, and the site loads Vercel Analytics and Vercel Speed Insights scripts.",
+            "Google Analytics 4, which measures site usage after you allow analytics cookies. Confirmed: the site loads Google’s gtag script only after that choice.",
             "Cloudflare Turnstile, which helps reduce spam on some forms (the build-request form and the advertise order form). Confirmed: those forms load Cloudflare’s Turnstile script.",
             "Stripe, if and when a payment is taken. The advertise page says approved ads are billed through a Stripe payment link. Stripe checkout is not live for the $49 workshop or the $375 build (Stripe is still in sandbox). We did not find a Stripe script on the pages we checked. When a payment is taken, Stripe processes it; we do not collect your card details on this website.",
             "Contact-form messages are delivered by our email provider, Resend.",
@@ -7015,9 +7016,12 @@
           "h": "Cookies, analytics, Do Not Track, and other tracking",
           "p": [
             "We use Vercel Analytics and Vercel Speed Insights to understand how the site is used and how it performs. These scripts are served from this site.",
+            "If you allow analytics cookies, we also load Google Analytics 4 to understand how the site is used. Google Analytics then sets cookies such as _ga and _ga_<ID> and sends Google information about your visit, such as the pages you view and your browser and device. A banner asks for that choice and stores it in your browser's local storage under afms-analytics-consent; that choice is not stored in a cookie. Google Analytics is not loaded unless you allow it. To learn how Google uses this information, see [How Google uses information from sites or apps that use our services](https://www.google.com/policies/privacy/partners/).",
+            "Advertising-related signals (ad_storage, ad_user_data and ad_personalization) stay denied, even after you allow analytics, and we do not turn on Google Analytics advertising features.",
+            "To change your choice later, use Cookie settings in the footer. If you switch to Decline, Google Analytics stops loading on later page views; cookies Google already set stay until you clear them in your browser.",
             "Some forms use Cloudflare Turnstile, which loads a script from Cloudflare to help tell people from bots.",
             "We do not respond to Do Not Track browser signals.",
-            "From the pages and scripts we checked, we did not find advertising pixels, HubSpot, or other third-party marketing trackers that collect browsing activity across other websites. We have not independently confirmed every server-side tool that may run after a form is submitted."
+            "From the pages and scripts we checked, we did not find advertising pixels, HubSpot, or other third-party marketing trackers that collect browsing activity across other websites. Google Analytics, which loads only if you allow it, runs with advertising features and Google signals turned off. We have not independently confirmed every server-side tool that may run after a form is submitted."
           ]
         },
         {

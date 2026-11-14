@@ -249,6 +249,12 @@ function unitCourtHolidays() {
   else ok("link to professional-services recipes");
   if (!checker.includes('track("tool_result"') && !checker.includes("track('tool_result'")) fail("tool_result analytics event missing");
   else ok("optional tool_result analytics event");
+  if (!checker.includes('min="2026-01-01"') || !checker.includes('max="2027-12-31"')) fail("date picker min/max missing");
+  else ok("date picker limited to 2026-01-01 through 2027-12-31");
+  if (!nyeEve.confirmCaveat || !/Confirm with the court before relying on this date/.test(nyeEve.confirmCaveat)) fail("2027-12-31 confirm-with-court caveat missing");
+  else ok("2027-12-31 still has confirm-with-court caveat");
+  if (!/This site is not affiliated with the California courts/.test(DISCLAIMER)) fail("disclaimer affiliation line missing");
+  else ok("disclaimer still says not affiliated with the California courts");
   if (site.nav.some(n => String(n.href).includes("ca-court-holidays"))) fail("tool must not be in nav");
   else ok("tool is not in nav");
   const homeBlob = JSON.stringify(site.home || {});

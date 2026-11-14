@@ -28,7 +28,7 @@ export default function Checker() {
       <section className="card">
         <form onSubmit={onSubmit}>
           <label htmlFor="court-date">Date <span className="muted">(required)</span>
-            <input id="court-date" type="date" name="date" required value={date} onChange={e => setDate(e.target.value)} />
+            <input id="court-date" type="date" name="date" required min="2026-01-01" max="2027-12-31" value={date} onChange={e => setDate(e.target.value)} />
           </label>
           <label htmlFor="court-county">California county <span className="muted">(optional; display and court locator only)</span>
             <select id="court-county" name="county" value={county} onChange={e => setCounty(e.target.value)}>

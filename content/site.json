@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 13, 2026",
+  "updated": "November 14, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -890,7 +890,8 @@
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
             "Find the long questions people Google before they find you—and answer them before the holiday rush",
-            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         }
       ],
@@ -900,7 +901,7 @@
           "a": "Batch-write product descriptions and alt text for new SKUs, then add a low-stock reorder alert once your inventory sheet is reliable."
         }
       ],
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "seoTitle": "AI automations for retail shops: holiday-ready no-code recipes"
     },
     {
@@ -1208,7 +1209,8 @@
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
-            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+            "Find the long questions people Google before they find you—and answer them before the holiday rush",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         }
       ],
@@ -1218,7 +1220,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-12",
+      "updated": "2026-11-14",
       "seoTitle": "AI automations for local businesses: no-code recipes"
     },
     {
@@ -1857,7 +1859,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-13"
+      "updated": "2026-11-14"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2452,7 +2454,8 @@
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Draft a December “year in review” email now—your shop’s own highlights are enough"
+            "Draft a December “year in review” email now—your shop’s own highlights are enough",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         },
         {
@@ -2481,7 +2484,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-small-business-saturday-plan"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-14"
     },
     {
       "path": "/industries/hvac/freeze-warning-customer-alerts",
@@ -3309,7 +3312,8 @@
             "Holiday texts only to people who opted in: your name, Reply STOP, and 8 AM–9 PM their time",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself"
+            "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         }
       ],
@@ -3339,7 +3343,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-ship-by-dates"
       },
-      "updated": "2026-11-12"
+      "updated": "2026-11-14"
     },
     {
       "path": "/industries/local-business/domain-ssl-expiry-alerts",
@@ -3496,7 +3500,8 @@
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Put your Google review QR code on the counter and receipts during the holiday rush",
             "Reply to every Google review with a short, personal answer—and take complaints offline",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         },
         {
@@ -3530,7 +3535,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-no-review-incentives-holiday-promos"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-14"
     },
     {
       "path": "/industries/local-business/seasonal-hire-paperwork",
@@ -5390,7 +5395,8 @@
             "Reply to every Google review with a short, personal answer—and take complaints offline",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+            "Find the long questions people Google before they find you—and answer them before the holiday rush",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         },
         {
@@ -5425,7 +5431,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
       },
-      "updated": "2026-11-12"
+      "updated": "2026-11-14"
     },
     {
       "path": "/industries/retail/feature-benefit-product-gallery",
@@ -5572,7 +5578,8 @@
             "Got a wave of 1-star reviews and a demand for money? Don't pay, report it to Google",
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         },
         {
@@ -5607,7 +5614,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-reply-every-google-review"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-14"
     },
     {
       "path": "/industries/local-business/gmail-spam-rate-watch",
@@ -5881,7 +5888,8 @@
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”"
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
           ]
         }
       ],
@@ -5911,7 +5919,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-return-policy-before-ads"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-14"
     },
     {
       "path": "/tips/claim-keep-yelp-current",
@@ -6893,6 +6901,98 @@
         "href": "/build-it-for-me?recipe=tip-check-ai-shopping-answers"
       },
       "updated": "2026-11-13"
+    },
+    {
+      "path": "/tips/trust-bar-before-black-friday",
+      "group": "tips",
+      "label": "Tip · Any local business",
+      "title": "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page",
+      "seoTitle": "Add a trust bar before Black Friday: answer shopper worries",
+      "summary": "Most people who leave your website without buying had a worry you could have answered: is this shop real, will it arrive in time, can I return it, do I have to pay everything today. Before Black Friday, ask a handful of recent shoppers and browsers what almost stopped them, then answer the top two or three in one thin strip across the top of every page (often called a benefits bar or trust bar). Use only things you can prove: your real review rating and where it comes from, a shipping cutoff you can actually meet, your return window, local pickup, or a deposit option.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "First-time holiday visitors see the answer to their biggest doubt before they scroll or leave, on every page they land on, including product and ad landing pages. You also learn, in your customers’ own words, what is holding sales back, which helps your ads, emails and product pages too."
+          ]
+        },
+        {
+          "h": "How to do it (about 45 minutes)",
+          "ul": [
+            "Ask 5–10 people one open question: “What almost stopped you from buying (or booking) from us?” Ask recent customers at the counter or in a follow-up you already send, and add the same question as an optional one-line poll on your site.",
+            "Read through your inbox, chat and social messages from the last few weeks for the questions people ask right before they buy.",
+            "Group the answers. Common holiday worries: trust (“never heard of you”), timing (“will it arrive by the 24th?”), returns, total cost and payment timing.",
+            "Write one short, true answer for each of the top 2–3 worries, using customers’ own words where you can: “4.8 stars from 312 Google reviews,” “Order by Dec 15 for delivery by Christmas,” “Free returns until Jan 15,” “Pick up in store today.” Use your real numbers and dates.",
+            "Put them in a thin bar above your menu on every page. Most website builders have an announcement-bar setting; on mobile, show one message at a time.",
+            "Link each item to the page that backs it up: your Google reviews, your shipping page or your return policy.",
+            "Put a reminder on your calendar to update the bar as dates pass: change the shipping message the day your cutoff passes, and refresh the review count every couple of weeks."
+          ]
+        },
+        {
+          "h": "Where this comes from",
+          "p": [
+            "Conversion Rate Experts, a website-testing agency, published a case study in which they asked a travel company’s visitors who didn’t sign up about their biggest fear. The two top answers were that the business might be a scam and that people couldn’t pay the full amount at once. The fix was a bar above the menu with a verifiable review rating, how many customers book each year, and the low reservation fee. In that one case study the company reported 16% more signups. That is a single company’s test, not a promise for your site; the useful part is the method: ask, then answer the real worry where everyone sees it."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Only put claims in the bar that are true today and that you can back up. If you state a shipping time, the FTC’s Mail, Internet, or Telephone Order Merchandise Rule says you must have a reasonable basis to expect you can ship within that time, and if you can’t, you must offer the customer a choice to accept the delay or cancel for a prompt refund. Show your real, current review rating and say where it comes from; the FTC’s rule on consumer reviews and testimonials bans fake or misleading reviews and testimonials. Don’t add pop-ups or a cluttered bar: one short line per worry is enough."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Conversion Rate Experts: Win Report — How trust signals turned suspicion into 16% more signups (Party Hard Travel benefits bar) — https://conversion-rate-experts.com/party-hard-travel-benefits-bar-win-report/",
+            "eCFR: 16 CFR 435.2 — Mail, Internet, or telephone order sales (FTC rule on shipping times) — https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435/section-435.2",
+            "eCFR: 16 CFR Part 465 — Rule on the Use of Consumer Reviews and Testimonials — https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+            "Last checked at the source: November 14, 2026. Backlog item TB-006 (found via newsletter, August 22, 2025; adapted for the Black Friday season)."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
+            "Keep reviews out of your holiday giveaways and discounts",
+            "Reply to every Google review with a short, personal answer—and take complaints offline"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Publish your return-and-exchange policy before Black Friday ads go live",
+            "Show holiday ship-by dates on your site and order emails automatically"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should go in the bar if I don’t have many reviews yet?",
+          "a": "Use other true answers to the worries you heard: years in business, a local address with pickup, your return window, or a real shipping cutoff. Don’t borrow ratings from another site or round up."
+        },
+        {
+          "q": "Should the bar say the same thing all season?",
+          "a": "No. Change it as the season moves: shipping cutoffs before mid-December, pickup and gift cards after the last shipping date, and returns or exchanges in January."
+        },
+        {
+          "q": "Do I need a developer for this?",
+          "a": "Often not. Many website builders and store themes have an announcement-bar or banner setting; check yours, then look at the result on your phone before Black Friday."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-trust-bar-before-black-friday.webp",
+        "alt": "A gift shop owner at a wooden counter editing her store’s website on a laptop that shows a thin colored strip across the top of the page, small handwritten customer note cards beside her, shelves of candles, mugs and wrapped gift boxes and warm string lights behind, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI sets up a one-question “What almost stopped you?” poll on your site and in your follow-up messages, sorts the answers into worries each week, and drafts trust-bar wording from your real reviews, shipping dates and return policy for you to approve—installed on your own tools within 7 days. You approve every change.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-trust-bar-before-black-friday"
+      },
+      "updated": "2026-11-14"
     }
   ],
   "static": [

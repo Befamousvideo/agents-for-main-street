@@ -1,0 +1,99 @@
+{
+  "version": "2026.2",
+  "jurisdiction": "California state courts (judicial holidays)",
+  "coverageYears": [2026, 2027],
+  "lastChecked": "2026-11-13",
+  "primarySource": {
+    "title": "Court Holidays | Judicial Branch of California",
+    "url": "https://courts.ca.gov/about/court-holidays",
+    "asOf": "2026-11-13"
+  },
+  "sources": [
+    {
+      "title": "Court Holidays | Judicial Branch of California",
+      "url": "https://courts.ca.gov/about/court-holidays",
+      "asOf": "2026-11-13",
+      "role": "Primary published observed judicial holiday lists for 2026 and 2027."
+    },
+    {
+      "title": "2026 California Courts Calendar | Judicial Branch of California",
+      "url": "https://courts.ca.gov/news/2026-california-courts-calendar",
+      "asOf": "2026-11-13",
+      "role": "Judicial Branch calendar page pointing to the 2026 court-holiday calendar."
+    },
+    {
+      "title": "California Code of Civil Procedure section 135",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=135.",
+      "asOf": "2026-11-13",
+      "role": "Defines judicial holidays, including Saturdays and the day after Thanksgiving, and allows the Judicial Council to designate an alternate day when a judicial holiday falls on a Saturday or Sunday. The Saturday-to-Friday / Sunday-to-Monday observance rule is not in this section; it is CRC 1.11."
+    },
+    {
+      "title": "California Government Code section 6700",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700.",
+      "asOf": "2026-11-13",
+      "role": "State holiday list that CCP 135 uses as the starting point for judicial holidays. SB 1394 (Stats. 2026, ch. 708) moves Farmworkers Day from March 31 to April 10 starting January 1, 2027; in 2027 April 10 is a Saturday, so courts observe Friday, April 9 (CRC 1.11)."
+    },
+    {
+      "title": "California Rules of Court, rule 1.11",
+      "url": "https://courts.ca.gov/cms/rules/index/one/rule1_11",
+      "asOf": "2026-11-13",
+      "role": "When a CCP 135 judicial holiday falls on Saturday, courts observe the preceding Friday; when it falls on Sunday, the following Monday."
+    },
+    {
+      "title": "SB 1394 (Stats. 2026, ch. 708) — Farmworkers Day",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1394",
+      "asOf": "2026-11-13",
+      "role": "Moves Farmworkers Day from March 31 to April 10 starting January 1, 2027 (non-urgency; VERIFY after 1/1/2027 that leginfo Gov. Code 6700 has updated). April 10, 2027 is a Saturday, observed Friday, April 9 under CRC 1.11."
+    },
+    {
+      "title": "Find Your Court | Judicial Branch of California",
+      "url": "https://courts.ca.gov/find-your-court",
+      "asOf": "2026-11-13",
+      "role": "Official county superior-court locator used only as a link-out. County does not change statewide holiday results."
+    }
+  ],
+  "notes": [
+    "Dates in holidays[] are the observed dates published on courts.ca.gov/about/court-holidays, not dates recomputed from statute.",
+    "This dataset does not include Lunar New Year, Diwali, Genocide Remembrance Day, Admission Day, or Columbus Day, which CCP 135 excludes from judicial holidays. Starting in 2027, CCP 135 also excludes Eid al-Fitr, Eid al-Adha, and Sylvia Mendez Day (AB 2017, AB 2294).",
+    "Good Friday is a partial-day state holiday under Gov. Code 6700 and is not a full-day judicial holiday under CCP 135.",
+    "Saturday and Sunday are treated as closed in the checker even when they are not named rows here (CCP 135 makes every Saturday a judicial holiday; Sunday is a state holiday under Gov. Code 6700(a)(1)).",
+    "Gov. Code 6700 on leginfo still lists March 31 as Farmworkers Day because SB 1394 (Stats. 2026, ch. 708), which moves Farmworkers Day to April 10, takes effect January 1, 2027. April 10, 2027 is a Saturday, so the Judicial Branch list shows Friday, April 9. VERIFY after 1/1/2027."
+  ],
+  "ambiguous": [
+    {
+      "date": "2027-12-31",
+      "name": "New Year's Day 2028 (observed)",
+      "detail": "January 1, 2028 is a Saturday. California Rules of Court, rule 1.11 says that when a judicial holiday falls on a Saturday, courts observe it on the preceding Friday, which is December 31, 2027. The statewide list on courts.ca.gov does not yet include 2028 holidays, and several superior courts already list December 31, 2027 as New Year's Day (observed)."
+    }
+  ],
+  "holidays": [
+    { "date": "2026-01-01", "name": "New Year's Day", "year": 2026 },
+    { "date": "2026-01-19", "name": "Dr. Martin Luther King, Jr. Day", "year": 2026 },
+    { "date": "2026-02-12", "name": "Lincoln's Birthday", "year": 2026 },
+    { "date": "2026-02-16", "name": "President's Day", "year": 2026 },
+    { "date": "2026-03-31", "name": "Farmworkers Day", "year": 2026 },
+    { "date": "2026-05-25", "name": "Memorial Day", "year": 2026 },
+    { "date": "2026-06-19", "name": "Juneteenth", "year": 2026 },
+    { "date": "2026-07-03", "name": "Independence Day", "year": 2026 },
+    { "date": "2026-09-07", "name": "Labor Day", "year": 2026 },
+    { "date": "2026-09-25", "name": "Native American Day", "year": 2026 },
+    { "date": "2026-11-11", "name": "Veterans Day", "year": 2026 },
+    { "date": "2026-11-26", "name": "Thanksgiving", "year": 2026 },
+    { "date": "2026-11-27", "name": "Day After Thanksgiving", "year": 2026 },
+    { "date": "2026-12-25", "name": "Christmas Day", "year": 2026 },
+    { "date": "2027-01-01", "name": "New Year's Day", "year": 2027 },
+    { "date": "2027-01-18", "name": "Martin Luther King, Jr., Day", "year": 2027 },
+    { "date": "2027-02-12", "name": "Lincoln's Birthday", "year": 2027 },
+    { "date": "2027-02-15", "name": "Washington's Birthday", "year": 2027 },
+    { "date": "2027-04-09", "name": "Farmworkers Day (formerly Cesar Chavez Day)", "year": 2027 },
+    { "date": "2027-05-31", "name": "Memorial Day", "year": 2027 },
+    { "date": "2027-06-18", "name": "Juneteenth", "year": 2027 },
+    { "date": "2027-07-05", "name": "Independence Day", "year": 2027 },
+    { "date": "2027-09-06", "name": "Labor Day", "year": 2027 },
+    { "date": "2027-09-24", "name": "Native American Day", "year": 2027 },
+    { "date": "2027-11-11", "name": "Veterans Day", "year": 2027 },
+    { "date": "2027-11-25", "name": "Thanksgiving Day", "year": 2027 },
+    { "date": "2027-11-26", "name": "Day after Thanksgiving", "year": 2027 },
+    { "date": "2027-12-24", "name": "Christmas Day", "year": 2027 }
+  ]
+}

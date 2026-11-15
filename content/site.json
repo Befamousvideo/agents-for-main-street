@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 14, 2026",
+  "updated": "November 15, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -171,6 +171,12 @@
             "Let customers book holiday appointments themselves with a free Google Calendar booking page",
             "Recover failed membership and subscription card payments automatically"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+          ]
         }
       ],
       "faq": [
@@ -185,7 +191,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=rebooking-nudge"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-15"
     },
     {
       "path": "/industries/clinics/appointment-prep-faq",
@@ -363,6 +369,12 @@
           "p": [
             "Use a vendor with appropriate confidentiality terms. The summary is for triage only, not advice, and bar rules on client communication apply."
           ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Send clients a plain-English case status update every two weeks (AI drafts, a lawyer approves)"
+          ]
         }
       ],
       "faq": [
@@ -377,7 +389,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=intake-form-summarizer"
       },
-      "updated": "2026-10-14"
+      "updated": "2026-11-15"
     },
     {
       "path": "/industries/restaurants/inventory-variance-alert",
@@ -625,7 +637,8 @@
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
-            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+            "Find the long questions people Google before they find you—and answer them before the holiday rush",
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
           ]
         }
       ],
@@ -635,7 +648,7 @@
           "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
         }
       ],
-      "updated": "2026-11-12",
+      "updated": "2026-11-15",
       "seoTitle": "AI automations for salons: no-code recipes and local tips"
     },
     {
@@ -828,6 +841,12 @@
             "Get every voicemail transcribed and emailed to whoever calls back",
             "Recover failed membership and subscription card payments automatically"
           ]
+        },
+        {
+          "h": "Tips for service businesses",
+          "ul": [
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+          ]
         }
       ],
       "faq": [
@@ -836,7 +855,7 @@
           "a": "An AI receptionist that answers approved FAQs and books on Google Calendar, with a human handoff for anything outside the sheet."
         }
       ],
-      "updated": "2026-11-11"
+      "updated": "2026-11-15"
     },
     {
       "path": "/industries/retail",
@@ -1210,7 +1229,8 @@
             "Draft a December “year in review” email now—your shop’s own highlights are enough",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
             "Find the long questions people Google before they find you—and answer them before the holiday rush",
-            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page",
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
           ]
         }
       ],
@@ -1220,7 +1240,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-14",
+      "updated": "2026-11-15",
       "seoTitle": "AI automations for local businesses: no-code recipes"
     },
     {
@@ -1859,7 +1879,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-14"
+      "updated": "2026-11-15"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2901,7 +2921,8 @@
           "h": "Related tips",
           "ul": [
             "Sell experience gifts and restaurant gift cards early this holiday season",
-            "Answer the one question every first-time visitor asks at the top of your homepage"
+            "Answer the one question every first-time visitor asks at the top of your homepage",
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
           ]
         }
       ],
@@ -2925,7 +2946,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=egift-card-delivery"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-15"
     },
     {
       "path": "/tips/php-security-update-oct-2026",
@@ -4751,6 +4772,12 @@
             "Set holiday hours everywhere and answer \"Are you open?\" automatically",
             "Recover failed membership and subscription card payments automatically"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+          ]
         }
       ],
       "faq": [
@@ -4779,7 +4806,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-calendar-booking-page"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-15"
     },
     {
       "path": "/tips/google-review-qr-code-counter-card",
@@ -5204,7 +5231,8 @@
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Find the long questions people Google before they find you—and answer them before the holiday rush",
-            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source",
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
           ]
         },
         {
@@ -5239,7 +5267,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-buyer-questions-before-bf"
       },
-      "updated": "2026-11-13"
+      "updated": "2026-11-15"
     },
     {
       "path": "/industries/retail/black-friday-automatic-discount",
@@ -5396,7 +5424,8 @@
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Find the long questions people Google before they find you—and answer them before the holiday rush",
-            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page"
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page",
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
           ]
         },
         {
@@ -5431,7 +5460,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-answer-one-homepage-question"
       },
-      "updated": "2026-11-14"
+      "updated": "2026-11-15"
     },
     {
       "path": "/industries/retail/feature-benefit-product-gallery",
@@ -6604,6 +6633,12 @@
             "Get an alert when card testers hit your online checkout",
             "Sell and deliver e-gift cards automatically this holiday season"
           ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+          ]
         }
       ],
       "faq": [
@@ -6632,7 +6667,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=failed-payment-recovery"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-15"
     },
     {
       "path": "/tips/search-console-long-questions",
@@ -6955,7 +6990,8 @@
             "Answer the one question every first-time visitor asks at the top of your homepage",
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Keep reviews out of your holiday giveaways and discounts",
-            "Reply to every Google review with a short, personal answer—and take complaints offline"
+            "Reply to every Google review with a short, personal answer—and take complaints offline",
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
           ]
         },
         {
@@ -6992,7 +7028,185 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-trust-bar-before-black-friday"
       },
-      "updated": "2026-11-14"
+      "updated": "2026-11-15"
+    },
+    {
+      "path": "/tips/change-or-cancel-line-by-buy-button",
+      "group": "tips",
+      "label": "Tip · Salons, studios & services",
+      "title": "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button",
+      "seoTitle": "Add a change-or-cancel line under your buy button this holiday",
+      "summary": "Holiday buyers of memberships, class packs, gift sessions and appointments often stall at the last click because they’re afraid of locking themselves into the wrong option or the wrong date. If your policy really does let people change, move or cancel, say so in one short sentence directly under the buy or book button, for example “You can move your date or cancel up to 24 hours before.” It takes minutes, and it answers the question at the exact moment the customer is deciding.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "Fewer people backing out at checkout because of a “what if I can’t make it?” worry, and fewer calls and messages asking the same question. Gift buyers in particular feel safer choosing a bigger package when they know the person receiving it can still pick or change the date."
+          ]
+        },
+        {
+          "h": "How to do it (about 30 minutes)",
+          "ul": [
+            "List the things you sell where people hesitate: memberships, class packs, gift sessions, deposits for appointments or events.",
+            "Write down what your policy actually allows today: can they change the date, switch the plan, cancel, and by when? Ask your front desk which version of the question they hear most.",
+            "Turn it into one short sentence in plain words, ideally under 12: “Change your date or cancel up to 24 hours before.” “Switch or cancel your plan any time.” “The recipient picks any date through March 31.”",
+            "Put it directly under the buy or book button on the product page, the booking page and, if your platform allows, the checkout page. Most booking and store tools let you add a short note or description near the button.",
+            "Use the same sentence in the confirmation email or receipt, so the promise and the record match.",
+            "Make sure your written policy page says the same thing, and that staff and your booking system will actually honor it.",
+            "Check it on your phone: the line should be visible without scrolling past the button."
+          ]
+        },
+        {
+          "h": "Where this comes from",
+          "p": [
+            "Conversion Rate Experts, a website-testing agency, published a case study about a subscription software company that added nine words under its checkout heading: “You can change or cancel your plan any time.” During that test the company saw 14% more subscriptions and 30% more revenue. That is one company’s test, not a promise for your business. The useful lesson is simple: if people worry about being locked in and you don’t lock them in, tell them right where they decide."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Only write what is true and easy for the customer to do. If canceling actually means calling during business hours or paying a fee, say that instead; a friendly line that doesn’t match your real policy will cost you more in disputes and reviews than it gains. Keep the wording identical on your site, receipts and policy page. If you sell auto-renewing memberships, renewal and cancellation disclosures may be regulated where you do business, so check those rules before changing your checkout wording."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Conversion Rate Experts: Win Report — How nine words increased conversions by 14% (Custody X Change) — https://conversion-rate-experts.com/custody-x-change-nine-words-win-report/",
+            "Last checked at the source: November 15, 2026. Backlog item TB-007 (found via newsletter; adapted for holiday memberships, class packs and bookings)."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page",
+            "For higher-ticket holiday buys, answer research questions before Black Friday ads",
+            "Answer the one question every first-time visitor asks at the top of your homepage"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+            "Recover failed membership and subscription card payments automatically",
+            "Sell and deliver e-gift cards automatically this holiday season",
+            "Send a personalized rebooking nudge to salon clients"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What if my policy is strict, like no refunds?",
+          "a": "Say what you do allow, such as “Reschedule once, free, up to 48 hours before.” A clear, honest limit still removes uncertainty. Don’t hint at flexibility you don’t offer."
+        },
+        {
+          "q": "Where exactly should the sentence go?",
+          "a": "Right under the button people click to pay or book, in normal-size text. Fine print at the bottom of the page or only on a policy page doesn’t help at the moment of decision."
+        },
+        {
+          "q": "Does this work for gift cards and gift sessions?",
+          "a": "Yes, if it’s true. Tell the buyer what the recipient can do, for example pick their own date or swap the service, and by when."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-change-or-cancel-line-by-buy-button.webp",
+        "alt": "A yoga studio owner at a wooden front desk holding a tablet that shows a simple checkout page with one large button and a short line of text beneath it, rolled mats and plants on shelves behind, a kraft gift envelope with a red ribbon on the counter, holiday garland, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI reviews your booking and checkout pages, drafts a one-line change-or-cancel sentence from your actual policy, and adds it under each buy and book button and in your confirmation emails, then sets up a short weekly summary of the reschedule and cancellation questions customers still ask—installed on your own tools within 7 days. You approve every change.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-change-or-cancel-line-by-buy-button"
+      },
+      "updated": "2026-11-15"
+    },
+    {
+      "path": "/industries/law-firms/client-status-updates",
+      "group": "recipes",
+      "label": "Law firms",
+      "title": "Send clients a plain-English case status update every two weeks (AI drafts, a lawyer approves)",
+      "seoTitle": "Law firm client status updates: AI drafts, lawyer approves",
+      "summary": "When clients don’t hear anything, they call the front desk to ask “any news?”, and those calls eat staff and attorney time. ABA Model Rule 1.4 says a lawyer shall keep the client reasonably informed about the status of the matter and promptly comply with reasonable requests for information. This recipe pulls the latest activity on each open matter every other week, has an AI draft a short plain-English update, and drops each draft into the responsible lawyer’s review queue. A lawyer edits and approves every message before it goes out; nothing is sent automatically.",
+      "steps": [
+        "Pick one source of truth for matter activity: your practice-management system’s notes and calendar, or a simple Google Sheet with matter, client, last action, next step, next key date, responsible lawyer and date of last client update.",
+        "Every other Monday, have Zapier, Make or n8n list open matters where the last client update is more than 14 days old.",
+        "For each one, send only the needed fields (last action, next step, next date, anything needed from the client) to an AI tool your firm has approved, with instructions: 4–6 plain sentences, no legal advice, no predictions about outcome, nothing that isn’t in the notes.",
+        "Save each result as a draft email in the responsible lawyer’s mailbox (or a review list), never as a sent message.",
+        "The lawyer reads, edits and sends. The automation writes the sent date back to the tracker so the matter drops off the list for two weeks.",
+        "If nothing happened, the draft says so and gives the next expected step and date; “no news yet, here’s what’s next” still answers the client’s question.",
+        "Route client replies to the responsible person; anything that calls for advice goes to the lawyer, not to a template."
+      ],
+      "blocks": [
+        {
+          "h": "What you need",
+          "p": [
+            "Tools: your practice-management system or a matter tracker sheet, an AI tool your firm has vetted for confidentiality, Zapier/Make/n8n, and your firm email. Costs: see each vendor’s current pricing page."
+          ]
+        },
+        {
+          "h": "What's confirmed (American Bar Association)",
+          "ul": [
+            "ABA Model Rule 1.4(a)(3)–(4): a lawyer shall keep the client reasonably informed about the status of the matter and promptly comply with reasonable requests for information. Rule 1.4(b): explain a matter to the extent reasonably necessary for the client to make informed decisions.",
+            "ABA Formal Opinion 512 (July 29, 2024), the ABA’s first ethics guidance on generative AI, points lawyers to the rules on competence (1.1), confidentiality (1.6), communication (1.4) and fees (1.5).",
+            "Per the ABA’s summary of Opinion 512, a lawyer may bill for time spent entering information into an AI tool and reviewing the draft for accuracy, but in most circumstances cannot charge a client for learning how to use the tool.",
+            "Your state’s rules of professional conduct and state bar ethics opinions govern your practice; the ABA Model Rules and opinions are guidance that many states follow."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "ul": [
+            "Confidentiality first: before any client information goes into an AI tool, check the vendor’s data terms (training on your data, retention, who can access it) and your state bar’s guidance on generative AI.",
+            "Send only the fields the draft needs. Keep sensitive facts, Social Security numbers and medical records out of the prompt.",
+            "Every message is reviewed and sent by a lawyer. The AI writes a first draft; it doesn’t decide what the client is told.",
+            "No outcome predictions, settlement numbers or legal advice in templates.",
+            "This is a workflow idea, not legal or ethics advice. Confirm the setup against your jurisdiction’s rules."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "American Bar Association: Model Rule 1.4 — Communications — https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_4_communications/",
+            "American Bar Association: ABA issues first ethics guidance on a lawyer’s use of AI tools (Formal Opinion 512, July 29, 2024) — https://www.americanbar.org/news/abanews/aba-news-archives/2024/07/aba-issues-first-ethics-guidance-ai-tools/",
+            "Checked at the source on November 15, 2026."
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Summarize long legal intake forms for faster triage",
+            "Turn call and meeting transcripts into summaries and action items",
+            "Get every voicemail transcribed and emailed to whoever calls back"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does this replace calling clients?",
+          "a": "No. It covers the routine “where are we?” update. Important developments, decisions and bad news still deserve a call from the lawyer."
+        },
+        {
+          "q": "Can it send updates automatically?",
+          "a": "We don’t set it up that way. Drafts wait for a lawyer to review, edit and send each one."
+        },
+        {
+          "q": "Do I need to code?",
+          "a": "No. These recipes use no-code tools like Zapier, Make or n8n. If you’d rather not set it up yourself, StorenTech AI can build it for you."
+        }
+      ],
+      "image": {
+        "src": "/images/law-firm-client-status-updates.webp",
+        "alt": "An attorney seated at her desk in a small law office reviewing a printed draft with a colleague who points to a line, an open laptop, desk lamp and case folders, shelves of law books behind, window light, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this built for you?",
+        "text": "StorenTech AI can set up this automation for your firm, with every draft waiting for a lawyer’s approval.",
+        "button": "Get this built for me",
+        "href": "/build-it-for-me?recipe=client-status-updates"
+      },
+      "updated": "2026-11-15"
     }
   ],
   "static": [

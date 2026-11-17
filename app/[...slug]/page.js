@@ -41,7 +41,7 @@ export default async function Page({ params }) {
     {p.tldr !== false && <div className="tldr"><strong>Quick answer:</strong> {p.summary}</div>}
     {p.group && <p className="muted small">Last updated {pageDateLabel(p)}</p>}
     {p.steps && <section><h2>Steps</h2><ol>{p.steps.map((s, i) => <li key={i}><Linked t={s} /></li>)}</ol></section>}
-    {(p.blocks || []).filter(b => !(hasKids && (b.ul || b.ol) && !b.p && (b.ul || b.ol).every(t => matchTitle(t)))).map((b, i) => <Block key={i} b={b} />)}
+    {(p.blocks || []).filter(b => !(hasKids && !/^Tips/.test(b.h || "") && (b.ul || b.ol) && !b.p && (b.ul || b.ol).every(t => matchTitle(t)))).map((b, i) => <Block key={i} b={b} />)}
     {p.path === "/industries" && <Search />}
     {hasKids && (isTax ? <TaxListing only={p.taxGroup} /> : <Listing path={p.path} />)}
     {p.form && p.form.live === "build-request" && <section className="card"><h2>{p.form.title}</h2><BuildRequestForm /><p className="muted small"><Linked t={p.form.note} /></p></section>}

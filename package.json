@@ -7,7 +7,9 @@
     "start": "next start",
     "lint": "node scripts/check.mjs --lint",
     "typecheck": "node scripts/check.mjs --typecheck",
-    "test": "node scripts/check.mjs"
+    "test": "node scripts/check.mjs",
+    "pii-build": "node scripts/check.mjs --pii-build",
+    "ga-collect-evidence": "node scripts/ga-collect-evidence.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

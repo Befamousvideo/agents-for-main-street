@@ -3,12 +3,16 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import site from "../content/site.json";
 import { MailingAddress } from "./components";
+import AnalyticsConsent, { CookieSettings } from "./AnalyticsConsent";
+import siteMetadata from "./site-metadata";
+const verification = siteMetadata.googleVerification();
 export const metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: { default: `${site.name} — ${site.tagline}`, template: `%s | ${site.name}` },
   description: site.description,
   alternates: { canonical: "/", types: { "application/rss+xml": "/rss.xml", "text/plain": "/llms.txt" } },
   openGraph: { siteName: site.name, type: "website", title: site.name, description: site.description },
+  ...(verification ? { verification } : {}),
 };
 export default function RootLayout({ children }) {
   const org = { "@context": "https://schema.org", "@type": "Organization", name: site.name, url: `https://${site.domain}`, parentOrganization: { "@type": "Organization", name: "StorenTech" } };
@@ -23,10 +27,11 @@ export default function RootLayout({ children }) {
         <main className="wrap">{children}</main>
         <footer className="ftr"><div className="wrap">
           <p>{site.footer}</p>
-          <p><a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/advertise">Advertise</a> · <a href="/advertise/policy">Ad Policy</a> · <a href="/newsletter">Newsletter</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/contact">Contact</a> · <a href="/refund">Refund</a> · <a href="/rss.xml">RSS</a></p>
+          <p><a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/advertise">Advertise</a> · <a href="/advertise/policy">Ad Policy</a> · <a href="/newsletter">Newsletter</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/contact">Contact</a> · <a href="/refund">Refund</a> · <a href="/rss.xml">RSS</a> · <CookieSettings /></p>
           <MailingAddress />
           <p className="muted">© 2026 {site.name}, a StorenTech company.</p>
         </div></footer>
+        <AnalyticsConsent />
         <Analytics />
         <SpeedInsights />
       </body>

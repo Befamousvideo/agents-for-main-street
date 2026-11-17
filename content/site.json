@@ -3,7 +3,7 @@
   "domain": "agentsformainstreet.com",
   "tagline": "AI automation recipes for local businesses",
   "color": "#1f6f50",
-  "updated": "November 16, 2026",
+  "updated": "November 17, 2026",
   "description": "A daily-updated library of practical AI agent and automation recipes for small businesses, sorted by industry, each with a one-click 'build it for me' option from StorenTech AI.",
   "nav": [
     {
@@ -175,7 +175,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -191,7 +192,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=rebooking-nudge"
       },
-      "updated": "2026-11-15"
+      "updated": "2026-11-17"
     },
     {
       "path": "/industries/clinics/appointment-prep-faq",
@@ -639,7 +640,8 @@
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
             "Find the long questions people Google before they find you—and answer them before the holiday rush",
-            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -649,7 +651,7 @@
           "a": "A set number of weeks after each appointment, send a friendly AI-written note with a direct booking link."
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "seoTitle": "AI automations for salons: no-code recipes and local tips"
     },
     {
@@ -846,7 +848,8 @@
         {
           "h": "Tips for service businesses",
           "ul": [
-            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -856,7 +859,7 @@
           "a": "An AI receptionist that answers approved FAQs and books on Google Calendar, with a human handoff for anything outside the sheet."
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-17"
     },
     {
       "path": "/industries/retail",
@@ -1232,7 +1235,8 @@
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
             "Find the long questions people Google before they find you—and answer them before the holiday rush",
             "Before Black Friday, ask what almost stopped shoppers—then answer it in a thin bar at the top of every page",
-            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -1242,7 +1246,7 @@
           "a": "Start with “Draft replies to new Google reviews for approval”. It's a small, low-risk workflow you can review before it touches customers."
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "seoTitle": "AI automations for local businesses: no-code recipes"
     },
     {
@@ -1762,7 +1766,8 @@
             "Plan your Small Business Saturday offer now (Saturday, Nov 28)",
             "Plan Cyber Week 2026 for phones and early deals (Nov 26 to 30)",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -1786,7 +1791,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=holiday-hours-everywhere"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-17"
     },
     {
       "path": "/industries/service-businesses/how-did-you-hear-tracking",
@@ -1881,7 +1886,7 @@
           "a": "From AI and marketing newsletters and official vendor documentation. We verify every claim at the primary source on the day we publish and rewrite it in our own words."
         }
       ],
-      "updated": "2026-11-16"
+      "updated": "2026-11-17"
     },
     {
       "path": "/tips/holiday-email-setup-check",
@@ -2120,7 +2125,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -2144,7 +2150,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-automated-calls"
       },
-      "updated": "2026-11-10"
+      "updated": "2026-11-17"
     },
     {
       "path": "/tips/offer-in-real-text",
@@ -4778,7 +4784,8 @@
         {
           "h": "Related tips",
           "ul": [
-            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button"
+            "Selling gift memberships, class packs or holiday bookings? Put one plain sentence about changes right under the button",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         }
       ],
@@ -4808,7 +4815,7 @@
         "button": "Get this built for me",
         "href": "/build-it-for-me?recipe=google-calendar-booking-page"
       },
-      "updated": "2026-11-15"
+      "updated": "2026-11-17"
     },
     {
       "path": "/tips/google-review-qr-code-counter-card",
@@ -6007,7 +6014,8 @@
             "TikTok's new \"Must Eat\" restaurant guide: check your restaurant's TikTok place page",
             "Sell experience gifts and restaurant gift cards early this holiday season",
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
-            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask"
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         },
         {
@@ -6041,7 +6049,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-claim-keep-yelp-current"
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-17"
     },
     {
       "path": "/tips/say-who-you-serve-ai-answers",
@@ -6092,7 +6100,8 @@
             "For higher-ticket holiday buys, answer research questions before Black Friday ads",
             "Get your products into Google's free listings before holiday shoppers start searching",
             "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
-            "Find the long questions people Google before they find you—and answer them before the holiday rush"
+            "Find the long questions people Google before they find you—and answer them before the holiday rush",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         },
         {
@@ -6125,7 +6134,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-say-who-you-serve-ai-answers"
       },
-      "updated": "2026-11-12"
+      "updated": "2026-11-17"
     },
     {
       "path": "/industries/retail/back-in-stock-alerts",
@@ -6537,7 +6546,8 @@
             "Say plainly who you serve and how you price—AI answers fill the gaps with guesses",
             "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
             "Before Black Friday ads go live, have AI check your landing pages—then test checkout yourself",
-            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source"
+            "Ask ChatGPT and Google about your best sellers before Black Friday—then fix any wrong price at the source",
+            "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show"
           ]
         },
         {
@@ -6574,7 +6584,7 @@
         "button": "Get it installed in 7 days",
         "href": "/build-it-for-me?recipe=tip-claim-your-business-in-chatgpt"
       },
-      "updated": "2026-11-13"
+      "updated": "2026-11-17"
     },
     {
       "path": "/industries/service-businesses/failed-payment-recovery",
@@ -7304,6 +7314,97 @@
         "href": "/build-it-for-me?recipe=tip-show-texture-in-product-photos"
       },
       "updated": "2026-11-16"
+    },
+    {
+      "path": "/tips/ask-maps-appointment-booking",
+      "group": "tips",
+      "label": "Tip · Salons, pet care, auto & home repair",
+      "title": "Salon, groomer, auto or repair shop? Google Maps’ AI can now look up open appointments—make sure yours show",
+      "seoTitle": "Ask Maps now finds appointments: get your booking ready",
+      "summary": "On November 16, 2026, Google said Ask Maps, the Gemini-powered assistant inside Google Maps, can now find beauty, pet care, auto repair and home repair appointments online and call local businesses for the person asking, then show open time slots across nearby businesses side by side. It is launching first in the U.S. on Android and iOS, right as holiday prep starts. If you take appointments, spend half an hour this week making sure Google has your real booking link, your real holiday hours and someone ready to answer its calls.",
+      "blocks": [
+        {
+          "h": "What you get",
+          "p": [
+            "When someone nearby asks Maps for “a 4 p.m. nail appointment near me” or a quick oil change before a holiday drive, the businesses whose open times Google can see are the ones that can make the shortlist. Getting your booking setup right gives you a fair shot at those last-minute holiday bookings without paying for ads, and it stops Maps from showing slots you don’t actually have."
+          ]
+        },
+        {
+          "h": "How to do it (about 30 minutes)",
+          "ul": [
+            "Look yourself up the way a customer would: open Google Maps on your phone, search your business name, and check your category, services, phone number and hours. Fix anything wrong in your Google Business Profile.",
+            "Add your holiday hours now (Thanksgiving, the day after, and December closures) as special hours, so Maps doesn’t guess. Our holiday hours recipe walks through it.",
+            "Connect your booking. In your Business Profile, open Bookings. If your booking software is one of Google’s booking partners, select Get started and choose it; Google says partner bookings show on your profile within a week, and your provider might charge for bookings made through Google. If your tool isn’t a partner, add your own booking link instead.",
+            "Make your online calendar match reality before the rush: block staff days off and holiday closures, and set realistic service lengths and buffer time. An assistant can only show customers what your calendar says is open.",
+            "Brief whoever answers the phone. Google’s assistant may call to book or ask about availability for a customer. Decide what prices and times staff can confirm on the spot. Your Business Profile settings let you turn these calls on or off (see our automated-calls recipe), and Google says these calls never ask for payment or passwords.",
+            "In a week, check again: search for your service and town in Maps, open your profile and tap your booking button to make sure it lands on the right page."
+          ]
+        },
+        {
+          "h": "Where this comes from",
+          "p": [
+            "Google announced the Ask Maps holiday features on its official blog on November 16, 2026. It says that with new agentic capabilities, people can choose to have Ask Maps find beauty, pet care, auto and home repair appointments online and call local businesses for them, and that Ask Maps will show open slots across nearby businesses so it is easy to decide what to book. Google says finding appointments is launching first in the U.S., with more regions coming later. Google’s Business Profile Help explains how to connect a booking provider or add your own booking link. We found this item in the Superhuman AI newsletter on November 17, 2026 and checked it at Google’s own pages the same day."
+          ]
+        },
+        {
+          "h": "Caution",
+          "p": [
+            "Google hasn’t said how Ask Maps decides which businesses to show, so treat this as making sure you can be found, not as a guaranteed spot. The feature is new and rolling out gradually, so you may not see it on your own phone yet. Don’t change your business category or invent services to show up in more searches; list only what you really offer, and only open slots you can honor. Check your booking provider’s fees for Google bookings before you switch it on."
+          ]
+        },
+        {
+          "h": "Sources",
+          "p": [
+            "Google blog: New Ask Maps features to help with holiday travel and prep (Maz Khorasani, Product Director, Google Maps, November 16, 2026) — https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+            "Google Business Profile Help: Set up bookings through a provider — https://support.google.com/business/answer/7475773?hl=en",
+            "Last checked at the source: November 17, 2026. Backlog item TB-095 (found in Superhuman AI, November 17, 2026)."
+          ]
+        },
+        {
+          "h": "Related tips",
+          "ul": [
+            "ChatGPT now lets you claim your business profile—check what it says about you before holiday shoppers ask",
+            "Claim your Yelp page and keep hours, photos and review replies current—AI tools use it for “best near me”",
+            "Say plainly who you serve and how you price—AI answers fill the gaps with guesses"
+          ]
+        },
+        {
+          "h": "Related recipes",
+          "ul": [
+            "Get ready for Google's automated calls asking your prices and booking times",
+            "Let customers book holiday appointments themselves with a free Google Calendar booking page",
+            "Set holiday hours everywhere and answer \"Are you open?\" automatically",
+            "Send a personalized rebooking nudge to salon clients"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need special software for Ask Maps to find my appointments?",
+          "a": "Google hasn’t published a separate sign-up for Ask Maps. The practical step is to keep your Google Business Profile complete and connect your booking tool (or a booking link) in the profile’s Bookings section, then keep that calendar accurate."
+        },
+        {
+          "q": "Should I turn off Google’s automated calls?",
+          "a": "It depends on whether someone can answer and quote you accurately. If your phone is covered and you can confirm times and starting prices, leaving them on keeps you in the comparison. If calls usually go to voicemail, fix that first or turn the setting off."
+        },
+        {
+          "q": "Is this only for salons?",
+          "a": "Google named four kinds of appointments: beauty, pet care, auto repair and home repair. Other businesses still benefit from accurate hours and booking links, since Ask Maps also checks whether places are open."
+        }
+      ],
+      "image": {
+        "src": "/images/tip-ask-maps-appointment-booking.webp",
+        "alt": "A neighborhood hair salon owner at the front reception desk checking open appointment times on a tablet, a phone on the white counter, empty styling chairs and mirrors in the background, a small seasonal garland, no brand logos",
+        "w": 1280,
+        "h": 720
+      },
+      "cta": {
+        "title": "Want this installed on your own tools in 7 days?",
+        "text": "StorenTech AI checks your Google Business Profile, connects your booking tool or booking link, adds your holiday hours and closures to both your profile and your calendar, and gives whoever answers your phone a one-page script for Google’s automated booking calls—installed on your own tools within 7 days. You approve every change.",
+        "button": "Get it installed in 7 days",
+        "href": "/build-it-for-me?recipe=tip-ask-maps-appointment-booking"
+      },
+      "updated": "2026-11-17"
     }
   ],
   "static": [

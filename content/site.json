@@ -7455,7 +7455,7 @@
       "path": "/privacy",
       "title": "Privacy policy",
       "summary": "Agents for Main Street is a StorenTech company. This policy describes the personal information we collect on this website and how we use it.",
-      "effectiveDate": "November 11, 2026",
+      "effectiveDate": "November 18, 2026",
       "tldr": false,
       "cta": false,
       "blocks": [
@@ -7527,6 +7527,7 @@
           "h": "Cookies, analytics, Do Not Track, and other tracking",
           "p": [
             "We use Vercel Analytics and Vercel Speed Insights to understand how the site is used and how it performs. These scripts are served from this site.",
+            "When you check a date on the California court holiday checker, we also send a Vercel Analytics event named tool_result. It records two things: the tool that was used (ca-court-holidays) and a closed value of 1 if the date is closed or likely closed, 0 if it is not a court holiday, or na if it is not covered by the published lists. It does not send the date you entered, the county, or any personal information. We use it to understand how the tool is used.",
             "Some forms use Cloudflare Turnstile, which loads a script from Cloudflare to help tell people from bots.",
             "We do not respond to Do Not Track browser signals.",
             "From the pages and scripts we checked, we did not find advertising pixels, HubSpot, or other third-party marketing trackers that collect browsing activity across other websites. We have not independently confirmed every server-side tool that may run after a form is submitted."
